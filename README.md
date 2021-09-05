@@ -1,4 +1,4 @@
-# AdGuard DNS filter (without privacy filters)
+# AdGuard DNS filter without privacy filters (Ads only)
 A DNS filter that removed tracking and privacy rules from AdGuard DNS filter.  
 This filter blocks only ad domains.
 
@@ -26,7 +26,7 @@ AdGuard DNSフィルタは、AdGuard Base filter, Social media filter, Tracking 
 * EasyPrivacy international tracking servers
 * EasyPrivacy third-party international tracking servers
 
-また、Easylist Italyの広告サーバーリストがあるとなぜかビルドが失敗するため、これも除外しています。申し訳ございません。
+また、Easylist Italyの広告サーバーリストがあるとなぜかビルドが失敗するため、除外しています。
 * EasyList Italy ad servers
 
 ## 注意
