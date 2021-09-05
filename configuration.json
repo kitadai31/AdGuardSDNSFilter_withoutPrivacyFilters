@@ -1,7 +1,7 @@
 {
-  "name": "AdGuard DNS filter",
-  "description": "Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.",
-  "homepage": "https://github.com/AdguardTeam/AdguardSDNSFilter",
+  "name": "AdGuard DNS filter (without privacy filters)",
+  "description": "Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.",
+  "homepage": "https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters",
   "license": "https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE",
   "sources": [
     {
@@ -134,6 +134,13 @@
     {
       "name": "EasyList Germany ad servers",
       "source": "https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
+      "name": "EasyList Italy ad servers",
+      "source": "https://hg.adblockplus.org/easylistitaly/raw-file/tip/easylistitaly/easylistitaly_adservers.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
