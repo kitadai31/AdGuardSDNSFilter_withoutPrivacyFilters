@@ -27,5 +27,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Filters/filter.txt
-          git commit -m "Filter Build" -a
+          git commit -m "Build Filter" -a
           git push origin master
