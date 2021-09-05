@@ -3,7 +3,7 @@ name: Build AdGuard DNS filter
 on:
   push:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '24 19 * * *'
 
 jobs:
   build:
@@ -27,5 +27,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Filters/filter.txt
-          git commit -m "Build Filter" -a
+          git commit -m "Build filter" -a
           git push origin master
