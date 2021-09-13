@@ -2,6 +2,7 @@
 A DNS filter that removed tracking and privacy rules from AdGuard DNS filter.  
 This filter blocks only ad domains.
 
+### AdGuard DNSフィルタ（プライバシー抜き）
 このフィルタは、AdGuard DNSフィルタからトラッキングやプライバシー用のブロックルールを取り除いた、広告ブロック専用のDNSフィルタです。  
 
 ## AdGuardで購読する
@@ -30,8 +31,9 @@ AdGuard DNSフィルタは、AdGuard Base filter, Social media filter, Tracking 
 * EasyList Italy ad servers
 
 ## 注意
-もし「トラッキングのドメインとしてプライバシー用のフィルタに入っていたドメインが、実は広告のドメインだった」みたいなことがあった場合、このフィルタではプライバシー用のフィルタは取り除いてしまっているので、ブロック漏れが発生することになります。  
-あくまでもこれは一つの完成されたフィルタの一部を欠損させているフィルタなので、元フィルタでは発生しないブロック漏れも起こるかもしれません。
+もし「トラッキングのドメインとしてプライバシー用のフィルタに入っていたドメインが、実は広告のドメインだった！」みたいなことがあった場合、このフィルタではプライバシー用のフィルタは取り除いてしまっているので、ブロック漏れが発生することになります。  
+あくまでもこれは一つの完成されたフィルタの一部を欠損させているフィルタなので、元フィルタでは発生しないブロック漏れも起こるかもしれません。  
+（今のところは確認されていないようです。これはプライバシーフィルタに広告用のルールが混ざってたりしていないおかげです。フィルタ作りの方々に感謝。）
 
 Original readme:
 https://github.com/AdguardTeam/AdGuardSDNSFilter#readme
