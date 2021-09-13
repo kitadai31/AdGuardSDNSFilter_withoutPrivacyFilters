@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-09-13T07:20:12.373Z
+! Last modified: 2021-09-13T19:26:53.849Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -18,6 +18,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||nomorepecans.com^
+||phoaraut.com^
 ||bluffyporn.com^
 ||adbetnetwork.com^
 ||a.watchomovies.com^
@@ -2948,7 +2950,6 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
-||d3al52d8cojds7.cloudfront.net^
 ||dq06u9lt5akr2.cloudfront.net^
 ||asg.faperoni.com^
 ||aa.pornvideotop.com^
@@ -8838,6 +8839,7 @@ www.llllllllllll.net^
 ||jnctgldbxc.com^
 ||jnffgawh.com^
 ||jnxkfldio.com^
+||jnxm2.com^
 ||joastous.com^
 ||joawapti.net^
 ||jobduedamson.work^
@@ -9782,6 +9784,7 @@ www.llllllllllll.net^
 ||meezauch.net^
 ||mega-fla.com^
 ||megaad.nz^
+||megadeliveryn.com^
 ||megapopads.com^
 ||megaudent.xyz^
 ||megmeallab.com^
@@ -11060,6 +11063,7 @@ www.llllllllllll.net^
 ||pdn-2.com^
 ||pdvacde.com^
 ||pdxgfnnoan.com^
+||peacebanana.com^
 ||peacepowder.com^
 ||peachsquat.com^
 ||pealdudley.com^
@@ -12393,6 +12397,7 @@ www.llllllllllll.net^
 ||ruefulspanishresolute.com^
 ||rukoval.com^
 ||rulejanuary.com^
+||rumerrand.com^
 ||runative-syndicate.com^
 ||runbornto.com^
 ||rungginlout.com^
@@ -12893,6 +12898,7 @@ www.llllllllllll.net^
 ||soilenthusiasmshindig.com^
 ||sokitosa.com^
 ||sokugifi.com^
+||solanoswajang.com^
 ||solapoka.com^
 ||solarmosa.com^
 ||solderplumboverreact.com^
@@ -16709,6 +16715,7 @@ www.llllllllllll.net^
 ||motominer.com^
 ||mottnow.com^
 ||movie-streams-online.com^
+||mp3zik.net^
 ||mpuls.ru^
 ||multiview.com^
 ||myaffiliates.com^
@@ -17939,6 +17946,7 @@ www.llllllllllll.net^
 ||d25xkbr68qqtcn.cloudfront.net^
 ||d261u4g5nqprix.cloudfront.net^
 ||d26c6kzavi5zwd.cloudfront.net^
+||d27gtglsu4f4y2.cloudfront.net^
 ||d28s7kbgrs6h2f.cloudfront.net^
 ||d29dbajta0the9.cloudfront.net^
 ||d29i6o40xcgdai.cloudfront.net^
@@ -23765,6 +23773,7 @@ www.llllllllllll.net^
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||js.passaro-de-fogo.biz^
 ||trading-ad.net^
 ||postaffiliatepro.com^
 ||ads.ressp.net^
@@ -24038,7 +24047,6 @@ www.llllllllllll.net^
 !
 ||ihreapotheken.de^
 ||intextlinks.idg.zone^
-||megadeliveryn.com^
 ||hybrid-prd.ad-prd.s.joyn.de^
 ||kunner.wiesentbote.de^
 ||partner.shop.vorwerk.de^
@@ -24753,8 +24761,8 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 10 Sep 2021 20:44 UTC+7
-! Version: 2109102044
+! Last modified: 13 Sep 2021 15:00 UTC+7
+! Version: 2109131500
 ! Blocked: 987 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -25713,6 +25721,7 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||shengminsy.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -28567,6 +28576,17 @@ www.llllllllllll.net^
 ||duanyu1106.cn^
 ||kplanet.cn^
 ||hxian.vip^
+||bsaq5.cn^
+||chrjkn.cn^
+||whrhzz.com^
+||xuyangwl.cn^
+||zzssywh.cn^
+||apsxm.cn^
+||theroads.cn^
+||ecai.info^
+||bqsm.com.cn^
+||me99.club^
+||wjyhyl.cn^
 ||01tn.cn^
 ||027whht.com^
 ||0511qsfhknvz.xyz^
