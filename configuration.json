@@ -100,7 +100,7 @@
       "name": "AdGuard Japanese filter ad servers",
       "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt",
       "type": "adblock",
-      "exclusions_sources": ["https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt],
+      "exclusions_sources": ["https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
