@@ -3,7 +3,7 @@ name: Build AdGuard DNS filter
 on:
   push:
   schedule:
-    - cron: '24 19 */2 * *'
+    - cron: '24 19 * * *'
 
 jobs:
   build:
@@ -16,16 +16,19 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      
+      - name: Get exclusions.txt
+        run: wget https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt -O Filters/exclusions.txt
 
       - name: yarn
         run: |
           yarn install
           yarn run build
           
-      - name: Commit and push files
+      - name: Upload new filter
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Filters/filter.txt
-          git commit -m "Build filter" -a
+          git commit -m "Build filter"
           git push origin master
