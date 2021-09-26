@@ -3,7 +3,7 @@ A DNS filter that removed tracking and privacy rules from AdGuard DNS filter.
 This filter blocks only ad domains.
 
 ### AdGuard DNSフィルタ（プライバシー抜き）
-これは、AdGuard DNSフィルタからトラッキングやプライバシー用のフィルタを取り除いたものです。広告ブロック専用のDNSフィルタです。
+これは、AdGuard DNSフィルタからトラッキングやプライバシー用のフィルタを取り除いたものです。要するに広告ブロック専用のDNSフィルタです。
 
 ## AdGuardで購読する
 購読するには、AdGuardのDNSフィルタの設定で「＋DNSフィルタを追加」をタップし、下記のURLを指定します。  
@@ -20,8 +20,9 @@ https://raw.githubusercontent.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilt
 ・私は追跡やアクセス解析を許容する  
 ・なるべく広告だけをブロックしたい  
 ・広告じゃないのに余計なブロックが発生するのが嫌だ  
-・ブロックを減らしたい  
-という方向けです。
+・ブロックを減らしたい
+
+といった方向けです。
 
 【つまりはあくまでもカスタマイズに慣れたユーザー向け】
 ---
@@ -61,5 +62,5 @@ https://raw.githubusercontent.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilt
 
 また、フィルタはGitHub Actionsにより自動で毎日4:24にビルド(更新)されます。
 
-ちなみに、ビルド時に除外している「AdGuard追跡防止フィルタ」「EasyPrivacy」は完全にプライバシー専用のフィルタとして設計されています。つまり、公式のDNSフィルタでは発生しない広告のブロック漏れが「プライバシー抜き」の方では発生してしまう、ということは起こらない　はず　です。  
+ちなみに、ビルド時に除外している「AdGuard追跡防止フィルタ」「EasyPrivacy」は完全にプライバシー専用のフィルタとして設計されています。ですので、公式のDNSフィルタでは発生しない広告のブロック漏れが「プライバシー抜き」の方では発生してしまう、ということは起こらない　はず　です。  
 しかし、何らかの間違いによって公式では発生しないブロック漏れが起こるかもしれません。「プライバシー抜き」は、あくまでも一つの完成されたフィルタの一部を改変しているフィルタであるということに留意して使用してください。
