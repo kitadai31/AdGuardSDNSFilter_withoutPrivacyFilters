@@ -3,21 +3,47 @@ A DNS filter that removed tracking and privacy rules from AdGuard DNS filter.
 This filter blocks only ad domains.
 
 ### AdGuard DNSフィルタ（プライバシー抜き）
-このフィルタは、AdGuard DNSフィルタからトラッキングやプライバシー用のブロックルールを取り除いた、広告ブロック専用のDNSフィルタです。  
+これは、AdGuard DNSフィルタからトラッキングやプライバシー用のフィルタを取り除いたものです。広告ブロック専用のDNSフィルタです。
 
 ## AdGuardで購読する
 購読するには、AdGuardのDNSフィルタの設定で「＋DNSフィルタを追加」をタップし、下記のURLを指定します。  
 https://raw.githubusercontent.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters/master/Filters/filter.txt
 
-## 概要
-AdGuard DNSフィルタは、AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile Ads filter, EasyList, EasyPrivacy などの複数のフィルタを合体して、DNS用に調整したものになっています。  
-しかしそのため、プライバシー用のフィルタは要らない、という場合でも、広告ブロック用のDNSフィルタだけを個別に購読することができません。
+## 目的
+本家のAdGuard DNSフィルタは、広告ブロック用のフィルタだけでなくプライバシー用のフィルタも一緒になっているため、「プライバシー用のフィルタは要らない」と思っていても、広告ブロック用のDNSフィルタだけを個別に購読することができません。
 
-ですが、AdGuard DNSフィルタは`configuration.json`ファイルに定義されている各フィルタのドメインリストを参照することで自動生成されているため、`configuration.json`ファイルを編集することで、特定のフィルタのドメインリストを除いたAdGuard DNSフィルタをビルドすることができます。  
+一方で、この「**AdGuard DNSフィルタ（プライバシー抜き）**」は本家のDNSフィルタからプライバシー専用のフィルタを抜いているので、これを使うとDNSフィルタリングで広告ブロックのみを行えます。  
+（注意: これは後述するいくつかの合成されているフィルタの中からプライバシー専用フィルタを除外しただけなので、一部のプライバシー向けなブロックルールが含まれていることはあります。）
 
-このフィルタは、これを利用して、広告ブロックとは関係のないプライバシー系のフィルタを除外してAdGuard DNSフィルタをビルドしたものです。
+### 対象
+・プライバシーフィルタが一緒になっているのは精神衛生上よくない  
+・私は追跡やアクセス解析を許容する  
+・なるべく広告だけをブロックしたい  
+・広告じゃないのに余計なブロックが発生するのが嫌だ  
+・ブロックを減らしたい  
+という方向けです。
 
-オリジナルのAdGuard DNSフィルタから除外しているフィルタは以下の通りです。
+【つまりはあくまでもカスタマイズに慣れたユーザー向け】
+---
+
+なお軽量フィルタではありません。「DNSフィルタリングでルール数によって重さが変わるのか？」という疑問はさておき、280Blockerのフィルタと比較すると、2021/09/26時点で公式は40000ルール程度、プライバシー抜きは32060ルール、一方で280は1309ルールです。
+
+ですが、280に含まれている一部のプライバシー向けと思われるブロックルールはこのフィルタにはないため、「なるべく広告だけをブロックしたい」という方には利用する価値はあると思います。
+
+### 誤爆防止
+また、副次的な効果として誤爆が減ることもあるようです。  
+具体例としては、`google-analytics.com`をブロックすると起動しないアプリ(実在するそうです)を使いたい場合、公式DNSフィルタではブロックされてしまうため起動しませんが、プライバシー抜きならブロックされないので起動できます。これは、抜いているプライバシーフィルタの中に`||google-analytics.com^`というルールがあるためです。google-analytics.comは広告ではないので、アクセス解析のブロックが不要な人にとっては必要のないルールです。
+
+追跡や解析ブロックが不要な人にとっては、プライバシー関連の不要なルールがないことで公式と比べると無駄な誤爆を減らすことができます。
+
+## 仕組み
+そもそも公式のAdGuard DNSフィルタは、各種フィルタをスクリプトで機械的に合成・DNS用に調整し、自動で生成(ビルド)されているものになっています。(これは[公式GitHub](https://github.com/AdguardTeam/AdGuardSDNSFilter)で公開されています。このリポジトリはこれのフォークです)
+
+このとき合成される各フィルタは`configuration.json`ファイルに定義されています。
+プライバシー抜きフィルタは、この`configuration.json`ファイルを編集してビルド時にプライバシー用のフィルタを除外する、という仕組みでできています。  
+つまり、フィルタの生成の仕組みやスクリプトは公式とほぼ同じです。
+
+公式DNSフィルタの`configuration.json`から除外しているフィルタ(のファイル)は以下の通りです。
 * AdGuard Base filter cryptominers
 * AdGuard Tracking Protection filter third-party trackers
 * AdGuard Tracking Protection filter first-party trackers
@@ -27,13 +53,12 @@ AdGuard DNSフィルタは、AdGuard Base filter, Social media filter, Tracking 
 * EasyPrivacy international tracking servers
 * EasyPrivacy third-party international tracking servers
 
-また、Easylist Italyの広告サーバーリストがあるとなぜかビルドが失敗するため、除外しています。
+また、EasyList Italy ad serversがあるとなぜかビルドが失敗するため、これも除外しています。
 * EasyList Italy ad servers
 
-## 注意
-もし「トラッキングのドメインとしてプライバシー用のフィルタに入っていたドメインが、実は広告のドメインだった！」みたいなことがあった場合、このフィルタではプライバシー用のフィルタは取り除いてしまっているので、ブロック漏れが発生することになります。  
-あくまでもこれは一つの完成されたフィルタの一部を欠損させているフィルタなので、元フィルタでは発生しないブロック漏れも起こるかもしれません。  
-（今のところは確認されていないようです。これはプライバシーフィルタに広告用のルールが混ざってたりしていないおかげです。フィルタ作りの方々に感謝。）
+要するに、公式DNSフィルタで合成されているフィルタから「AdGuard追跡防止フィルタ」「EasyPrivacy」「EasyList Italy」「AdGuardベースフィルタのうちの暗号通貨マイニングフィルタ」の4つを除外しているだけです。
 
-Original readme:
-https://github.com/AdguardTeam/AdGuardSDNSFilter#readme
+また、フィルタはGitHub Actionsにより自動で毎日4:24にビルド(更新)されます。
+
+ちなみに、ビルド時に除外している「AdGuard追跡防止フィルタ」「EasyPrivacy」は完全にプライバシー専用のフィルタとして設計されています。つまり、公式のDNSフィルタでは発生しない広告のブロック漏れが、「プライバシー抜き」の方では発生してしまう、ということは起こらない　はず　です。  
+しかし、何らかの間違いによって公式では発生しないブロック漏れが起こるかもしれません。「プライバシー抜き」は、あくまでも一つの完成されたフィルタの一部を改変しているフィルタであるということに留意して使用してください。
