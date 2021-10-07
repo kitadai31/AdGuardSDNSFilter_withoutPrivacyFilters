@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-10-06T19:28:55.288Z
+! Last modified: 2021-10-07T19:29:01.545Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,13 @@
 !
 ! The rules with hints are at the end of file
 !
+||cdend.com^
+||googles.video^
+||cb2d4d0a03.ce3fbb6bac.com^
+||postsupport.net^
+||rapidantivirus.com^
+||securesystemguide.com^
+||servicesdrtviceshjgugjgufjfiffjfufjffjfjfjfjfjfjfjjdhgd.azurewebsites.net^
 ||brunettemattersrefused.com^
 ||trustedgatetocontent.com^
 ||v00ske77693f.com^
@@ -10932,6 +10939,7 @@ www.llllllllllll.net^
 ||morguecountryportray.com^
 ||moritava.com^
 ||morningsophisticatedcenter.com^
+||moronsquacco.com^
 ||mortalunacceptable.com^
 ||mortantameron.club^
 ||mosece.com^
@@ -17537,7 +17545,6 @@ www.llllllllllll.net^
 ||mangoads.net^
 ||marketfly.net^
 ||markethealth.com^
-||marketingautomation.services^
 ||marketleverage.com^
 ||marsads.com^
 ||mcontigo.com^
@@ -25215,9 +25222,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 04 Oct 2021 13:46 UTC+7
-! Version: 2110041346
-! Blocked: 1,002 rules
+! Last modified: 07 Oct 2021 16:42 UTC+7
+! Version: 2110071642
+! Blocked: 1,008 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -25349,6 +25356,7 @@ www.llllllllllll.net^
 ||piads.vn^
 ||pinetech.vn^
 ||piwik.*.vn^
+||pixel.coccoc.com^
 ||popup.sapoapps.vn^
 ||promotionpopup.sapoapps.vn^
 ||pushdi.com^
@@ -25857,12 +25865,14 @@ www.llllllllllll.net^
 ||1126bet.com^
 ||11bet.com^
 ||11bet.net^
+||11bet.us^
 ||11bet.win^
 ||123b.bet^
 ||123b.com^
 ||123b.org^
 ||12b99.com^
 ||179bet.net^
+||188thethao.com^
 ||1xbetvn.com^
 ||388bet.top^
 ||388bet.us^
@@ -25883,6 +25893,7 @@ www.llllllllllll.net^
 ||79sodo.com^
 ||888b.com^
 ||888b.in^
+||88gobet.com^
 ||88viet.com^
 ||88vwin.com^
 ||8live.com^
@@ -25971,6 +25982,7 @@ www.llllllllllll.net^
 ||ibet889.com^
 ||income88.com^
 ||interwinvn.com^
+||jbo010.com^
 ||jbo064.com^
 ||jboviet.com^
 ||jbovietnam.com^
@@ -26124,6 +26136,7 @@ www.llllllllllll.net^
 ||vuabai9.com^
 ||vuaclub1008.club^
 ||vw220.com^
+||vwin010.com^
 ||vwinnow.com^
 ||vwinthethao.com^
 ||vx88.com^
@@ -28339,7 +28352,6 @@ www.llllllllllll.net^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
-||enews10.yxlady.net^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -28716,6 +28728,7 @@ www.llllllllllll.net^
 ||ejunshi.com^
 ||emjs.mkzhan.com^
 ||enennsa.gushiwen.cn^
+||enews10.yxlady.net^
 ||ent1.12584.cn^
 ||ent1.qunchua.cn^
 ||ent1.qunchua.com^
@@ -29100,12 +29113,10 @@ www.llllllllllll.net^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||wwyysheng.xyz^
-||sdhuiqian.cn^
-||fxbjg.com^
-||jingdingjy.top^
-||xinshiji.ltd^
-||anyview.wang^
+||686go.cc^
+||kjjzx.cn^
+||cccfw.vip^
+||fengspw.xyz^
 ||01tn.cn^
 ||027whht.com^
 ||029mxhs.cn^
@@ -29349,6 +29360,7 @@ www.llllllllllll.net^
 ||anqpq.cn^
 ||anweigongsi.com^
 ||anyihuan.com^
+||anyview.wang^
 ||anyysz.com^
 ||aodepuo.cn^
 ||aoidf3.com^
@@ -29855,6 +29867,7 @@ www.llllllllllll.net^
 ||fuxin-tech.com^
 ||fw.zhuaji.org^
 ||fwnetrb.cn^
+||fxbjg.com^
 ||fxfhjs.com^
 ||fxtckg.cn^
 ||fxyg168.com^
@@ -30226,6 +30239,7 @@ www.llllllllllll.net^
 ||jindowins.com^
 ||jingcaiedc.cn^
 ||jingdayiyuan.com^
+||jingdingjy.top^
 ||jingxiangyalvji.cn^
 ||jingyazhuangshi.com^
 ||jingyuzuo.top^
@@ -30855,6 +30869,7 @@ www.llllllllllll.net^
 ||sdajxz.xyz^
 ||sdalxz.xyz^
 ||sdfjtwp.com^
+||sdhuiqian.cn^
 ||sdweldrobot.cn^
 ||sdytsh.com^
 ||seawayz.com.cn^
@@ -31231,6 +31246,7 @@ www.llllllllllll.net^
 ||wuxiap.xyz^
 ||wuyuande.com^
 ||wvcdn.cn^
+||wwyysheng.xyz^
 ||wxbdwj.cn^
 ||wxebgpj.cn^
 ||wxhdwy.com^
@@ -31293,6 +31309,7 @@ www.llllllllllll.net^
 ||xingzhu.top^
 ||xinheshengmce.com^
 ||xinqiannv.com^
+||xinshiji.ltd^
 ||xintaizhaoming.com^
 ||xintengfeiyang.info^
 ||xinxbh.cn^
