@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-10-07T19:29:01.545Z
+! Last modified: 2021-10-08T19:29:00.636Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -3054,6 +3054,11 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||tagrec.sphdigital.com^
+||adimage.sphdigital.com^
+||creative.sphdigital.com^
+||adtag.sphdigital.com^
+||eventreg.sphdigital.com^
 ||d26adrx9c3n0mq.cloudfront.net^
 ||asg.faperoni.com^
 ||aa.pornvideotop.com^
@@ -3927,6 +3932,7 @@ www.llllllllllll.net^
 ||adbidgo.com^
 ||adbit.co^
 ||adblockanalytics.com^
+||adblockervideo.com^
 ||adbma.com^
 ||adbmi.com^
 ||adboost.com^
@@ -4473,7 +4479,6 @@ www.llllllllllll.net^
 ||aliadvert.ru^
 ||aliencesuffe.top^
 ||alignclamstram.com^
-||alimama.com^
 ||all-ti-cod.com^
 ||all2cnjuh34jb.com^
 ||allabc.com^
@@ -5230,6 +5235,7 @@ www.llllllllllll.net^
 ||besguses.pro^
 ||beshtienhr2hd8j09.com^
 ||besiasmere.site^
+||besoes.com^
 ||best-vpn.click^
 ||bestaryua.com^
 ||bestcontentaccess.top^
@@ -5394,6 +5400,7 @@ www.llllllllllll.net^
 ||bmxg.xyz^
 ||bn5x.net^
 ||bnbxwdkxccxfsn.com^
+||bnc1m.com^
 ||bngpt.com^
 ||bngwlt.com^
 ||bnhtml.com^
@@ -5612,6 +5619,7 @@ www.llllllllllll.net^
 ||bumblecash.com^
 ||bungalowfollowbestowed.com^
 ||bunnymediaserver.com^
+||bupatp.com^
 ||bupserge.com^
 ||burbibape.com^
 ||bureaucracyambiguousfellow.com^
@@ -5703,6 +5711,7 @@ www.llllllllllll.net^
 ||cadspmz.com^
 ||caeebxhzg.com^
 ||cafe58cc6d0ac.com^
+||cafegraha.com^
 ||cagelrib.net^
 ||caglaikr.net^
 ||cagothie.net^
@@ -5936,6 +5945,8 @@ www.llllllllllll.net^
 ||cheetieaha.com^
 ||cheewait.net^
 ||cheewhoa.net^
+||chegostyzi.com^
+||chegrupsishu.com^
 ||chekaksam.com^
 ||cheksoam.com^
 ||chelaxeshi.com^
@@ -6581,6 +6592,7 @@ www.llllllllllll.net^
 ||d2ship.com^
 ||d3b75cfc88a9.com^
 ||d3e44a82c2df88.com^
+||d4624d2bc2.com^
 ||d4a77d8bc81ae17.com^
 ||d4d48974197052ea.com^
 ||d58bf31082fa97.com^
@@ -6850,6 +6862,7 @@ www.llllllllllll.net^
 ||diamondtraff.com^
 ||dianomioffers.co.uk^
 ||diapersophisticated.com^
+||diaryeavesdropdecipher.com^
 ||dibsemey.com^
 ||diclotrans.com^
 ||dicularstors.top^
@@ -7001,8 +7014,10 @@ www.llllllllllll.net^
 ||dlxrlc2ni2.com^
 ||dlyzcopkko.com^
 ||dmhpgshchfoawtn.com^
+||dmnprx.com^
 ||dmsqzqvuapb.com^
 ||dmvbdfblevxvx.com^
+||dmvbonnha.com^
 ||dmxftmoqz.com^
 ||dnbizcdn.com^
 ||dnemkhkbsdbl.com^
@@ -7234,6 +7249,7 @@ www.llllllllllll.net^
 ||ea1abaf867.com^
 ||ea6353e47e0ab3f78.com^
 ||ea978ca12bb65.com^
+||eaaltkvtuge.com^
 ||eabids.com^
 ||eaboutvth.biz^
 ||eac0823ca94e3c07.com^
@@ -7356,6 +7372,7 @@ www.llllllllllll.net^
 ||eenfertyred.top^
 ||eengaums.com^
 ||eensoans.com^
+||eererg.com^
 ||eergaroa.com^
 ||eergithi.com^
 ||eergurty.net^
@@ -7522,6 +7539,7 @@ www.llllllllllll.net^
 ||entsnotesq.fun^
 ||enumerateenvironment.com^
 ||enumeraterunnerscommence.com^
+||enviablewaistwhereabouts.com^
 ||enviousfundraiserbelonged.com^
 ||environymsc.info^
 ||envyemerged.com^
@@ -7661,6 +7679,7 @@ www.llllllllllll.net^
 ||ewooe6df.com^
 ||ewrerew29w09.com^
 ||ewruuqe5p8ca.com^
+||ewxewjponmh.xyz^
 ||examinerprospectsbutton.com^
 ||examscradle.com^
 ||exanae.com^
@@ -7830,6 +7849,7 @@ www.llllllllllll.net^
 ||fastenpaganhelm.com^
 ||fastpopclick.com^
 ||fastpopunder.com^
+||fastred.biz^
 ||fatchilli.media^
 ||fatherceremony.com^
 ||fathuntsgall.com^
@@ -7859,6 +7879,7 @@ www.llllllllllll.net^
 ||fccinteractive.com^
 ||fcdnmkc.com^
 ||fcfd5de4b3be3.com^
+||fckjoujpsna.xyz^
 ||fd555b2faf5a40c.com^
 ||fd7qz88ckd.com^
 ||fdbtvavxtfvpbx.com^
@@ -8046,6 +8067,7 @@ www.llllllllllll.net^
 ||flowln.com^
 ||flownabbot.com^
 ||flowndescendenttucked.com^
+||flowsearch.info^
 ||flowwiththetide.xyz^
 ||flrdra.com^
 ||fluencymister.com^
@@ -8237,6 +8259,7 @@ www.llllllllllll.net^
 ||fxdepo.com^
 ||fyhishushe.com^
 ||fykmahfa.com^
+||fykqixiyyd.com^
 ||fythavoshu.com^
 ||fz5akngy5o6r.com^
 ||fzehxxsdxyfg.com^
@@ -8431,6 +8454,7 @@ www.llllllllllll.net^
 ||gjslebmbiawh.com^
 ||gjw5qbyn93b8.com^
 ||gk8j5woqk26f.com^
+||gkefsixxlzhn.com^
 ||gkgojxjucutvnt.com^
 ||gkirfipavwra.com^
 ||gl-cash.com^
@@ -8659,6 +8683,7 @@ www.llllllllllll.net^
 ||gritchuw.com^
 ||grivupie.net^
 ||grmtas.com^
+||grmtmuabcrss.xyz^
 ||groackam.com^
 ||grobido.info^
 ||groguzoo.net^
@@ -9694,6 +9719,7 @@ www.llllllllllll.net^
 ||jsmentry.com^
 ||jsmjmp.com^
 ||jsmpsi.com^
+||jsnaktyxljsohwp.xyz^
 ||jsretra.com^
 ||jssearch.net^
 ||jstatic.org^
@@ -9790,6 +9816,7 @@ www.llllllllllll.net^
 ||kaurouby.net^
 ||kavanga.ru^
 ||kayakm.com^
+||kazandirtyscoot.com^
 ||kazucivi.com^
 ||kbirdsind.top^
 ||kbngab.com^
@@ -10029,6 +10056,7 @@ www.llllllllllll.net^
 ||laiphouz.net^
 ||lakequincy.com^
 ||lakshmiwafered.cam^
+||lakvandula.com^
 ||lalaping.com^
 ||lamberserer.club^
 ||lambingsyddir.com^
@@ -10061,6 +10089,7 @@ www.llllllllllll.net^
 ||latheendsmoo.com^
 ||lativenayl.top^
 ||latterinconvenient.com^
+||latuga.com^
 ||lauhefoo.com^
 ||lauhoosh.net^
 ||laujouty.com^
@@ -11437,6 +11466,7 @@ www.llllllllllll.net^
 ||nsideservie.space^
 ||nskoxgsb.com^
 ||nsmartad.com^
+||nsontrackso.online^
 ||nspmotion.com^
 ||nspot.co^
 ||nssyawqyj.com^
@@ -11980,6 +12010,7 @@ www.llllllllllll.net^
 ||parkinggrumpy.com^
 ||parkurl.com^
 ||parsruingmeld.com^
+||parth2enerocis9tsust2ricus7pidata.com^
 ||parthanonstatue.com^
 ||particlesmanuscript.com^
 ||particularmadam.com^
@@ -13565,6 +13596,7 @@ www.llllllllllll.net^
 ||rptxjrygvkmnl.xyz^
 ||rqhere.com^
 ||rqusuqakwyejjn.com^
+||rqzmfbxjxfi.com^
 ||rs-stripe.com^
 ||rsalcch.com^
 ||rsaltsjt.com^
@@ -14056,6 +14088,7 @@ www.llllllllllll.net^
 ||sjeffrontagr.top^
 ||sketchinferiorunits.com^
 ||sketmothe.space^
+||skewlyundazed.com^
 ||skilfulbags.com^
 ||skillpropulsion.com^
 ||skilyake.net^
@@ -14100,6 +14133,7 @@ www.llllllllllll.net^
 ||slychicks.com^
 ||slymagical.com^
 ||smaato.net^
+||smac-ad.com^
 ||smallentpation.pro^
 ||smalltiberbridge.com^
 ||smart2cnjuh34jb.com^
@@ -14181,6 +14215,7 @@ www.llllllllllll.net^
 ||sombes.com^
 ||somedayanchovydepressing.com^
 ||somehowluxuriousreader.com^
+||somemembersgesture.com^
 ||somethingglamourbeams.com^
 ||somethingprecursorfairfax.com^
 ||somewhate.club^
@@ -14191,6 +14226,7 @@ www.llllllllllll.net^
 ||sonsitself.com^
 ||soofeest.net^
 ||soonbigo.com^
+||soonen.com^
 ||soosooka.com^
 ||sootuglyconfer.com^
 ||soperatory.xyz^
@@ -15094,6 +15130,7 @@ www.llllllllllll.net^
 ||tsandycateup.com^
 ||tsardagger.com^
 ||tslomhfys.com^
+||tsmyalesc.club^
 ||tspops.com^
 ||tsuam.com^
 ||tswmel.com^
@@ -15352,6 +15389,7 @@ www.llllllllllll.net^
 ||uporods.com^
 ||uprimp.com^
 ||uprivaladserver.net^
+||uprotectiehone.xyz^
 ||upsettingcrescentwig.com^
 ||upsettommyvomit.com^
 ||upsghpnqjoo.com^
@@ -15516,6 +15554,7 @@ www.llllllllllll.net^
 ||velvetrattle.com^
 ||vempozah.net^
 ||vemtoala.com^
+||vendedrt.xyz^
 ||vendigamus.com^
 ||vendnibtemp.com^
 ||venetrigni.com^
@@ -15986,6 +16025,7 @@ www.llllllllllll.net^
 ||willingplatitude.com^
 ||willowdrainsuspend.com^
 ||willowmutilatebanking.com^
+||wimpossip.xyz^
 ||wimsocou.com^
 ||win-your-prize-now2.life^
 ||winbuyer.com^
@@ -16097,6 +16137,7 @@ www.llllllllllll.net^
 ||wpnjs.com^
 ||wpnsrv.com^
 ||wpu.sh^
+||wpunativesh.com^
 ||wpush.org^
 ||wpyjkfcucjpuwh.com^
 ||wqgdajjozr.com^
@@ -16135,6 +16176,7 @@ www.llllllllllll.net^
 ||wvmvgqvmbobxb.xyz^
 ||wvpkoyjoq.com^
 ||wvs3bmct6mkz.com^
+||wwjijoywqiu.xyz^
 ||wwnrdqxo.com^
 ||wwpon365.ru^
 ||wwrpfevyca.com^
@@ -16542,6 +16584,7 @@ www.llllllllllll.net^
 ||zeuuwb.com^
 ||zexastize.pro^
 ||zferral.com^
+||zhcmuccccixz.com^
 ||zhhoeyksp.com^
 ||zhkquyvfndeker.com^
 ||zhqqozqbk.com^
@@ -17018,6 +17061,7 @@ www.llllllllllll.net^
 ||againstanctu.info^
 ||aim4media.com^
 ||akavita.com^
+||alimama.com^
 ||amobee.com^
 ||andbeyond.media^
 ||aniview.com^
@@ -17909,7 +17953,6 @@ www.llllllllllll.net^
 ||speeb.com^
 ||speednetwork14.com^
 ||speedshiftmedia.com^
-||sphdigital.com^
 ||spinbox.freedom.com^
 ||spinbox.net^
 ||splinky.com^
@@ -19332,6 +19375,8 @@ www.llllllllllll.net^
 ||widgets.informars.com^
 ||richaudience.com^
 ||potu.xyz^
+||whoutsog.net^
+||oahaurti.com^
 ||ymonetize.com^
 ||cowcash.net^
 ||nucleo.ml^
@@ -19465,6 +19510,7 @@ www.llllllllllll.net^
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||dfnetwork.link^
 ||fodorw.com^
 ||rbtwo.bid^
 ||glvczl.com^
@@ -24108,6 +24154,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||ads.inegolonline.com^
 ||rek.yemlee.com^
 ||files.pbgiris.com^
 ||r20.club^
@@ -24330,7 +24377,6 @@ www.llllllllllll.net^
 ||z-profit.com^
 ||dn.msmstatic.com^
 ||aff.jskyservices.com^
-||smac-ad.com^
 ||a-i-ad.com^
 ||managedweb.net^
 ||thench.net^
@@ -25222,9 +25268,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 07 Oct 2021 16:42 UTC+7
-! Version: 2110071642
-! Blocked: 1,008 rules
+! Last modified: 08 Oct 2021 12:03 UTC+7
+! Version: 2110081203
+! Blocked: 1,013 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -25941,6 +25987,7 @@ www.llllllllllll.net^
 ||fabetvn.com^
 ||fb88.com^
 ||fb88.link^
+||fb88aff.com^
 ||fb88anh.com^
 ||fb88club.com^
 ||fb88cup.com^
@@ -26108,6 +26155,7 @@ www.llllllllllll.net^
 ||top88.uk^
 ||top88.us^
 ||trungso.vip^
+||twin188.co^
 ||uw88vnd.com^
 ||uw88vnd1.com^
 ||v7ac.com^
@@ -26128,6 +26176,7 @@ www.llllllllllll.net^
 ||vn88.casino^
 ||vn88.club^
 ||vn88.com^
+||vndbet88.com^
 ||vngame66.com^
 ||vnloto.com^
 ||vnloto.vip^
@@ -26142,6 +26191,7 @@ www.llllllllllll.net^
 ||vx88.com^
 ||vx88e.com^
 ||vz681.com^
+||vz79.com^
 ||w388.com^
 ||w88.vin^
 ||w88bkk.com^
@@ -26149,6 +26199,7 @@ www.llllllllllll.net^
 ||w88city.com^
 ||w88club.com^
 ||w88hn.com^
+||w88ok.com^
 ||w88yes.com^
 ||wbet99.net^
 ||websvn.info^
@@ -29113,10 +29164,17 @@ www.llllllllllll.net^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||686go.cc^
-||kjjzx.cn^
-||cccfw.vip^
-||fengspw.xyz^
+||d2robot.com.cn^
+||fx2lh9m.cn^
+||ytlkmy.cn^
+||imengyoujia.xyz^
+||dgchengyu.xyz^
+||usst.store^
+||suigeng.shop^
+||zuirengou.shop^
+||mmlala.com^
+||kuuhv.cn^
+||heyux.cn^
 ||01tn.cn^
 ||027whht.com^
 ||029mxhs.cn^
@@ -29235,6 +29293,7 @@ www.llllllllllll.net^
 ||66993.top^
 ||66cn.com^
 ||6789.run^
+||686go.cc^
 ||6shuge.com^
 ||70bhsd.cn^
 ||70fp7880qz.cn^
@@ -29519,6 +29578,7 @@ www.llllllllllll.net^
 ||cbgyhe.cn^
 ||cbxe1r.cn^
 ||cbyckdf.cn^
+||cccfw.vip^
 ||cchfjz.com^
 ||ccioo.vip^
 ||ccjxybj.cn^
@@ -29812,6 +29872,7 @@ www.llllllllllll.net^
 ||feizailin.com^
 ||fengmishop.cn^
 ||fengousm.com^
+||fengspw.xyz^
 ||fenhao14.com^
 ||ff01s.cn^
 ||ffg34fg.877zw.com^
@@ -30360,6 +30421,7 @@ www.llllllllllll.net^
 ||kinlivme.cn^
 ||kjdw.com.cn^
 ||kjhfy.com^
+||kjjzx.cn^
 ||kju369.cn^
 ||kl0ru78.xyz^
 ||klorn.cn^
@@ -32241,6 +32303,19 @@ www.llllllllllll.net^
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
 !
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/783
+@@|adsterra.com^|
+@@|ads.adsterra.com^|
+@@|publishers.adsterra.com^|
+@@|beta.publishers.adsterra.com^|
+@@|partners.adsterra.com^|
+@@|beta.partners.adsterra.com^|
+@@|affiliates.adsterra.com^|
+@@|beta.affiliates.adsterra.com^|
+@@|help-advertisers.adsterra.com^|
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/781
+! Blocked by CNAME we-stats.com
+@@||contents*.00110.citi.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/759
 ! Blocked by CNAME impactradius.com
 @@||goto.walmart.com^|
