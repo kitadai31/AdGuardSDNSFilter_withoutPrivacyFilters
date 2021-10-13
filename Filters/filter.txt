@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-10-12T19:29:08.902Z
+! Last modified: 2021-10-13T19:29:05.691Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,8 @@
 !
 ! The rules with hints are at the end of file
 !
+||accompliceexpressingpug.com^
+||stimulateartificial.com^
 ||elementalantecedent.com^
 ||stickervillain.com^
 ||abasgimental.com^
@@ -13741,6 +13743,7 @@ www.llllllllllll.net^
 ||rungginlout.com^
 ||runghollow.com^
 ||runmewivel.com^
+||runnyamowt.com^
 ||runtnc.net^
 ||rusenov.com^
 ||rushcostscomparison.com^
@@ -18874,6 +18877,7 @@ www.llllllllllll.net^
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||cs02-pps-drcn.dbankcdn.com^
 ||an.facebook.com^
 ||live.hyprmx.com^
 ||marketplace-*.hyprmx.com^
@@ -19625,6 +19629,10 @@ www.llllllllllll.net^
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||hzucji.com^
+||0iqiehoa35.ru^
+||inforuss.site^
+||ouphoarg.com^
 ||dfffpyu8fhawcnd.ru^
 ||dfnetwork.link^
 ||fodorw.com^
@@ -26373,10 +26381,8 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||16m.cc^
-||lm335.com^
-||govyunfu.cn^
-||botsforger.com.cn^
+||immaohao.cn^
+||yueleshenghuo.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -26419,6 +26425,7 @@ www.llllllllllll.net^
 ||168zwm.com^
 ||169bj.cn^
 ||16k6.com^
+||16m.cc^
 ||170yy.com^
 ||175bar.com^
 ||176um.com^
@@ -26763,6 +26770,7 @@ www.llllllllllll.net^
 ||bolimen.top^
 ||bosatria.cn^
 ||bosiwangzi.cn^
+||botsforger.com.cn^
 ||bozhixiang.top^
 ||braincf.com^
 ||brownfox.top^
@@ -27054,6 +27062,7 @@ www.llllllllllll.net^
 ||govkunming.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
+||govyunfu.cn^
 ||gowin01.com^
 ||gqswg.com^
 ||greenbetterkids.com^
@@ -27405,6 +27414,7 @@ www.llllllllllll.net^
 ||lizehuandian.top^
 ||llguandongyan.com^
 ||llqss.top^
+||lm335.com^
 ||lm343.com^
 ||lm663.com^
 ||lm995.com^
@@ -29299,16 +29309,20 @@ www.llllllllllll.net^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||mamababu.cn^
-||bangxin.xyz^
-||dongdm.cn^
-||xianxhwy.com^
-||ocexikc.cn^
-||dianyingmi1.cn^
-||cloudassistant.vip^
-||liuyansha.vip^
-||shuazili.wang^
-||ccgtime-gn.xyz^
+||gwaaz.cn^
+||axfrb.cn^
+||kidisland.cn^
+||wsabci.com^
+||allengao.top^
+||djss-design.cn^
+||vicustom.cn^
+||gufan.fun^
+||feilan5.cn^
+||sh5208.vip^
+||cehbf.com^
+||zhaoanhu.vip^
+||zishahh.com^
+||xianweidang.cc^
 ||01tn.cn^
 ||027whht.com^
 ||029mxhs.cn^
@@ -29607,6 +29621,7 @@ www.llllllllllll.net^
 ||baiyangzs.com^
 ||baiyaqin.xyz^
 ||bangdu2.com^
+||bangxin.xyz^
 ||banma51.cn^
 ||baojiada.vip^
 ||baolanke.top^
@@ -29719,6 +29734,7 @@ www.llllllllllll.net^
 ||cbxe1r.cn^
 ||cbyckdf.cn^
 ||cccfw.vip^
+||ccgtime-gn.xyz^
 ||cchfjz.com^
 ||ccioo.vip^
 ||ccjxybj.cn^
@@ -29786,6 +29802,7 @@ www.llllllllllll.net^
 ||claiks.com^
 ||classicgir.cn^
 ||clmmw.com^
+||cloudassistant.vip^
 ||clxxkz.com.cn^
 ||clzgd.com^
 ||cmyx.xyz^
@@ -29904,6 +29921,7 @@ www.llllllllllll.net^
 ||diandongchetoukui.com^
 ||diangezan.me^
 ||dianshihuanping.cn^
+||dianyingmi1.cn^
 ||dibyc.com^
 ||dirbfm.cn^
 ||djvalve.com.cn^
@@ -29918,6 +29936,7 @@ www.llllllllllll.net^
 ||dnfkong.com^
 ||dnjszp.cn^
 ||dodolive.cn^
+||dongdm.cn^
 ||donghua.asia^
 ||doujl.cn^
 ||doulaihai.top^
@@ -30663,6 +30682,7 @@ www.llllllllllll.net^
 ||liuhemei.com.cn^
 ||liujiaqi.top^
 ||liulu888.com^
+||liuyansha.vip^
 ||liuzishen.com^
 ||liwq.club^
 ||lixianze.top^
@@ -30727,6 +30747,7 @@ www.llllllllllll.net^
 ||mageti.cn^
 ||maicaoren.cn^
 ||maimaias.cn^
+||mamababu.cn^
 ||mao1.jsnovel.com^
 ||maobujie.com^
 ||maosengss.cn^
@@ -30889,6 +30910,7 @@ www.llllllllllll.net^
 ||oberry.cn^
 ||obj9.cn^
 ||oceanbreezecarlsbad.com^
+||ocexikc.cn^
 ||oende.cn^
 ||ohthub.com.cn^
 ||ojojoj.cn^
@@ -31135,6 +31157,7 @@ www.llllllllllll.net^
 ||shrtswkj.com^
 ||shsnjj.top^
 ||shua66.vip^
+||shuazili.wang^
 ||shufan.club^
 ||shunxinyuancaiwu.cn^
 ||shweiwen.cn^
@@ -31530,6 +31553,7 @@ www.llllllllllll.net^
 ||xiandafood.cn^
 ||xiangwangdesh.com^
 ||xiangyudj.cn^
+||xianxhwy.com^
 ||xiaoertuina.top^
 ||xiaogouzhuanqian.cn^
 ||xiaokeaiapp.com^
