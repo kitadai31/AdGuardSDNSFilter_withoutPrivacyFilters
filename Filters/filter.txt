@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-11-04T19:28:26.827Z
+! Last modified: 2021-11-05T19:28:08.762Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,11 @@
 !
 ! The rules with hints are at the end of file
 !
+||afterwardstationquestions.com^
+||bestadmax.com^
+||untr.xyz^
+||ntpoliticismsc.xyz^
+||generalizationdisputelesser.com^
 ||cjvdfw.com^
 ||bigrourg.net^
 ||clickgate09.biz^
@@ -3130,6 +3135,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||dihutyaiafuhr.cloudfront.net^
 ||anti.allcryptoz.net^
 ||tagrec.sphdigital.com^
 ||adimage.sphdigital.com^
@@ -4088,6 +4094,7 @@ www.llllllllllll.net^
 ||addressen.club^
 ||addroplet.com^
 ||adequality.xyz^
+||adequalitys.xyz^
 ||adex.media^
 ||adexchange.io^
 ||adexchangecloud.com^
@@ -5746,6 +5753,7 @@ www.llllllllllll.net^
 ||bshrdr.com^
 ||bsjjtpkc.com^
 ||bskevojpydks.com^
+||bspwmmghrvoyqs.xyz^
 ||bst-offers.com^
 ||btagmedia.com^
 ||btemegxbnalq.com^
@@ -10294,6 +10302,7 @@ www.llllllllllll.net^
 ||kojfsbehrvdui.xyz^
 ||kolerprivals.pro^
 ||kolkwi4tzicraamabilis.com^
+||komuxoe.ru^
 ||koncbabae.com^
 ||kontextua.com^
 ||koocash.com^
@@ -14628,6 +14637,7 @@ www.llllllllllll.net^
 ||sixminutes.biz^
 ||sixteenabsorptionbreed.com^
 ||sjeffrontagr.top^
+||sjlmekhgwimrjs.xyz^
 ||sketchinferiorunits.com^
 ||sketmothe.space^
 ||skewlyundazed.com^
@@ -16591,6 +16601,7 @@ www.llllllllllll.net^
 ||westerdayeol.site^
 ||wethornsprecede.com^
 ||wetpeachcash.com^
+||wewon.to^
 ||wfawhfxe.com^
 ||wfhucstzrdpvmi.com^
 ||wfnetwork.com^
@@ -17005,6 +17016,7 @@ www.llllllllllll.net^
 ||xunucegy.com^
 ||xuteketa.com^
 ||xuwdejffxtxx.xyz^
+||xuxihoy.ru^
 ||xvbelink.com^
 ||xvcmsfoeheu.com^
 ||xvcrbzyiul.com^
@@ -17094,6 +17106,7 @@ www.llllllllllll.net^
 ||yesnexus.com^
 ||yesterdayscancautiously.com^
 ||yestole.com^
+||yezsfzruvxbqa.com^
 ||yfbiwkxjkaw.com^
 ||yfcxzvdyrnp.com^
 ||yfibjzosrqrtmv.com^
@@ -17976,7 +17989,6 @@ www.llllllllllll.net^
 ||clicktripz.com^
 ||clixco.in^
 ||clixtrac.com^
-||cnnx.io^
 ||cogocast.net^
 ||coguan.com^
 ||coinmedia.co^
@@ -27121,8 +27133,7 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||ovkwiz.xyz^
-||aaaa8.top^
+||fkub.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -27387,6 +27398,7 @@ www.llllllllllll.net^
 ||a2b3.tk^
 ||a907907.com^
 ||a9377j.com^
+||aaaa8.top^
 ||aaliyaheartha.com^
 ||aasyy.com^
 ||abc88866.com^
@@ -28308,6 +28320,7 @@ www.llllllllllll.net^
 ||ot.jizy.cn^
 ||oumazg.com^
 ||overlordtea.cn^
+||ovkwiz.xyz^
 ||p3tt.com^
 ||pagetest.top^
 ||panel-cn.com^
@@ -29240,7 +29253,6 @@ www.llllllllllll.net^
 ||qcvf.ifeng.com^
 ||qd.x4399.com^
 ||resource.baomihua.com^
-||rh.qq.com^
 ||sa.sina.cn^
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
@@ -29312,7 +29324,6 @@ www.llllllllllll.net^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
-||cdnjs.z-face.cn^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -29608,6 +29619,7 @@ www.llllllllllll.net^
 ||cc.xwscg.com^
 ||cdn.wenzhangba.cn^
 ||cdn1.tvzhe.com^
+||cdnjs.z-face.cn^
 ||cee1.iteye.com^
 ||chong-wu.net^
 ||ckg.vipyl.com^
@@ -30079,24 +30091,22 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||chongyuelighting.cn^
-||1173d.cn^
-||irzwlux.cn^
-||boxin1688.cn^
-||oajxkah.cn^
-||uqbmzwv.cn^
-||caupdcloud.cn^
-||hardiness.top^
-||hypnos04.com^
-||tianlule.cn^
-||soulshape.cn^
-||maoxilucai.cn^
-||tg745.cn^
-||2kjg.xyz^
-||beautylamp.cn^
-||f4082.cn^
-||lzjc.shop^
-||36yoo.net^
+||hardened.top^
+||lbts.ltd^
+||wjylfla.cn^
+||go07.cc^
+||aifishing.cn^
+||u5274.cn^
+||poedlov.cn^
+||hnfxhx.xyz^
+||whwfcm.cn^
+||hzzydb.cn^
+||to335.cn^
+||fqjinyinhua.shop^
+||baogames.cn^
+||sthyhj.cn^
+||hbxxw.vip^
+||qorosmall.com^
 ||000123456789.online^
 ||01tn.cn^
 ||027whht.com^
@@ -30126,6 +30136,7 @@ www.llllllllllll.net^
 ||1001lab.top^
 ||1005fdh.xyz^
 ||114com.cc^
+||1173d.cn^
 ||1214bdk.xyz^
 ||1221dhb.xyz^
 ||1234567sg.xyz^
@@ -30155,6 +30166,7 @@ www.llllllllllll.net^
 ||2gmbbl.cn^
 ||2gvuukm1lm.com^
 ||2gz9nc.cn^
+||2kjg.xyz^
 ||2ktd0.cn^
 ||2zm4.cn^
 ||300segundos.com^
@@ -30164,6 +30176,7 @@ www.llllllllllll.net^
 ||355262.com^
 ||35kds.com^
 ||365syt.cn^
+||36yoo.net^
 ||3721fuli.cn^
 ||377zt.cn^
 ||381s.net^
@@ -30440,6 +30453,7 @@ www.llllllllllll.net^
 ||bd2fbnfg.com^
 ||bdcouc.xyz^
 ||bdxnc.com^
+||beautylamp.cn^
 ||bei7.clewx.com^
 ||beifmu.com^
 ||beizhoujt.cn^
@@ -30497,6 +30511,7 @@ www.llllllllllll.net^
 ||bostonceltics.com.cn^
 ||bowei666.xyz^
 ||boweineng.cn^
+||boxin1688.cn^
 ||boxix.online^
 ||bozhu.shop^
 ||bqhnj.cn^
@@ -30533,6 +30548,7 @@ www.llllllllllll.net^
 ||canalandco.com^
 ||caofta.cn^
 ||cathaycentury.com^
+||caupdcloud.cn^
 ||cbgyhe.cn^
 ||cbh365.club^
 ||cbxe1r.cn^
@@ -30587,6 +30603,7 @@ www.llllllllllll.net^
 ||chinazhaoye.com^
 ||chkwwg.cn^
 ||chongnikeji.com^
+||chongyuelighting.cn^
 ||chqsw.cn^
 ||chrjkn.cn^
 ||chuang-yi.com.cn^
@@ -30809,6 +30826,7 @@ www.llllllllllll.net^
 ||ejd3q.life^
 ||engpeng.cn^
 ||etfuxd.cn^
+||f4082.cn^
 ||fdfgf.cc^
 ||febao.xyz^
 ||fengzhilu.cn^
@@ -30825,6 +30843,7 @@ www.llllllllllll.net^
 ||guyun03.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||hardiness.top^
 ||hbggcm.com^
 ||hcvhhj.cc^
 ||hdsjk.cc^
@@ -30836,8 +30855,10 @@ www.llllllllllll.net^
 ||hqwrr.cc^
 ||huaxiaozhang.club^
 ||hxf1688.xyz^
+||hypnos04.com^
 ||hzghyt.cc^
 ||intell.work^
+||irzwlux.cn^
 ||jbdz.shop^
 ||jdiaveu.cn^
 ||jiajiann.cn^
@@ -30859,8 +30880,10 @@ www.llllllllllll.net^
 ||lofe.shop^
 ||log57.top^
 ||lppwnue.cn^
+||lzjc.shop^
 ||m5xy0v.cn^
 ||maclwangluokeji.cn^
+||maoxilucai.cn^
 ||mgnb.xyz^
 ||mjzsw.vip^
 ||mnsd.xyz^
@@ -30868,6 +30891,7 @@ www.llllllllllll.net^
 ||myyuye.club^
 ||n258.cc^
 ||nylynp.top^
+||oajxkah.cn^
 ||owdfxgc.cn^
 ||powerchase.online^
 ||pzsq.xyz^
@@ -30881,6 +30905,7 @@ www.llllllllllll.net^
 ||sanwukeji.xyz^
 ||sgaga.xyz^
 ||shareman.xyz^
+||soulshape.cn^
 ||spscwlw.cn^
 ||sqmydhk.cn^
 ||sxzchs.cn^
@@ -30890,6 +30915,8 @@ www.llllllllllll.net^
 ||tbi7.cn^
 ||tbl1.cn^
 ||tework.cn^
+||tg745.cn^
+||tianlule.cn^
 ||topdoctor.vip^
 ||tp992.top^
 ||tpd4.cn^
@@ -30897,6 +30924,7 @@ www.llllllllllll.net^
 ||tszhongtianshiji.com^
 ||tw5k2vc.cn^
 ||umis.top^
+||uqbmzwv.cn^
 ||vluvpdf.cn^
 ||wangbo.group^
 ||wangcm01.top^
