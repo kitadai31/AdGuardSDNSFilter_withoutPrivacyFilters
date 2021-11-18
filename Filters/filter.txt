@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-11-17T19:28:31.191Z
+! Last modified: 2021-11-18T19:28:12.773Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,11 @@
 !
 ! The rules with hints are at the end of file
 !
+||oweqas.xyz^
+||gyrivehmic.com^
+||mousecatzilla.com^
+||cantpastelli.one^
+||ianstarvard.co^
 ||nvidpns.com^
 ||prpbnsp.com^
 ||drtbn.com^
@@ -3188,6 +3193,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||d13qwbj37sfx89.cloudfront.net^
 ||anti.allcryptoz.net^
 ||tagrec.sphdigital.com^
 ||adimage.sphdigital.com^
@@ -5434,6 +5440,7 @@ www.llllllllllll.net^
 ||besoes.com^
 ||best-vpn.click^
 ||bestaryua.com^
+||bestclevercaptcha.top^
 ||bestcontentaccess.top^
 ||bestcontentfee.top^
 ||bestcontentfund.top^
@@ -5471,6 +5478,7 @@ www.llllllllllll.net^
 ||bewailbeforelibrarian.com^
 ||bewailindigestionunhappy.com^
 ||bexakezi.com^
+||beyabtvojrkny.top^
 ||beyanmaan.com^
 ||bf-ad.net^
 ||bf1872dae47d.com^
@@ -8258,6 +8266,7 @@ www.llllllllllll.net^
 ||fetchinstalmenttraffic.com^
 ||fethungi.com^
 ||fewrfie.com^
+||feyxyguwy.com^
 ||ff5bd8d9f8df.com^
 ||ffbrfjnhhf.com^
 ||fferencebr.space^
@@ -9123,6 +9132,7 @@ www.llllllllllll.net^
 ||h5tjj3loy2.com^
 ||h8bjfdcu.com^
 ||h8vzwpv.com^
+||haaseavy.one^
 ||habitualbasin.com^
 ||habitualorthodox.com^
 ||hackelevensol.com^
@@ -10117,6 +10127,7 @@ www.llllllllllll.net^
 ||jpdniuaaqt.xyz^
 ||jpjmpqaupc.com^
 ||jppbyrkkgpgo.com^
+||jprvhcoroir.xyz^
 ||jpyjdpal.xyz^
 ||jpzwomhbxoalxu.com^
 ||jqcgyjwidktu.xyz^
@@ -10668,6 +10679,7 @@ www.llllllllllll.net^
 ||likecontrol.com^
 ||likelycatchunhappy.com^
 ||likenessalmosteradicate.com^
+||likooste.com^
 ||lilacdefencelessroyal.com^
 ||liliy9aydje10.com^
 ||lilureem.com^
@@ -12148,6 +12160,7 @@ www.llllllllllll.net^
 ||ofhypnoer.com^
 ||ofigraiw.net^
 ||ofixwedjbtjc.com^
+||ofnumeltor.com^
 ||ofreadingand.biz^
 ||ofreligionrumble.com^
 ||ofy3m0gp.com^
@@ -13381,6 +13394,7 @@ www.llllllllllll.net^
 ||ptoushoa.com^
 ||ptp22.com^
 ||ptp24.com^
+||ptqdrphsrlaox.top^
 ||pttsite.com^
 ||ptusuhucho.com^
 ||ptuxinewhi.pro^
@@ -15258,6 +15272,7 @@ www.llllllllllll.net^
 ||suscepts.xyz^
 ||suspensionpanthergalaxy.com^
 ||suspicionsvaluable.com^
+||susseinp.co^
 ||sustainownership.com^
 ||suumlfkkiyhnv.com^
 ||suxhap.com^
@@ -15554,6 +15569,7 @@ www.llllllllllll.net^
 ||throposehodger.pro^
 ||throughhonouredhighest.com^
 ||thrustdeadconsiderably.com^
+||thubyjemi.pro^
 ||thudywhamy.com^
 ||thughighjackcheesy.com^
 ||thugtowardhindsight.com^
@@ -15858,7 +15874,6 @@ www.llllllllllll.net^
 ||tsyndicate.com^
 ||tsztzjvpex.com^
 ||ttgmjfgldgv9ed10.com^
-||ttinet.com^
 ||ttnrd.com^
 ||ttoc8ok.com^
 ||ttoyourteam.biz^
@@ -17319,6 +17334,7 @@ www.llllllllllll.net^
 ||yourkadspunew.com^
 ||yourlegacy.club^
 ||yourquickads.com^
+||yourtubetvs.site^
 ||yourwebbars.com^
 ||youtube.local^
 ||yowlcapkegs.com^
@@ -17539,6 +17555,7 @@ www.llllllllllll.net^
 ||zypenetwork.com^
 ||zyxyveshe.com^
 ||zzdb5p4upiug.com^
+||zzghcckpzlhob.com^
 ||zzoacwqfw.com^
 ! Pi hole
 ||exoclick.com^
@@ -19353,6 +19370,7 @@ www.llllllllllll.net^
 ||d37abonb6ucrhx.cloudfront.net^
 ||d38itq6vdv6gr9.cloudfront.net^
 ||d39hdzmeufnl50.cloudfront.net^
+||d39ion77s0ucuz.cloudfront.net^
 ||d39xxywi4dmut5.cloudfront.net^
 ||d3a42c7xs4vn3.cloudfront.net^
 ||d3a49eam5ump99.cloudfront.net^
@@ -20358,6 +20376,7 @@ www.llllllllllll.net^
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||ofbjgf.com^
 ||powferads.com^
 ||kyefakwa.com^
 ||namystal.com^
@@ -25473,6 +25492,7 @@ www.llllllllllll.net^
 !
 ! Section contains list of advertising networks
 !
+||adotone.com^
 ||yitongfang.com^
 ||hnyishidengbao.com^
 ||remehealth.net^
@@ -29616,6 +29636,7 @@ www.llllllllllll.net^
 ||a.epinv.com^
 ||a.exam58.com^
 ||a.hbf23.cn^
+||a.huocheba.com^
 ||a.icdol.com^
 ||a.imgso.cn^
 ||a.jing55.com^
@@ -30125,6 +30146,7 @@ www.llllllllllll.net^
 ||static.sinawap.com^
 ||t.cnscore.com^
 ||t1.612.com^
+||taobc.com^
 ||tech.jiukang.org^
 ||thetestpage.39.net^
 ||tonghuaji.com^
@@ -30268,7 +30290,6 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||mjdnarks.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -30404,6 +30425,7 @@ www.llllllllllll.net^
 ||652696.com^
 ||65daishua.cn^
 ||65zjp.cn^
+||6667778882021.site^
 ||66993.top^
 ||66cn.com^
 ||686go.cc^
@@ -31063,6 +31085,7 @@ www.llllllllllll.net^
 ||fuyangno1.top^
 ||fxhfxhf.cc^
 ||g1kb9u.xyz^
+||gdmjskjx.com^
 ||gdshuotai.cn^
 ||gjohvhf.cn^
 ||go06.cc^
@@ -31071,6 +31094,7 @@ www.llllllllllll.net^
 ||guyun03.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||gywiqnmn.cn^
 ||gzgxbmh.cn^
 ||haojun.info^
 ||hardened.top^
@@ -31084,8 +31108,10 @@ www.llllllllllll.net^
 ||hello211.top^
 ||hgdnd.cc^
 ||hhfhgf.cc^
+||hhnvrht.cn^
 ||hnfxhx.xyz^
 ||hnpxsm.com.cn^
+||hnzhengtongkj.cn^
 ||hqcqz2.cn^
 ||hqwrr.cc^
 ||huaxiaozhang.club^
@@ -31098,7 +31124,9 @@ www.llllllllllll.net^
 ||idmee.cn^
 ||ih740.cn^
 ||ilmwi.cn^
+||ilyjmpg.cn^
 ||intell.work^
+||iodobo.xyz^
 ||iprpe.cn^
 ||irzwlux.cn^
 ||jbdz.shop^
@@ -31129,12 +31157,14 @@ www.llllllllllll.net^
 ||kjhzwvq.cn^
 ||kjtol.cn^
 ||kkpqhqu.cn^
+||klakwvw.cn^
 ||koooa.net^
 ||kszhmzp.cn^
 ||kukulm.com^
 ||laiyangalibaba.cn^
 ||lbts.ltd^
 ||leqfgnb.cn^
+||lggbxf.com^
 ||lhxwnzht.cn^
 ||lingquan.vip^
 ||lnwhh.com^
@@ -31152,6 +31182,7 @@ www.llllllllllll.net^
 ||mhtky.cn^
 ||mineral-water.cn^
 ||misstang.vip^
+||mjdnarks.cn^
 ||mjywk.cn^
 ||mjzsw.vip^
 ||mlgsoji.cn^
@@ -31183,6 +31214,7 @@ www.llllllllllll.net^
 ||picbfnc.cn^
 ||pj16t.cn^
 ||poedlov.cn^
+||pokcykb.cn^
 ||powerchase.online^
 ||pzsq.xyz^
 ||qgfdqjf.cn^
@@ -31199,6 +31231,7 @@ www.llllllllllll.net^
 ||rementui.top^
 ||rh447.cn^
 ||rhxshop.com^
+||rjhtrjb.cn^
 ||rocm0c.site^
 ||rt354.cn^
 ||rylcbwg.cn^
@@ -31255,6 +31288,7 @@ www.llllllllllll.net^
 ||weixisiwang.com^
 ||wfeiso.top^
 ||whhepyd.cn^
+||whusihgq.cn^
 ||whwfcm.cn^
 ||wjylfla.cn^
 ||wn052ucd.online^
