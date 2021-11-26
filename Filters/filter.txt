@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-11-25T19:28:13.198Z
+! Last modified: 2021-11-26T19:28:23.644Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,8 @@
 !
 ! The rules with hints are at the end of file
 !
+||demelehend.com^
+||t.visx.net^
 ||caunuscoagel.com^
 ||clickgate07.biz^
 ||stelagharris.com^
@@ -3165,6 +3167,7 @@ www.llllllllllll.net^
 ||yesadvertising.com^
 ||zanox.com^
 ||zeti.com^
+!+ PLATFORM(ios, ext_safari)
 !+ NOT_OPTIMIZED
 ||o333o.com^
 !+ NOT_OPTIMIZED
@@ -3600,6 +3603,7 @@ www.llllllllllll.net^
 ||24affiliates.com^
 ||24vunvrv.com^
 ||24x7adservice.com^
+||25381bfc0c.com^
 ||25391ebf69.com^
 ||254a.com^
 ||2559a303164ddde96.com^
@@ -3932,6 +3936,7 @@ www.llllllllllll.net^
 ||96660970b05417.com^
 ||967rett6fzaf.com^
 ||96e8abd9c4.com^
+||976b97b6da.com^
 ||97d73lsi.com^
 ||98bf9h8jbg.com^
 ||994ot5rkpch2.com^
@@ -4504,6 +4509,7 @@ www.llllllllllll.net^
 ||aelphotog.pro^
 ||aenaux.com^
 ||aentafmxkmhea.com^
+||aeppenr4ell56ers46nne9n2hunde.com^
 ||aepxgapw.xyz^
 ||aetejxolo.com^
 ||aexperiod.fun^
@@ -4732,6 +4738,8 @@ www.llllllllllll.net^
 ||alphagodaddy.com^
 ||alphonso.tv^
 ||alreadygrippatsy.com^
+||alrfdtkpmxmv.top^
+||alrfdtkpmxmv.xyz^
 ||alruqbfjg.com^
 ||alstrome9riya10.com^
 ||alternads.info^
@@ -4810,6 +4818,8 @@ www.llllllllllll.net^
 ||andomediagroup.com^
 ||andorranisas.xyz^
 ||andriesshied.com^
+||anedew.com^
+||aneduker.one^
 ||anelexpres.club^
 ||anerqdd.ga^
 ||angege.com^
@@ -5676,6 +5686,7 @@ www.llllllllllll.net^
 ||bnjxyqdvoegi.com^
 ||bnmjjwinf292.com^
 ||bnmla.com^
+||bnnapbth.com^
 ||bnr.sys.lv^
 ||bnr901.com^
 ||bnr902.com^
@@ -5768,6 +5779,7 @@ www.llllllllllll.net^
 ||bouillerines.site^
 ||boulevardgoodnesslassitude.com^
 ||bounce.bar^
+||bourremokihi.com^
 ||boustahe.com^
 ||boutiquerestless.com^
 ||bowcompetitionbesides.com^
@@ -6152,6 +6164,7 @@ www.llllllllllll.net^
 ||cdnspace.io^
 ||cdntrf.com^
 ||cdrvrs.com^
+||cdtpugqaosrv.top^
 ||cdwcdny.com^
 ||cdwkjldcebynxde.xyz^
 ||cdynxqqckkxof.com^
@@ -6301,6 +6314,7 @@ www.llllllllllll.net^
 ||chooksee.net^
 ||choorgiw.net^
 ||chooxaur.com^
+||chopgunsticker.com^
 ||chopstick16.com^
 ||chordeez.net^
 ||chosensoothespeechless.com^
@@ -6368,6 +6382,7 @@ www.llllllllllll.net^
 ||clairedikio.club^
 ||clairiose.pro^
 ||clairvoyantvigourcelebrity.com^
+||clamskeined.com^
 ||clankallegation.com^
 ||clarityray.com^
 ||claspluke.com^
@@ -6863,6 +6878,7 @@ www.llllllllllll.net^
 ||ctdhylltfighs.com^
 ||ctdznwavaouc.com^
 ||ctetgwxrgaldb.xyz^
+||cthaic.com^
 ||ctiontouritysh.club^
 ||ctivesprepaired.club^
 ||ctjvkaqiekquag.com^
@@ -6901,6 +6917,7 @@ www.llllllllllll.net^
 ||currietory.xyz^
 ||curtisfrierson.com^
 ||curtlychit.com^
+||curvecaressmean.com^
 ||curveconjure.com^
 ||custodyabsolutiondrawback.com^
 ||cuterbond.com^
@@ -7101,6 +7118,7 @@ www.llllllllllll.net^
 ||defeaturesher.club^
 ||defenseaspirinlike.com^
 ||deferscoop.com^
+||defiantinfluencedtrustworthy.com^
 ||definedlaunching.com^
 ||definitial.com^
 ||defpush.com^
@@ -7375,6 +7393,7 @@ www.llllllllllll.net^
 ||djgfsrlt.com^
 ||djmaza.in^
 ||djrxpvhkqcowfuq.xyz^
+||djsibsmmspjryyn.top^
 ||djzictsencwkf.com^
 ||dk4ywix.com^
 ||dkdmygipll.com^
@@ -7578,12 +7597,14 @@ www.llllllllllll.net^
 ||dunedisadvantagetentative.com^
 ||dungeonavenge.com^
 ||dupx.xyz^
+||durationscuffle.com^
 ||duroternout.info^
 ||dutirtougaon.com^
 ||dutorterraom.com^
 ||duujslachc.xyz^
 ||duxumpou.com^
 ||dvaminusodin.net^
+||dvigukindal.com^
 ||dvitohrrmq.xyz^
 ||dvnmyltt.xyz^
 ||dvoyy3qexr.com^
@@ -7675,6 +7696,7 @@ www.llllllllllll.net^
 ||earneydisti.fun^
 ||earnify.com^
 ||earningmo.biz^
+||earningserie.co^
 ||earnjamdiva.com^
 ||earphonesvehicleexploded.com^
 ||earsagreenj.top^
@@ -7960,6 +7982,7 @@ www.llllllllllll.net^
 ||eoahpbgsvsyfujy.xyz^
 ||eobgrawc.xyz^
 ||eocceucbqnu.com^
+||eoeoxemiyckg.top^
 ||eofgreatid.biz^
 ||eondunpea.com^
 ||eonsmedia.com^
@@ -9146,6 +9169,7 @@ www.llllllllllll.net^
 ||grirault.net^
 ||gritchuw.com^
 ||grivupie.net^
+||grjjngkemtpjqp.com^
 ||grmtas.com^
 ||grmtmuabcrss.xyz^
 ||groackam.com^
@@ -9282,6 +9306,7 @@ www.llllllllllll.net^
 ||haphazarddrunk.com^
 ||happeningaxis.com^
 ||happer.info^
+||happysow.com^
 ||haprjb.com^
 ||haracteris.club^
 ||haractice.club^
@@ -10015,6 +10040,7 @@ www.llllllllllll.net^
 ||irregularstronger.com^
 ||irreparablebench.com^
 ||irresponsibleclassplunge.com^
+||irrids.com^
 ||irritatecheaplyintrigue.com^
 ||irritatehopper.com^
 ||irtya.com^
@@ -10771,6 +10797,7 @@ www.llllllllllll.net^
 ||leveloped.club^
 ||leveryone.club^
 ||lewritishma.space^
+||lfcdsrovhjkcvc.top^
 ||lfg5jnbi.com^
 ||lfmfrsvguf.com^
 ||lfstmedia.com^
@@ -10783,6 +10810,7 @@ www.llllllllllll.net^
 ||lhbdpnhdjcxtr.xyz^
 ||lhhrupisllmy.com^
 ||lhljbgevp.com^
+||lhnhvgytg.top^
 ||lhs-3844b.com^
 ||liantmartier.info^
 ||libcdn.xyz^
@@ -11649,6 +11677,7 @@ www.llllllllllll.net^
 ||mpnrs.com^
 ||mppmnetwork.com^
 ||mpqfzyh.com^
+||mprcbapfm.top^
 ||mpression.net^
 ||mprezchc.com^
 ||mptentry.com^
@@ -11828,6 +11857,7 @@ www.llllllllllll.net^
 ||nceicurrently.biz^
 ||nceinbutiwo.biz^
 ||ncerningy.club^
+||ncesspervice.co^
 ||nckjysyk.com^
 ||nckwgmbfdwrj.xyz^
 ||ncorports.top^
@@ -12198,6 +12228,7 @@ www.llllllllllll.net^
 ||nxcxithvcoeh.com^
 ||nxpectsecti.fun^
 ||nxtck.com^
+||nxzmphowpnb.com^
 ||ny8yoo2ro5aa.com^
 ||nyadmcncserve-05y06a.com^
 ||nyadra.com^
@@ -12314,6 +12345,7 @@ www.llllllllllll.net^
 ||ofnumeltor.com^
 ||ofreadingand.biz^
 ||ofreligionrumble.com^
+||oftheussi.one^
 ||ofy3m0gp.com^
 ||ofyouope.club^
 ||ogaqgazu.com^
@@ -12329,6 +12361,7 @@ www.llllllllllll.net^
 ||ogweswpvzuz.com^
 ||ogzdcghzpwos.com^
 ||ohchateauominous.com^
+||ohfaeojqwiam.top^
 ||ohkdsplu.com^
 ||ohldsplu.com^
 ||ohmcasting.com^
@@ -13069,6 +13102,7 @@ www.llllllllllll.net^
 ||plightmoanshock.com^
 ||plocap.com^
 ||ployea.com^
+||plpcvphcvb.com^
 ||plrjs.org^
 ||plsrcmp.com^
 ||plufdsa.com^
@@ -13289,6 +13323,7 @@ www.llllllllllll.net^
 ||preferablycompletion.com^
 ||preferenceshackdeduction.com^
 ||preferredain.com^
+||pregamepluteal.com^
 ||pregnancyintuition.com^
 ||pregnantstrictlygot.com^
 ||pregnantvillager.com^
@@ -13725,6 +13760,7 @@ www.llllllllllll.net^
 ||qd3u5eeuos.com^
 ||qdatasales.com^
 ||qdayipnsir.com^
+||qddrusjdrjuj.com^
 ||qdmil.com^
 ||qebodu.com^
 ||qel-qel-fie.com^
@@ -13778,6 +13814,7 @@ www.llllllllllll.net^
 ||qppdqcid.com^
 ||qptqoylpxmqbz.com^
 ||qpwiyfmlkhbxop.com^
+||qqchmapkqumvetl.top^
 ||qrezvwhtppiv.com^
 ||qrksjrjppkam.com^
 ||qrlgcrzmbuy.com^
@@ -14522,6 +14559,7 @@ www.llllllllllll.net^
 ||sacralcabaa.com^
 ||sadassemblybladder.com^
 ||sadesriffsmap.com^
+||sadits.com^
 ||sadlyfortunesgame.com^
 ||sadlyparable.com^
 ||sadnessplastic.com^
@@ -14841,6 +14879,7 @@ www.llllllllllll.net^
 ||shoizifjwosvk.com^
 ||shojovuptu.pro^
 ||shokala.com^
+||shooksap.net^
 ||shooterpillar.com^
 ||shophustivu.com^
 ||shopsutike.com^
@@ -15045,6 +15084,7 @@ www.llllllllllll.net^
 ||sociomantic.com^
 ||socketboredomdigital.com^
 ||socksorient.com^
+||socwcjnjadcvae.top^
 ||sofinpushpile.com^
 ||soft-com.biz^
 ||soft4dle.com^
@@ -15535,8 +15575,6 @@ www.llllllllllll.net^
 ||tacticalpizzanetwork.com^
 ||taetsiatomia.com^
 ||tagbom.com^
-||tagcachedataxrt.com^
-||tagcachestaticx.com^
 ||taghaugh.com^
 ||taifouwo.com^
 ||taijiwhi.com^
@@ -15835,6 +15873,7 @@ www.llllllllllll.net^
 ||tiznmktqel.com^
 ||tjgasbjinlx.xyz^
 ||tjhtclwubg.xyz^
+||tjisenap.com^
 ||tkbo.com^
 ||tkickhhylnvm.com^
 ||tkonyrkc.com^
@@ -16209,6 +16248,7 @@ www.llllllllllll.net^
 ||ufuuwfdwsayls.com^
 ||ufvyywlrgpgpyl.com^
 ||ufwpwt.com^
+||ufyiqypf.xyz^
 ||uganod.com^
 ||ugcyllrneps.xyz^
 ||ugdhsrhcq.com^
@@ -16243,6 +16283,7 @@ www.llllllllllll.net^
 ||ukfpgaeihxamg.com^
 ||ukfpibeyfjwhp.xyz^
 ||ukgkugxpzqvqk.com^
+||ukrnment.one^
 ||ukulelead.com^
 ||ul8seok7w5al.com^
 ||ulareighte.top^
@@ -16252,6 +16293,7 @@ www.llllllllllll.net^
 ||ulcerstopers.cam^
 ||ulcgtmglrc.com^
 ||ulfewmgywwxs.xyz^
+||ulminicbawty.com^
 ||ulngtppm.com^
 ||uloprjcy.xyz^
 ||ulourgaz.net^
@@ -16371,12 +16413,14 @@ www.llllllllllll.net^
 ||uptightpercyplug.com^
 ||uptimecdn.com^
 ||upush.co^
+||uqcxdtodqv.xyz^
 ||uramog.com^
 ||urchrevening.info^
 ||urdmorgytjnbn.xyz^
 ||urgesick.com^
 ||urimteku.com^
 ||urineyieldedwasted.com^
+||urkikncrny.top^
 ||urldelivery.com^
 ||urmilan.info^
 ||urmyvglnxrjwmlq.xyz^
@@ -16443,6 +16487,7 @@ www.llllllllllll.net^
 ||uuboos.com^
 ||uujdthyg.com^
 ||uulvtpbx.com^
+||uumcxajak.top^
 ||uuphkthpt.xyz^
 ||uuribxuxsbdfof.com^
 ||uuybnrimdyg.com^
@@ -16452,6 +16497,7 @@ www.llllllllllll.net^
 ||uwdtibwk.com^
 ||uwoaptee.com^
 ||uxowypikexhz.com^
+||uxrawyfinqpogkp.top^
 ||uxrjdh.com^
 ||uxxfierq.xyz^
 ||uyhlpmehm.com^
@@ -16786,10 +16832,12 @@ www.llllllllllll.net^
 ||vulturechinamaternity.com^
 ||vutudm.com^
 ||vuuwd.com^
+||vuxoxmdgdkhrkrs.top^
 ||vvavhrepu.com^
 ||vvcharuaxlsazx.com^
 ||vvyhhrjigq.com^
 ||vwgilkky.com^
+||vwkkkpjk.top^
 ||vwraggcs.xyz^
 ||vwuyuahqf.com^
 ||vxhmytfndmqko.com^
@@ -17133,6 +17181,7 @@ www.llllllllllll.net^
 ||woafujoa.com^
 ||woawouru.net^
 ||wocysuwo.com^
+||woejyyygdvdpdgy.top^
 ||wojdn.com^
 ||wokcementaid.com^
 ||wokfirsax.com^
@@ -19543,6 +19592,7 @@ www.llllllllllll.net^
 ||d26adrx9c3n0mq.cloudfront.net^
 ||d26c6kzavi5zwd.cloudfront.net^
 ||d27gtglsu4f4y2.cloudfront.net^
+||d27qffx6rqb3qm.cloudfront.net^
 ||d28s7kbgrs6h2f.cloudfront.net^
 ||d29dbajta0the9.cloudfront.net^
 ||d29i6o40xcgdai.cloudfront.net^
@@ -20618,6 +20668,8 @@ www.llllllllllll.net^
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||tick-tock.net^
+||hhnhxu.com^
 ||subxpk.com^
 ||rygfjv.com^
 ||qdb6gd3nth.ru^
@@ -26568,8 +26620,8 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 21 Nov 2021 19:33 UTC+7
-! Version: 2111211933
+! Last modified: 26 Nov 2021 10:02 UTC+7
+! Version: 2111261002
 ! Blocked: 978 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -27517,6 +27569,10 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||microsser.cn^
+||laoyg.com^
+||milecctv.cn^
+||selenaroberta.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -30510,6 +30566,24 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
+||qibxdwe1.com^
+||htsj.vip^
+||qihehuo.cn^
+||tiyhxdd.cn^
+||beifz.com^
+||oivxuct.cn^
+||ziaxlx.cn^
+||jyrwen.cn^
+||csjs.ltd^
+||grggkas.cn^
+||3932161.xyz^
+||jlc001.com^
+||pzdlfww.cn^
+||tjhjtoyy.cn^
+||zcsdbj.cn^
+||tvtnbu.cn^
+||e-xinnuo.cn^
+||zixinnuo.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
