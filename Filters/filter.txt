@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-11-27T19:28:21.921Z
+! Last modified: 2021-11-28T19:28:08.320Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,9 @@
 !
 ! The rules with hints are at the end of file
 !
+||lifeimpressions.net^
+||d3a00ifauhjdp.cloudfront.net^
+||puturebraving.com^
 ||helpmight.online^
 ||ationpeci.one^
 ||demelehend.com^
@@ -26628,9 +26631,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 26 Nov 2021 10:02 UTC+7
-! Version: 2111261002
-! Blocked: 978 rules
+! Last modified: 28 Nov 2021 20:02 UTC+7
+! Version: 2111282002
+! Blocked: 994 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -26676,6 +26679,7 @@ www.llllllllllll.net^
 ||anthill.vn^
 ||ants.vn^
 ||anymind360-com.cdn.ampproject.org^
+||api.widget.zalo.me^
 ||atdnetwork.com^
 ||autoads.asia^
 ||banners-gallery.coccoc.com^
@@ -26694,6 +26698,7 @@ www.llllllllllll.net^
 ||clevernet.vn^
 ||codon.vn^
 ||contineljs.com^
+||daleriki.com^
 ||donglogs.com^
 ||eva-ad.24hstatic.com^
 ||ezimar.com^
@@ -26734,6 +26739,7 @@ www.llllllllllll.net^
 ||metrics.coccoc.com^
 ||mobilead.vn^
 ||mobio.vn^
+||modestsunf.com^
 ||myad.vn^
 ||nanda.vn^
 ||native-ad.net^
@@ -26748,6 +26754,7 @@ www.llllllllllll.net^
 ||oncustomer.asia^
 ||onfluencer.net^
 ||onmarketer.net^
+||page.widget.zalo.me^
 ||partner.accesstrade.vn^
 ||phanquang.vn^
 ||philacct.com^
@@ -26809,6 +26816,7 @@ www.llllllllllll.net^
 ||vietnamnetad.vn^
 ||vnnayngaytin.vn^
 ||wg.zaloapp.com^
+||widget.chat.zalo.me^
 ||yeah1media.vn^
 ||yeah1publishing.com^
 ||younetmedia.com^
@@ -27012,6 +27020,8 @@ www.llllllllllll.net^
 ||sv-api-lottery.headlines.pw^
 ||sv-static-lottery.headlines.pw^
 ||sv-static1-lottery.headlines.pw^
+||tkpopup.asia^
+||tkpopup.vn^
 ||toppage.vn^
 ||trenddigital.vn^
 ||truoctran.com^
@@ -27232,7 +27242,6 @@ www.llllllllllll.net^
 ||widget.kyna.vn^
 ||zigzag.vn^
 ||zlog.zingmp3.vn^
-||manclub.game^
 ||1126bet.com^
 ||11bet.com^
 ||11bet.net^
@@ -27282,6 +27291,7 @@ www.llllllllllll.net^
 ||b52.win^
 ||bcb80.com^
 ||bestcacuoc8.com^
+||bet66.com^
 ||betvietnam.info^
 ||betvisa.com^
 ||big88.one^
@@ -27304,6 +27314,7 @@ www.llllllllllll.net^
 ||debet.com^
 ||debet.top^
 ||dfchoingay.com^
+||ee66.com^
 ||eurofun88.com^
 ||fa88.win^
 ||fabet.com^
@@ -27373,6 +27384,11 @@ www.llllllllllll.net^
 ||kubet77.win^
 ||kubet9.com^
 ||kubet9.net^
+||kuclub9.com^
+||kufun.live^
+||kufun.me^
+||kufun.site^
+||kufun.win^
 ||letou8868.com^
 ||lixi88.info^
 ||lixi888.online^
@@ -27396,6 +27412,7 @@ www.llllllllllll.net^
 ||macau.club^
 ||macauclub.fun^
 ||man.club^
+||manclub.game^
 ||manclub.live^
 ||mansion66.com^
 ||may88.club^
@@ -27464,6 +27481,7 @@ www.llllllllllll.net^
 ||sun.win^
 ||sv88.com^
 ||t8betvip.com^
+||ta88.com^
 ||tai789.net^
 ||taib52.club^
 ||taimacau.club^
@@ -27565,6 +27583,7 @@ www.llllllllllll.net^
 ||tammenaa.com^
 ||thseaeing.fun^
 ||ucesreferre.club^
+||uqoxh.icu^
 ||vongquaymienphi.net^
 ||ch6p2aj2gh8zy5cm0px9ow7aj3tmzhtk6lzx2ch9xj7gx2jq1cj8v4jklz6b.me^
 ||h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me^
@@ -29454,6 +29473,7 @@ www.llllllllllll.net^
 ||zjhim.com^
 ||zjhoudao.com^
 ||zl588.com^
+||zlnmzc.top^
 ||zmgod.com^
 ||zmlled.cn^
 ||zpxw.vip^
@@ -29804,7 +29824,6 @@ www.llllllllllll.net^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
-||love.furenkeji.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -30322,6 +30341,7 @@ www.llllllllllll.net^
 ||lm.ijq.tv^
 ||lm1.tuliu.com^
 ||lm1.wkpcw.cn^
+||love.furenkeji.com^
 ||lraa.xiaoniutui.com^
 ||lv.myapks.com^
 ||lynr.com^
@@ -30574,19 +30594,8 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||knaxfbg.cn^
-||tjhmsdd.cn^
-||vtlddz.cn^
-||bdzxdyff.cn^
-||xinym1.xyz^
-||jmqxbeo.cn^
-||eovrti.cn^
-||grksvub.cn^
-||9405876.xyz^
-||52pipaxing.com^
-||tsai.ltd^
-||ebsxlpv.cn^
-||htds.vip^
+||grours.cn^
+||qewoysy.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -30699,6 +30708,7 @@ www.llllllllllll.net^
 ||51zdwy.cn^
 ||52homie.cn^
 ||52lty.store^
+||52pipaxing.com^
 ||52tushuo.com^
 ||53953.club^
 ||53gem.com^
@@ -30762,9 +30772,11 @@ www.llllllllllll.net^
 ||91funcy.com^
 ||91jiedai.cn^
 ||91yktong.com^
+||9405876.xyz^
 ||94dayu.com^
 ||951896.com^
 ||958so.cn^
+||95wvb.xyz^
 ||979067.com^
 ||9860775.com^
 ||991019.top^
@@ -30926,6 +30938,7 @@ www.llllllllllll.net^
 ||ayazsth.cn^
 ||ayun.ltd^
 ||b00.xyz^
+||b0432.cn^
 ||b2b5.net^
 ||b2xy4m.xyz^
 ||b32lx7qjk0.cn^
@@ -30988,6 +31001,7 @@ www.llllllllllll.net^
 ||bd2fbnfg.com^
 ||bdcouc.xyz^
 ||bdxnc.com^
+||bdzxdyff.cn^
 ||beautylamp.cn^
 ||bei7.clewx.com^
 ||beifb.com^
@@ -31187,6 +31201,7 @@ www.llllllllllll.net^
 ||cloudassistant.vip^
 ||clxxkz.com.cn^
 ||clzgd.com^
+||cmbzqtf.cn^
 ||cmyx.xyz^
 ||cn-3drp.com^
 ||cndaizi.com^
@@ -31382,6 +31397,7 @@ www.llllllllllll.net^
 ||e9emh.cn^
 ||ea0jlu8jie.cn^
 ||ealcrrm.cn^
+||ebsxlpv.cn^
 ||ebuysolar.com^
 ||ecai.info^
 ||echuanglm1.com^
@@ -31401,6 +31417,7 @@ www.llllllllllll.net^
 ||engpeng.cn^
 ||enihongo.cn^
 ||ens-sh.cn^
+||eovrti.cn^
 ||epzpzmg.cn^
 ||eq984.cn^
 ||etfuxd.cn^
@@ -31433,6 +31450,7 @@ www.llllllllllll.net^
 ||go07.cc^
 ||gongshangwang.top^
 ||grggkas.cn^
+||grksvub.cn^
 ||guangzhengtwo.top^
 ||guyun03.cn^
 ||gwmeinq.cn^
@@ -31458,6 +31476,7 @@ www.llllllllllll.net^
 ||hnzhengtongkj.cn^
 ||hqcqz2.cn^
 ||hqwrr.cc^
+||htds.vip^
 ||htsj.vip^
 ||huaxiaozhang.club^
 ||hvzlgyi.cn^
@@ -31492,6 +31511,7 @@ www.llllllllllll.net^
 ||jiujiinc.top^
 ||jl1130.com^
 ||jmdardu.cn^
+||jmqxbeo.cn^
 ||jngapkf.cn^
 ||jnxiacha.cn^
 ||jsqhh.cn^
@@ -31510,15 +31530,18 @@ www.llllllllllll.net^
 ||khuokpj.cn^
 ||ki47.com^
 ||ki74.com^
+||kiiqnnx.cn^
 ||kjhzwvq.cn^
 ||kjtol.cn^
 ||kkpqhqu.cn^
 ||klakwvw.cn^
+||knaxfbg.cn^
 ||koooa.net^
 ||ksvftk.cn^
 ||kszhmzp.cn^
 ||kukulm.com^
 ||kypntcw.cn^
+||lailer.cn^
 ||laiyangalibaba.cn^
 ||lapwlbz.cn^
 ||lbts.ltd^
@@ -31586,6 +31609,7 @@ www.llllllllllll.net^
 ||pokcykb.cn^
 ||popwang.top^
 ||powerchase.online^
+||priry.com^
 ||pzdlfww.cn^
 ||pzsq.xyz^
 ||qgfdqjf.cn^
@@ -31606,6 +31630,7 @@ www.llllllllllll.net^
 ||rhxshop.com^
 ||rjhtrjb.cn^
 ||rocm0c.site^
+||rsftjj.cn^
 ||rt354.cn^
 ||rylcbwg.cn^
 ||s1utu5g.cn^
@@ -31651,6 +31676,7 @@ www.llllllllllll.net^
 ||tiyhxdd.cn^
 ||tjcghyy.cn^
 ||tjhjtoyy.cn^
+||tjhmsdd.cn^
 ||tjhzsrqq.cn^
 ||tjtsfhh.cn^
 ||tndiltm.cn^
@@ -31659,6 +31685,7 @@ www.llllllllllll.net^
 ||topdoctor.vip^
 ||tp992.top^
 ||tpd4.cn^
+||tsai.ltd^
 ||tsia1114.top^
 ||tszhongtianshiji.com^
 ||tuzufsi.cn^
@@ -31674,6 +31701,7 @@ www.llllllllllll.net^
 ||vcsoat.cn^
 ||vluvpdf.cn^
 ||vnlaqu.site^
+||vtlddz.cn^
 ||w25e.top^
 ||wangbo.group^
 ||wangcm01.top^
@@ -31698,6 +31726,7 @@ www.llllllllllll.net^
 ||wuyoudan.cn^
 ||wuzefei.top^
 ||wwshxc.cn^
+||wxkouem.cn^
 ||wzytop.top^
 ||x7rrjgs.cn^
 ||xcgcwfc.cn^
@@ -31706,12 +31735,15 @@ www.llllllllllll.net^
 ||xiaolipc.cn^
 ||xiaoxiaoyd.cn^
 ||xiituvt.top^
+||xinym1.xyz^
 ||xinyuanzszy.com^
 ||xjjkxcg.cn^
+||xmouxe.cn^
 ||xpxmpf.cn^
 ||xsrypte.cn^
 ||xxw777.cn^
 ||xzcvfdwe.cn^
+||xzjgzpw.cn^
 ||y0764.cn^
 ||y7k68pq.cn^
 ||ya-yue.xyz^
@@ -31738,6 +31770,7 @@ www.llllllllllll.net^
 ||zhouziwang.cn^
 ||zhpfl.cn^
 ||zhuozhongfangshui.cn^
+||zhxkzss.cn^
 ||ziaxlx.cn^
 ||zixinnuo.cn^
 ||zjqhyx.cn^
