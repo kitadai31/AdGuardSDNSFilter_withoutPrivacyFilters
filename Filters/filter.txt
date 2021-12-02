@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-12-01T19:28:22.234Z
+! Last modified: 2021-12-02T19:28:29.060Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,10 @@
 !
 ! The rules with hints are at the end of file
 !
+||new-pressroom.com^
+||madehimn.xyz^
+||srsihavelearn.xyz^
+||yestedjgrs.xyz^
 ||maritaltrousersidle.com^
 ||wearetopple.com^
 ||d1t4ekjh9ps4ob.cloudfront.net^
@@ -42,7 +46,6 @@
 ||t.visx.net^
 ||caunuscoagel.com^
 ||clickgate07.biz^
-||stelagharris.com^
 ||underthfeove.one^
 ||utcatholicycl.co^
 ||tojadeso.xyz^
@@ -3246,6 +3249,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||d2i4wzwe8j1np9.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
 ||d1cw0c50l8jv65.cloudfront.net^
 ||d6wzv57amlrv3.cloudfront.net^
@@ -3474,6 +3478,13 @@ www.llllllllllll.net^
 ! spellchecker.lu ad
 ||reklammen.spellchecker.lu^
 ||widget.tippebannere.no^
+!---------------------------------------------------------------------
+!------------------------------ Persian ------------------------------
+!---------------------------------------------------------------------
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/101735
+||deema.agency^
+||cdn.sanjagh.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37023
 ||kaprila.com^
 ||sabavision.com^
@@ -6701,6 +6712,7 @@ www.llllllllllll.net^
 ||congressaffrayghosts.com^
 ||conjeller-chikemon.com^
 ||connectad.io^
+||connectedit.co^
 ||connectignite.com^
 ||connectionads.com^
 ||connexplace.com^
@@ -7142,6 +7154,7 @@ www.llllllllllll.net^
 ||deckthroughout.com^
 ||deckulre.com^
 ||declinedisobey.com^
+||declivecists.casa^
 ||decoctionembedded.com^
 ||decordingaudied.site^
 ||decorseteront.xyz^
@@ -7451,6 +7464,7 @@ www.llllllllllll.net^
 ||dlb1uotpjs6s.com^
 ||dlfclcey.com^
 ||dlfvgndsdfsn.com^
+||dliketobe.co^
 ||dlnsjjyzvi1x.com^
 ||dlsear.com^
 ||dlski.space^
@@ -11924,6 +11938,7 @@ www.llllllllllll.net^
 ||navigabledisorganized.com^
 ||navyembarrassment.com^
 ||nawpush.com^
+||nazarickol.com^
 ||nbf9b5aurl.com^
 ||nbgairiest.com^
 ||nbjmp.com^
@@ -13191,6 +13206,7 @@ www.llllllllllll.net^
 ||plpcvphcvb.com^
 ||plrjs.org^
 ||plsrcmp.com^
+||plucta.com^
 ||plufdsa.com^
 ||plugerr.com^
 ||pluggednow.com^
@@ -14595,6 +14611,7 @@ www.llllllllllll.net^
 ||runtnc.net^
 ||rusenov.com^
 ||rushcostscomparison.com^
+||rusinsonatas.cam^
 ||russedpriv.one^
 ||russianemasculateincident.com^
 ||rustleobtainedflute.com^
@@ -14772,6 +14789,7 @@ www.llllllllllll.net^
 ||sculptorshopfiend.com^
 ||scussiago.xyz^
 ||sd5doozry8.com^
+||sdbjpmgbl.top^
 ||sdebatical.one^
 ||sdfer.xyz^
 ||sdhfbvd.com^
@@ -15152,6 +15170,7 @@ www.llllllllllll.net^
 ||snarecathedrallipstick.com^
 ||snarlleadenpsychology.com^
 ||sneakystamp.com^
+||snealp.com^
 ||snegol.com^
 ||snezynrzsz.com^
 ||sngakyf.com^
@@ -15435,6 +15454,7 @@ www.llllllllllll.net^
 ||stealthlockers.com^
 ||steamlightslaxative.com^
 ||steepto.com^
+||stelagharris.com^
 ||step-step-go.com^
 ||stepfatherparamedicthem.com^
 ||stepkeydo.com^
@@ -17537,6 +17557,7 @@ www.llllllllllll.net^
 ||xsrs.com^
 ||xsusmtvgvxp.xyz^
 ||xsvvmrhjztro.com^
+||xswvytnxkzkzq.com^
 ||xtcfjrwdyga.xyz^
 ||xteedehi.com^
 ||xtggpxfmyyfmeun.xyz^
@@ -18947,6 +18968,7 @@ www.llllllllllll.net^
 ||nextoptim.com^
 ||nflightiesmurtone.com^
 ||nitmus.com^
+||njih.net^
 ||nsstatic.com^
 ||nsstatic.net^
 ||nster.net^
@@ -29153,6 +29175,7 @@ www.llllllllllll.net^
 ||ucxgg.com^
 ||ud831d2.com^
 ||ud831d4.com^
+||ud860ec5.com^
 ||ugg66.com^
 ||uneede.com^
 ||uoyrsd.com^
@@ -29464,6 +29487,7 @@ www.llllllllllll.net^
 ||zhongdoulicai.com^
 ||zhongjiayuan.xyz^
 ||zhongzk.com^
+||zhouwutrip.cn^
 ||zhuangzhaibancai.cn^
 ||zhuanzhuzibu.com^
 ||zhuba8.com^
@@ -30972,6 +30996,7 @@ www.llllllllllll.net^
 ||banfk.com^
 ||banfz.com^
 ||banfzw.cn^
+||bang8.org.cn^
 ||bangdu2.com^
 ||bangxin.xyz^
 ||banhfw.cn^
@@ -31001,6 +31026,7 @@ www.llllllllllll.net^
 ||bbbx.xyz^
 ||bbtys.net^
 ||bbvdd.com^
+||bbwfvxw.cn^
 ||bd2fbnfg.com^
 ||bdcouc.xyz^
 ||bdxnc.com^
@@ -31456,6 +31482,7 @@ www.llllllllllll.net^
 ||gdhyoa.cn^
 ||gdmjskjx.com^
 ||gdshuotai.cn^
+||gdzxsoft.cn^
 ||genfar.club^
 ||gjohvhf.cn^
 ||gnfvwfo.cn^
@@ -31616,12 +31643,14 @@ www.llllllllllll.net^
 ||oajxkah.cn^
 ||ocznxv.cn^
 ||oivxuct.cn^
+||olkptgo.cn^
 ||onpta.cn^
 ||oofsg.cn^
 ||orizwud.cn^
 ||ovdolnb.cn^
 ||owdfxgc.cn^
 ||oxmun.com^
+||oxqoney.cn^
 ||oy240.cn^
 ||ozfbbwy.cn^
 ||p09diw3.cn^
@@ -31631,11 +31660,13 @@ www.llllllllllll.net^
 ||pgeuxfs.cn^
 ||picbfnc.cn^
 ||pj16t.cn^
+||plgfzyp.cn^
 ||poedlov.cn^
 ||pokcykb.cn^
 ||popwang.top^
 ||powerchase.online^
 ||priry.com^
+||pwfhjjh.cn^
 ||pzdlfww.cn^
 ||pzsq.xyz^
 ||qewoysy.cn^
@@ -31660,11 +31691,13 @@ www.llllllllllll.net^
 ||rjhtrjb.cn^
 ||rocm0c.site^
 ||rsftjj.cn^
+||rshi.club^
 ||rt354.cn^
 ||rylcbwg.cn^
 ||s1utu5g.cn^
 ||sanwukeji.xyz^
 ||sanyoon.cn^
+||sayilxa.cn^
 ||scenegame.cn^
 ||sdw8vzd.cn^
 ||secrr.cn^
