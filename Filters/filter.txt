@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-12-25T19:28:25.459Z
+! Last modified: 2021-12-26T19:28:34.169Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,8 @@
 !
 ! The rules with hints are at the end of file
 !
+||978ea72276.com^
+||basnn15.com^
 ||ziwyduke.xyz^
 ||infuriateharder.com^
 ||overdomadnessmanslaughter.com^
@@ -28038,7 +28040,9 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||55ssg53.xyz^
+||90158js.com^
+||ylbb-vipjs.com^
+||ilaohuyou.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -28192,6 +28196,7 @@ www.llllllllllll.net^
 ||5551660.com^
 ||5551825.com^
 ||5551933.com^
+||55ssg53.xyz^
 ||560378.com^
 ||5783.org^
 ||57union.com^
@@ -30993,20 +30998,15 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||aiyou.store^
-||86695755.cn^
-||furongcloud.email^
-||nmykf.mobi^
-||xhfya.cn^
-||minchikeji.cloud^
-||jiazhenghangye.pw^
-||skmtyaw.cn^
-||pvgzoqc.cn^
-||wangchuijun.cn^
-||sbqsftz.cn^
-||seobeginners.wiki^
-||ykwh.store^
-||fowft.cn^
+||istudyenglish.pro^
+||miniapp.online^
+||yrzdbzq.cn^
+||xvyvknl.cn^
+||vxjvcwc.cn^
+||shsdw.cn^
+||bslnb.cn^
+||gfncg.cn^
+||szzd.ltd^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -31173,6 +31173,7 @@ www.llllllllllll.net^
 ||833761.com^
 ||8563p.cn^
 ||85wa.cn^
+||86695755.cn^
 ||8776315.com^
 ||886721.com^
 ||888lianmeng.com^
@@ -31283,6 +31284,7 @@ www.llllllllllll.net^
 ||aitehao.top^
 ||aixuyoupin.cn^
 ||aiyalife365.cn^
+||aiyou.store^
 ||aiyun.club^
 ||aiyyu.com^
 ||ajiekeji.club^
@@ -31957,10 +31959,12 @@ www.llllllllllll.net^
 ||fkhfk.cn^
 ||flyly.cc^
 ||foncc.cn^
+||fowft.cn^
 ||fqjinyinhua.shop^
 ||freemovie.vip^
 ||freeyue.xyz^
 ||funlove.pw^
+||furongcloud.email^
 ||fuyangno1.top^
 ||fvhbful.cn^
 ||fxhfxhf.cc^
@@ -32070,6 +32074,7 @@ www.llllllllllll.net^
 ||jgrkjp.cn^
 ||jiajiann.cn^
 ||jiameiyin.cn^
+||jiazhenghangye.pw^
 ||jingshenhaixian.cn^
 ||jinyihui.vip^
 ||jiuji.ltd^
@@ -32174,6 +32179,7 @@ www.llllllllllll.net^
 ||meshare.site^
 ||mgnb.xyz^
 ||mhtky.cn^
+||minchikeji.cloud^
 ||mineral-water.cn^
 ||minglee.vip^
 ||misstang.vip^
@@ -32207,6 +32213,7 @@ www.llllllllllll.net^
 ||nlrpfpq.cn^
 ||nmgpd.com^
 ||nmmgp.cn^
+||nmykf.mobi^
 ||nogvlkk.cn^
 ||none-test.com^
 ||ntdddoz.cn^
@@ -32259,6 +32266,7 @@ www.llllllllllll.net^
 ||pulingmu.top^
 ||puuuwqk.cn^
 ||puwxbcb.cn^
+||pvgzoqc.cn^
 ||pvxymnz.cn^
 ||pwfhjjh.cn^
 ||pxjafjc.cn^
@@ -32307,10 +32315,12 @@ www.llllllllllll.net^
 ||sanwukeji.xyz^
 ||sanyoon.cn^
 ||sayilxa.cn^
+||sbqsftz.cn^
 ||scenegame.cn^
 ||sdrenbang.com^
 ||sdw8vzd.cn^
 ||secrr.cn^
+||seobeginners.wiki^
 ||sg01.top^
 ||sgaga.xyz^
 ||shadamu2.com^
@@ -32323,6 +32333,7 @@ www.llllllllllll.net^
 ||simastudio.cn^
 ||sjmmhhh.cn^
 ||skfqxkk.cn^
+||skmtyaw.cn^
 ||sltcp.cn^
 ||smncden.cn^
 ||soquan.xyz^
@@ -32409,6 +32420,7 @@ www.llllllllllll.net^
 ||w25e.top^
 ||w6gis5.com^
 ||wangbo.group^
+||wangchuijun.cn^
 ||wangcm01.top^
 ||wangl903.com^
 ||wangyasen.link^
@@ -32454,6 +32466,7 @@ www.llllllllllll.net^
 ||xdwqq.cn^
 ||xfvbs.cn^
 ||xgsnjl.com^
+||xhfya.cn^
 ||xianka.cloud^
 ||xiaofashi.top^
 ||xiaokeji.club^
@@ -32495,6 +32508,7 @@ www.llllllllllll.net^
 ||yizhanghaoquan.pw^
 ||yjplpck.cn^
 ||yjwl.ltd^
+||ykwh.store^
 ||ynbyutongdianqi.com^
 ||yncjsc.cn^
 ||yougouquanqiu.xyz^
