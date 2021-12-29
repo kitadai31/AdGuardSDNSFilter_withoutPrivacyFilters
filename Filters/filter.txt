@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-12-28T19:28:07.950Z
+! Last modified: 2021-12-29T19:28:07.082Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,11 @@
 !
 ! The rules with hints are at the end of file
 !
+||wsaphvlnnlle.top^
+||turnipsoft.pubfinity.com^
+||api.pubfinity.com^
+||taspectsofcu.com^
+||premiumbros.com^
 ||2go7v1nes8.com^
 ||sigilsspeiss.com^
 ||978ea72276.com^
@@ -865,7 +870,6 @@
 ||guvivqlbh.com^
 ||abhorboring.com^
 ||fdrptpyxchzjk.com^
-||premiumbros.com^
 ||filterexchangecage.com^
 ||reluctanceleatheroptional.com^
 ||lzdtetwgfyt.com^
@@ -28090,8 +28094,8 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||hbys66.com^
-||xahggy.com^
+||xiaodongjun.com^
+||qzi-ggjsyuming.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -28821,6 +28825,7 @@ www.llllllllllll.net^
 ||hblinwei.com^
 ||hbssjd.cn^
 ||hbuweb.net^
+||hbys66.com^
 ||hbzhenquan.cn^
 ||hcwljy.com^
 ||hebkb.cn^
@@ -29691,6 +29696,7 @@ www.llllllllllll.net^
 ||xa9t.com^
 ||xabaitai.com^
 ||xabmjr.com^
+||xahggy.com^
 ||xc7789.top^
 ||xcads.cn^
 ||xchgx.com^
@@ -30271,6 +30277,7 @@ www.llllllllllll.net^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||mps.wenkuzu.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -30830,7 +30837,6 @@ www.llllllllllll.net^
 ||mo-tuo.com^
 ||mountain.zhidao.baidu.com^
 ||mpb1.iteye.com^
-||mps.yuwenba.cn^
 ||ms.cnbanbao.com^
 ||mt.64foot.com^
 ||myunion1.qm120.com^
@@ -31052,19 +31058,20 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||zixiaxianhua.shop^
-||yumu.pro^
-||bcjxwlkj.com^
-||jiucaishuo.cn^
-||justwkj.xyz^
-||ssjxwlkj.com^
-||runtai369.cn^
-||yini.link^
-||kuangbang.ltd^
-||thjxwlkj.com^
-||trueskincare.tech^
-||wzzb.club^
-||xihua.me^
+||midy.me^
+||myfengyi.xyz^
+||zgxieshou.com^
+||lyjxwlkj.com^
+||m8tu2.online^
+||psl93qx.site^
+||jao38.xyz^
+||c40.xyz^
+||mfagqah.cn^
+||ws-expo.cn^
+||tg876.cn^
+||zyezhz.cn^
+||hugvr.cn^
+||carlseb.xyz^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -31519,6 +31526,7 @@ www.llllllllllll.net^
 ||bbtys.net^
 ||bbvdd.com^
 ||bbwfvxw.cn^
+||bcjxwlkj.com^
 ||bd2fbnfg.com^
 ||bdcouc.xyz^
 ||bdwst1.xyz^
@@ -32138,6 +32146,7 @@ www.llllllllllll.net^
 ||jiazhenghangye.pw^
 ||jingshenhaixian.cn^
 ||jinyihui.vip^
+||jiucaishuo.cn^
 ||jiuji.ltd^
 ||jiujiinc.top^
 ||jktshare.icu^
@@ -32155,6 +32164,7 @@ www.llllllllllll.net^
 ||jsqhh.cn^
 ||jttcbj.cn^
 ||jun01.oss-cn-beijing.aliyuncs.com^
+||justwkj.xyz^
 ||jx3yixi.club^
 ||jxin.xyz^
 ||jxzz.tech^
@@ -32196,6 +32206,7 @@ www.llllllllllll.net^
 ||ksvftk.cn^
 ||kszhmzp.cn^
 ||kuajingtao.cc^
+||kuangbang.ltd^
 ||kukulm.com^
 ||kusol.club^
 ||kxapctq.cn^
@@ -32374,6 +32385,7 @@ www.llllllllllll.net^
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||runtai369.cn^
 ||rylcbwg.cn^
 ||s1utu5g.cn^
 ||sanwukeji.xyz^
@@ -32405,6 +32417,7 @@ www.llllllllllll.net^
 ||soulshape.cn^
 ||spscwlw.cn^
 ||sqmydhk.cn^
+||ssjxwlkj.com^
 ||sssyao.cn^
 ||stbaolin.cn^
 ||sthyhj.cn^
@@ -32434,6 +32447,7 @@ www.llllllllllll.net^
 ||tework.cn^
 ||tg745.cn^
 ||thechosen1.cn^
+||thjxwlkj.com^
 ||tianlule.cn^
 ||timy.ink^
 ||tivfcaa.cn^
@@ -32452,6 +32466,7 @@ www.llllllllllll.net^
 ||topdoctor.vip^
 ||tp992.top^
 ||tpd4.cn^
+||trueskincare.tech^
 ||tsai.ltd^
 ||tsia1114.top^
 ||tszhongtianshiji.com^
@@ -32525,6 +32540,7 @@ www.llllllllllll.net^
 ||wxkouem.cn^
 ||wzxzy.icu^
 ||wzytop.top^
+||wzzb.club^
 ||x7rrjgs.cn^
 ||xamap.club^
 ||xcgcwfc.cn^
@@ -32541,6 +32557,7 @@ www.llllllllllll.net^
 ||xiaolipc.cn^
 ||xiaoxiaoyd.cn^
 ||xiaoyaunbao.club^
+||xihua.me^
 ||xiituvt.top^
 ||xingyou46.icu^
 ||xinym1.xyz^
@@ -32575,6 +32592,7 @@ www.llllllllllll.net^
 ||ydgege.xyz^
 ||yidcd.cn^
 ||yingxunkeji.net^
+||yini.link^
 ||yizhanghaoquan.pw^
 ||yjplpck.cn^
 ||yjwl.ltd^
@@ -32590,6 +32608,7 @@ www.llllllllllll.net^
 ||yuegepiano.cn^
 ||yueyuego.com^
 ||yumingdan.top^
+||yumu.pro^
 ||yunfeiyang.club^
 ||yushuha.com^
 ||ywzkiug.cn^
@@ -32613,6 +32632,7 @@ www.llllllllllll.net^
 ||zhuozhongfangshui.cn^
 ||zhxkzss.cn^
 ||ziaxlx.cn^
+||zixiaxianhua.shop^
 ||zixinnuo.cn^
 ||zjqhyx.cn^
 ||zjwldq.cn^
@@ -35227,7 +35247,9 @@ www.llllllllllll.net^
 @@|beta.affiliates.adsterra.com^|
 @@|help-advertisers.adsterra.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/781
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/852
 ! Blocked by CNAME we-stats.com
+@@||wup-7b4df495.santander.cl^|
 @@||contents*.00110.citi.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/759
 ! Blocked by CNAME impactradius.com
