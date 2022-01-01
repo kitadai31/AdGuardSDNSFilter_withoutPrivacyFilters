@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-12-31T19:28:11.739Z
+! Last modified: 2022-01-01T19:28:11.479Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,7 @@
 !
 ! The rules with hints are at the end of file
 !
+||believersheet.com^
 ||amberdub.com^
 ||wsaphvlnnlle.top^
 ||turnipsoft.pubfinity.com^
@@ -18565,6 +18566,7 @@ www.llllllllllll.net^
 ||adreactor.com^
 ||adready.com^
 ||adreadytractions.com^
+||adrealclick.com^
 ||adrecord.com^
 ||adrecover.com^
 ||adrelayer.com^
@@ -27160,7 +27162,6 @@ www.llllllllllll.net^
 ||adi.vcmedia.vn^
 ||admicro*.vcmedia.vn^
 ||adnetwork.vn^
-||adrealclick.com^
 ||ads-target.coccoc.com^
 ||ads-thanhnien-vn.cdn.ampproject.org^
 ||ads.platform.zalo.me^
@@ -28132,6 +28133,8 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||qytkjsz.com^
+||dhyns.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -31098,12 +31101,15 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||qv566.cn^
-||jljxwlkjw.com^
-||tguomcq.cn^
-||myline1.club^
-||zgyso.cn^
-||xaxdwz.xyz^
+||msri.club^
+||yinan.tech^
+||b49.xyz^
+||ccjxwlkj.com^
+||bs987.cn^
+||mafengow.club^
+||ygtx.mobi^
+||artbluesea.xyz^
+||zxyonlybelongstolym.xyz^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -32197,6 +32203,7 @@ www.llllllllllll.net^
 ||jktshare.icu^
 ||jl1130.com^
 ||jlbz.club^
+||jljxwlkjw.com^
 ||jmdardu.cn^
 ||jmqxbeo.cn^
 ||jngapkf.cn^
@@ -32324,6 +32331,7 @@ www.llllllllllll.net^
 ||muyijia.shop^
 ||mxxgs.cn^
 ||myfengyi.xyz^
+||myline1.club^
 ||myqip.icu^
 ||myyuye.club^
 ||mzwfu.xyz^
@@ -32421,6 +32429,7 @@ www.llllllllllll.net^
 ||qujiawan.vip^
 ||quqianlai.cn^
 ||qusiwang.top^
+||qv566.cn^
 ||qyjzleh.cn^
 ||qzgs99.cn^
 ||rcjww9.xyz^
@@ -32502,6 +32511,7 @@ www.llllllllllll.net^
 ||tework.cn^
 ||tg745.cn^
 ||tg876.cn^
+||tguomcq.cn^
 ||thechosen1.cn^
 ||thjxwlkj.com^
 ||tianlule.cn^
@@ -32601,6 +32611,7 @@ www.llllllllllll.net^
 ||wzzb.club^
 ||x7rrjgs.cn^
 ||xamap.club^
+||xaxdwz.xyz^
 ||xcgcwfc.cn^
 ||xcms.shop^
 ||xdfgrew.cn^
@@ -32681,6 +32692,7 @@ www.llllllllllll.net^
 ||zengwx.cn^
 ||zfw.me^
 ||zgxieshou.com^
+||zgyso.cn^
 ||zgystsd.com^
 ||zhangjianlong.xyz^
 ||zhangtiantian.cc^
