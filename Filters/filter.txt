@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-01-12T19:28:16.153Z
+! Last modified: 2022-01-13T19:28:24.728Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,8 @@
 !
 ! The rules with hints are at the end of file
 !
+||gecko.me^
+||ad.bluepartner.eu^
 ||clenchedyouthmatching.com^
 ||unpleasantconcrete.com^
 ||androidtvchannels-pa.googleapis.com^
@@ -9494,6 +9496,7 @@ www.llllllllllll.net^
 ||guardedfebruaryenclosed.com^
 ||guardiandigitalcomparison.co.uk^
 ||guardssentinelcreepy.com^
+||guerrilla-links.com^
 ||guffawdecipher.com^
 ||guffawsister.com^
 ||guffsview.com^
@@ -11624,6 +11627,7 @@ www.llllllllllll.net^
 ||maxonclick.com^
 ||maxserving.com^
 ||mayhemabjure.com^
+||maymooth-stopic.com^
 ||mayordiminution.com^
 ||maze4aem56jf.com^
 ||mazzappa.fun^
@@ -26873,6 +26877,7 @@ www.llllllllllll.net^
 ||handy-ads.de^
 ||heias.com^
 ||highad.de^
+||hot59.de^
 ||hovg.de^
 ||ibanner.de^
 ||iias.eu^
@@ -27142,6 +27147,7 @@ www.llllllllllll.net^
 ! Source name: ABPindo ad servers
 ! Source: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/adservers.txt
 !
+||1486050000.rsc.cdn77.org^
 ||188affiliates.com^
 ||1b969cef84d93b43.com^
 ||34667c8ece5.com^
@@ -27335,6 +27341,8 @@ www.llllllllllll.net^
 ||whjibbprhng.com^
 ||window-close.cf^
 ||window-close.ga^
+||www.bekdbxdhrffnj.com^
+||www.seyevjpcjkcnka.com^
 ||x-tags.net^
 ||yesads.com^
 ||yhig.info^
@@ -27347,9 +27355,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 12 Jan 2022 15:36 UTC+7
-! Version: 2201121536
-! Blocked: 1.042 rules
+! Last modified: 13 Jan 2022 11:38 UTC+7
+! Version: 2201131138
+! Blocked: 1.044 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -27388,6 +27396,7 @@ www.llllllllllll.net^
 ||adtima-video.zascdn.me^
 ||adtima.vn^
 ||adx.vn^
+||aiactiv.io^
 ||ambient-platform.com^
 ||ambientdsp.com^
 ||analytics.zapps.vn^
@@ -28329,6 +28338,7 @@ www.llllllllllll.net^
 ||garena.fan^
 ||garera.vn^
 ||garrena.vn^
+||giftcode-lienquanmobile-vn.com^
 ||giftcode-mobilelienquan.com^
 ||irduwhojas.ga^
 ||kaurroot.com^
@@ -28364,10 +28374,10 @@ www.llllllllllll.net^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
-||qdopportune.cn^
-||tongdianku.com^
 ||01fen.com^
 ||022aifang.com^
+||llyqy.top^
+||ieecheng.com^
 ||025suyu.com^
 ||0451106.com^
 ||04zl.cn^
@@ -29603,6 +29613,7 @@ www.llllllllllll.net^
 ||qajypx.com^
 ||qbj8.com^
 ||qdchunyu.com^
+||qdopportune.cn^
 ||qdsfzz.cn^
 ||qdwght.com^
 ||qfihdr.com^
@@ -29842,6 +29853,7 @@ www.llllllllllll.net^
 ||tnarzc.com^
 ||togo666.com^
 ||tongdejiayuan.com^
+||tongdianku.com^
 ||toolset.vip^
 ||toospk.com^
 ||toourbb.com^
@@ -30582,6 +30594,7 @@ www.llllllllllll.net^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||1.shopit.cn^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -31366,19 +31379,11 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||vhqlda.cn^
-||dscloud.ltd^
-||quliushang.xyz^
-||ti863.cn^
-||rctxymu.cn^
-||qlugsc.cn^
-||bmt4578.xyz^
-||wswh.xyz^
-||ypdzb.cn^
-||diuleilou.top^
-||sfg8mbh.cn^
-||hgxy.info^
-||ruif.xyz^
+||nbslx.mobi^
+||wswh.club^
+||jwvjcr.cn^
+||rctxczy.cn^
+||proko.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -31950,6 +31955,7 @@ www.llllllllllll.net^
 ||blcobmv.cn^
 ||bljpk3.cn^
 ||blsenpg.cn^
+||bmt4578.xyz^
 ||bmuju.com^
 ||bnd-ybb.cn^
 ||bndbddt.top^
@@ -32260,6 +32266,7 @@ www.llllllllllll.net^
 ||dianyingmi1.cn^
 ||diaoda.xyz^
 ||dibyc.com^
+||diuleilou.top^
 ||dj0ts1x.cn^
 ||djiybut.cn^
 ||djss-design.cn^
@@ -32292,6 +32299,7 @@ www.llllllllllll.net^
 ||dreamrecord.cn^
 ||dreamware.com.cn^
 ||dryraw.vip^
+||dscloud.ltd^
 ||dsdsds8848.xyz^
 ||dspdy.cn^
 ||dss8l0f.cn^
@@ -32454,6 +32462,7 @@ www.llllllllllll.net^
 ||heyi.shop^
 ||hgbvtax.cn^
 ||hgdnd.cc^
+||hgxy.info^
 ||hhfhgf.cc^
 ||hhhfe.cn^
 ||hhnvrht.cn^
@@ -32774,6 +32783,7 @@ www.llllllllllll.net^
 ||qijiandian.xyz^
 ||qilinwh.cn^
 ||qingyulin.top^
+||qlugsc.cn^
 ||qmdllqv.cn^
 ||qorosmall.com^
 ||qp-nett.cn^
@@ -32781,6 +32791,7 @@ www.llllllllllll.net^
 ||qqqmmm.top^
 ||qscwdv.top^
 ||qujiawan.vip^
+||quliushang.xyz^
 ||quqianlai.cn^
 ||qusiwang.top^
 ||qv566.cn^
@@ -32797,6 +32808,7 @@ www.llllllllllll.net^
 ||rctxtjp.cn^
 ||rctxubn.cn^
 ||rctxwtt.cn^
+||rctxymu.cn^
 ||rd926.cn^
 ||rementui.top^
 ||rgt0hv5.cn^
@@ -32813,6 +32825,7 @@ www.llllllllllll.net^
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
 ||s1utu5g.cn^
@@ -32825,6 +32838,7 @@ www.llllllllllll.net^
 ||sdw8vzd.cn^
 ||secrr.cn^
 ||seobeginners.wiki^
+||sfg8mbh.cn^
 ||sg01.top^
 ||sgaga.xyz^
 ||shadamu2.com^
@@ -32888,6 +32902,7 @@ www.llllllllllll.net^
 ||thechosen1.cn^
 ||thinkphp.pro^
 ||thjxwlkj.com^
+||ti863.cn^
 ||tianlule.cn^
 ||timy.ink^
 ||tivfcaa.cn^
@@ -32934,6 +32949,7 @@ www.llllllllllll.net^
 ||vaxgyly.cn^
 ||vciayrf.cn^
 ||vcsoat.cn^
+||vhqlda.cn^
 ||viccscxz.cn^
 ||vl665.cn^
 ||vluvpdf.cn^
@@ -32981,6 +32997,7 @@ www.llllllllllll.net^
 ||wpqsmse.cn^
 ||ws-expo.cn^
 ||wsrrfoa.cn^
+||wswh.xyz^
 ||wulian.in^
 ||wuwai.art^
 ||wuxiqiangheng.com^
@@ -33063,6 +33080,7 @@ www.llllllllllll.net^
 ||yougouquanqiu.xyz^
 ||youliangyouxian.xyz^
 ||youpeng.pw^
+||ypdzb.cn^
 ||ypgdnrz.cn^
 ||yqzaz.cn^
 ||yrzdbzq.cn^
