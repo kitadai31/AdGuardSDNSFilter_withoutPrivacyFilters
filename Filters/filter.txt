@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-01-14T19:28:24.552Z
+! Last modified: 2022-01-15T19:28:12.012Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -27396,9 +27396,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 14 Jan 2022 09:47 UTC+7
-! Version: 2201140947
-! Blocked: 1.044 rules
+! Last modified: 15 Jan 2022 14:21 UTC+7
+! Version: 2201151421
+! Blocked: 1.045 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -28375,6 +28375,7 @@ www.llllllllllll.net^
 ||ff-membership-garena.com^
 ||freefire-membershipvn-garena.com^
 ||garean.vn^
+||gareena.vn^
 ||garena-members.com^
 ||garena.fan^
 ||garera.vn^
@@ -28410,8 +28411,11 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||mcfarland.cn^
 ||00-gov.cn^
+||hanjw1988.com^
+||eccbb.com^
+||tuuihea.top^
+||xiqqq.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -28419,7 +28423,6 @@ www.llllllllllll.net^
 ||01fen.com^
 ||022aifang.com^
 ||025suyu.com^
-||ywak.com.cn^
 ||0451106.com^
 ||04zl.cn^
 ||0516bm.com^
@@ -29515,6 +29518,7 @@ www.llllllllllll.net^
 ||manparis.cn^
 ||maskbaby.com.cn^
 ||mcdhshlsboom.com^
+||mcfarland.cn^
 ||mdffun.cn^
 ||meethanshi.com^
 ||meihaoxiangwang.com^
@@ -30218,6 +30222,7 @@ www.llllllllllll.net^
 ||yunsoka.com^
 ||yuyue008.cn^
 ||ywadf.cn^
+||ywak.com.cn^
 ||ywjxsp168.cn^
 ||ywxi.net^
 ||yxjad.com^
@@ -31421,19 +31426,16 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||alnko.cn^
-||jytc.xyz^
-||uxpolqk.cn^
-||iwwl.vip^
-||shaiban.wang^
-||kyle.pub^
-||xakywl.xyz^
-||rctxwpn.cn^
-||ldogre.top^
-||rctxprz.cn^
-||fpreld.cn^
-||sl00ufi.cn^
-||clfmm.cn^
+||ojtqzxu.cn^
+||rctxsbw.cn^
+||exgrao.cn^
+||cmall.club^
+||xglryxd.cn^
+||rctxlac.cn^
+||cyccy.cn^
+||aybnn.cn^
+||leelovelwj.com^
+||gbcvbnv5.com^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -31745,6 +31747,7 @@ www.llllllllllll.net^
 ||allavv.xyz^
 ||allengao.top^
 ||allluck.cn^
+||alnko.cn^
 ||altao.xyz^
 ||alwonroad.club^
 ||aly766.com^
@@ -32159,6 +32162,7 @@ www.llllllllllll.net^
 ||ckaiv.com^
 ||claiks.com^
 ||classicgir.cn^
+||clfmm.cn^
 ||clmmw.com^
 ||cloudassistant.vip^
 ||clxxkz.com.cn^
@@ -32442,6 +32446,7 @@ www.llllllllllll.net^
 ||focused.wang^
 ||foncc.cn^
 ||fowft.cn^
+||fpreld.cn^
 ||fqjinyinhua.shop^
 ||freemovie.vip^
 ||freeyue.xyz^
@@ -32563,6 +32568,7 @@ www.llllllllllll.net^
 ||istudyenglish.pro^
 ||ivchui.cn^
 ||ivwvvtr.cn^
+||iwwl.vip^
 ||ixiang.club^
 ||izpcoo.cn^
 ||jajiz.cn^
@@ -32611,6 +32617,7 @@ www.llllllllllll.net^
 ||jycwqeo.cn^
 ||jyigozm.cn^
 ||jyrwen.cn^
+||jytc.xyz^
 ||jyzae.cn^
 ||jyzah.cn^
 ||jyzai.cn^
@@ -32653,6 +32660,7 @@ www.llllllllllll.net^
 ||kuoxing.mobi^
 ||kusol.club^
 ||kxapctq.cn^
+||kyle.pub^
 ||kypntcw.cn^
 ||ladyye.site^
 ||lailer.cn^
@@ -32660,6 +32668,7 @@ www.llllllllllll.net^
 ||lapwlbz.cn^
 ||lbck.fun^
 ||lbts.ltd^
+||ldogre.top^
 ||lemmotx.cn^
 ||leqfgnb.cn^
 ||lggbxf.com^
@@ -32858,9 +32867,11 @@ www.llllllllllll.net^
 ||rctxjbv.cn^
 ||rctxmbr.cn^
 ||rctxpks.cn^
+||rctxprz.cn^
 ||rctxsrv.cn^
 ||rctxtjp.cn^
 ||rctxubn.cn^
+||rctxwpn.cn^
 ||rctxwtt.cn^
 ||rctxymu.cn^
 ||rd926.cn^
@@ -32896,6 +32907,7 @@ www.llllllllllll.net^
 ||sg01.top^
 ||sgaga.xyz^
 ||shadamu2.com^
+||shaiban.wang^
 ||shanhaibb.cn^
 ||shareman.xyz^
 ||sherrycha.cn^
@@ -32909,6 +32921,7 @@ www.llllllllllll.net^
 ||sjmmhhh.cn^
 ||skfqxkk.cn^
 ||skmtyaw.cn^
+||sl00ufi.cn^
 ||sltcp.cn^
 ||smh.ink^
 ||smncden.cn^
@@ -33000,6 +33013,7 @@ www.llllllllllll.net^
 ||uqbmzwv.cn^
 ||uqjflmw.cn^
 ||usrlock.cn^
+||uxpolqk.cn^
 ||vaxgyly.cn^
 ||vciayrf.cn^
 ||vcsoat.cn^
@@ -33068,6 +33082,7 @@ www.llllllllllll.net^
 ||x56za02.cn^
 ||x7rrjgs.cn^
 ||xahywwx.com^
+||xakywl.xyz^
 ||xamap.club^
 ||xaxdwz.xyz^
 ||xcgcwfc.cn^
