@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-01-22T19:28:05.090Z
+! Last modified: 2022-01-23T19:28:15.900Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -16,6 +16,7 @@
 !
 ! The rules with hints are at the end of file
 !
+||browsiprod.com^
 ||appraisalaffable.com^
 ||audiblysunny.com^
 ||absenttwilly.com^
@@ -8454,6 +8455,7 @@ www.llllllllllll.net^
 ||expocrack.com^
 ||exponderle.pro^
 ||exporder-patuility.com^
+||exportspring.com^
 ||exposuremixed.com^
 ||expresswebtraffic.com^
 ||exrtbsrv.com^
@@ -15682,6 +15684,7 @@ www.llllllllllll.net^
 ||sknkwpvrkz.com^
 ||skreighphotic.cam^
 ||skxgvqcgefyy.com^
+||skynetcdn.com^
 ||skynightmidm.com^
 ||slabshookwasted.com^
 ||slakesshimtames.com^
@@ -28577,15 +28580,14 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||sm9t.ml^
+||ud783c08.com^
+||tuyihea.top^
+||kangaroobro.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||tunihta.top^
-||yhjzg.cn^
-||ygqjt.cn^
-||aliys.net^
-||cppoc.com^
 ||00xvppy.cn^
 ||01fen.com^
 ||022aifang.com^
@@ -28897,6 +28899,7 @@ www.llllllllllll.net^
 ||alisinak.com^
 ||alitianxia168.com^
 ||alivelivevideos.com^
+||aliys.net^
 ||aliyuncss.com^
 ||aliyunxin.com^
 ||amarketing.top^
@@ -29056,6 +29059,7 @@ www.llllllllllll.net^
 ||coinever.net^
 ||coolbook.cc^
 ||coolfenxi.com^
+||cppoc.com^
 ||cpro.baidustatic.com^
 ||cpv6.com^
 ||cqdzjc.com^
@@ -30100,6 +30104,7 @@ www.llllllllllll.net^
 ||tuifish.com^
 ||tukeai.com^
 ||tumeite.cn^
+||tunihta.top^
 ||tunihua.top^
 ||tuoshi168.com^
 ||tutehea.top^
@@ -30351,7 +30356,9 @@ www.llllllllllll.net^
 ||yf898.com^
 ||yfot.com.cn^
 ||yfycy.com^
+||ygqjt.cn^
 ||yhhls.com^
+||yhjzg.cn^
 ||yhsmk.com^
 ||yichunrz.com^
 ||yijia2009.com^
@@ -31613,17 +31620,19 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||kyqbifz.cn^
-||pubcloud.pub^
-||pyzx.xyz^
-||ygyl.xyz^
-||zhihui.ink^
-||lktxelg.cn^
-||nmyp.ltd^
-||qq0010.xyz^
-||xinchenyang.cn^
-||guxin.me^
-||niepanruanjian.com^
+||cp9.club^
+||qzy123.ink^
+||rdms.xyz^
+||yunwanjia.wang^
+||homchang.site^
+||3line.tech^
+||mocc.ltd^
+||spzxgcw.com^
+||zuoyouyu.cn^
+||chengduyiren.cn^
+||chuqiguan.co^
+||octhkas.cn^
+||hrjskj.top^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -32700,6 +32709,7 @@ www.llllllllllll.net^
 ||guangzhengtwo.top^
 ||gunvn.cn^
 ||guolvhbb.cn^
+||guxin.me^
 ||guyun03.cn^
 ||gvwan.cn^
 ||gwmaajp.cn^
@@ -32878,6 +32888,7 @@ www.llllllllllll.net^
 ||kxapctq.cn^
 ||kyle.pub^
 ||kypntcw.cn^
+||kyqbifz.cn^
 ||ladyye.site^
 ||lailer.cn^
 ||laiyangalibaba.cn^
@@ -32898,6 +32909,7 @@ www.llllllllllll.net^
 ||lingquan.vip^
 ||lingzhushijie.cn^
 ||livemz.com^
+||lktxelg.cn^
 ||llii.club^
 ||lllfe.cn^
 ||lnwhh.com^
@@ -32979,12 +32991,14 @@ www.llllllllllll.net^
 ||ngogmbe.cn^
 ||nh738.cn^
 ||nhfpdc.cn^
+||niepanruanjian.com^
 ||niwfaxz.cn^
 ||nlrpfpq.cn^
 ||nlyekvc.cn^
 ||nmgpd.com^
 ||nmmgp.cn^
 ||nmykf.mobi^
+||nmyp.ltd^
 ||noblift.mobi^
 ||nogvlkk.cn^
 ||none-test.com^
@@ -33046,6 +33060,7 @@ www.llllllllllll.net^
 ||propsad.com^
 ||psl93qx.site^
 ||ptujvmq.cn^
+||pubcloud.pub^
 ||pulingmu.top^
 ||puuuwqk.cn^
 ||puwxbcb.cn^
@@ -33055,6 +33070,7 @@ www.llllllllllll.net^
 ||pwfhjjh.cn^
 ||pxjafjc.cn^
 ||pyhszs.cn^
+||pyzx.xyz^
 ||pzdlfww.cn^
 ||pzsq.xyz^
 ||qagyb.cn^
@@ -33077,6 +33093,7 @@ www.llllllllllll.net^
 ||qmrtubg.cn^
 ||qorosmall.com^
 ||qp-nett.cn^
+||qq0010.xyz^
 ||qq163com.cn^
 ||qqqmmm.top^
 ||qscwdv.top^
@@ -33358,6 +33375,7 @@ www.llllllllllll.net^
 ||xiaoyaunbao.club^
 ||xihua.me^
 ||xiituvt.top^
+||xinchenyang.cn^
 ||xingyou46.icu^
 ||xinhuayin.biz^
 ||xinym1.xyz^
@@ -33397,6 +33415,7 @@ www.llllllllllll.net^
 ||ydwjmvv.cn^
 ||yema.shop^
 ||ygtx.mobi^
+||ygyl.xyz^
 ||yidcd.cn^
 ||yinan.tech^
 ||yingxunkeji.net^
@@ -33446,6 +33465,7 @@ www.llllllllllll.net^
 ||zhenxinchicken.xyz^
 ||zhexnuq.cn^
 ||zhifoujiaoyu.xyz^
+||zhihui.ink^
 ||zhonglutang.group^
 ||zhongte62802.cn^
 ||zhongzizye.cn^
