@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-02-06T19:28:13.702Z
+! Last modified: 2022-02-07T19:28:23.979Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -12,10 +12,19 @@
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+! The rules with hints are at the end of file.
+
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
-! The rules with hints are at the end of file
 !
+!
+||truetruetruetruetruetruetruetruetruetrue.xyz^
+||wwlipxritaoo.com^
+||settlef.com^
 ||lzrikate.com^
 ||xfyyveifirnll.com^
 ||jipo.io^
@@ -3381,7 +3390,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers_firstparty.txt
 !
 !
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
 !
 ||d24g87zbxr4yiz.cloudfront.net^
 ||centent.stemplay.cc^
@@ -4742,6 +4757,7 @@ www.llllllllllll.net^
 ||agriculta.top^
 ||agukalty.net^
 ||agurgeed.net^
+||aguttfdnoipmlv.xyz^
 ||agzfxovg.com^
 ||ahadsply.com^
 ||ahaumplab.com^
@@ -4823,6 +4839,7 @@ www.llllllllllll.net^
 ||akielf.com^
 ||aklglpwljiv.com^
 ||akmxts.com^
+||alahhwvrgq.com^
 ||alaskan4kleeskai.com^
 ||alawachi.net^
 ||albertonne.com^
@@ -6001,6 +6018,7 @@ www.llllllllllll.net^
 ||broadlystipulate.com^
 ||broced.co^
 ||brodmn.com^
+||broidensordini.com^
 ||brokeloy.com^
 ||brothcorewearisome.com^
 ||broworker7.com^
@@ -6911,6 +6929,7 @@ www.llllllllllll.net^
 ||couptoug.net^
 ||couriersticky.com^
 ||couthosh.net^
+||coveredbetting.com^
 ||covetoussyndrome.com^
 ||cowardlymissinggranulated.com^
 ||cowbumply.com^
@@ -6978,6 +6997,7 @@ www.llllllllllll.net^
 ||credulityseashoreemployed.com^
 ||creepercurvaturedefenceless.com^
 ||crenaeamigas.com^
+||crenase.com^
 ||crentexgate.com^
 ||creoads.com^
 ||crepgate.com^
@@ -7219,6 +7239,7 @@ www.llllllllllll.net^
 ||deaconrandomoptional.com^
 ||deagerdtob.biz^
 ||dealcurrent.com^
+||dealtsowbite.com^
 ||debadu.com^
 ||debatenell.com^
 ||debrisintercourseblackboard.com^
@@ -7740,6 +7761,7 @@ www.llllllllllll.net^
 ||dwaterver.xyz^
 ||dwepmhhyigfb.com^
 ||dwetwdstom1020.com^
+||dwxrrdaqtm.top^
 ||dxpxlt.com^
 ||dxrzzmhwdp.com^
 ||dycej.com^
@@ -7849,6 +7871,7 @@ www.llllllllllll.net^
 ||ebdr3.com^
 ||ebetoni.com^
 ||ebhruifaomypdi.com^
+||ebjcmqernimq.xyz^
 ||ebjvkekktns.com^
 ||eblastengine.com^
 ||eblsfzgvoep.com^
@@ -8117,6 +8140,7 @@ www.llllllllllll.net^
 ||erkchpofubojfm.com^
 ||erkhxw.com^
 ||ermitteedi.biz^
+||ernestindeedtradition.com^
 ||erniphiq.com^
 ||ero-advertising.com^
 ||eroahaud.com^
@@ -8166,6 +8190,7 @@ www.llllllllllll.net^
 ||etioh.com^
 ||etivat.com^
 ||etmxjglxsthvm.xyz^
+||etoexukpre.com^
 ||etoschedul.fun^
 ||etoyourco.club^
 ||etracking.pro^
@@ -8407,6 +8432,7 @@ www.llllllllllll.net^
 ||fckjoujpsna.xyz^
 ||fd555b2faf5a40c.com^
 ||fd7qz88ckd.com^
+||fdelphaswcealifornica.com^
 ||fdf4.com^
 ||fdgfewjsludkuhj.top^
 ||fdrgtt9edmej010.com^
@@ -10337,6 +10363,7 @@ www.llllllllllll.net^
 ||jinsoopt.net^
 ||jinxexaminesketch.com^
 ||jioer.pro^
+||jipfvqusm.com^
 ||jirivsoxvdk.com^
 ||jistaumt.com^
 ||jistenbefor.space^
@@ -10537,6 +10564,7 @@ www.llllllllllll.net^
 ||kavanga.ru^
 ||kayakm.com^
 ||kazandirtyscoot.com^
+||kazoowaughy.com^
 ||kazucivi.com^
 ||kbngab.com^
 ||kbnihnmrghgy.com^
@@ -10727,6 +10755,7 @@ www.llllllllllll.net^
 ||krdmqluvudizq.com^
 ||krhyqxenacr.xyz^
 ||krkursist.com^
+||krnhplalugndkkf.com^
 ||kronosspell.com^
 ||krouekal.com^
 ||ksdqhiaythajdv.com^
@@ -11157,6 +11186,7 @@ www.llllllllllll.net^
 ||ltassrv.com.s3.amazonaws.com^
 ||ltassrv.com^
 ||ltbbfotur.xyz^
+||lturerpartm.com^
 ||luadvazvjuuoj.com^
 ||lubowitz.biz^
 ||lucidmedia.com^
@@ -13322,6 +13352,7 @@ www.llllllllllll.net^
 ||pompeyperspire.com^
 ||pomposityretainerparish.com^
 ||pompouseruptionrang.com^
+||pompysxdz.com^
 ||pon-prairie.com^
 ||pooboafi.net^
 ||poodledopas.cam^
@@ -13724,6 +13755,7 @@ www.llllllllllll.net^
 ||ptipsixo.com^
 ||ptipsout.net^
 ||ptirgaux.com^
+||ptljkekttqf.com^
 ||ptlrchrsgpbak.com^
 ||ptlwm.com^
 ||ptmzr.com^
@@ -14311,6 +14343,7 @@ www.llllllllllll.net^
 ||responserver.com^
 ||responsibilitymoleculebailey.com^
 ||restights.pro^
+||restinafullti.com^
 ||restisbench.com^
 ||restlessreduction.com^
 ||restrictbench.com^
@@ -15136,6 +15169,7 @@ www.llllllllllll.net^
 ||sixteenabsorptionbreed.com^
 ||sixtyhardwarepreference.com^
 ||sjlmekhgwimrjs.xyz^
+||sjqqkayldq.com^
 ||sjtactic.com^
 ||skenqaamefeoncfegrytbuvksebpefer.com^
 ||sketchinferiorunits.com^
@@ -15176,6 +15210,7 @@ www.llllllllllll.net^
 ||sloeri.com^
 ||sloganmiser.com^
 ||sloi1.com^
+||slothnge.com^
 ||sloto.live^
 ||slowinghardboiled.com^
 ||slrviazqkilu.com^
@@ -15214,6 +15249,7 @@ www.llllllllllll.net^
 ||snammar-jumntal.com^
 ||snarecathedrallipstick.com^
 ||snarlleadenpsychology.com^
+||snatchweedswimsuit.com^
 ||snavey.com^
 ||sneakystamp.com^
 ||snealp.com^
@@ -15456,6 +15492,7 @@ www.llllllllllll.net^
 ||ssl2anyone3.com^
 ||ssl2anyone5.com^
 ||sslcheckerapi.com^
+||ssmyinteuk.com^
 ||ssncludingco.biz^
 ||ssnptshxpdd.top^
 ||ssorsophicla.info^
@@ -15723,6 +15760,7 @@ www.llllllllllll.net^
 ||synchronizedoll.com^
 ||syncwowsails.com^
 ||syndicpop.com^
+||syndocassyth.com^
 ||syndopop.com^
 ||syndromeseasidecontainer.com^
 ||synsads.com^
@@ -16042,6 +16080,7 @@ www.llllllllllll.net^
 ||tivetrainin.one^
 ||tivibyca.com^
 ||tiznmktqel.com^
+||tjcttxdfelb.com^
 ||tjgasbjinlx.xyz^
 ||tjhtclwubg.xyz^
 ||tjisenap.com^
@@ -16066,6 +16105,7 @@ www.llllllllllll.net^
 ||tmnlsmvgrkoj.com^
 ||tmqhw.us^
 ||tmrjmp.com^
+||tmwrnladiy.xyz^
 ||tncomg.com^
 ||tncred.com^
 ||tnmxmptkenwc.xyz^
@@ -16221,6 +16261,7 @@ www.llllllllllll.net^
 ||trc85.com^
 ||trccmpnlnk.com^
 ||trcked.me^
+||treacherousaccentbruise.com^
 ||treasuresensignron.com^
 ||treatlaurelbud.com^
 ||treeintentlytravel.com^
@@ -16307,6 +16348,7 @@ www.llllllllllll.net^
 ||ttqeackrnjnfd.com^
 ||ttspikbeglki.com^
 ||ttzmedia.com^
+||tuateramiking.com^
 ||tubberlo.com^
 ||tubecorp.com^
 ||tubemov.com^
@@ -16852,6 +16894,7 @@ www.llllllllllll.net^
 ||view-flix.com^
 ||viewablemedia.net^
 ||viewclc.com^
+||viewedflaw.com^
 ||viewscout.com^
 ||vifyzymo.com^
 ||vigoroussolidjitter.com^
@@ -17204,6 +17247,7 @@ www.llllllllllll.net^
 ||wergad.com^
 ||weshuhori.com^
 ||westerdayeol.site^
+||wetfailjwt.com^
 ||wethornsprecede.com^
 ||wetpeachcash.com^
 ||wewon.to^
@@ -19768,6 +19812,7 @@ www.llllllllllll.net^
 ||d1betjlqogdr97.cloudfront.net^
 ||d1bi6hxlc51jjw.cloudfront.net^
 ||d1bxkgbbc428vi.cloudfront.net^
+||d1clmik8la8v65.cloudfront.net^
 ||d1crt12zco2cvf.cloudfront.net^
 ||d1diqetif5itzx.cloudfront.net^
 ||d1e28xq8vu3baf.cloudfront.net^
@@ -20035,7 +20080,12 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains for mobile devices.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
 ! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
@@ -20765,7 +20815,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpanishFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
 ! ||addevweb.com^$third-party
@@ -20919,7 +20975,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt
 !
 !
-! Содержит доменные имена, использующиеся рекламными сетями.
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ||adblocksosal.ru^
 ||unhwav.com^
@@ -25119,7 +25181,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers_firstparty.txt
 !
 !
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
 !
 ||t.sur.new.gorodkirov.ru^
 ||dsp-eu.surfy.tech^
@@ -25325,7 +25393,11 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/news_exchange.txt
 !
 !
-! Новостные тизерки
+! This section contains the list of the base rules that block news teasers.
+!
+! Good: ||smi24.kz^$third-party
+! Bad:  ||smi24.kz/banners/ (should be in specific.txt)
+!
 !
 ||smi24.kz^
 ||virtonnews.com^
@@ -25383,6 +25455,14 @@ www.llllllllllll.net^
 !
 ! Source name: AdGuard Turkish filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers.txt
+!
+!
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
 ||tracking.ucreate.live^
@@ -25631,7 +25711,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers_firstparty.txt
 !
 !
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
 !
 ||ads.macsonuclari.mobi^
 ||ads.inegolonline.com^
@@ -25691,7 +25777,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains. In that case domain should be added to the common rules.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ||ukslphcgs.com^
 ||habrox.xyz^
@@ -25705,7 +25797,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23113
 ! ||weblio.jp^$third-party
@@ -26042,6 +26140,15 @@ www.llllllllllll.net^
 ! Source name: AdGuard German filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/adservers.txt
 !
+!
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
+!
 ||tikibihu.com^
 ||partners2.das-onlinespiel.de^
 ||intextlinks.idg.zone^
@@ -26073,7 +26180,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ||bjjabc.com^
 ||mdfsbn.com^
@@ -26304,7 +26417,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers.txt
 !
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ||pexi.nl^
 ||adconfigproxy.azurewebsites.net^
@@ -26314,7 +26433,13 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/DutchFilter/sections/adservers_firstparty.txt
 !
 !
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
 !
 ||content2.nrc.nl^
 !
@@ -27962,12 +28087,11 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||jghklz.xyz^
 ||00-gov.cn^
+||9391434.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||govqingdao.cn^
 ||00xvppy.cn^
 ||01fen.com^
 ||022aifang.com^
@@ -28662,6 +28786,7 @@ www.llllllllllll.net^
 ||govguilin.cn^
 ||govhechi.cn^
 ||govkunming.cn^
+||govqingdao.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
 ||govyunfu.cn^
@@ -28857,6 +28982,7 @@ www.llllllllllll.net^
 ||jfqkj.com^
 ||jfsm5.top^
 ||jghcy.com^
+||jghklz.xyz^
 ||jgwsmqx.com^
 ||jhtcdj.com^
 ||jiaheyonggu.com^
@@ -31028,14 +31154,10 @@ www.llllllllllll.net^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||rmdzsw.top^
-||hexin.city^
-||zuibandao.club^
-||cloudzhuge.cn^
-||zhiai.space^
-||wzjs.me^
-||rtreyyf.cn^
-||word168.cn^
+||lf666.xyz^
+||taopiaopiao.shop^
+||dmfhqzo.cn^
+||guanxs.com^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -31795,6 +31917,7 @@ www.llllllllllll.net^
 ||clfmm.cn^
 ||clmmw.com^
 ||cloudassistant.vip^
+||cloudzhuge.cn^
 ||clxxkz.com.cn^
 ||clzgd.com^
 ||cmall.club^
@@ -32181,6 +32304,7 @@ www.llllllllllll.net^
 ||hdsjk.cc^
 ||hebeiyichen.com^
 ||hello211.top^
+||hexin.city^
 ||hexp.xyz^
 ||heyi.shop^
 ||hgbvtax.cn^
@@ -32634,6 +32758,7 @@ www.llllllllllll.net^
 ||rjnjjin.cn^
 ||rktupt.cn^
 ||rl-mb90b39t.cn^
+||rmdzsw.top^
 ||rmpnhfu.cn^
 ||rngfavm.cn^
 ||rocm0c.site^
@@ -32644,6 +32769,7 @@ www.llllllllllll.net^
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||rtreyyf.cn^
 ||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
@@ -32844,6 +32970,7 @@ www.llllllllllll.net^
 ||wnet.ink^
 ||wojv.club^
 ||woniu1314520.vip^
+||word168.cn^
 ||wppei.cn^
 ||wpqsmse.cn^
 ||ws-expo.cn^
@@ -32861,6 +32988,7 @@ www.llllllllllll.net^
 ||wwshxc.cn^
 ||wxkouem.cn^
 ||wxqcshgc.icu^
+||wzjs.me^
 ||wzxzy.icu^
 ||wzytop.top^
 ||wzzb.club^
@@ -32989,6 +33117,7 @@ www.llllllllllll.net^
 ||zhentao.shop^
 ||zhenxinchicken.xyz^
 ||zhexnuq.cn^
+||zhiai.space^
 ||zhifoujiaoyu.xyz^
 ||zhihui.ink^
 ||zhonglutang.group^
@@ -33027,6 +33156,7 @@ www.llllllllllll.net^
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zuibandao.club^
 ||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
