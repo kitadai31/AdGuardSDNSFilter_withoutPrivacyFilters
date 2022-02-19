@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-02-18T19:28:15.566Z
+! Last modified: 2022-02-19T19:28:15.776Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,13 @@
 !
 !
 !
+||hsrvv.com^
+||instaflrt.com^
+||japanhotties.jp^
+||occustantwidity.com^
+||singlesgetmatched.com^
+||jsedeepuujv.com^
+||abjwkkabu.com^
 ||pookawnratbite.com^
 ||enablecherrysail.com^
 ||easyads28.info^
@@ -18961,6 +18968,7 @@ www.llllllllllll.net^
 ||byzoo.org^
 ||c-on-text.com^
 ||camghosts.com^
+||camonster.com^
 ||capacitygrid.com^
 ||caroda.io^
 ||casino-zilla.com^
@@ -19500,6 +19508,7 @@ www.llllllllllll.net^
 ||postaffiliatepro.com^
 ||poweradvertising.co.uk^
 ||powerlinks.com^
+||powerteam-competitions.com^
 ||ppcwebspy.com^
 ||prebid.org^
 ||promo-reklama.ru^
@@ -26129,13 +26138,9 @@ www.llllllllllll.net^
 !
 ! Yahoo
 ||promotionalads.yahoo.co.jp^
-||adserver.yahoo.co.jp^
-||smartads.mobile.yahoo.co.jp^
-||rd.yahoo.co.jp^
 ||ard.yahoo.co.jp^
 ||ov.yahoo.co.jp^
 ||yeas.yahoo.co.jp^
-||logoole.yahoo.co.jp^
 ||yads.yahoo.co.jp^
 ||yads.yjtag.yahoo.co.jp^
 !
@@ -26144,8 +26149,6 @@ www.llllllllllll.net^
 ! Shinobi.jp
 ||adf.shinobi.jp^
 ||bar*.shinobi.jp^
-||ct1.shinobi.jp^
-||ct2.shinobi.jp^
 !
 ! Rakuten.co.jp
 ||affiliate.rakuten.co.jp^
@@ -26360,7 +26363,6 @@ www.llllllllllll.net^
 ||doubleclick.ne.jp^
 ||fout.jp^
 ||genieesspv.jp^
-||inmobi-jp.com^
 ||j-a-net.jp^
 ||livead.jp^
 ||liveads.jp^
@@ -26398,12 +26400,10 @@ www.llllllllllll.net^
 ||accesstrade.net^
 ||agilemedia.jp^
 ||ad.duga.jp^
-||ad.floq.jp^
 ||ad.kau.li^
 ||ad.land.to^
 ||ad.net-tool.jp^
 ||ad.nicovideo.jp^
-||addclips.org^
 ||ads.metropolis.co.jp^
 ||ads.nicovideo.jp^
 ||affili.dmm.com^
@@ -26428,7 +26428,6 @@ www.llllllllllll.net^
 ||image-rentracks.com^
 ||itgear.jp^
 ||jpg-server.com^
-||lcs.livedoor.net^
 ||link-trade.net^
 ||logping.exblog.jp^
 ||match.seesaa.jp^
@@ -26443,7 +26442,6 @@ www.llllllllllll.net^
 ||seoparts.net^
 ||tag.nifty.com^
 ||thatsping.jp^
-||tracer.jp^
 ||tracker.kantan-access.com^
 ||trackword.biz^
 ||trafficgate.net^
@@ -27377,9 +27375,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 14 Feb 2022 10:21 UTC+7
-! Version: 2202141021
-! Blocked: 1.086 rules
+! Last modified: 19 Feb 2022 12:40 UTC+7
+! Version: 2202191240
+! Blocked: 1.097 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -27722,6 +27720,7 @@ www.llllllllllll.net^
 ||ghimc.vn^
 ||go.vnecdn.com^
 ||hexapinow.xyz^
+||iads.staticscdn.net^
 ||imgcdnbet.com^
 ||interactive.tinnhanhchungkhoan.vn^
 ||k8trangphim.com^
@@ -28118,6 +28117,7 @@ www.llllllllllll.net^
 ||gameiwin.vip^
 ||gamequyong.site^
 ||gamequyong.xyz^
+||gamevipclub.fun^
 ||gaznbike.com^
 ||gdwbetvn888.com^
 ||gdwviet.com^
@@ -28232,6 +28232,7 @@ www.llllllllllll.net^
 ||playiwin.biz^
 ||playiwin.site^
 ||playiwin.uk^
+||playkeno68.me^
 ||playmanclub.uk^
 ||playmanclub.us^
 ||playmanclub.vin^
@@ -28275,6 +28276,7 @@ www.llllllllllll.net^
 ||taib52.club^
 ||taib52.com^
 ||taib52.vin^
+||taiiwin.club^
 ||taiiwinclub.cc^
 ||taimacau.club^
 ||taiv8.com^
@@ -28307,6 +28309,7 @@ www.llllllllllll.net^
 ||v9bet88.net^
 ||v9jvn.com^
 ||vaorikvip.com^
+||vaorikvip.net^
 ||vic.fun^
 ||vic.win^
 ||vicwin.vip^
@@ -28388,15 +28391,19 @@ www.llllllllllll.net^
 ||freefire-membershipvn-garena.com^
 ||gaerena.vn^
 ||garaena.vn^
+||garane.vn^
 ||garean.vn^
 ||gareena.vn^
 ||garena-members.com^
 ||garena.fan^
+||garena.mobi^
+||garenaa.vn^
 ||garenaj.vn^
 ||garera.vn^
 ||garrena.vn^
 ||giftcode-lienquanmobile-vn.com^
 ||giftcode-mobilelienquan.com^
+||https-apple.com^
 ||irduwhojas.ga^
 ||kaurroot.com^
 ||larpollicwilli.club^
@@ -28408,6 +28415,7 @@ www.llllllllllll.net^
 ||member-garena.vn^
 ||memberr-garenaa.com^
 ||membershipsgarenavn-ff.com^
+||menberships-ff-garrena.com^
 ||news-good.net^
 ||nhanquaffob31.com^
 ||qualienquan.vn^
@@ -28415,6 +28423,7 @@ www.llllllllllll.net^
 ||sacchaeleduk.com^
 ||smilitygorb.club^
 ||tammenaa.com^
+||thegioididong.me^
 ||thseaeing.fun^
 ||ucesreferre.club^
 ||uqoxh.icu^
@@ -28601,6 +28610,7 @@ www.llllllllllll.net^
 ||593pi.cn^
 ||59gt.cn^
 ||5b1d.com^
+||5ibanma.com^
 ||5imoney.com^
 ||6185059.com^
 ||643226.com^
@@ -29744,6 +29754,7 @@ www.llllllllllll.net^
 ||qs01.cn^
 ||qsart.cn^
 ||qshxc.com^
+||qsnyswg.cn^
 ||qtmojo.cn^
 ||quandangdang.net^
 ||quansj.cn^
@@ -32246,6 +32257,7 @@ www.llllllllllll.net^
 ||chaluoyi.cn^
 ||chang555.cn^
 ||changhehengqi.com^
+||chanmao.online^
 ||chaoge.club^
 ||charleslee.cc^
 ||chaxiaoyin.cn^
@@ -32486,6 +32498,7 @@ www.llllllllllll.net^
 ||dldsrs.com^
 ||dlovet.cn^
 ||dltenjy.cn^
+||dlvjmr.cn^
 ||dlxgm.cn^
 ||dlyukun.cn^
 ||dlzxjk.cn^
@@ -32727,6 +32740,7 @@ www.llllllllllll.net^
 ||holyyjs.xyz^
 ||homchang.site^
 ||homfen.me^
+||honoka.design^
 ||houmei.ren^
 ||hpygame.com^
 ||hqcqz2.cn^
@@ -32746,6 +32760,7 @@ www.llllllllllll.net^
 ||huofayu.com^
 ||huyc.info^
 ||hvzlgyi.cn^
+||hxbylm.vip^
 ||hxclove.club^
 ||hxf1688.xyz^
 ||hxskjll.cn^
@@ -32817,10 +32832,12 @@ www.llllllllllll.net^
 ||jl1130.com^
 ||jlbz.club^
 ||jljxwlkjw.com^
+||jlyayxz.cn^
 ||jlys.fun^
 ||jmdardu.cn^
 ||jmqxbeo.cn^
 ||jngapkf.cn^
+||jnkangnuo.com^
 ||jnxiacha.cn^
 ||jogbxpg.cn^
 ||jovfwgr.cn^
@@ -32917,6 +32934,7 @@ www.llllllllllll.net^
 ||lindasys.xyz^
 ||linglingccc.xyz^
 ||lingquan.vip^
+||lingquanba.wang^
 ||lingzhushijie.cn^
 ||livemz.com^
 ||ljk.ink^
@@ -32939,6 +32957,7 @@ www.llllllllllll.net^
 ||lujingyu.fun^
 ||lvhqntk.cn^
 ||lw88.site^
+||lx52168.online^
 ||lxiu.shop^
 ||lxtxhxt.com^
 ||lxxy.xyz^
@@ -33008,6 +33027,7 @@ www.llllllllllll.net^
 ||mx98.xyz^
 ||mxxgs.cn^
 ||myfengyi.xyz^
+||mygqhvz.cn^
 ||myline1.club^
 ||myqip.icu^
 ||myyuye.club^
@@ -33039,6 +33059,7 @@ www.llllllllllll.net^
 ||nogvlkk.cn^
 ||none-test.com^
 ||npubvjw.cn^
+||ns-zhy.com^
 ||ntdddoz.cn^
 ||ntjanyc.cn^
 ||ntppyc.cn^
@@ -33278,6 +33299,7 @@ www.llllllllllll.net^
 ||sxbme.club^
 ||sxgbwlkjkj.xyz^
 ||sxmcwlw.com^
+||sxrs.shop^
 ||sxswjkgs.com^
 ||sxyyedu.cn^
 ||sxzchs.cn^
@@ -33316,6 +33338,7 @@ www.llllllllllll.net^
 ||tianlule.cn^
 ||tienu.tech^
 ||timy.ink^
+||tingyusw.xyz^
 ||tivfcaa.cn^
 ||tiyhxdd.cn^
 ||tj-yyy.cn^
@@ -33487,6 +33510,7 @@ www.llllllllllll.net^
 ||xikaijz.top^
 ||xinchenyang.cn^
 ||xingtu.ltd^
+||xingxingdd.com^
 ||xingyou46.icu^
 ||xinhuayin.biz^
 ||xinym1.xyz^
@@ -33503,6 +33527,7 @@ www.llllllllllll.net^
 ||xqtzp.cn^
 ||xrecord.xyz^
 ||xsdizch.cn^
+||xsdlt.top^
 ||xsgkjsb.cn^
 ||xsrypte.cn^
 ||xujie.xyz^
@@ -33567,6 +33592,7 @@ www.llllllllllll.net^
 ||ywzkiug.cn^
 ||yxwpmav.cn^
 ||yyklg.xyz^
+||yzjy.pro^
 ||z-xiao.xyz^
 ||zaqedc.top^
 ||zbblq.cn^
