@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-02-26T19:28:25.807Z
+! Last modified: 2022-02-27T19:28:09.994Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -26248,6 +26248,8 @@ www.llllllllllll.net^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||adserver.bafrahaber.com^
+||addata.exxen.com^
 ||ads.macsonuclari.mobi^
 ||ads.inegolonline.com^
 ||rek.yemlee.com^
@@ -26669,6 +26671,7 @@ www.llllllllllll.net^
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||embed.contentverticals.de^
 ||ablyft.com^
 ||tikibihu.com^
 ||partners2.das-onlinespiel.de^
@@ -27577,9 +27580,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 19 Feb 2022 12:40 UTC+7
-! Version: 2202191240
-! Blocked: 1.097 rules
+! Last modified: 27 Feb 2022 22:49 UTC+7
+! Version: 2202272249
+! Blocked: 1.098 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -27633,6 +27636,7 @@ www.llllllllllll.net^
 ||bongdadem.net^
 ||brand.zing.vn^
 ||button-follow.zalo.me^
+||button-share.zalo.me^
 ||bwstatistics.sapoapps.vn^
 ||cdn-bongdadem-net.cdn.ampproject.org^
 ||cdn-qc.coccoc.com^
@@ -28644,6 +28648,11 @@ www.llllllllllll.net^
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||haoyundmtaotao.com^
+||4takaixi.xyz^
+||7gukaip.xyz^
+||hylmimgg.com^
+||8848skins.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -31753,6 +31762,10 @@ www.llllllllllll.net^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
+||9go.mobi^
+||lahair.biz^
+||shenghemy.mobi^
+||wenhaikj.xyz^
 ||qicqn.cn^
 ||kuamei.cloud^
 ||qkuvmwf.cn^
@@ -31769,6 +31782,13 @@ www.llllllllllll.net^
 ||dofsg.cn^
 ||qycg.wang^
 ||sxtc.wang^
+||qiannian.biz^
+||xocs.ren^
+||xflz.xyz^
+||zdzy.shop^
+||hulauf.cn^
+||khphkum.cn^
+||huiyef.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
