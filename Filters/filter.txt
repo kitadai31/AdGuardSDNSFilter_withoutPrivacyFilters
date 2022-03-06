@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-03-05T19:28:10.287Z
+! Last modified: 2022-03-06T19:28:22.849Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,8 @@
 !
 !
 !
+||selfishmourninhabitants.com^
+||easyads29.pro^
 ||mkwndnfyqjxrw.com^
 ||rcxocdfgvur.com^
 ||clcknads.pro^
@@ -3302,8 +3304,6 @@ www.llllllllllll.net^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101735
 ||deema.agency^
 ||cdn.sanjagh.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/37023
-||kaprila.com^
 ||sabavision.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5103
 ||llog.pl^
@@ -19651,6 +19651,7 @@ www.llllllllllll.net^
 ||jivox.com^
 ||jubna.com^
 ||justpremium.com^
+||kaprila.com^
 ||kargo.com^
 ||kiosked.com^
 ||klakus.com^
@@ -28835,6 +28836,7 @@ www.llllllllllll.net^
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
 ||00-gov.cn^
+||haoyongdm.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -31962,6 +31964,16 @@ www.llllllllllll.net^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
+||thinkcode.cc^
+||wutaixian.shop^
+||chenghe.store^
+||my2.life^
+||sanqian.press^
+||fighsfg.cn^
+||qmpartner.vip^
+||ulqihfr.cn^
+||oxzwsxs.cn^
+||tufute.cn^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
