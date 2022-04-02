@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-04-01T19:28:10.070Z
+! Last modified: 2022-04-02T19:28:15.642Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -3139,7 +3139,6 @@ www.llllllllllll.net^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
-||d2klx87bgzngce.cloudfront.net^
 ||ads.thetimes.co.uk^
 ||am.titsx.com^
 ||d119hs7863lat.cloudfront.net^
@@ -5648,7 +5647,6 @@ www.llllllllllll.net^
 ||bikesopden.com^
 ||bikesseafoodchewing.com^
 ||bikrurda.net^
-||bildirim.eu^
 ||billionpops.com^
 ||billionstarads.com^
 ||billypub.com^
@@ -8517,6 +8515,7 @@ www.llllllllllll.net^
 ||falsemulticultural.com^
 ||familinger.club^
 ||familyborn.com^
+||famousletterss.online^
 ||fampin.com^
 ||fancyfourthvolcano.com^
 ||fandelcot.com^
@@ -11129,6 +11128,7 @@ www.llllllllllll.net^
 ||kttarmufti.com^
 ||ktvnnfres.com^
 ||ktyawzg.com^
+||kubiadserv.icu^
 ||kubicserves.icu^
 ||kubrer.com^
 ||kuglijuthi.com^
@@ -11566,6 +11566,7 @@ www.llllllllllll.net^
 ||lowestpendulousdistract.com^
 ||lowlifebadly.com^
 ||lowpox.xyz^
+||lowrance.top^
 ||lowremoraidon.com^
 ||lowseelan.com^
 ||loxbeelid.com^
@@ -13209,6 +13210,7 @@ www.llllllllllll.net^
 ||orangeads.fr^
 ||orbengine.com^
 ||orbhcvyfgitkpfl.xyz^
+||orbitcarrot.com^
 ||orbmehcerqxamdy.com^
 ||orbsclawand.com^
 ||orcjagpox.com^
@@ -15394,6 +15396,7 @@ www.llllllllllll.net^
 ||safestgatetocontent.com^
 ||safestsniffingconfessed.com^
 ||safesync.com^
+||safetrck.com^
 ||safwjxsqvm.com^
 ||sagroagh.com^
 ||sahfucdysloguyg.xyz^
@@ -16054,6 +16057,7 @@ www.llllllllllll.net^
 ||spawnpredicatemutual.com^
 ||spearimaginary.com^
 ||special-offers.online^
+||specialadves.com^
 ||specialistcartoonparable.com^
 ||speciallyspecifiedsandwich.com^
 ||specialscammerinitially.com^
@@ -16669,6 +16673,7 @@ www.llllllllllll.net^
 ||thederati.com^
 ||theerdax.com^
 ||theersoa.net^
+||thefinishedbook.com^
 ||thefootpetso.com^
 ||thefuncoolstuff.com^
 ||thejobandl.biz^
@@ -17760,6 +17765,7 @@ www.llllllllllll.net^
 ||visualsteel.net^
 ||vitaminhen.com^
 ||vitamuscow.casa^
+||vitcory.com^
 ||vividdefinedspiral.com^
 ||vixnixxer.com^
 ||vizaiced.net^
@@ -19509,6 +19515,7 @@ www.llllllllllll.net^
 ||bidvertiser.com^
 ||bigpulpit.com^
 ||bigspyglass.com^
+||bildirim.eu^
 ||bin-layer.de^
 ||bingo4affiliates.com^
 ||binlayer.com^
@@ -20817,6 +20824,7 @@ www.llllllllllll.net^
 ||d2kadvyeq051an.cloudfront.net^
 ||d2kd9y1bp4zc6.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
+||d2klx87bgzngce.cloudfront.net^
 ||d2kz60b0gq4lg.cloudfront.net^
 ||d2l3f1n039mza.cloudfront.net^
 ||d2lp70uu6oz7vk.cloudfront.net^
@@ -32198,6 +32206,13 @@ www.llllllllllll.net^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||wulongqiyi.com^
 ||shenfagg.com^
+||huixiangdou.xyz^
+||twnb.xyz^
+||autumnleaf.ltd^
+||xazhangshaohui.xyz^
+||ziyunxs.com^
+||cxccm.com^
+||nantongle.com^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -36949,6 +36964,8 @@ www.llllllllllll.net^
 ! Source name: Exception rules
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdguardFilters/commit/84966d38a2f6d98e46df6998c6cacde1931e7bc1
+@@||measure.ic.tver.jp^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113049
 @@||static-v*.trbo.com^|
 @@||api-v*.trbo.com^|
