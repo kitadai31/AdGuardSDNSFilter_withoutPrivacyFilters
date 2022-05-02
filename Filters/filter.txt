@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-05-01T19:29:01.857Z
+! Last modified: 2022-05-02T19:34:40.584Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,7 @@
 !
 !
 !
+||qlowivucwh.com^
 ||homomqmfbomoy.com^
 ||kvcvonlakaigxwq.com^
 ||yaaqtujobgllwd.com^
@@ -2995,6 +2996,7 @@ www.llllllllllll.net^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||qontent.pomvideo.cc^
 ||rontent.pomvideo.cc^
 ||ads.thetimes.co.uk^
 ||am.titsx.com^
@@ -21523,6 +21525,10 @@ www.llllllllllll.net^
 ! Yandex apps
 ||banners-slb.mobile.yandex.net^
 ||banners.mobile.yandex.net^
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/117115
+! Yahoo
+||app.ssp.yahoo.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54135
 ||adv0*.msa.cdn.mediaset.net^
 ! Micromax India
@@ -28563,9 +28569,9 @@ www.llllllllllll.net^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 24 Apr 2022 14:10 UTC+7
-! Version: 2204241410
-! Blocked: 1,222 rules
+! Last modified: 02 May 2022 22:28 UTC+7
+! Version: 2205022228
+! Blocked: 1.247 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -28804,6 +28810,7 @@ www.llllllllllll.net^
 ||adm.phunusuckhoe.vn^
 ||adm.phunuvagiadinh.vn^
 ||admin.sothuchi.vn^
+||adms.phunusuckhoe.vn^
 ||adpostback.headlines.pw^
 ||ads-api.playfun.vn^
 ||ads-backend.nhadatmoi.net^
@@ -29048,6 +29055,7 @@ www.llllllllllll.net^
 ||core.vchat.vn^
 ||counter.24h.com.vn^
 ||counter.ntdvn.com^
+||counter.ntdvn.net^
 ||crm.bizfly.vn^
 ||crmbizfly.todo.vn^
 ||elink.nhanlucnganhluat.vn^
@@ -29064,6 +29072,9 @@ www.llllllllllll.net^
 ||invite.baomoi.com^
 ||kv-analytics.kiotviet.vn^
 ||la.vietid.net^
+||la.vnecdn.net^
+||la2.vnecdn.net^
+||la3.vnecdn.net^
 ||lg.lotus.vn^
 ||live.vnpgroup.net^
 ||log-collector.shopee.vn^
@@ -29076,6 +29087,7 @@ www.llllllllllll.net^
 ||log.batdongsan.com.vn^
 ||log.beecost.com^
 ||log.beecost.vn^
+||log.bizlive.vn^
 ||log.daidoanket.vn^
 ||log.dantocmiennui.vn^
 ||log.doanhnhan.vn^
@@ -29108,6 +29120,7 @@ www.llllllllllll.net^
 ||log.vietnamplus.vn^
 ||log.viettimes.vn^
 ||log.vnay.vn^
+||log.vneconomy.vn^
 ||log.vnfinance.vn^
 ||log.vov.vn^
 ||log.vovplus.vn^
@@ -29117,6 +29130,7 @@ www.llllllllllll.net^
 ||logen.vietnamplus.vn^
 ||logg4u.cnnd.vn^
 ||logperf.vnexpress.net^
+||logs.docnhanh.com.vn^
 ||logs.giaoducthoidai.vn^
 ||logs.thethaovanhoa.vn^
 ||logs1.reatimes.vn^
@@ -29182,12 +29196,15 @@ www.llllllllllll.net^
 ||track.vio.edu.vn^
 ||tracker.anime47.com^
 ||tracker.bongngo.bar^
+||tracker.edupia.vn^
 ||tracker.fado.vn^
 ||tracker.gigaphim.com^
 ||tracker.nhandaovadoisong.vn^
+||tracker.phunusuckhoe.vn^
 ||tracker.phunuvagiadinh.vn^
 ||tracker.thichxemphim.net^
 ||tracking-amp.vnexpress.net^
+||tracking-web.smobgame.com^
 ||tracking.appwifi.com^
 ||tracking.dantri.com.vn^
 ||tracking.fado.vn^
@@ -29222,6 +29239,7 @@ www.llllllllllll.net^
 ||za.baomoi.com^
 ||zigzag.vn^
 ||1126bet.com^
+||118kbet.com^
 ||11bet.club^
 ||11bet.com^
 ||11bet.life^
@@ -29232,6 +29250,7 @@ www.llllllllllll.net^
 ||123b.com^
 ||123b.org^
 ||123b333.com^
+||123b88.com^
 ||12b99.com^
 ||179bet.net^
 ||188thethao.com^
@@ -29248,6 +29267,7 @@ www.llllllllllll.net^
 ||50soc.com^
 ||5123b.com^
 ||520xiaojin.com^
+||5shbet.com^
 ||668kbet.com^
 ||68rich.com^
 ||68rich.org^
@@ -29274,6 +29294,7 @@ www.llllllllllll.net^
 ||8live.vip^
 ||8livevn.com^
 ||8xbet.com^
+||8xbet.fun^
 ||8xbet.games^
 ||8xbet.win^
 ||8xbet05.com^
@@ -29283,6 +29304,7 @@ www.llllllllllll.net^
 ||8xbet71.com^
 ||8xbet96.com^
 ||92lottery.com^
+||978bet34.com^
 ||aa88.in^
 ||ae888.com^
 ||ae888i.com^
@@ -29315,6 +29337,7 @@ www.llllllllllll.net^
 ||cacuoc79.com^
 ||casino86.club^
 ||casino888vn.com^
+||cfun68.biz^
 ||chat789bet.com^
 ||choingay88.com^
 ||choita88.club^
@@ -29324,6 +29347,7 @@ www.llllllllllll.net^
 ||comebetvn3.com^
 ||comebetvn9.com^
 ||corona999.com^
+||d1lzoljld5a2bc.cloudfront.net^
 ||dabet.me^
 ||datcuoc247.com^
 ||debet.com^
@@ -29335,6 +29359,8 @@ www.llllllllllll.net^
 ||dola88.info^
 ||ee66.com^
 ||ee6611.com^
+||ee88.club^
+||ee88.com^
 ||ek8802.com^
 ||ek883.com^
 ||eurofun88.com^
@@ -29393,6 +29419,7 @@ www.llllllllllll.net^
 ||happy9luck.com^
 ||happynb.com^
 ||hotlive8.vip^
+||i8bet.org^
 ||i99906.com^
 ||ibet889.com^
 ||income88.com^
@@ -29411,6 +29438,7 @@ www.llllllllllll.net^
 ||k8vn03.com^
 ||keotot.net^
 ||kidslovemartialartsomahane.com^
+||kimsa338.com^
 ||kingbet86.com^
 ||kingbet86.info^
 ||ktokto.mobi^
@@ -29554,6 +29582,9 @@ www.llllllllllll.net^
 ||sodo15.com^
 ||sodoviet.net^
 ||sodovn.net^
+||sol86.com^
+||solarbet.com^
+||solbet88.com^
 ||sun.win^
 ||sunvin.vin^
 ||sv88.club^
@@ -30817,6 +30848,7 @@ www.llllllllllll.net^
 ||kt220.com^
 ||ktdlsb.com^
 ||ku9377.com^
+||kukanlm-lubu1.com^
 ||kukanlm-youeryuan.com^
 ||kuwoyy.com^
 ||kuxinqi.com^
@@ -36604,6 +36636,7 @@ www.llllllllllll.net^
 ||wulongqiyi.com^
 ||wutaixian.shop^
 ||wuxiap.xyz^
+||wuxie419.xyz^
 ||wuxiqiangheng.com^
 ||wuygmdi.cn^
 ||wuyoudan.cn^
