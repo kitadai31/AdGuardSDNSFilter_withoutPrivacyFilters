@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-05-28T19:30:29.506Z
+! Last modified: 2022-05-29T19:29:46.319Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,8 @@
 !
 !
 !
+||althef.com^
+||asymyvhmwyyop.com^
 ||vkrfnahvlk.com^
 ||yqttykxcmap.com^
 ||adsforyour.com^
@@ -5776,6 +5778,7 @@
 ||cheewhoa.net^
 ||chegostyzi.com^
 ||chegrupsishu.com^
+||chekseme.net^
 ||cheksoam.com^
 ||chelaxeshi.com^
 ||chemicalmarketindication.com^
@@ -7602,6 +7605,7 @@
 ||ejoonsoo.net^
 ||ejurzsax.com^
 ||ekansovi.com^
+||ekareqif.xyz^
 ||ekexsztsgm.com^
 ||ekfottltamc.com^
 ||ekmas.com^
@@ -7986,6 +7990,7 @@
 ||ezeraf.com^
 ||ezexfzek.com^
 ||ezhefg9gbhgh10.com^
+||ezijyfiq.xyz^
 ||ezojs.com^
 ||ezpayments.org^
 ||ezrvmxshalr.com^
@@ -11055,6 +11060,7 @@
 ||legalevaluate.com^
 ||legalledgtjuj.club^
 ||legcatastrophetransmitted.com^
+||legcgjldeka.com^
 ||legendfrecklessfreckless.com^
 ||legime.com^
 ||leginsi2leopard1oviy1hf.com^
@@ -12328,6 +12334,7 @@
 ||nblczw.com^
 ||nbnefwuifvp.com^
 ||nboc.xyz^
+||nbpritqp.com^
 ||nbstatic.com^
 ||ncalie.com^
 ||ncanat.com^
@@ -13318,6 +13325,7 @@
 ||paginx.com^
 ||pagne4cham4hrobl.com^
 ||paht.tech^
+||pahthf.tech^
 ||pahtwt.tech^
 ||pahtzh.tech^
 ||paid.outbrain.com^
@@ -27482,12 +27490,13 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 25 May 2022 16:22 UTC+7
-! Version: 2205251622
-! Blocked: 1.419 rules
+! Last modified: 29 May 2022 23:08 UTC+7
+! Version: 2205292308
+! Blocked: 1.431 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
+||jeoway.com^
 ||24h-ad.24hstatic.com^
 ||24h-ipad-ad.24hstatic.com^
 ||ad-us.24hstatic.com^
@@ -27931,6 +27940,14 @@
 ||vnadssb.com^
 ||vnd247.vn^
 ||widget.headlines.pw^
+||tagging-qadkfoj6ha-as.a.run.app^
+||sentry.sendo.vn^
+||logging.kinhtedothi.vn^
+||liveonline.nhanhoa.com^
+||support.tenten.vn^
+||aff.atp.vn^
+||campaign.gitiho.com^
+||thongke.bookingcare.vn^
 ||report.mediahub.vn^
 ||report2.mediahub.vn^
 ||360.anatic.net^
@@ -28179,6 +28196,9 @@
 ||widget.kyna.vn^
 ||za.baomoi.com^
 ||zigzag.vn^
+||999live.net^
+||kubet88.fun^
+||sbotop246.com^
 ||03gamek8.com^
 ||1126bet.com^
 ||118kbet.com^
@@ -28868,14 +28888,13 @@
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||fszcxxzx.com^
-||baldbaptismrisk.com^
-||icilyassertiveindoors.com^
-||sjoy7rq.cn^
+||com-csn.com^
+||nduad811.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||hzzcxxzx.com^
 ||00xvppy.cn^
 ||01fen.com^
 ||022aifang.com^
@@ -29264,6 +29283,7 @@
 ||baiduyubaidu.com^
 ||baishututuwu.com^
 ||baiyuandian.cc^
+||baldbaptismrisk.com^
 ||bangbang521.com^
 ||banjuanmao.com^
 ||baolic.com^
@@ -29587,6 +29607,7 @@
 ||fqxkj.cn^
 ||fshanys-vip.top^
 ||fsyzcs.com^
+||fszcxxzx.com^
 ||fu68.com^
 ||fuguilm.com^
 ||fujincenter.com^
@@ -29810,6 +29831,7 @@
 ||i.zhuoyaju.com^
 ||i3818.com^
 ||icemf.com^
+||icilyassertiveindoors.com^
 ||id528.com^
 ||idasai.com^
 ||idcqi.com^
@@ -30408,6 +30430,7 @@
 ||sitemobia.com^
 ||sjgnskf.com^
 ||sjmwkj.cn^
+||sjoy7rq.cn^
 ||sm9t.ml^
 ||smallmovieapp.com^
 ||smallvideoapp.com^
@@ -31307,6 +31330,7 @@
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||a.bxwblog.cn^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -32117,19 +32141,14 @@
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
-||madlineg.com^
-||ljwckj.love^
-||jinshengkeji.vip^
-||pouyao.com^
-||xyonbib.cn^
-||xuxs.site^
-||runduobj.cn^
-||qfnoyix.cn^
-||yupei.love^
-||qmz931.com^
-||hejing.cloud^
-||kqirf.xyz^
-||zhuguangjl.top^
+||cloudweekly.vip^
+||hucang.cloud^
+||yaobao.cc^
+||hupneyv.cn^
+||hijjtiv.cn^
+||chabeiren.com^
+||mymf.shop^
+||domnicma.com^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -33720,6 +33739,7 @@
 ||hebzycw.com^
 ||heguoya.work^
 ||hehongmei.top^
+||hejing.cloud^
 ||hello211.top^
 ||helloc.xyz^
 ||helpbeatlestribute.com^
@@ -34120,6 +34140,7 @@
 ||jinlubaojie.cn^
 ||jinrui.online^
 ||jinrungroup.cn^
+||jinshengkeji.vip^
 ||jintengli.mobi^
 ||jinxiangyu.ltd^
 ||jinyihui.vip^
@@ -34357,6 +34378,7 @@
 ||kowqxog.cn^
 ||kpirog.com^
 ||kplanet.cn^
+||kqirf.xyz^
 ||krblog.top^
 ||ks67.com^
 ||ksdr.xyz^
@@ -34512,6 +34534,7 @@
 ||ljk.ink^
 ||ljlxy.cn^
 ||ljmei.com^
+||ljwckj.love^
 ||lkle.top^
 ||lknad215.top^
 ||lksw1.top^
@@ -34617,6 +34640,7 @@
 ||machiyun.fun^
 ||maclwangluokeji.cn^
 ||mademoisellewang.com^
+||madlineg.com^
 ||mafenggo.club^
 ||mafengow.club^
 ||mageti.cn^
@@ -35062,6 +35086,7 @@
 ||popwang.top^
 ||pos68.cn^
 ||pouitgy.cn^
+||pouyao.com^
 ||powerchase.online^
 ||ppee.xyz^
 ||ppj338.cn^
@@ -35115,6 +35140,7 @@
 ||qdydwlkj3.top^
 ||qewoysy.cn^
 ||qfcdgy.cn^
+||qfnoyix.cn^
 ||qfxdvti.cn^
 ||qgbtd.com^
 ||qgdvyvd.cn^
@@ -35175,6 +35201,7 @@
 ||qmdllqv.cn^
 ||qmpartner.vip^
 ||qmrtubg.cn^
+||qmz931.com^
 ||qo4nkz03dy.cn^
 ||qorosmall.com^
 ||qp-nett.cn^
@@ -35323,6 +35350,7 @@
 ||ruif.xyz^
 ||ruiy.shop^
 ||ruiyijy.xyz^
+||runduobj.cn^
 ||runningman.site^
 ||runtai369.cn^
 ||rushwei.ltd^
@@ -36305,6 +36333,7 @@
 ||xuruochen.cn^
 ||xury02.top^
 ||xuxiangkj.com^
+||xuxs.site^
 ||xuyangwl.cn^
 ||xvqdfwy.cn^
 ||xvyvknl.cn^
@@ -36321,6 +36350,7 @@
 ||xxzzsj.xyz^
 ||xy98.com.cn^
 ||xyhkj.vip^
+||xyonbib.cn^
 ||xypksuk.cn^
 ||xywgbms.top^
 ||xyy9.xyz^
@@ -36539,6 +36569,7 @@
 ||yuntuiguang.co^
 ||yunuo.online^
 ||yunwanjia.wang^
+||yupei.love^
 ||yushengyuancaishui.com^
 ||yushuha.com^
 ||yuuuxi.top^
@@ -36683,6 +36714,7 @@
 ||zhuanquxian.com^
 ||zhuanyule.cn^
 ||zhudao.shop^
+||zhuguangjl.top^
 ||zhuhaiqilu.cn^
 ||zhuoyuanxcl.cn^
 ||zhuozhongfangshui.cn^
