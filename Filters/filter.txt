@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-06-08T19:28:23.316Z
+! Last modified: 2022-06-09T19:28:45.431Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,12 @@
 !
 !
 !
+||d3rjndf2qggsna.cloudfront.net^
+||djidbagbacgfgbgdaace.ru^
+||searchboll.com^
+||shiryharu.pro^
+||jiphihizi.com^
+||web3ads.net^
 ||ads.sibernetworks.com^
 .devsystms.click^
 ||xbouyazk.com^
@@ -11249,6 +11255,7 @@
 ||leviol.com^
 ||levityprogramming.com^
 ||lfg5jnbi.com^
+||lfjack.com^
 ||lfjaqwwsgyu.com^
 ||lfjvvccsucsmxg.com^
 ||lfmfrsvguf.com^
@@ -26572,6 +26579,7 @@
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
+||diseno.librogratis.info^
 ||best-lucky-cat.xyz^
 ||geotg.jp^
 ||adnwif.smt.docomo.ne.jp^
@@ -29214,17 +29222,14 @@
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
-||9869936.com^
-||yangshengzu.cn^
-||jb2v9sv.shop^
-||qopeqi13913fjajba123nfd1344.top^
-||uwnvcxb.cn^
-||smilk.cc^
+||666574.xyz^
+||dyzx6688.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
+||vue-js.cyou^
 ||01fen.com^
 ||022aifang.com^
 ||025613.com^
@@ -29489,6 +29494,7 @@
 ||96mob.com^
 ||978655.online^
 ||97wanle.com^
+||9869936.com^
 ||98765432100.online^
 ||98765432100.site^
 ||987jx.com^
@@ -29501,7 +29507,6 @@
 ||9nwg9sib9e.com^
 ||9wlm.com^
 ||9wotuan.com^
-||9xiazaiqi.com^
 ||a.youdao.com^
 ||a0b11.com^
 ||a0b22.com^
@@ -30212,6 +30217,7 @@
 ||ja9377.com^
 ||jacquelinelaura.com^
 ||javase.top^
+||jb2v9sv.shop^
 ||jb2v9sv.world^
 ||jb9vtov.xyz^
 ||jbyy010.com^
@@ -30651,6 +30657,7 @@
 ||qjyzj.cn^
 ||qkf7jq3b.space^
 ||qmname.com^
+||qopeqi13913fjajba123nfd1344.top^
 ||qqm98.com^
 ||qqq-www-987.site^
 ||qqq123987.site^
@@ -30790,6 +30797,7 @@
 ||smallvideoapp.com^
 ||smart-start.com.cn^
 ||smartfarming.cn^
+||smilk.cc^
 ||smucdn.com^
 ||smxsg.com^
 ||snnnyy.com^
@@ -30971,6 +30979,7 @@
 ||uuaoz.com^
 ||uuwn7ho.cn^
 ||uvclick.com^
+||uwnvcxb.cn^
 ||uxrpkgh.cn^
 ||uzpmrbek.com^
 ||vaedan.top^
@@ -31173,6 +31182,7 @@
 ||y0o1g.cn^
 ||yalongrope.cn^
 ||yamaidei.cn^
+||yangshengzu.cn^
 ||yanko.cc^
 ||yanuvv.cn^
 ||yanzunyang.top^
@@ -31694,6 +31704,7 @@
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||cpro.zol.com.cn^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -32505,18 +32516,13 @@
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
-||lijb.site^
-||unionpay.name^
-||fjyc.pw^
-||gouqi.asia^
-||xingyou69.asia^
-||qiaofu.shop^
-||zli.wang^
-||bestnfd.com^
-||carbonch.mobi^
-||lvytzpu.cn^
-||jinchanjs.top^
-||thewindrun.com^
+||edetlmb.cn^
+||gzww.site^
+||uniworldgroup.asia^
+||guoyu.link^
+||chenhao.name^
+||princesses.asia^
+||haitaochen.xyz^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -33117,6 +33123,7 @@
 ||beside-u.xyz^
 ||best-eye.cn^
 ||bestgong.top^
+||bestnfd.com^
 ||better-better.com.cn^
 ||betylife.com^
 ||bfjl.ink^
@@ -33247,6 +33254,7 @@
 ||canalandco.com^
 ||caopanshou.top^
 ||capzo.cn^
+||carbonch.mobi^
 ||carlseb.xyz^
 ||carset.vip^
 ||cashnews.info^
@@ -33817,6 +33825,7 @@
 ||fjmrxys.com^
 ||fjshxjs.cn^
 ||fjshxzyyxgs.cn^
+||fjyc.pw^
 ||fjylcy.com^
 ||fkdwz.cn^
 ||fkhfk.cn^
@@ -33974,6 +33983,7 @@
 ||gotoip.com.cn^
 ||gou1zhe.com^
 ||goukan.xyz^
+||gouqi.asia^
 ||gouwupianyi.cn^
 ||gouyb.mobi^
 ||governments.wang^
@@ -34544,6 +34554,7 @@
 ||jiemeichike.cn^
 ||jiese.fun^
 ||jieyixiu.com^
+||jinchanjs.top^
 ||jindowins.com^
 ||jinerxuebu.xyz^
 ||jingcaiedc.cn^
@@ -34918,6 +34929,7 @@
 ||lihailin.vip^
 ||lihong.ltd^
 ||lihongyu.xyz^
+||lijb.site^
 ||lijie1010.top^
 ||likefly.com.cn^
 ||lilith.ink^
@@ -35025,6 +35037,7 @@
 ||lvkuaizi.com^
 ||lvsechufang.com^
 ||lvxingzhe.store^
+||lvytzpu.cn^
 ||lvzi.store^
 ||lw88.site^
 ||lwlscy.com^
@@ -35600,6 +35613,7 @@
 ||qianyuntengyue.com^
 ||qiaobaba.top^
 ||qiaoenyl.xyz^
+||qiaofu.shop^
 ||qiaohong.ltd^
 ||qiaopiguniang.com^
 ||qiaoxiaomiao.com^
@@ -36159,6 +36173,7 @@
 ||themee.cn^
 ||thepam.cn^
 ||theroads.cn^
+||thewindrun.com^
 ||thindsoo.cn^
 ||thinkcode.cc^
 ||thinkphp.pro^
@@ -36321,6 +36336,7 @@
 ||uni-king.cn^
 ||unilife.top^
 ||unimr0k7em.cn^
+||unionpay.name^
 ||unnqyqq.cn^
 ||unpk41.online^
 ||untenable.wang^
@@ -36713,6 +36729,7 @@
 ||xingyou46.icu^
 ||xingyou64.xyz^
 ||xingyou65.xyz^
+||xingyou69.asia^
 ||xingyou71.asia^
 ||xingzhu.top^
 ||xinheshengmce.com^
@@ -37222,6 +37239,7 @@
 ||zkrmeml.cn^
 ||zkwsdf.com^
 ||zl856.cn^
+||zli.wang^
 ||zlin.fun^
 ||zllhtz.cn^
 ||zllnb.top^
