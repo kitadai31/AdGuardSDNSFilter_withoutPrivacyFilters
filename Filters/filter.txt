@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-06-10T19:28:34.699Z
+! Last modified: 2022-06-11T19:28:04.658Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,11 +22,14 @@
 !
 !
 !
+||fadsimz.com^
+||ukhongswrd.com^
+||entailresponded.com^
+||nkepulqeetn.com^
 ||lightningbarrelwretch.com^
 ||0redird.com^
 ||extyoneplus-3.com^
 ||scan-scan.com^
-||d3rjndf2qggsna.cloudfront.net^
 ||djidbagbacgfgbgdaace.ru^
 ||searchboll.com^
 ||shiryharu.pro^
@@ -118,7 +121,6 @@
 ||web1s.com^
 ||goldsurf24h.pl^
 ||wyphawhity.com^
-||chrif8kdstie.com^
 ||pwdxedmuutaok.com^
 ||kewhulawi.com^
 ||ourcommonnews.com^
@@ -135,7 +137,6 @@
 ||ihegwoy.xyz^
 ||moranoder.com^
 ||zepilogar.com^
-||binsaiwo.net^
 ||kive-intro.web.app^
 ||stoodgogas.xyz^
 ||vrqsvrnjrhdmek.com^
@@ -3585,6 +3586,7 @@
 ||adsgymleaden.com^
 ||adshack.com^
 ||adshexa.com^
+||adshoper.com^
 ||adshopping.com^
 ||adshort.space^
 ||adsignals.com^
@@ -5063,6 +5065,7 @@
 ||binderyjenna.website^
 ||bingooverdosegroom.com^
 ||biniprobit.com^
+||binsaiwo.net^
 ||bionicskamsins.com^
 ||biosda.com^
 ||biptolyla.com^
@@ -5916,6 +5919,7 @@
 ||choupsee.com^
 ||chpfgx.com^
 ||chpok.pw^
+||chrif8kdstie.com^
 ||chrigm.com^
 ||christingera.site^
 ||christmasaxehandyman.com^
@@ -5964,6 +5968,7 @@
 ||citheekr.com^
 ||citizenshadowrequires.com^
 ||cityadspix.com^
+||citydsp.com^
 ||citysite.net^
 ||civadsoo.net^
 ||civicskirtblindness.com^
@@ -21612,6 +21617,7 @@
 ||d3q33rbmdkxzj.cloudfront.net^
 ||d3qinhqny4thfo.cloudfront.net^
 ||d3qu0b872n4q3x.cloudfront.net^
+||d3rjndf2qggsna.cloudfront.net^
 ||d3rp5jatom3eyn.cloudfront.net^
 ||d3rxqouo2bn71j.cloudfront.net^
 ||d3t3lxfqz2g5hs.cloudfront.net^
@@ -26653,7 +26659,6 @@
 ||goldenssp.com^
 ||new-adtest.pages.dev^
 ||adsozai.com^
-||cn.dap.dmm.co.jp^
 ||cdj-dap.s3-ap-northeast-1.amazonaws.com^
 ||ad.activetk.cf^
 ||ad.xdomain.ne.jp^
@@ -27831,12 +27836,13 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 10 Jun 2022 11:39 UTC+7
-! Version: 2206101139
-! Blocked: 1.470 rules
+! Last modified: 11 Jun 2022 12:45 UTC+7
+! Version: 2206111245
+! Blocked: 1.468 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
+||customers.fptad.com^
 ||ads-cdn.fptplay.net^
 ||sentry.fptplay.net^
 ||bongdadem.net^
@@ -27917,7 +27923,6 @@
 ||dtadnetwork.com^
 ||eva-ad.24hstatic.com^
 ||flygame.io^
-||fptad.com^
 ||gammadsp.com^
 ||gammaplatform.com^
 ||gammassp.com^
@@ -28060,8 +28065,6 @@
 ||zplayer.trk.zapps.vn^
 ||ztevents.zaloapp.com^
 ||ads.fptplay.vn^
-||xl.plvb.xyz^
-||vb.plvb.xyz^
 ||ads.admatrix.vn^
 ||12signup.com^
 ||5734a40f2d.vws.vegacdn.vn^
@@ -29269,8 +29272,10 @@
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
 ||jrhbhz.com^
+||opuik.com^
 ||awsxc.live^
 ||jtrgzj9.com^
+||666577.xyz^
 ||666576.xyz^
 ||u0065.com^
 ||00-gov.cn^
@@ -31529,7 +31534,6 @@
 ||atm.youku.com^
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
-||b.tukucc.com^
 ||badding.oss-ap-southeast-1.aliyuncs.com^
 ||baifen.music.baidu.com^
 ||besc.baidustatic.com^
@@ -32561,23 +32565,35 @@
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
+||yyyyt.ltd^
+||gguuu.top^
 ||jianjianjiao.top^
 ||lwxqaq.club^
 ||haitaochen.xyz^
+||zhflodsix.cn^
+||666video.asia^
+||toutao.pro^
 ||a19cd.xyz^
 ||zhuomengwangluo.com^
 ||yue78.online^
 ||chenhao.name^
 ||guoyu.link^
 ||princesses.asia^
+||qomdf.top^
 ||uniworldgroup.asia^
+||twtiq.xyz^
+||xuekalun.com^
+||aak7.cn^
 ||merrrrrry.top^
 ||yping.online^
+||defenga.top^
+||jiedaibao.gs^
 ||myuosid.cn^
 ||tianyao.site^
 ||edetlmb.cn^
 ||gzww.site^
 ||bestnfq.com^
+||xinbici.com^
 ||hpkqtd.com^
 ||hdw0.top^
 ||jsk.wang^
