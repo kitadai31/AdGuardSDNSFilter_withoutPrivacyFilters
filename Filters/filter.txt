@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-06-17T19:29:00.216Z
+! Last modified: 2022-06-18T19:28:48.155Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,8 @@
 !
 !
 !
+||aperushmo.cam^
+||itemgnat.com^
 ||viiadr.com^
 ||chartlon.skin^
 ||flashnetic.com^
@@ -21456,6 +21458,7 @@
 ||gg.caixin.com^
 ||googleads.github.io^
 ||hbid.ams3.cdn.digitaloceanspaces.com^
+||hotwire-widget.dailywire.com^
 ||im.ov.yahoo.co.jp^
 ||images.dreamhost.com^
 ||images.mylot.com^
@@ -29443,6 +29446,9 @@
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
 ||jrhbhz.com^
+||afk3rs.xyz^
+||tklm77.top^
+||306842.com^
 ||9191919199.com^
 ||bob4915.com^
 ||bob4942.com^
@@ -29450,8 +29456,8 @@
 ||drrzzl.cn^
 ||kkuuu.top^
 ||tangkai.ltd^
-||detinetcallant.com^
 ||app0003.xyz^
+||detinetcallant.com^
 ||ijswq.com^
 ||kvkaa.com^
 ||kzeaa.com^
@@ -29469,7 +29475,6 @@
 ||taiwtp1.com^
 ||ybkjap.com^
 ||yukariyakumo.cn^
-||pvhgws7.com^
 ||17265111.com^
 ||22195976.com^
 ||32851897.com^
@@ -29480,10 +29485,11 @@
 ||kmrcum2.com^
 ||mjrvkv5.com^
 ||pbgcsk3.com^
+||pvhgws7.com^
 ||qbyyvg3.com^
 ||sosrom.cn^
 ||xtp01.com^
-||666589.xyz^
+||666592.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -29491,8 +29497,10 @@
 ||666584.xyz^
 ||666585.xyz^
 ||666587.xyz^
+||666589.xyz^
 ||nbgsintl.com^
 ||ylkjit.com^
+||eiya.net^
 ||yanzunyang.top^
 ||laijd.cn^
 ||xinshizongqin.com^
@@ -31898,7 +31906,6 @@
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
 @@||newad.mail.wo.cn^
-||u1.qyxxpd.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -32574,6 +32581,7 @@
 ||u1.20q.cn^
 ||u1.61sou.com^
 ||u1.idongde.com^
+||u1.qyxxpd.com^
 ||u1.shuaiku.com^
 ||ub1.job592.com^
 ||uc*.atobo.com^
@@ -32666,16 +32674,16 @@
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||wxtp.cdn.bcebos.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
-||mdklc.top^
-||yyxjt.cloud^
-||m1saka.love^
-||guixie.info^
 ||1kcx.hk^
+||slinindy.top^
+||hklst.top^
+||ttdds.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
 ||fetm.xin^
 ||gguuu.top^
+||guixie.info^
 ||haitaochen.xyz^
 ||hellohang.love^
 ||hhppy.top^
@@ -32685,7 +32693,9 @@
 ||jueditt.top^
 ||lunt.cx^
 ||lwxqaq.club^
+||m1saka.love^
 ||machan.fans^
+||mdklc.top^
 ||muzhiying.xyz^
 ||rabbitcloud.ltd^
 ||rinn.love^
@@ -32693,9 +32703,10 @@
 ||specialfox.cool^
 ||swxun.com^
 ||tokay.pro^
+||yyxjt.cloud^
 ||yyyyt.ltd^
 ||zhongmeigk.hk^
-||waikuai.vip^
+||xxwd.ltd^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -32716,14 +32727,15 @@
 ||tianyuexing.run^
 ||toutao.pro^
 ||uniworldgroup.asia^
+||waikuai.vip^
 ||wanghu2020.ltd^
 ||xxgxqscl.com^
 ||yue78.online^
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
 ||zwgege.cn^
-||zhrrrec.cn^
-||dhtv6.xyz^
+||salemarket.online^
+||glspjvy.cn^
 ||172872.com^
 ||aa9q.cn^
 ||aa9u.cn^
@@ -32731,6 +32743,7 @@
 ||aa9z.cn^
 ||aak7.cn^
 ||befly.me^
+||dhtv6.xyz^
 ||ecmeilin.xyz^
 ||g-day.design^
 ||jzpx.ltd^
@@ -32742,8 +32755,11 @@
 ||twtiq.xyz^
 ||xuekalun.com^
 ||yping.online^
-||blddnwt.cn^
+||zhrrrec.cn^
+||ceshi5.ink^
+||bptxcg.xyz^
 ||469716.top^
+||blddnwt.cn^
 ||bnux.store^
 ||defenga.top^
 ||edetlmb.cn^
@@ -32756,24 +32772,30 @@
 ||sjpoxe6.com^
 ||tianyao.site^
 ||zhjzjnb.xyz^
-||cmall.club^
+||tongxinren.co^
 ||avtej.com^
+||cmall.club^
 ||nanjian.ink^
 ||vz1m.com^
-||topnfm.com^
+||nfqplus.com^
+||iauto.wang^
 ||bestnfq.com^
 ||kongbao.ren^
+||topnfm.com^
+||xuhaijun.pw^
 ||bm2bm.com^
 ||qc-meta.com^
 ||52xs.live^
 ||whzshoes.com^
 ||zhihuinongye.biz^
+||tihushuo.com^
 ||cojwnb.com^
 ||duihuan8.wang^
 ||hdw0.top^
 ||hpkqtd.com^
 ||vgijoh.com^
 ||xinbici.com^
+||ienglish.ren^
 ||jsk.wang^
 ||readysugerfree.top^
 ||000123456789.online^
