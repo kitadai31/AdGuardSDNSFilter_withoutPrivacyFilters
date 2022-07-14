@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-07-13T19:28:40.727Z
+! Last modified: 2022-07-14T19:28:44.631Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,8 @@
 !
 !
 !
+||bmcdn4.com^
+||cdn.optmn.cloud^
 ||programattik.com^
 ||coccup.com^
 ||agazis.com^
@@ -2440,6 +2442,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||mailderef.mail.com^
 ||d3t3bxixsojwre.cloudfront.net^
 ||dn0qt3r0xannq.cloudfront.net^
 ||champagne.futurecdn.net^
@@ -9951,6 +9954,7 @@
 ||indictoutgain.com^
 ||indigenousvarious.com^
 ||indisancal.com^
+||indooritalian.com^
 ||induedabusive.casa^
 ||induis.com^
 ||inenau.com^
@@ -16190,6 +16194,7 @@
 ||stoakrig.net^
 ||stoashou.net^
 ||stolytipse.com^
+||stompimp.net^
 ||stonordersity.xyz^
 ||stoolapostlecarbon.com^
 ||stoopcram.com^
@@ -18212,6 +18217,7 @@
 ||whopexesho.pro^
 ||whoseuntruelag.com^
 ||whouledu.com^
+||whouseem.com^
 ||whoutsog.net^
 ||whowhipi.net^
 ||whozuxoko.com^
@@ -19834,6 +19840,7 @@
 ||globsads.com^
 ||goember.com^
 ||gogvo.com^
+||goload.click^
 ||goodfungame.com^
 ||googletrackmanager.com^
 ||goraps.com^
@@ -28778,6 +28785,7 @@
 ||2077.tech^
 ||21cnbm.com^
 ||50039tk.com^
+||551vip.xyz^
 ||6399tp.com^
 ||666624.xyz^
 ||666625.xyz^
@@ -28799,6 +28807,7 @@
 ||666679.xyz^
 ||666683.xyz^
 ||666684.xyz^
+||666722.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||884329.com^
@@ -28849,6 +28858,7 @@
 ||ctlmufv.cn^
 ||cwphgqu.cn^
 ||cytrd0.site^
+||czwdzcm.cn^
 ||dabaicai.ink^
 ||daibu.me^
 ||danaoren.shop^
@@ -28877,6 +28887,7 @@
 ||gdls114.com^
 ||gfdh56.site^
 ||gfnormal00aa.com^
+||gfnormal00ah.com^
 ||gfnormal00aj.com^
 ||gfnormal00ak.com^
 ||gfnormal00an.com^
@@ -28895,6 +28906,7 @@
 ||gndunbix.rest^
 ||gneunbiy.rest^
 ||gnfunbiz.rest^
+||gngunbib.rest^
 ||goasdfa.top^
 ||gocyghol.vip^
 ||gogpix.cn^
@@ -28936,6 +28948,7 @@
 ||jeproadylabs.com^
 ||jintan.fun^
 ||jiulela.ltd^
+||jphfqq.cn^
 ||jpnbhyba.xyz^
 ||k31bpzf.xyz^
 ||kengi.top^
@@ -28993,6 +29006,7 @@
 ||nfhtech.com^
 ||nfpplus.com^
 ||nfqhome.com^
+||nfqtime.com^
 ||nfwtime.com^
 ||nfwvip.com^
 ||nfzplus.com^
@@ -29039,6 +29053,8 @@
 ||slivindy.top^
 ||slizindy.top^
 ||smhossi.cn^
+||smyarlr.cn^
+||songdongdong.love^
 ||sozdzl.cn^
 ||sueed.love^
 ||supernfq.com^
@@ -29052,6 +29068,7 @@
 ||trznrug.cn^
 ||tuiquanqiu.cn^
 ||txie.club^
+||ugkmihh.cn^
 ||uiuspakmn.bar^
 ||unpfqc9.com^
 ||unypud.cn^
@@ -29060,6 +29077,7 @@
 ||uwdspsh.cn^
 ||uyzdcun.cn^
 ||v34ffs.site^
+||vdzzauf.cn^
 ||veadmin.com^
 ||very010.com^
 ||vhlret.cn^
@@ -29071,6 +29089,7 @@
 ||vvpingtai.com^
 ||wangduoduo.pw^
 ||wangjunyan.xyz^
+||wanyi.pw^
 ||wchh.online^
 ||weicun.xyz^
 ||weimeiwangluo.site^
@@ -29095,6 +29114,7 @@
 ||xox9325.com^
 ||xpdyqax.cn^
 ||xroqbkk.cn^
+||xuxjaqp.cn^
 ||xyhfc.xyz^
 ||xyhly.xyz^
 ||xyxhtyy.cn^
