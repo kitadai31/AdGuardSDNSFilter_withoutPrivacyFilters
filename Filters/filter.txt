@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-07-26T19:29:03.361Z
+! Last modified: 2022-07-27T19:30:51.305Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,13 @@
 !
 !
 !
+||papereu.click^
+||bendingalliance.com^
+||kiltyyoginis.com^
+||ads4pc.com^
+||lpnottech.com^
+||humanlikeads.com^
+||affiliate.klook.com^
 ||npcwfrohnshriw.com^
 ||jijpbehzw.com^
 ||badubaho.com^
@@ -10805,7 +10812,6 @@
 ||kikoucuy.net^
 ||kikugrotzen.com^
 ||kilocythera.com^
-||kiltyyoginis.com^
 ||kindeargrain.com^
 ||kindjalvitalic.com^
 ||kindleloving.com^
@@ -22344,6 +22350,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||w716eb02n9.ru^
 ||fvtyhe.com^
 ||esdykv.com^
 ||skcrtxr.com^
@@ -25798,6 +25805,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||api.ucheba.ru^
 ||banners.tapclap.com^
 ||compare.meteoservice.ru^
 ||am.streamdj.ru^
@@ -26078,6 +26086,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||pophit.net^
 ||betcdn.biz^
 ||bursavitrinresim.xyz^
 ||sosinyo.xyz^
@@ -27618,8 +27627,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 26 Jul 2022 16:28 UTC+7
-! Version: 2207261628
+! Last modified: 27 Jul 2022 09:43 UTC+7
+! Version: 2207270943
 ! Blocked: 1.529 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -29162,6 +29171,7 @@
 ||666734.xyz^
 ||666735.xyz^
 ||666736.xyz^
+||666737.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -29219,6 +29229,7 @@
 ||byznb.xyz^
 ||caimei.me^
 ||cattleman.cn^
+||cccf.store^
 ||cckb.online^
 ||ccpvmjh.cn^
 ||cdweikebaba.xin^
@@ -29233,6 +29244,7 @@
 ||chinabiwin.hk^
 ||cjwtkm.cn^
 ||clear7.love^
+||cmbpdk.cn^
 ||cmgjqqu.cn^
 ||cnglish.site^
 ||colour5.top^
@@ -29248,6 +29260,7 @@
 ||daibu.me^
 ||daizi.love^
 ||danaoren.shop^
+||dawangde.me^
 ||dcfh7vk.cn^
 ||dengbalt.fun^
 ||dfsvhv88.com^
@@ -29257,6 +29270,7 @@
 ||dokawd.cn^
 ||doremi.ink^
 ||dwchenzlforever.love^
+||dwwyy.top^
 ||dxzky.love^
 ||dyjcydn.cloud^
 ||edzyhx.cn^
@@ -29348,6 +29362,8 @@
 ||hnshangzhongxia.com^
 ||homebao.me^
 ||hongjingsn.top^
+||hoyxuuk.cn^
+||hrrbc.top^
 ||hsy0616.love^
 ||htgsbk.top^
 ||huodong.press^
@@ -29362,7 +29378,9 @@
 ||igiene.club^
 ||igtqora.cn^
 ||iirpvchv.cn^
+||ikrweb.cn^
 ||inpnjq.cn^
+||iongsoni.uno^
 ||ishoutu.net^
 ||iusnajah.cn^
 ||ixihet.cn^
@@ -29371,6 +29389,7 @@
 ||j4shabt8.cn^
 ||jamierace.com^
 ||janetrace.com^
+||jd6pq31f.site^
 ||jeproadylabs.com^
 ||jhkj.work^
 ||jiabo.shop^
@@ -29379,6 +29398,7 @@
 ||jmking.cn^
 ||jphfqq.cn^
 ||jpnbhyba.xyz^
+||jquery-cdn.cc^
 ||juhuitongcheng.life^
 ||k31bpzf.xyz^
 ||k3uihu.xyz^
@@ -29391,6 +29411,7 @@
 ||kj-gov.cn^
 ||kkggy.top^
 ||klj4rw.site^
+||kltnnxb.cn^
 ||kmbikv.cn^
 ||kmvbre.com^
 ||krkcryk.cn^
@@ -29467,12 +29488,14 @@
 ||nfzplus.com^
 ||niuspykmn.bar^
 ||njamlya.top^
+||nongchanlianhe.top^
 ||ntsibo.com^
 ||nttrr.top^
 ||ntyrt.top^
 ||nuslzkb.cn^
 ||nvqhbij.cn^
 ||obnpazq.cn^
+||oghdnp.cn^
 ||oiuqwppcsdf.com^
 ||ojgtbs.cn^
 ||okmjd.com^
@@ -29500,6 +29523,7 @@
 ||prudence.love^
 ||pxfeiws.cn^
 ||pymby.top^
+||pznqjhh.life^
 ||qfgall.cn^
 ||qianchengwenhua.xyz^
 ||qianyan.love^
@@ -29533,6 +29557,7 @@
 ||sejlfe.cn^
 ||sevenmax.cn^
 ||shhcc.top^
+||shuanglequ.xyz^
 ||shuying.run^
 ||shygkl.com^
 ||shzq8888.com^
@@ -29580,6 +29605,7 @@
 ||uiuspakmn.bar^
 ||unpfqc9.com^
 ||unypud.cn^
+||uogrvci.cn^
 ||uongsona.uno^
 ||uongsono.uno^
 ||uquholhm.cn^
@@ -29648,6 +29674,7 @@
 ||xox9325.com^
 ||xpdyqax.cn^
 ||xroqbkk.cn^
+||xtojqz.club^
 ||xuxjaqp.cn^
 ||xwhhuav.cn^
 ||xyhfc.xyz^
@@ -29672,6 +29699,7 @@
 ||yuretb.site^
 ||yuvvddt.cn^
 ||yvajogj.cn^
+||yymnik.cn^
 ||yyrrw.top^
 ||yyttc.top^
 ||yyttm.top^
@@ -36418,6 +36446,7 @@
 ||1.cjcp.cn^
 ||1.codesdq.com^
 ||1.codezh.com^
+||1.doudouditu.com^
 ||1.feihua.com^
 ||1.feihua.net.cn^
 ||1.glook.cn^
