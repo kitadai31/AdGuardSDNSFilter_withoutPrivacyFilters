@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-08-18T19:29:49.622Z
+! Last modified: 2022-08-19T19:29:07.889Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,9 @@
 !
 !
 !
+||encesprincipl.one^
+||ileesidesu.hair^
+||elepts.com^
 ||effolk.com^
 ||thrube.com^
 ||samazd.com^
@@ -2499,6 +2502,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||cdnads.geeksforgeeks.org^
 ||0a0d-d3l1vr.b-cdn.net^
 ||mailderef.mail.com^
 ||d3t3bxixsojwre.cloudfront.net^
@@ -14788,6 +14792,7 @@
 ||pushqwer.com^
 ||pushrase.com^
 ||pushsar.com^
+||pushtorm.net^
 ||pushup.space^
 ||pushup.wtf^
 ||pushwelcome.com^
@@ -15084,6 +15089,7 @@
 ||rayrecollect.com^
 ||razdvabm.com^
 ||razuphyju.com^
+||rb.gy^
 ||rbnt.org^
 ||rboundgypster.com^
 ||rbthre.work^
@@ -17015,6 +17021,7 @@
 ||synthesissocietysplitting.com^
 ||syphilohmmaging.site^
 ||syqoqjibiagvo.com^
+||sysdmt.com^
 ||system-notify.app^
 ||systemleadb.com^
 ||systerwithing.info^
@@ -18470,6 +18477,7 @@
 ||vixnixxer.com^
 ||vizaiced.net^
 ||vjafttweylg.xyz^
+||vjdciu.com^
 ||vjgenkfqjqng.com^
 ||vk77lnizckm6.com^
 ||vkaofq64zz.com^
@@ -22856,7 +22864,6 @@
 ||cagadgfihecfiigbgbc.ru^
 ||zslhmw.com^
 ||alsmdb.com^
-||vjdciu.com^
 ||ulyvjty4rd.com^
 ||pushadv.biz^
 ||ugyyod.com^
@@ -30583,6 +30590,24 @@
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||qisafniy.space^
+||gkiyvbk.cn^
+||pyrrtep.cn^
+||666764.xyz^
+||vliao365.com^
+||hgjxp.cn^
+||whpfl.cn^
+||ct4s.top^
+||mnver.xyz^
+||bbzerk.cn^
+||oisafnik.space^
+||mumnxwvn.ink^
+||deeplearning.red^
+||gjeonh.cn^
+||gwzqbnh.cn^
+||neokbu.cn^
+||vwocvgr.cn^
+||zkqfrti.cn^
 ||000123456789.online^
 ||000123456789.site^
 ||000123456789.space^
@@ -38194,6 +38219,7 @@
 !
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1018
 ! Blocked by CNAME sailthru.com
+@@||link.androidauthority.com^|
 @@||stcblink.nypost.com^|
 ! https://old.reddit.com/r/Adguard/comments/wkcvpx/redirect_link_not_working_when_adguard_pro_ios_is/
 @@||link.morningbrew.com^|
