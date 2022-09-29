@@ -6,21 +6,21 @@
   "sources": [
     {
       "name": "AdGuard Base filter ad servers",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers.txt",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
       "name": "AdGuard Base filter ad servers first-party",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/adservers_firstparty.txt",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers_firstparty.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
       "name": "AdGuard Base filter ad servers foreign",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/foreign.txt",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/foreign.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
@@ -148,6 +148,20 @@
     {
       "name": "ABPindo ad servers",
       "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/adservers.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
+      "name": "ABPindo ad servers third-party",
+      "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/thirdparty.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
+      "name": "AdblockID adservers",
+      "source": "https://raw.githubusercontent.com/realodix/AdBlockID/master/src/adservers.adfl",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
