@@ -1,5 +1,7 @@
 # AdGuard DNS filter without privacy filters (Ads only)
-A DNS filter that removed tracking and privacy rules from AdGuard DNS filter.  
+No privacy rules version of AdGuard DNS Filter
+
+This is a DNS filter that removed tracking and privacy rules from AdGuard DNS filter.  
 This filter blocks only ad domains.
 
 ### AdGuard DNSフィルタ（プライバシー抜き）
