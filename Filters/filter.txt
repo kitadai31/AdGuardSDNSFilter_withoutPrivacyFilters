@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-11-17T19:28:15.273Z
+! Last modified: 2022-11-18T19:28:15.720Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,7 @@
 !
 !
 !
+||peekslap.com^
 ||b094e3477d.com^
 ||banhq.com^
 ||masturbaseinvegas.com^
@@ -15958,7 +15959,6 @@
 ||pedisp.com^
 ||peefeehu.com^
 ||peekipaiw.com^
-||peekslap.com^
 ||peelismsenoras.com^
 ||peemee.com^
 ||peensthapes.cam^
@@ -24641,6 +24641,7 @@
 ||ad.reklamport.com^
 ||ad.wsod.com^
 ||ads-sg.tiktok.com^
+||ads-yallo-production.imgix.net^
 ||ads.audio.thisisdax.com^
 ||ads.sportradar.com^
 ||adsales.snidigital.com^
@@ -30584,6 +30585,10 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||qlogo.cn^
+||baiducdnimages.com^
+||528791725.com^
+||8499223.com^
 ||sx.fakjkwp.cn^
 ||vx4n.icu^
 ||img.x965.xyz^
@@ -31637,8 +31642,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 17 Nov 2022 15:20 UTC+7
-! Version: 2211171520
+! Last modified: 18 Nov 2022 11:13 UTC+7
+! Version: 2211181113
 ! Blocked: 1.494 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -33225,6 +33230,33 @@
 ||zdy1.xyz^
 ||ziedwr.com^
 ||zw2b9.cn^
+||bqnggnsv.fun^
+||yijfdsu.cn^
+||pjjlbjd.cn^
+||zjws.xyz^
+||q88j2.top^
+||iuerxw.xyz^
+||qdc7y9x.xyz^
+||9795x.com^
+||bzngisyv.xyz^
+||hbcl.ltd^
+||049uing.com^
+||1106yh.com^
+||dsfsdft4324.xyz^
+||dvaimso.cn^
+||txnwq.xyz^
+||s4ls9.top^
+||wfhuzaj.cn^
+||kmjbwejnr.xyz^
+||ijkqwopm.xyz^
+||jknmsdpo.xyz^
+||kjanfwss.xyz^
+||qzos9ou.xyz^
+||5ilss.top^
+||027dir.com^
+||qvyzdox.cn^
+||nijnqwem.xyz^
+||uyjhbawd.xyz^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
