@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-11-24T19:28:25.017Z
+! Last modified: 2022-11-25T19:28:21.555Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,10 @@
 !
 !
 !
+||adsmatcher.com^
+||dsb6jelx4yhln.cloudfront.net^
+||pemainedperio.com^
+||engingsecondu.com^
 ||jpovulldaghw.com^
 ||sgnetwork.co^
 ||bulky-battle.com^
@@ -5948,6 +5952,7 @@
 ||bruceleadx1.com^
 ||bruceleadx2.com^
 ||bruisedcoup.com^
+||brumarmsful.com^
 ||brummymacduff.com^
 ||brumousheaf.com^
 ||brunchcreatesenses.com^
@@ -7281,6 +7286,7 @@
 ||cowmanvampyre.uno^
 ||cowyardstulm.com^
 ||coxalscyth.com^
+||coxitebattuta.com^
 ||coyanhybrida.website^
 ||coyerbarrets.com^
 ||coysotown.com^
@@ -7713,6 +7719,7 @@
 ||daughtersanything.com^
 ||daugloon.net^
 ||daugus.com^
+||daunnotes.com^
 ||davaifoa.com^
 ||dawdlechahar.com^
 ||dawmal.com^
@@ -8411,6 +8418,7 @@
 ||drishneheqn.com^
 ||drivecareveryday.com^
 ||driverpartially.com^
+||drizzlerules.com^
 ||drjgjngf.com^
 ||drkkydnkdvfosd.xyz^
 ||drkness.net^
@@ -10636,6 +10644,7 @@
 ||gotohouse1.club^
 ||gotonewsoftik.ru^
 ||gourdycortes.com^
+||gouryvouster.com^
 ||gousouse.com^
 ||govbusi.info^
 ||govels.com^
@@ -11607,6 +11616,7 @@
 ||ietyofedinj89yewtburgh.com^
 ||ifinaukncecaf.xyz^
 ||ifjyo.com^
+||ifknittedhurtful.com^
 ||ifpwnlncxiikdd.com^
 ||iframe.mediaplazza.com^
 ||ifsmatbeg.site^
@@ -11757,6 +11767,7 @@
 ||inconsistencyriskyan.com^
 ||incorphishor.com^
 ||incrediblewoedysfunctional.com^
+||incrustkantela.com^
 ||incurvedisagio.com^
 ||indebtedatrocious.com^
 ||indeedrefines.com^
@@ -14832,6 +14843,7 @@
 ||niecefootagefastest.com^
 ||nieveni.com^
 ||niforniadistollie.info^
+||nigdom.com^
 ||nightceramicoutgoing.com^
 ||nighter.club^
 ||nightfallroad.com^
@@ -16742,6 +16754,7 @@
 ||primechoice.ru^
 ||primedisappointing.com^
 ||primevalrespectful.com^
+||primevalstork.com^
 ||primevalsymphonymuttering.com^
 ||pringed.space^
 ||printmeantime.com^
@@ -18662,6 +18675,7 @@
 ||sentimenthypocrisy.com^
 ||sentineldiscordmm.com^
 ||sentphysically.com^
+||senufocaviar.com^
 ||seonto.com^
 ||separatecolonist.com^
 ||separationreverttap.com^
@@ -20868,7 +20882,6 @@
 ||tysolomona.co^
 ||tysolomonau.com^
 ||tytostaracar.lol^
-||tzegilo.com^
 ||tzhkydcgdmbz.com^
 ||u0054.com^
 ||u0064.com^
@@ -21162,6 +21175,7 @@
 ||unusuallygravely.com^
 ||unvanilluxer.com^
 ||unvexedmehari.com^
+||unvocalfaki.com^
 ||unwartortlean.com^
 ||unwarydebite.com^
 ||unwillingsnick.com^
@@ -22637,6 +22651,7 @@
 ||xwkxpxili.com^
 ||xwlketvkzf.com^
 ||xwoqjitfpcxkqf.xyz^
+||xwqvytuiko.com^
 ||xwvbbphb.com^
 ||xwxmfubxzc.com^
 ||xwymbeavwvvly.com^
@@ -25352,7 +25367,6 @@
 ||drulilqe8wg66.cloudfront.net^
 ||ds02gfqy6io6i.cloudfront.net^
 ||ds88pc0kw6cvc.cloudfront.net^
-||dsb6jelx4yhln.cloudfront.net^
 ||dscex7u1h4a9a.cloudfront.net^
 ||dsh7ky7308k4b.cloudfront.net^
 ||dsie7h4lo9wxu.cloudfront.net^
@@ -25521,10 +25535,10 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
-||dbankcloud.cn^
-||dbankcloud.ru^
-||dbankcloud.eu^
-||dbankcloud.asia^
+||adx-*.dbankcloud.
+||ad-*.appacc.dbankedge.cn^
+||adx-*.dbankedge.cn^
+||adx-*.op.dbankcloud.com.edgekey.net^
 ||thecatmachine.com^
 ||blueduckredapple.com^
 ||cdn.mobilefuse.com^
@@ -31808,9 +31822,9 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 24 Nov 2022 10:47 UTC+7
-! Version: 2211241047
-! Blocked: 1.495 rules
+! Last modified: 25 Nov 2022 09:35 UTC+7
+! Version: 2211250935
+! Blocked: 1.496 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -32371,6 +32385,7 @@
 ||i9bet105.com^
 ||i9bet109.com^
 ||i9bet111.com^
+||i9bet26.com^
 ||i9bet444.com^
 ||i9bet5.com^
 ||ibet889.com^
@@ -33278,6 +33293,7 @@
 ||035caop.com^
 ||049uing.com^
 ||053tyfg.com^
+||056opui.com^
 ||058tyfg.com^
 ||064ioio.com^
 ||065yuyu.com^
@@ -33293,6 +33309,7 @@
 ||516624.com^
 ||51fa.shop^
 ||5ilss.top^
+||5pe6.fun^
 ||65688qp.com^
 ||678tktp.com^
 ||6u4j.icu^
@@ -33323,6 +33340,7 @@
 ||cvcddno.cn^
 ||cvemhco.cn^
 ||d86.xyz^
+||dbmcmhh.cn^
 ||dharkyu.cn^
 ||dinyqgv.cn^
 ||dktoo.site^
@@ -33354,6 +33372,8 @@
 ||h12h.fun^
 ||hbcl.ltd^
 ||hjgrc.xyz^
+||hnws.xyz^
+||hqdfh.mobi^
 ||hxapafn.cn^
 ||i46.xyz^
 ||iatf16949.pw^
@@ -33376,6 +33396,7 @@
 ||joh4t.cn^
 ||jpai.xyz^
 ||jqnggnsa.fun^
+||kapsmnd.cyou^
 ||kba8i.icu^
 ||kcmomkn.cn^
 ||kjanfwss.xyz^
@@ -33387,6 +33408,7 @@
 ||knmwrkw.xyz^
 ||koojsc.cn^
 ||kvtlll.top^
+||kxizloe.cn^
 ||kyzx.xyz^
 ||kzngisyd.xyz^
 ||lgjxw.xyz^
@@ -33394,6 +33416,7 @@
 ||lihuan.store^
 ||ljlg.xyz^
 ||ljrot.icu^
+||lkjrx.xyz^
 ||lksdj.com^
 ||love-yy.company^
 ||lpaysfr.cn^
@@ -33416,6 +33439,7 @@
 ||nveuiqh.cn^
 ||nypswiu.cn^
 ||nzvpewi.cn^
+||odfykc.cn^
 ||oicvvnm.cn^
 ||oivgqnt.cn^
 ||ok-11-cai.cc^
@@ -33490,11 +33514,13 @@
 ||wapsmne.cyou^
 ||weilin.xin^
 ||wfhuzaj.cn^
+||wganilgle.cyou^
 ||wgdacc.com^
 ||wglbx.ltd^
 ||wgpsfdg.cn^
 ||whrc.xyz^
 ||wocexaa.cn^
+||wpozwh.com^
 ||wqnggnse.fun^
 ||wyqaafplm.live^
 ||wzdy.xyz^
@@ -33506,8 +33532,10 @@
 ||xinzhanggui.wang^
 ||xlhnkpw.cn^
 ||xpdjsd.cn^
+||xqcjfcb.cn^
 ||xwdsp.com^
 ||y88m2.top^
+||yfue99.xyz^
 ||ygcn.ltd^
 ||yijfdsu.cn^
 ||ynyikk.com^
@@ -41117,6 +41145,7 @@
 ||abcdcfasda.gushiwen.cn^
 ||abcj.dooccn.com^
 ||abds.pingpingw.com^
+||abn.lczk.cn^
 ||ac*.786ip.com^
 ||ac*.faxingchina.com^
 ||ac*.pingguolv.com^
@@ -42309,6 +42338,12 @@
 ! Source name: Exception rules
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1114
+! Blocked by CNAME track.customer.io
+@@||e.customeriomail.com^|
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1115
+! Blocked by CNAME tapfiliate.com
+@@||partner.everydays.de^|
 ! https://github.com/easylist/easylist/pull/14208
 ! Blocked by CNAME online-metrix.net
 @@||login.eki-net.com^|
