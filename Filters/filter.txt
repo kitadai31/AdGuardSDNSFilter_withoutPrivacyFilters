@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-12-01T19:28:16.116Z
+! Last modified: 2022-12-02T19:28:12.537Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,14 @@
 !
 !
 !
+||svfwyyxzbjrd.com^
+||ythjhk.com^
+||crpcruynxxc.com^
+||pyvqoaoeeen.com^
+||oxlfhifzfynll.com^
+||rsntcgoowyxsu.com^
+||vpnsafebrowsing.com^
+||qwtag.com^
 ||dnhyakcwoedah.com^
 ||meebofoo.com^
 ||arthwhilearthu.com^
@@ -3145,6 +3153,7 @@
 ||aezhvlybcijv.com^
 ||afa9bdfa63bf7.com^
 ||afaaugct.com^
+||afcnuchxgo.com^
 ||afcontent.net^
 ||afcyhf.com^
 ||afdads.com^
@@ -25510,6 +25519,7 @@
 ||d3t16rotvvsanj.cloudfront.net^
 ||d3t3lxfqz2g5hs.cloudfront.net^
 ||d3t3z4teexdk2r.cloudfront.net^
+||d3t87ooo0697p8.cloudfront.net^
 ||d3tfz9q9zlwk84.cloudfront.net^
 ||d3tozt7si7bmf7.cloudfront.net^
 ||d3ujids68p6xmq.cloudfront.net^
@@ -31004,6 +31014,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||kvbgoc.com^
+||jcreje.com^
 ||99886aaa.com^
 ||528791725.com^
 ||8499223.com^
@@ -31375,6 +31387,7 @@
 ||biallo3.de^
 ||bitcoinpara.de^
 ||blogads.de^
+||bnamic.com^
 ||bsheute.de^
 ||buywords.de^
 ||bwads24.com^
@@ -32058,8 +32071,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 01 Dec 2022 11:19 UTC+7
-! Version: 2212011119
+! Last modified: 02 Dec 2022 11:59 UTC+7
+! Version: 2212021159
 ! Blocked: 797 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -32872,10 +32885,12 @@
 ||bendan.shop^
 ||benditao.biz^
 ||bfsqtsn.cn^
+||bh2q.fun^
 ||binjlwz.cn^
 ||bjfc.xyz^
 ||bjws.xyz^
 ||bjzb.xyz^
+||bmmogb.xyz^
 ||bqnggnsv.fun^
 ||bvpaovs.cn^
 ||bvwxfok.cn^
@@ -32885,6 +32900,7 @@
 ||cichiji.top^
 ||clvkg.xyz^
 ||clw99.mobi^
+||crleii.xyz^
 ||csgw.xyz^
 ||csiteadmin.com^
 ||cvbdw.xyz^
@@ -32904,6 +32920,7 @@
 ||eganilglw.cyou^
 ||egrnmic.cn^
 ||eidphap.cn^
+||enzagpt.cn^
 ||epfmfqh.cn^
 ||epmf4.cn^
 ||eqnggnsw.fun^
@@ -32926,17 +32943,21 @@
 ||gkofzfi.cn^
 ||glovemall.cn^
 ||gpsncbo.cn^
+||guanggao1257.com^
+||gyhyhyq.website^
 ||gzzb.xyz^
 ||h12h.fun^
 ||h6cp.icu^
 ||hbcl.ltd^
 ||hjgrc.xyz^
+||hmgzhqe.cn^
 ||hnws.xyz^
 ||hqdfh.mobi^
 ||hqqpw.mobi^
 ||hssebb.xyz^
 ||hsypwju.cn^
 ||htkk1.top^
+||htkk2.top^
 ||hxapafn.cn^
 ||i46.xyz^
 ||i7x3.fun^
@@ -32955,6 +32976,7 @@
 ||j41.xyz^
 ||j721s.top^
 ||japsmna.cyou^
+||jghmrie.cn^
 ||jiedu.fun^
 ||jknmsdpo.xyz^
 ||jmm8a.xyz^
@@ -32981,6 +33003,7 @@
 ||kyzx.xyz^
 ||kzngisyd.xyz^
 ||lapsmnl.cyou^
+||lbzx.xyz^
 ||lejso.com^
 ||lgjxw.xyz^
 ||lhare.xyz^
@@ -33033,6 +33056,7 @@
 ||pyyhkn.com^
 ||q88j2.top^
 ||qapsmny.cyou^
+||qbcydxr.cn^
 ||qdc7y9x.xyz^
 ||qfgfpi.cn^
 ||qganilgly.cyou^
@@ -33053,6 +33077,7 @@
 ||rgfqcly.cn^
 ||ribffmg.cn^
 ||riqnhxq.cn^
+||rkkhuwl.cn^
 ||rlllwby.cn^
 ||rmm7ss.top^
 ||rqnggnsz.fun^
@@ -33115,6 +33140,7 @@
 ||wgpsfdg.cn^
 ||whrc.xyz^
 ||wocexaa.cn^
+||wotmvdc.cn^
 ||wpozwh.com^
 ||wqnggnse.fun^
 ||wxumevd.cn^
