@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-12-24T19:28:10.446Z
+! Last modified: 2022-12-25T19:28:21.649Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,9 @@
 !
 !
 !
+||5754909.com^
+||impresivedate.com^
+||neeladou.net^
 ||datingmeetnet.com^
 ||aubergearise.com^
 ||admanmedia.com^
@@ -60,7 +63,6 @@
 ||vmzqwmbrip.com^
 ||theupgradedata.com^
 ||theloveapproach.com^
-||neeladou.net^
 ||blfoddifghcmeyc.com^
 ||tauwoumo.net^
 ||wisehowronspar.com^
@@ -28577,9 +28579,9 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 23 Dec 2022 10:33 UTC+7
-! Version: 2212231033
-! Blocked: 803 rules
+! Last modified: 25 Dec 2022 22:36 UTC+7
+! Version: 2212252236
+! Blocked: 804 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -28672,6 +28674,7 @@
 ||eva-ad.24hstatic.com^
 ||ezca.asia^
 ||ff.imacdn.com^
+||fly-ads.net^
 ||flygame.io^
 ||gammadsp.com^
 ||gammaplatform.com^
@@ -29992,6 +29995,21 @@
 ||zw2b9.cn^
 ||zzngisyq.xyz^
 ||zzwzsic.cn^
+||bmsgznx.cn^
+||jdexcgb.cn^
+||vxlysbz.cn^
+||keiscithy.com^
+||ekhnbwe.cn^
+||frgeob.xyz^
+||nwdjlx.xyz^
+||tizf7.top^
+||flan.fun^
+||wkbslub.cn^
+||uwuzpxt.cn^
+||tprwnvk.cn^
+||bnsdk.top^
+||8499683.com^
+||vouninked.com^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -36516,6 +36534,7 @@
 ||video231.oss-cn-beijing.aliyuncs.com^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||ys2000.cdn.bcebos.com^
+||52av.be^
 ||380.tw^
 ||1024mzs.pw^
 ||1024wanzhai.
