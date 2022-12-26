@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-12-25T19:28:21.649Z
+! Last modified: 2022-12-26T19:28:24.583Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -27160,6 +27160,7 @@
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
+||promolayer.io^
 ||googleailesi.com^
 ||bartinkizogrenciyurdu.com^
 ||js.glossom.jp^
@@ -28579,8 +28580,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 25 Dec 2022 22:36 UTC+7
-! Version: 2212252236
+! Last modified: 26 Dec 2022 12:08 UTC+7
+! Version: 2212261208
 ! Blocked: 804 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -30010,6 +30011,15 @@
 ||bnsdk.top^
 ||8499683.com^
 ||vouninked.com^
+||njxjrar.cn^
+||klgzjaw.cn^
+||hqoqbs.xyz^
+||monzexn.cn^
+||kxgo.xyz^
+||runn.fun^
+||abgxxc.com^
+||vqhifd.xyz^
+||cja-1223.cc^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -37055,7 +37065,7 @@
 ||at*.doubanio.com^
 ||b.kouke5.com^
 ||b.unjs.com^
-||b1.027art.com^
+||static.rongkao.com^
 ||b1.51scw.net^
 ||b1.91jucai.com^
 ||b1.b2b168.com^
@@ -38225,6 +38235,9 @@
 ! Source name: Exception rules
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exceptions.txt
 !
+! TSB Bank mobile banking app - broken push notifications
+! Blocked by CNAME online-metrix.net
+@@||check2.tsb.co.uk^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136509
 ! Blocked by CNAME c.msn.com
 @@||c.office.com^|
