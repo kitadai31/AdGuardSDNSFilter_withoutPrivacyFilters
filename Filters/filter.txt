@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-01-12T19:28:07.532Z
+! Last modified: 2023-01-13T19:28:25.971Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,9 @@
 !
 !
 !
+||xzvfyowf.com^
+||tygsqtkyiwxb.com^
+||goplayhere.com^
 ||stedsous.xyz^
 ||wvnuubmothth.com^
 ||squhtdqggvpx.xyz^
@@ -22920,6 +22923,7 @@
 .ad.kakaocorp.com^
 .ad.kakao.com^
 !
+||im.ov.yahoo.co.jp^
 ||sitewithg.me^
 ||adx-*.dbankcloud.
 ||ad-*.appacc.dbankedge.cn^
@@ -27226,6 +27230,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||rtb.wedeo.ru^
 ||flowers.moex.com^
 ||delikatsov.com^
 ||relap.mail.ru^
@@ -29265,8 +29270,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 12 Jan 2023 12:04 UTC+7
-! Version: 2301121204
+! Last modified: 13 Jan 2023 12:16 UTC+7
+! Version: 2301131216
 ! Blocked: 795 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -30036,12 +30041,15 @@
 ||045zxnm.com^
 ||0s6s0.top^
 ||100ytrf.com^
+||1134555.com^
 ||2aqr.net^
+||37tek.fun^
 ||3p8801.co^
 ||401aww.com^
 ||51gpiao.cn^
 ||595tuchuang.com^
 ||5r562.cn^
+||78dfvv.com^
 ||81xs.xyz^
 ||8ccrv.xyz^
 ||ahwiaw.xyz^
@@ -30051,6 +30059,7 @@
 ||bfdaawe.top^
 ||bgjjwl.cn^
 ||bkisss.com^
+||bqg16.cc^
 ||cerfbup.xyz^
 ||creawww.top^
 ||cuwuqo.xyz^
@@ -30059,7 +30068,9 @@
 ||dgozp.com^
 ||doublechen.online^
 ||dxgyl.xyz^
+||ebzqyow.cn^
 ||ewmvim.xyz^
+||fangyaomin.site^
 ||felzfr.xyz^
 ||ffdcpvv.cn^
 ||frpns.com^
@@ -30072,6 +30083,7 @@
 ||hhaobcj.cn^
 ||hibaby.ren^
 ||htbdvx.xyz^
+||hualu.live^
 ||huifuhuo.com^
 ||huihemou.com^
 ||huishij.net^
@@ -30085,14 +30097,18 @@
 ||ikbgika.cn^
 ||ionqv.cn^
 ||irygym.xyz^
+||ituxzez.cn^
+||jfmfmgj.cn^
 ||juyqiolna.cyou^
 ||jwgihca.cn^
 ||kb5ke.xyz^
 ||kbbqwhf.cn^
+||keysmw.xyz^
 ||kwivb.cn^
 ||leiwo.xyz^
 ||looktt.xyz^
 ||maccms10.cn^
+||mbepa.xyz^
 ||mdi5k.cn^
 ||mfaec.cn^
 ||mgowec.xyz^
@@ -30115,6 +30131,7 @@
 ||ps123.online^
 ||qiegoa.xyz^
 ||qingfengxq.com^
+||qvfkiwf.cn^
 ||qycfqk.xyz^
 ||rdoybkd.cn^
 ||renzhongjiaoyu.xyz^
@@ -30171,6 +30188,7 @@
 ||yuqingby.fun^
 ||yzgid.cn^
 ||zeipw.xyz^
+||ztwrnpd.cn^
 ||ztxstudy.club^
 ||zunnnh.xyz^
 ||001adafg.xyz^
