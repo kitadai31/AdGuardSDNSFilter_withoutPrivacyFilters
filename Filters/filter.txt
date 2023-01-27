@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-01-26T19:28:11.483Z
+! Last modified: 2023-01-27T19:28:18.135Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,7 @@
 !
 !
 !
+||paulty.com^
 ||omjitjlhx.com^
 ||gnenuelnn.com^
 ||pusishegre.com^
@@ -1378,6 +1379,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d25m254rjp3rii.cloudfront.net^
 ||buyer.dspx.tv^
 ||creative.live7mm.tv^
 ||ad.petel.bg^
@@ -4782,6 +4784,7 @@
 ||belaya2shu1ba1.com^
 ||belfarewes.buzz^
 ||belgrekblackad.com^
+||belgud.com^
 ||belickitungchan.com^
 ||beliet.com^
 ||believerillegible.com^
@@ -5801,6 +5804,7 @@
 ||ceneicons.com^
 ||cennter.com^
 ||censelysoviell.xyz^
+||censorcolonizegreatness.com^
 ||centauruspopyou.com^
 ||centeredfailinghotline.com^
 ||centimetresnappeddock.com^
@@ -10073,6 +10077,7 @@
 ||hqawqssuvqyl.xyz^
 ||hqoadthspnju.com^
 ||hqpass.com^
+||hqqulwygpq.com^
 ||hrahdmon.com^
 ||hreerfdfgourg.com.ua^
 ||hrmationeng.xyz^
@@ -10593,6 +10598,7 @@
 ||ipsowrite.com^
 ||iptautup.com^
 ||iqtest365.online^
+||iqyqqfduxeql.com^
 ||irardijjyawmool.xyz^
 ||iratelyveinlet.com^
 ||irchincsp.com^
@@ -11576,6 +11582,7 @@
 ||lexicoggeegaw.website^
 ||lfg5jnbi.com^
 ||lfport.com^
+||lfpthkipndval.com^
 ||lfstmedia.com^
 ||lgbxelnukhsil.xyz^
 ||lgse.com^
@@ -11697,6 +11704,7 @@
 ||livezombymil.com^
 ||lividtrash.pro^
 ||livorbarbes.com^
+||lixmperta.com^
 ||lizivaje.xyz^
 ||ljyajgjvuv.com^
 ||lkdvvxvtsq6o.com^
@@ -15619,6 +15627,7 @@
 ||renormaliseras.xyz^
 ||rentingimmoderatereflecting.com^
 ||reople.co.kr^
+||reoreexpresi.xyz^
 ||repairedbringstale.com^
 ||repaul.com^
 ||repealamintor.com^
@@ -16591,6 +16600,7 @@
 ||shinglelatitude.com^
 ||shinyshock.pro^
 ||shinyspiesyou.com^
+||shipsmotorw.xyz^
 ||shiryharu.pro^
 ||shisnwatcher.digital^
 ||shitcustody.com^
@@ -16767,6 +16777,7 @@
 ||skilyake.net^
 ||skinnerinadmissiblegreeted.com^
 ||skinneroverturn.com^
+||skinsdefinitely.com^
 ||skipdearbeautify.com^
 ||skipwaywurzel.com^
 ||skivesdaggles.com^
@@ -17872,6 +17883,7 @@
 ||thingrealtape.com^
 ||thingschemesforester.com^
 ||thinkseducation.com^
+||thinksuggest.org^
 ||thinnerconcha.com^
 ||thirawogla.com^
 ||third-tracking.com^
@@ -19711,6 +19723,7 @@
 ||woymebsi.com^
 ||wp20.ru^
 ||wpadmngr.com^
+||wphmavwgay.xyz^
 ||wpncdn.com^
 ||wpnetwork.eu^
 ||wpnjs.com^
@@ -19903,9 +19916,11 @@
 ||xvwebllndr.com^
 ||xwlketvkzf.com^
 ||xwqvytuiko.com^
+||xwujifnpt.com^
 ||xxccdshj.com^
 ||xxe2.com^
 ||xxecldsp.xyz^
+||xxfejeacw.com^
 ||xxlargepop.com^
 ||xxltr.com^
 ||xxxadv.com^
@@ -19985,6 +20000,7 @@
 ||yepsobtax.com^
 ||yepteaswont.com^
 ||yeqinu.xyz^
+||yerto.info^
 ||yes-messenger.com^
 ||yesmessenger.com^
 ||yespetor.com^
@@ -20331,6 +20347,7 @@
 ||zypenetwork.com^
 ||zyugar.com^
 ||zzdb5p4upiug.com^
+||zzoluickymwz.com^
 ||vpn-offers.org^
 ! Third-party
 ||123date.me^
@@ -22047,6 +22064,7 @@
 ||d1hogxc58mhzo9.cloudfront.net^
 ||d1ilwohzbe4ao6.cloudfront.net^
 ||d1izuvv2qy7hel.cloudfront.net^
+||d1j2jv7bvcsxqg.cloudfront.net^
 ||d1j47wsepxe9u2.cloudfront.net^
 ||d1j6limf657foe.cloudfront.net^
 ||d1j9qsxe04m2ki.cloudfront.net^
@@ -27909,6 +27927,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||js.tianmel.xyz^
+||dian.brecm.xyz^
 ||aab-proxy.tld^
 ||1202liutiao.xyz^
 ||1200555.com^
@@ -28896,6 +28916,8 @@
 ||darts-ads.telkom.co.id^
 ! ---
 ! Dihapus dalam beberapa bulan
+! Jan 2023
+||meredithcorp.io^
 ! Dec 2022
 ! Nov 2022
 ||logitxaequk.com^
@@ -28913,86 +28935,6 @@
 ||ttwscqlqmbcb.com^
 ||tyiqebrbpxc.com^
 ||yajlpetccbodq.com^
-! Jun 2022
-||dcwkgvoeufhnm.com^
-||dsvkgvrftkpds.com^
-||esoeoanl.com^
-||fbmklibvrroltd.com^
-||fpefaoxbmkpgc.com^
-||hlofnpbentcv.com^
-||lfjaqwwsgyu.com^
-||mivkijds.com^
-||nnlczheczlq.com^
-||onohgmfhtavjef.com^
-||qqaskpbofrji.com^
-||tlprxzujk.com^
-||update48451.xyz^
-||xqrprttdvmynv.com^
-! May 2022
-||aclcdxkukaa.com^
-||awjvnfncw.com^
-||cvlfqxeujyg.com^
-||dhlhtcmdb.com^
-||fltbqfjsbrj.com^
-||gmldlwugyjwff.com^
-||goyusa.cloud^
-||goyusa.xyz^
-||gsaopxqo.com^
-||hoyukoda.cloud^
-||hoyukoda.lol^
-||hoyukoda.mom^
-||hoyukoda.pics^
-||hoyukoda.shop^
-||hoyukoda.xyz^
-||koaohcsoprbr.com^
-||kusinakusa.xyz^
-||kuyanosa.shop^
-||kvmnndjbgvmxa.com^
-||mhvllvgrefplg.com^
-||mkgekotijxqthj.com^
-||porekosa.autos^
-||porekosa.click^
-||porekosa.lol^
-||porekosa.mom^
-||porekosa.pics^
-||porekosa.shop^
-||porekosa.xyz^
-||rblxgeionyqax.com^
-||rwuqhjhmahslbov.com^
-||sukodanos.click^
-||sukodanos.cloud^
-||sukodanos.mom^
-||sukodanos.pics^
-||sukodanos.xyz^
-||ucxfdvhuqwpig.com^
-||usfmjrnlklmken.com^
-||wqrgqthofslhx.com^
-||yurosikua.autos^
-||yurosikua.click^
-||yurosikua.cloud^
-||yurosikua.lol^
-||yurosikua.shop^
-||yurosikua.xyz^
-! Apr 2022
-||akurqevfpikjwpi.com^
-||ehxqelwtthwyo.com^
-||fcjglegnjab.com^
-||frdcjiahxphxn.com^
-||stiteicjkcw.com^
-! Mar 2022
-||boremgmxebra.com^
-||dcesxdvixnrwlu.com^
-! Feb 2022
-||lyiwnltxmvunvp.com^
-||rmpkbdggulmm.com^
-||uwokheqtpxwk.com^
-||xowelamcwijxp.com^
-||xuqowuab.com^
-||yayiniwkbq.com^
-||yjtfqomeym.com^
-! Jan 2022
-||3d5b53449b.com^
-||a41468e3c9.com^
 ! 205.251.197.235, 205.251.198.251, 205.251.193.177, 205.251.195.134
 
 !
@@ -29001,9 +28943,9 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 26 Jan 2023 22:35 UTC+7
-! Version: 2301262235
-! Blocked: 800 rules
+! Last modified: 27 Jan 2023 16:06 UTC+7
+! Version: 2301271606
+! Blocked: 801 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -29579,6 +29521,7 @@
 ||log.vnfinance.vn^
 ||log.vov.vn^
 ||log.vovplus.vn^
+||log.xoso.com.vn^
 ||log.zamba.vn^
 ||log4x.nixcdn.com^
 ||logapi.misa.com.vn^
@@ -29771,6 +29714,7 @@
 ! Source name: EasyList China ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 !
+||asd8900.oss-*.aliyuncs.com^
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||045zxnm.com^
@@ -29809,6 +29753,7 @@
 ||bqg16.cc^
 ||bqrkubs.cn^
 ||bqtwbx.xyz^
+||brkxgfs.cn^
 ||buttn.cyou^
 ||ccemqe.cn^
 ||cerfbup.xyz^
@@ -29816,6 +29761,7 @@
 ||cuwuqo.xyz^
 ||damhixs.cn^
 ||ddqhnjb.cn^
+||dfdaaa12.com^
 ||dfepm.xyz^
 ||dfghaqea.xyz^
 ||dgozp.com^
@@ -29851,6 +29797,7 @@
 ||gvqrclx.cn^
 ||gxkoci.xyz^
 ||hangchen.icu^
+||happi.cyou^
 ||hcqsuqq.cn^
 ||hellobody.online^
 ||hellu.cyou^
@@ -29858,6 +29805,7 @@
 ||hfjsbf.xyz^
 ||hhaobcj.cn^
 ||hibaby.ren^
+||hnrjign.cn^
 ||hspffjx.cn^
 ||htbdvx.xyz^
 ||hualu.live^
@@ -29873,6 +29821,7 @@
 ||hvhudp.xyz^
 ||hzcp.fun^
 ||icyrwy.xyz^
+||idkqtaa.cn^
 ||igusoft.com^
 ||ikbgika.cn^
 ||ikbhgj.cn^
@@ -29889,6 +29838,7 @@
 ||jkxvvv.xyz^
 ||jojog.com^
 ||jqtzw.xyz^
+||juntaijiancai.com^
 ||juyqiolna.cyou^
 ||juzwrl.xyz^
 ||jwghphm.cn^
@@ -29953,7 +29903,9 @@
 ||paradisemall.net^
 ||pddbtn.xyz^
 ||pic123.top^
+||plyuwqq.cn^
 ||porjjhu.cn^
+||ppltxv.xyz^
 ||ps123.online^
 ||qanduan.com^
 ||qgazysq.cn^
@@ -30024,6 +29976,7 @@
 ||vec4o.fun^
 ||vfsdgjrr.xyz^
 ||viope.cyou^
+||wbqosw.xyz^
 ||wdasa.top^
 ||wdmdejd.cn^
 ||weiqu.cyou^
@@ -30046,6 +29999,7 @@
 ||xtpez.xyz^
 ||xxsmcps.com^
 ||xyblm.xyz^
+||yang17.xyz^
 ||yanjiusuo.cc^
 ||yemueii.cn^
 ||yhjh04.com^
