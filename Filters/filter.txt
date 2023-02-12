@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-02-11T19:28:11.984Z
+! Last modified: 2023-02-12T19:28:18.817Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,9 @@
 !
 !
 !
+||poflix.com^
+||egikoilnbwk.com^
+||xmvftaoz.com^
 ||acsshufxnu.com^
 ||qtspkqzn.com^
 ||skeetads.com^
@@ -90,7 +93,6 @@
 ||datingarea.life^
 ||dkohudoflh.com^
 ||kmyamhowpj.com^
-||egikoilnbwk.com^
 ||iuudbgnvgyswen.com^
 ||losepipegoes.live^
 ||olineman.pro^
@@ -21230,6 +21232,7 @@
 ||geo-idm.fr^
 ||geopromos.com^
 ||geovisite.com^
+||geozo.com^
 ||germaniavid.com^
 ||gestionpub.com^
 ||get.com^
@@ -21592,6 +21595,7 @@
 ||ppcwebspy.com^
 ||prebid.org^
 ||prebidwrapper.com^
+||primis-amp.tech^
 ||promo-reklama.ru^
 ||proper.io^
 ||pubdirecte.com^
@@ -22821,10 +22825,6 @@
 ||c3.myapkcdn.in^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
-!
-! com.kakao.talk
-.ad.kakaocorp.com^
-.ad.kakao.com^
 !
 ||api-ad-adapter.wps.com^
 ||jtbo*.nqxvevk.cn^
@@ -27782,6 +27782,7 @@
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
+||expdirclk.com^
 ||pompass.net^
 ||v2st.shinobi.jp^
 ||yads.c.yimg.jp^
@@ -29108,7 +29109,6 @@
 !
 !
 ||c303.pw^
-||geozo.com^
 ! Domain server iklan milik luckyads.com (domain sering berganti-ganti)
 ! https://github.com/realodix/AdBlockID/issues/376
 ! XL Axiata
@@ -30433,6 +30433,11 @@
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
+||ogkfuw.xyz^
+||qheoy.cn^
+||hufkzv.xyz^
+||4iksy.cn^
+||pgccaoy.cn^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
