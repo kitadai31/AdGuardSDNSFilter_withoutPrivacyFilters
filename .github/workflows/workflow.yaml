@@ -3,6 +3,7 @@ name: Build AdGuard DNS filter
 on:
   schedule:
     - cron: '24 19 */2 * *'
+  workflow_dispatch:
 
 jobs:
   build:
