@@ -1,11 +1,11 @@
 !
-! Title: AdGuard DNS filter (without privacy filters)
-! Description: Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
+! Title: AdGuard DNS filter (without privacy filters) 
+! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-03-01T19:28:18.782Z
+! Last modified: 2023-03-02T10:02:52.273Z
 !
-! Compiled by @adguard/hostlist-compiler v1.0.12
+! Compiled by @adguard/hostlist-compiler v1.0.15
 !
 !
 ! Source name: AdGuard Base filter ad servers
@@ -681,7 +681,6 @@
 ||snodlycaccias.com^
 ||adc.streamspread.com^
 ||fogsham.com^
-||ad.utop.ir^
 ||minoritish.online^
 ||roewnand.biz^
 ||swinity.com^
@@ -1010,7 +1009,6 @@
 ||tinb.net^
 ||yeahmobi.com^
 ||api.grumft.com^
-||jscdn.yieldbird.com^
 ||advmanager.techfun.pl^
 ||abodealley.com^
 ||onemerelyingisr.club^
@@ -1332,7 +1330,6 @@
 ||rek.www.wp.pl^
 ||dz5bomaog2c5t.cloudfront.net^
 ||s.remonti.org^
-||ads.farakav.com^
 ||rst.pornyhd.com^
 ||d18g6t7whf8ejf.cloudfront.net^
 ||ads-media.gameforge.com^
@@ -1356,7 +1353,6 @@
 ||dash.tmearn.com^
 ||drrcckbju3nd0.cloudfront.net^
 ||ads.linkedin.com^
-||banner.vatanclick.ir^
 ||da3uf5ucdz00u.cloudfront.net^
 ||secure.iqmining.com^
 ||d2nrdy2pg3k168.cloudfront.net^
@@ -1477,7 +1473,6 @@
 !
 ! spellchecker.lu ad
 ||reklammen.spellchecker.lu^
-||free.xjs.lol^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68502
 ||widget.tippebannere.no^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128653
@@ -7371,6 +7366,7 @@
 ||dictatormiserablealec.com^
 ||dictiontajik.com^
 ||didchinosdub.cam^
+||didinejaspoid.com^
 ||didmakingby.xyz^
 ||didpuprat.com^
 ||diedpractitionerplug.com^
@@ -10334,6 +10330,7 @@
 ||herespepla.com^
 ||herheads.xyz^
 ||herhomeou.xyz^
+||hermichermicbroadcastinglifting.com^
 ||hermichermicfurnished.com^
 ||hernialbriefer.com^
 ||heroadmissionfinalize.com^
@@ -12234,7 +12231,6 @@
 ||libertystmedia.com^
 ||libihimu.com^
 ||librariessunflower.com^
-||librefutboltv.com^
 ||licantrum.com^
 ||licenceattribute.com^
 ||licencerings.com^
@@ -13050,6 +13046,7 @@
 ||mhxxescmv.xyz^
 ||mi82ltk3veb7.com^
 ||miamribud.com^
+||micastskangli.com^
 ||micghiga2n7ahjnnsar0fbor.com^
 ||michealmoyite.com^
 ||mickeysdim.com^
@@ -18405,6 +18402,7 @@
 ||stinternoctuae.com^
 ||stinue.com^
 ||stipelyaya.live^
+||stipestilths.com^
 ||stiposclimath.com^
 ||stippennothing.guru^
 ||stirprovidence.com^
@@ -19023,6 +19021,7 @@
 ||themeconsequence.com^
 ||themeillogical.com^
 ||themereplacebiopsy.com^
+||themselphenyls.com^
 ||thenceafeard.com^
 ||thenceextremeeyewitness.com^
 ||thenewstreams.com^
@@ -23328,7 +23327,6 @@
 ||get.thisisvegas.com^
 ||gfxa.sheetmusicplus.com^
 ||gg.caixin.com^
-||go.ezodn.com^
 ||go0gl3.pages.dev^
 ||googleads.github.io^
 ||hbid.ams3.cdn.digitaloceanspaces.com^
@@ -23369,7 +23367,6 @@
 ||rubylife.go2cloud.org^
 ||s.0cf.io^
 ||saambaa.com^
-||sbhc.portalhc.com^
 ||secure.money.com^
 ||servedby.yell.com^
 ||services.zam.com^
@@ -28764,7 +28761,6 @@
 ||content.acc-hd.de^
 ||d1d8vn0fpluuz7.cloudfront.net^
 ||danmeneldur.com^
-||dmcdn.yieldbird.com^
 ||dogus-ads-cdn.dygdigital.com^
 ||dolarkurum.com^
 ||downads.com^
@@ -29304,6 +29300,29 @@
 ||maillovelove.net^
 
 !
+! Source name: AdGuard Japanese filter ad servers first-party
+! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt
+!
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
+||sgad.surfsnow.jp^
+||mbadv.nan.co.jp^
+||creative.live.tktube.com^
+||ads.world-fusigi.net^
+||ad.inter-edu.com^
+||ad.eloan.co.jp^
+||ad.abema.io^
+||ad-hatena.com^
+||advert.punyu.com^
+||gum.dlbooks.to^
+
+!
 ! Source name: AdGuard German filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/adservers.txt
 !
@@ -29669,6 +29688,33 @@
 ||ab.tweakers.nl^
 
 !
+! Source name: EasyList Dutch ad servers third-party
+! Source: https://raw.githubusercontent.com/easylist/easylistdutch/master/easylistdutch/block_third_party_server.txt
+!
+||adrequest.net^
+||adshim.com^
+||affiliatepartners.com^
+||affiliateprogramma.eu^
+||believe-the-hype.be^
+||botndm.nl^
+||crnsgngrpj.nl^
+||dntblckmpls.nl^
+||ds1.nl^
+||dt51.net^
+||dt71.net^
+||gratis-neuken.com^
+||nojazz.eu^
+||nonstoppartner.net^
+||online-banners.nl^
+||optoutadvertising.com^
+||sponsorkliks.com^
+||static-dscn.net^
+||tools.islive.nl^
+||travelads.be^
+||vpscash.nl^
+||xpartners.nl^
+
+!
 ! Source name: EasyList Germany ad servers
 ! Source: https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt
 !
@@ -29859,7 +29905,6 @@
 ||network-marketing24.com^
 ||network-media.info^
 ||networx.me^
-||nonstoppartner.net^
 ||notenpartner.de^
 ||nwave.de^
 ||onlymega.com^
@@ -29947,6 +29992,695 @@
 ! Mobile
 ||avault.net^
 ||recognified.net^
+
+!
+! Source name: Frellwits Swedish Filter
+! Source: https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt
+!
+# Aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
+# ----
+# title:          Frellwit's Swedish Hosts File
+# last updated:   2023-02-28 07:02:44 CET
+# entries:        1050
+# format:         hosts (hosts -- in hosts file format)
+# homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
+||1terms.com^
+||7hd.org^
+||a.omappapi.com^
+||a.opmnstr.com^
+||a.thelocal.com^
+||a.zxcvads.com^
+||ab.fastighetsvarlden.se^
+||accesslnk.com^
+||ad.spreaker.com^
+||adcell.io^
+||adclick.se^
+||addy.expressen.se^
+||adeprimo.se^
+||adhost.se^
+||adncdnend.azureedge.net^
+||adonstudio.com^
+||adrunner.pricerunner.se^
+||ads.affiliate.legolas.bet^
+||ads.aland.com^
+||ads.annonsbladet.com^
+||ads.compro.se^
+||ads.docunordic.net^
+||ads.expekt.se^
+||ads.fotosidan.se^
+||ads.holid.io^
+||ads.insikt24.se^
+||ads.internet24.se^
+||ads.kelkoo.com^
+||ads.lektion.se^
+||ads.mainloop.net^
+||ads.motorvarlden.se^
+||ads.mrgreen.com^
+||ads.nordreportern.se^
+||ads.nyatider.nu^
+||ads.playpilot.com^
+||ads.skargarden.se^
+||ads.skidspar.se^
+||ads.skolvarlden.se^
+||ads.spania.no^
+||ads.ungdomar.se^
+||ads.varldenidag.se^
+||ads.veterinaren.nu^
+||adserver.ddev.site^
+||adserver.infotorg.se^
+||adserver.so-rummet.se^
+||adservice.google.se^
+||adsettings.com^
+||adtr.io^
+||advert.livesportmedia.eu^
+||advert.rabaldermedia.se^
+||af.analytics.elx.cloud^
+||affiliatemedia.noaccountcasino.com^
+||affiliatemedia.speedybet.com^
+||affiliates.videoslots.com^
+||affiliator.com^
+||ai.idg.se^
+||ambassador.referralhero.com^
+||amd.sellingsimplified.net^
+||analytics.ciseway.se^
+||analytics.codigo.se^
+||analytics.gen.shield.monitoringservice.co^
+||analytics.hpscloud.se^
+||analytics.ica.se^
+||analytics.imponline.com^
+||analytics.kaltura.com^
+||analytics.kb.se^
+||analytics.mailmunch.co^
+||analytics.netcent.se^
+||analytics.nikkasystems.com^
+||analytics.sunet.se^
+||analytics.svt.se^
+||analytics-sdk.yle.fi^
+||analytics.ci-360.se^
+||angry-golick-2a96e5.netlify.app^
+||annons.lidkopingsnytt.nu^
+||annons.svenskjakt.se^
+||annons.turist.se^
+||annonsera.kyrkanstidning.se^
+||anonymousdemographics.com^
+||apccdn.apsis1.com^
+||api.adfenix.com^
+||api.deep.bi^
+||api.fouanalytics.com^
+||api.getlevelten.com^
+||api.innomdc.com^
+||api.retargetly.com^
+||api.segment.io^
+||api3847.d41.co^
+||app.converdiant.com^
+||app.truconversion.com^
+||app.yieldify.com^
+||apps.shareaholic.com^
+||apps-cdn.relevant-digital.com^
+||apsislead.com^
+||aquaplatform.com^
+||arbetaren.innocraft.cloud^
+||asmassets.mtvnservices.com^
+||asset.pagefair.com^
+||assets.adfenix.com^
+||assets.heylink.com^
+||auction-release.mlpapi.com^
+||audience.systems^
+||autodeal.agilecrm.com^
+||autoleasedi.bytelab.dk^
+||ax.idg.se^
+||azalead.com^
+||b.ns1p.net^
+||b1.trickyrock.com^
+||banners.instaforex.com^
+||bcm.interactives.dk^
+||bellmetric.net^
+||besstahete.info^
+||bettersport.se^
+||bettingstugan.se^
+||bilpolicydi.bytelab.dk^
+||biowebb-data.s3.amazonaws.com^
+||bitstarz.com^
+||bjursundfastigheter.se^
+||bmbstatic.blob.core.windows.net^
+||boost-cdn.manatee.dk^
+||boot.pbstck.com^
+||borsvarlden-banners.azurewebsites.net^
+||brandy.bonniernewslifestyle.se^
+||brews.marketale.com^
+||browser.covatic.io^
+||browser-http-intake.logs.datadoghq.com^
+||browser-http-intake.logs.datadoghq.eu^
+||btloader.com^
+||bulletproof-analytics.com^
+||buzzador.com^
+||c.eacla.com^
+||cache6.riedta.com^
+||cameraeushop.com^
+||capi.connatix.com^
+||cargodisplayads.com^
+||carneoam.com^
+||casinotoplists.com^
+||cd.connatix.com^
+||cdn.adfenix.com^
+||cdn.adswizz.com^
+||cdn.adt356.com^
+||cdn.adt357.net^
+||cdn.adt361.com^
+||cdn.adt511.net^
+||cdn.adt523.net^
+||cdn.adt532.com^
+||cdn.adt598.com^
+||cdn.advisible.com^
+||cdn.amplitude.com^
+||cdn.appsmav.com^
+||cdn.biddercore.io^
+||cdn.blueconic.net^
+||cdn.brandmetrics.com^
+||cdn.churnkit.com^
+||cdn.connatix.com^
+||cdn.convertbox.com^
+||cdn.decibelinsight.net^
+||cdn.foxpush.net^
+||cdn.gravitec.net^
+||cdn.hubvisor.io^
+||cdn.jst.ai^
+||cdn.maaw.io^
+||cdn.matomo.cloud^
+||cdn.myadmessenger.com^
+||cdn.oribi.io^
+||cdn.permutive.com^
+||cdn.popt.in^
+||cdn.reaktion.se^
+||cdn.shareaholic.net^
+||cdn.speedcurve.com^
+||cdn.taboola.com^
+||cdn.usefathom.com^
+||cdn.userreport.com^
+||cdn.webpushr.com^
+||cdn.wootric.com^
+||cdn.yieldwrapper.com^
+||cdn001.milotree.com^
+||cdn1.profitmetrics.io^
+||cdn-0.d41.co^
+||cdn-scripts.signifyd.com^
+||cdn.dep-x.com^
+||cdn.relevant-digital.com^
+||cdn.vip-hd-movies.xyz^
+||cdn.zx-adnet.com^
+||cintnetworks.com^
+||cision.com^
+||cl.k5a.io^
+||claremontspringstreet.com^
+||classic.avantlink.com^
+||click.vgnett.no^
+||clientcdn.pushengage.com^
+||cl-eu2.k5a.io^
+||cmp.network-n.com^
+||collect.breakit.se^
+||collect.igodigital.com^
+||collect.tealiumiq.com^
+||collector.brandmetrics.com^
+||collector.cint.com^
+||collector.schibsted.io^
+||collector-pxrf8vapwa.pxchk.net^
+||collector-pxrf8vapwa.px-cdn.net^
+||collector-pxrf8vapwa.px-cloud.net^
+||collector.houston-analytics.com^
+||collect-metrics.aquro.com^
+||connectio.s3.amazonaws.com^
+||content.adten.eu^
+||content.livesportmedia.eu^
+||convertexperiments.com^
+||core.centotag.io^
+||core.manatee.io^
+||counter.theconversation.com^
+||counter.yadro.ru^
+||creative.prf.hn^
+||creatopy-adtag-production.b-cdn.net^
+||cs.ns1p.net^
+||ctx.matchads.net^
+||curedonswab.com^
+||curemedia.se^
+||cxpublic.com^
+||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
+||d9v72urx9pbbc.cloudfront.net^
+||d24rtvkqjwgutp.cloudfront.net^
+||d33s3ffr7fotas.cloudfront.net^
+||d191y0yd6d0jy4.cloudfront.net^
+||dackpartner-web.s3.amazonaws.com^
+||dagenstv.112.2o7.net^
+||deals.innocode.no^
+||delivered-by-madington.com^
+||di.insplanet.com^
+||dinapengar.compricer.se^
+||dl.episerver.net^
+||dmp.theadex.com^
+||doktor-se.onelink.me^
+||doppler-beacons.cbsivideo.com^
+||double.se^
+||dpm.demdex.net^
+||drift.com^
+||driftt.com^
+||dspk.kindredplc.com^
+||ds-aksb-a.akamaihd.net^
+||dynamic-83d822c6-3868940931.stat.truthlyanalytics.com^
+||e.viously.com^
+||eas.mediekompaniet.com^
+||easyresearch.se^
+||ecdn.analysis.fi^
+||ecsanalytics.com^
+||edge.atmtd.com^
+||edge.quantserve.com^
+||ediads.com^
+||embi-media.com^
+||etc-cdn-staging.ams3.digitaloceanspaces.com^
+||eteppy.com^
+||europe-west1-bonnier-big-data.cloudfunctions.net^
+||events-collector.spot.im^
+||evtr.nordiskemedier.dk^
+||expo.ads.ramsalt.com^
+||extern.prisjakt.nu^
+||external.reseguiden.se^
+||ezodn.com^
+||f.convertkit.com^
+||fapp.pw^
+||feed.aservice.tools^
+||flx1.com^
+||fpnpmcdn.net^
+||freegeoip.app^
+||freespee.com^
+||funnelytics.io^
+||fusion.bonniertidskrifter.se^
+||ga.getresponse.com^
+||gadk.hit.gemius.pl^
+||gamblingsyndication.com^
+||gameanalytics.com^
+||gase.hit.gemius.pl^
+||get.s-onetag.com^
+||greatstoryvideo.se^
+||gwen.insertcoin.se^
+||hapyak.com^
+||heroaffiliates.com^
+||hpevoices.com^
+||hsadspixel.net^
+||h.online-metrix.net^
+||iba.feedblitz.com^
+||icarabatt.com^
+||iconosquare.com^
+||images.passendo.com^
+||img06.en25.com^
+||insight.nikkasystems.com^
+||instant.page^
+||interactions.sesamy.com^
+||investerarbrevet.se^
+||inviso.rampanel.com^
+||invite.leanlab.co^
+||inxy.run^
+||ion.btcswe.com^
+||ipmeta.io^
+||izooto.com^
+||js.appboycdn.com^
+||js.hsleadflows.net^
+||js.pafpartners.com^
+||jss.jajja.com^
+||jssdk.pulse.schibsted.com^
+||jssdkcdns.mparticle.com^
+||js-agent.newrelic.com^
+||js.hs-analytics.net^
+||js.hs-banner.com^
+||jtp.expressen.se^
+||jubiitag.dk^
+||kaloo.ga^
+||keymetrics.se^
+||ksdarprt.reseguiden.se^
+||kundklubb-se.com^
+||kyrkoskatten.se^
+||kyrkskatt.se^
+||l.sharethis.com^
+||lanapengar.expressen.se^
+||lararforbundet.analytics.ozzi.io^
+||leadconnect.ipmaxi.se^
+||leadenhancer.com^
+||leiki.com^
+||leiki-doubleclick-proxy.appspot.com^
+||levaochbo.compricer.se^
+||libring.com^
+||ljuskompaniet.se^
+||loader.wisepops.com^
+||loadr.exelator.com^
+||log.cookieyes.com^
+||log.medietall.no^
+||logs.spilgames.com^
+||log-api.newrelic.com^
+||lwadm.com^
+||m.burt.io^
+||m.extellio.com^
+||m1.analytics.sitevision-cloud.se^
+||markhor.organicfruitapps.com^
+||marlin.kumo.at^
+||matomo.chsc.dk^
+||matomo.goteborgco.se^
+||matomo.lulea.se^
+||matomo.mindbite.cloud^
+||matomo.studio.se^
+||matomo.vibb.ax^
+||matomo-sysutv.goteborg.se^
+||maxetise.net^
+||mcgtrack.herokuapp.com^
+||mdn2015x4.com^
+||media.hajper.com^
+||media.plista.com^
+||mediaglacier.com^
+||mediakraft.se^
+||mediaserver.entainpartners.com^
+||mediaserver.gvcaffiliates.com.cdn.cloudflare.net^
+||meetrics.net^
+||mega.folkbladet.nu^
+||mega.vk.se^
+||meltwater.com^
+||menthu.vdsinside.com^
+||metapic.se^
+||metrics.brightcove.com^
+||micro.rubiconproject.com^
+||mindreskatt.se^
+||missaffiliate.com^
+||mmetrix.mobi^
+||moceanads.com^
+||mraffiliate.com^
+||mrporter-creative.prf.hn^
+||mtpc.se^
+||mtst.io^
+||munchkin.marketo.net^
+||my.hellobar.com^
+||n.dyntrk.com^
+||n24mobse.nuggad.net^
+||n24se.nuggad.net^
+||nbes.nu^
+||network.ad.nu^
+||newstats.blogg.se^
+||nexus.ensighten.com^
+||nichehuset.dk^
+||nompakru.click^
+||nordicfynd.se^
+||nordishopping.com^
+||norranstats.azurewebsites.net^
+||norstatsurveys.com^
+||npario-inc.net^
+||oas.market.se^
+||offer-go.com^
+||omni-ad-blocket.herokuapp.com^
+||onetag-sys.com^
+||openx.financialpublishers.nl^
+||openx.gamereactor.dk^
+||openx.jaktsidan.se^
+||optnmnstr.com^
+||otc-cdn.relevant-digital.com^
+||p.insplanet.com^
+||p.lp4.io^
+||petrk.com^
+||piwik.qmmedia.zone^
+||pix.spot.im^
+||pixel.carambo.la^
+||pixel.glimr.io^
+||pixel.ipinfo.io^
+||pixel.mathtag.com^
+||pixel.quantserve.com^
+||pixel.watch^
+||pixel-profile-cloud.eniro.com^
+||platform.iteratehq.com^
+||platform-api.sharethis.com^
+||plus.sharedcount.com^
+||popitunder.com^
+||portalhc.com^
+||postnord-sverige.com^
+||pp.lp4.io^
+||prd-collector-platform.ex.co^
+||proxyas.com^
+||publish-int.se^
+||pushcrew.com^
+||push-notifications.top^
+||pxl.host^
+||r.existenz.se^
+||rabattcoop.com^
+||rabattkoder.ifragasatt.se^
+||reauthenticator.com^
+||recirculation.spot.im^
+||record.findtrustclicks.com^
+||redistats.com^
+||regstat.se^
+||reklam.6x.se^
+||report.23video.com^
+||research-int.se^
+||resor-external.barnsemester.se^
+||resultify.com^
+||resultify.se^
+||retargettracker.com^
+||revive.edgeflyfishing.com^
+||revive.nyheteridag.se^
+||revive.teknikveckan.com^
+||revive.tv7.fi^
+||revive.zinion.com^
+||revive.99mac.se^
+||revrelations.com^
+||richmediastudio.com^
+||richmetrics.com^
+||rotator.riedta.com^
+||route.carambo.la^
+||royapp.com^
+||rumcdn.geoedge.be^
+||rum-http-intake.logs.datadoghq.eu^
+||runmewivel.com^
+||s.ntv.io^
+||s10.histats.com^
+||s400.mxcdn.net^
+||sak.userreport.com^
+||salesbooster.ai^
+||sannsyn.com^
+||sbs.deliveryengine.adswizz.com^
+||sc.lfeeder.com^
+||schibsted-cdn.relevant-digital.com^
+||science.omni.se^
+||script.crazyegg.com^
+||script.extellio.com^
+||script.ioam.de^
+||script.e-space.se^
+||sdk.pulse.schibsted.com^
+||se1.siteimprove.com^
+||se5.pliing.com^
+||sebse.nuggad.net^
+||secure.curl7bike.com^
+||secure.quantserve.com^
+||secure.reaktion.se^
+||secure.statcounter.com^
+||seenthis.se^
+||sentry.outbid.io^
+||seoab.io^
+||seonify.com^
+||servedby.lintigroup.se^
+||servedby.revive-adserver.net^
+||se-ads-microservice.ads.allermedia.io^
+||se-ads-microservice.aws.aller.com^
+||sgtm.inet.se^
+||sibautomation.com^
+||sifomedia.sportsverige.se^
+||simpleoneline.online^
+||skattamindre.se^
+||sleeknote.com^
+||smetrics.aftonbladet.se^
+||smtvn.112.2o7.net^
+||snap.licdn.com^
+||sociuslive.com^
+||source.advisible.com^
+||spel.expressen.se^
+||sprinklecontent.com^
+||sprinkletxt.com^
+||ssl.sifomedia.se^
+||ssl.webserviceaward.com^
+||stat.modette.se^
+||stat.nyheter24.se^
+||stat.torgen.se^
+||stat03.stat.cliche.se^
+||static.chartbeat.com^
+||static.getclicky.com^
+||static.hotjar.com^
+||static.matchads.net^
+||static.stat.truthlyanalytics.com^
+||static.step.dk^
+||static.zotabox.com^
+||static-se.plista.com^
+||statistics.heltenkelt.se^
+||statistik.blogg1.se^
+||statistik.mxo.se^
+||statistik.svenskaakademien.se^
+||stats.blogg.se^
+||stats.bluebillywig.com^
+||stats.bytelabs.se^
+||stats.datawrapper.de^
+||stats.docu.info^
+||stats.healthcare.se^
+||stats.helsingborg.se^
+||stats.jibber.social^
+||stats.kaltura.com^
+||stats.playoncenter.com^
+||stats.poddtoppen.se^
+||stats.tipser.com^
+||stats.userneeds.com^
+||stats.wpmucdn.com^
+||stats.wp.com^
+||stats2.agilecrm.com^
+||statsapi.screen9.com^
+||storymedia.se^
+||st-n.ads1-adnow.com^
+||survey.interquest.com^
+||synchrobox.adswizz.com^
+||s-eu-1.pushpushgo.com^
+||s.go-mpulse.net^
+||t.contentinsights.com^
+||t.elasticsuite.io^
+||t.fml.rip^
+||t.influact.com^
+||t.myvisitors.se^
+||t.raptorsmartadvisor.com^
+||t0.extreme-dm.com^
+||t1.extreme-dm.com^
+||tagging-service.fotbollskanalen.se^
+||tagging-service.tv4play.se^
+||tagging-service.tv4.se^
+||tags.bkrtx.com^
+||tags.crwdcntrl.net^
+||tags.refinery89.com^
+||tags.webtraffic.se^
+||tapet.bonniernews.se^
+||telemetric.dk^
+||telemetry.bambuser.io^
+||tm.tradetracker.net^
+||to.getnitropack.com^
+||tools.ascontentcloud.com^
+||tourn.co^
+||tourn.se^
+||tpgrn.com^
+||tr.apsisforms.com^
+||track.addevent.com^
+||track.postkodlotteriet.se^
+||track.uniqodo.com^
+||tracker.gamedock.io^
+||tracker.zummycloud.com^
+||tracker-v4.gamedock.io^
+||tracking.aktuellhallbarhet.se^
+||tracking.allehanda.se^
+||tracking.arbetarbladet.se^
+||tracking.avestatidning.com^
+||tracking.bandypuls.se^
+||tracking.bblat.se^
+||tracking.bonnier.news^
+||tracking.borlangetidning.se^
+||tracking.byggindustrin.se^
+||tracking.dagensmedia.se^
+||tracking.dagensmedicin.se^
+||tracking.dagenssamhalle.se^
+||tracking.dagligvarunytt.se^
+||tracking.dalademokraten.se^
+||tracking.ditv.di.se^
+||tracking.di.se^
+||tracking.dn.se^
+||tracking.eurosport.com^
+||tracking.falkopingstidning.se^
+||tracking.falukuriren.se^
+||tracking.fasab6f.se^
+||tracking.fastighetsnytt.se^
+||tracking.gd.se^
+||tracking.hd.se^
+||tracking.ht.se^
+||tracking.inboxads.com^
+||tracking.jnytt.se^
+||tracking.jp.se^
+||tracking.ljusdalsposten.se^
+||tracking.ljusnan.se^
+||tracking.ltz.se^
+||tracking.lt.se^
+||tracking.market.se^
+||tracking.moratidning.se^
+||tracking.na.se^
+||tracking.norrteljetidning.se^
+||tracking.nyaludvikatidning.se^
+||tracking.nynashamnsposten.se^
+||tracking.omniture.nt.se^
+||tracking.op.se^
+||tracking.resume.se^
+||tracking.salaallehanda.com^
+||tracking.skaraborgslanstidning.se^
+||tracking.skd.se^
+||tracking.skovdenyheter.se^
+||tracking.smalandsdagblad.se^
+||tracking.smalanningen.se^
+||tracking.smt.se^
+||tracking.soderhamnskuriren.se^
+||tracking.sodran.se^
+||tracking.st.nu^
+||tracking.sydsvenskan.se^
+||tracking.tailsweep.expressen.se^
+||tracking.tidningenangermanland.se^
+||tracking.tidningenharjedalen.se^
+||tracking.tranastidning.se^
+||tracking.vastgotabladet.se^
+||tracking.vetlandaposten.se^
+||tracking.visitorsvoice.com^
+||tracking.vlt.se^
+||tracking.vn.se^
+||tracking.fagersta-posten.se^
+||traffic.feedremedy.com^
+||trafikstyrelsen.com^
+||trckr.nordiskemedier.dk^
+||trckr1.nordiskemedier.dk^
+||trn.ninja^
+||trugaze.io^
+||twin-iq.kickfire.com^
+||ubembed.com^
+||umami.nordiskehandel.cloud^
+||unformsy.mobi^
+||upsales.com^
+||userneeds.dk^
+||utt.impactcdn.com^
+||veinteractive.com^
+||vg02.met.vgwort.de^
+||viagogo.se^
+||viamtvse.112.2o7.net^
+||vikispot.com^
+||visitanalytics.userreport.com^
+||vitals.vercel-insights.com^
+||w.sharethis.com^
+||w.usabilla.com^
+||wct-1.com^
+||wct-2.com^
+||webbannons.ntm.eu^
+||webstats.100procent.com^
+||web-analytics.ica.se^
+||widget.boende.se^
+||widget.cdn.citygate.se^
+||widget.citygate.se^
+||widgets.getsitecontrol.com^
+||widgets.spklw.com^
+||woomio.com^
+||ws.sharethis.com^
+||www.adsnet.se^
+||www.awin1.com^
+||www.blogtoplist.se^
+||www.clarity.ms^
+||www.dwin2.com^
+||www.fakturino.se^
+||www.kundvisaren.se^
+||www.linnlilja.se^
+||www.mymediaindex.com^
+||www.stadiumstage.com^
+||www.statcounter.com^
+||www.tamgrt.com^
+||www.vizzit.se^
+||www.air-max.se^
+||www.datadoghq-browser-agent.com^
+||x.bidswitch.net^
+||yieldbird.com^
+||yoursecurecheckout1.com^
 
 !
 ! Source name: EasyList Italy ad servers
@@ -30377,8 +31111,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 01 Mar 2023 09:55 UTC+7
-! Version: 2303010955
+! Last modified: 02 Mar 2023 10:29 UTC+7
+! Version: 2303021029
 ! Blocked: 830 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -31926,6 +32660,15 @@
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
+||diqizu.xyz^
+||pgrjxpd.cn^
+||ejyvgq.xyz^
+||jiape.cyou^
+||xxtalp.xyz^
+||ibqswjdkpo.com^
+||ibjkdwsdko.com^
+||okag.top^
+||katynplum.ltd^
 ||001adafg.xyz^
 ||0024aaaa.com^
 ||004fsdljasd.xyz^
@@ -39222,6 +39965,515 @@
 ||hdsrc-a.akamaihd.net^
 
 !
+! Source name: Persian Blocker Hosts
+! Source: https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
+!
+# >> A <<
+||adrooz.com^
+||affilio.ir^
+||analyt.ir^
+
+||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
+||error-tracking.arvancloud.com^
+
+||adexo.ir^
+||adskav.com^
+||advn.ir^
+
+||amaroid.net^
+
+||analytics.aasaam.com^
+||analytics-2.aasaam.com^
+||analytics-3.aasaam.com^
+analytics-*.aasaam.com
+
+||adwised.com^
+||adwisedfs.com^
+||adwised.azureedge.net^
+# TODO: Remove adwised.azureedge.net, but navatv.com and baran-music.com still links to it
+
+||adivery.com^
+||adnegah.net^
+||adpulse.ir^
+||adsima.net^
+||adtrace.io^
+||affili.ir^
+||amarfa.ir^
+||ayyaar.ir^
+# ^ Used by irna.ir
+
+||adro.ir^
+||affstat.digikala.com^
+||affiliate.digikala.com^
+
+# >> B <<
+||boorantech.com^
+
+||behinava.com^
+||radar.bayan.ir^
+||backority.ir^
+
+# >> C <<
+||cayot.ir^
+# Example: tamasha.com/v/DDlMB
+
+||chavosh.org^
+
+||clickaval.com^
+||clickyab.com^
+||chabok.io^
+
+||congoro.com^
+||congoro.ir^
+
+# >> D <<
+||24d.ir^
+
+||denutility.com^
+||davedbux.ir^
+
+||deemanetwork.com^
+||deema.agency^
+||deemaagency.ir^
+
+# https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
+# https://github.com/AdguardTeam/AdguardFilters/issues/79983
+||click.digiato.com^
+# ^ Used by Digiato, Vigiato, Rooziato
+
+# >> E <<
+
+# >> F <<
+||facepop.org^
+||farsbux.ir^
+||fastclick.ir^
+
+||farakav.com^
+#  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
+
+# >> G <<
+
+# >> H <<
+||sentry.hamravesh.com^
+# Example: behtarino.com
+
+||hantana.org^
+
+# >> I <<
+||intrack.ir^
+||geoip.imber.live^
+
+# >> J <<
+||jetbux.ir^
+
+# >> K <<
+||api.karpishe.com^
+# Example: asrakhbar.com
+
+||kajads.com^
+||ads.karzar.net^
+
+# >> L <<
+||analytics.labbayk.ir^
+||linkfars.com^
+||landyab.com^
+||linksaz.net^
+||linkyar.com^
+
+# >> M <<
+||ir.mihanstore.net^
+# Example: uploadgoogle.com
+
+||metrix.ir^
+# ^ Used by digikala.com
+
+||magnetadservices.com^
+||merita.ir^
+||mitrarank.ir^
+
+# >> N <<
+||analytics.nastooh.ir^
+# Example: sahebkhabar.ir
+
+||newswidget.net^
+||vidomusic.org^
+||pantatec.ae^
+
+||najva.com^
+||netbina.com^
+
+# >> O <<
+||on-click.ir^
+
+# >> P <<
+||promizer.com^
+# ^ Example: eghtesadonline.com
+
+||phonroid.com^
+# ^ Example: par30games.net
+
+||popina.ir^
+
+||popunder.ir^
+# TODO: Remove it, Used by marzfun.com
+
+||popupdl.ir^
+#  TODO: Remove it, Used by dlfox.com
+
+
+||peyvandha.ir^
+||10.10.34.35^
+||10.10.34.36^
+||10.10.34.^
+10.10.34.*
+# ^ Example: imovie-dl.org
+
+||phoenixad.io^
+
+||partclick.ir^
+||persianrank.ir^
+||popgozar.com^
+||pushe.co^
+||p30rank.ir^
+||publica.ir^
+
+# >> Q <<
+
+# >> R <<
+||rankirani.ir^
+||rssbank.ir^
+
+# >> S <<
+||offers.sapra.ir^
+# Example: gapfilm.ir
+
+||statsfa.com^
+
+||sendword.ir^
+# Used by i-video.ir
+
+||sanjagh.net^
+
+||ads.safarme.ir^
+# ^ Used by kojaro.com
+
+||sabavision.com^
+
+# >> T <<
+||trustseal.e-rasaneh.ir^
+# Example: anaj.ir
+
+||triboon.net^
+||te1.ir^
+||talapop.ir^
+||tabligheirani.ir^
+||tbli.ir^
+
+# tavoos.net
+# ^ Example: film.tebyan.net
+# OISD maintainer: If a domain is used for ads, but also is required for "wanted content" (like video playback) it should not be blocked by domain/hosts lists. But rather left to handle by content blockers instead. (uBlock Origin, etc).
+
+||cashback.takhfifan.com^
+# TODO: Investigate 
+
+||toppopup.com^
+||counter.toolsir.com^
+
+# >> U <<
+||userfriendly.ir^
+# ^ Used by bils.ir
+
+||utopclick.com^
+||utop.ir^
+
+# >> V <<
+||vatanclick.ir^
+
+# >> W <<
+# webgozar.com
+# webgozar.ir
+# ^ They have tracking, but they also have polls
+
+||wideads.com^
+
+# >> X <<
+||xjs.lol^
+||xmlx.lol^
+# avaz-kurd.ir, power-music.ir
+
+# >> Y <<
+||yelloadwise.ir^
+||yekbux.com^
+
+# >> Z <<
+||zanboor.net^
+
+# >> A <<
+||analytics.asiatech.ir^
+||dsp.aparat.com^
+
+||ads.akairan.com^
+||ads.akaup.com^
+
+||ads.alaatv.com^
+
+# >> B <<
+||metrix.behtarino.com^
+||apm.bama.ir^
+
+# >> C <<
+||sentry.cafebazaar.org^
+
+# >> D <<
+||tadv.didestan.net^
+
+||analytics.dunro.com^
+
+||ads.dabi.ir^
+
+||tracker.digikala.com^
+||new-sentry.digikala.com^
+# analytics.digikala.com
+# ^ Shows online visitors
+
+||sentry-new.divar.ir^
+||ammaar.delivery.zeerak.cloud^
+
+# >> E <<
+
+# >> F <<
+# https://github.com/MasterKia/PersianBlocker/issues/107
+||analytics.football360.ir^
+
+||fb-gw.bef.rest^
+||sentry.footballiapp.com^
+
+||analysis.faradars.org^
+
+||tracker.farsnews.ir^
+# >> G <<
+
+# >> H <<
+||hiads.hidoctor.ir^
+
+# >> I <<
+||ipsite.ir^
+
+||analytics.irancell.ir^
+
+||websocket.ilna.ir^
+# >> J <<
+
+# >> K <<
+# https://github.com/MasterKia/PersianBlocker/issues/101
+||websocket.khanefootball.com^
+
+# >> L <<
+
+# >> M <<
+||analytic.magland.ir^
+
+||affiliate.malltina.com^
+||sentry.malltina.com^
+
+# >> N <<
+||sentry.namava.ir^
+
+||stc.ninisite.com^
+# >> O <<
+# https://github.com/MasterKia/PersianBlocker/issues/93
+||websocket.55online.news^
+
+# >> P <<
+||analytics.plaza.ir^
+
+# >> Q <<
+||sentry.quera.org^
+
+# >> R <<
+
+# >> S <<
+# https://github.com/MasterKia/PersianBlocker/issues/125
+||websocket.sobhtazeh.news^
+
+||linkdoni.soft98.ir^
+
+# >> T <<
+||ad.technews-iran.com^
+
+||adengine.telewebion.com^
+||rokhdad.telewebion.com^
+
+# >> U <<
+
+# >> V <<
+# https://github.com/MasterKia/PersianBlocker/issues/121
+||websocket.varandaz.com^
+
+||news-view-api.varzesh3.com^
+||video-view-api.varzesh3.com^
+
+# >> W <<
+
+# >> X <<
+
+# >> Y <<
+
+# >> Z <<
+||analytics.zoomit.ir^
+# https://webamoozcom.github.io/warning-list/
+
+
+# Discussion?
+||excoino.com^
+
+# Discussion?
+||irancloudmining.com^
+
+# Discussion?
+||axotrade.com^
+
+# آمیتیس?
+
+# https://github.com/Webamoozcom/warning-list/discussions/41
+# What domain?
+
+# https://github.com/Webamoozcom/warning-list/discussions/127
+# What domain?
+
+# https://github.com/Webamoozcom/warning-list/discussions/131
+# What domain?
+
+# https://github.com/Webamoozcom/warning-list/discussions/12
+||yoozbit.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/17
+||nokontoken.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/19
+||aryana.io^
+||aryacoin.io^
+||aryastake.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/23
+||cryptoland.com^
+||bridge.link^
+
+# https://github.com/Webamoozcom/warning-list/discussions/26
+||mtabdil.com^
+||mttcoin.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/27
+||unique.finance^
+
+# https://github.com/Webamoozcom/warning-list/discussions/29
+||treenvest.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/30
+||artanlife.club^
+
+# https://github.com/Webamoozcom/warning-list/discussions/34
+||tastenfts.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/37
+||bemchain.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/38
+||emway.ir^
+
+# https://github.com/Webamoozcom/warning-list/discussions/39
+||defigroups.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/43
+||leumia.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/45
+||aitrades.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/49
+||propertiq.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/50
+||bixbcoin.com^
+||bixb.exchange^
+
+# https://github.com/Webamoozcom/warning-list/discussions/52
+||synchrobit.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/56
+||arongroups.co^
+
+# https://github.com/Webamoozcom/warning-list/discussions/58
+||persia.exchange^
+
+# https://github.com/Webamoozcom/warning-list/discussions/60
+||guhtoken.org^
+
+# https://github.com/Webamoozcom/warning-list/discussions/65
+||orbitnetwork.net^
+
+# https://github.com/Webamoozcom/warning-list/discussions/66
+||kingmoney.io^
+||utbyte.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/70
+||quahl.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/74
+||gpm.ltd^
+
+# https://github.com/Webamoozcom/warning-list/discussions/77
+||dagcoin.org^
+
+# https://github.com/Webamoozcom/warning-list/discussions/80
+||coinwallet.biz^
+
+# https://github.com/Webamoozcom/warning-list/discussions/84
+||soodland.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/86
+||minepi.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/87
+||irancoinmine.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/88
+||laqira.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/89
+||waykingroup.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/90
+||bnbmatrix.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/92
+||smartgalaxy.finance^
+
+# https://github.com/Webamoozcom/warning-list/discussions/94
+||bahatoken.site^
+
+# https://github.com/Webamoozcom/warning-list/discussions/119
+||shamining.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/129
+||ccnnetwork.co^
+
+# https://github.com/Webamoozcom/warning-list/discussions/130
+||wintap.io^
+
+# https://github.com/Webamoozcom/warning-list/discussions/132
+||frzss.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/138
+||hoho.mobi^
+
+# https://github.com/Webamoozcom/warning-list/discussions/170
+||unitedsolarinfinity.com^
+
+# https://github.com/Webamoozcom/warning-list/discussions/171
+||mogo-crypto.net^
+
+!
 ! Source name: Additional rules
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt
 !
@@ -39394,7 +40646,6 @@
 ||log.go.com^
 ||log.mappy.net^
 ||log.newsvine.com^
-||log.optimizely.com^
 ||log.prezi.com^
 ||log.snapdeal.com^
 ||log.thevideo.me^
@@ -39478,8 +40729,6 @@
 ||s.infogr.am^
 ||s.infogram.com^
 ||s2.youtube.com^
-||sa.bbc.co.uk^
-||sa.bbc.com^
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.azcentral.com^
@@ -39600,7 +40849,6 @@
 ||stats.bbc.co.uk^
 ||stats.behance.net^
 ||stats.binki.es^
-||stats.blogg.se^
 ||stats.break.com^
 ||stats.cardschat.com^
 ||stats.christianpost.com^
@@ -39657,7 +40905,6 @@
 ||stcollection.moneysupermarket.com^
 ||t-ak.hulu.com^
 ||t.9gag.com^
-||t.appsflyer.com^
 ||t.blinkist.com^
 ||t.cinemablend.com^
 ||t.dailymail.co.uk^
@@ -39718,7 +40965,6 @@
 ||tracking.carsales.com.au^
 ||tracking.chacha.com^
 ||tracking.conduit.com^
-||tracking.eurosport.com^
 ||tracking.goodgamestudios.com^
 ||tracking.hsn.com^
 ||tracking.koego.com^
@@ -39745,7 +40991,6 @@
 ! Ads
 !
 ||adocean.cz^
-||tt.onthe.io^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||vahufapave.com^
 ||cewegncr.com^
@@ -39848,7 +41093,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98729
 @@||ia.hit.interia.pl^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/797
-@@||r.sascdn.com^|
 ! https://forum.adguard.com/index.php?threads/amplitude-com-blocked.45115
 @@||analytics.amplitude.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/783
@@ -39975,7 +41219,6 @@
 ! These ads cannot be hidden on the DNS-level, so we should not break clicks on the adverts
 @@||pagead.l.doubleclick.net^|
 @@||www.googleadservices.com^|
-@@||googleadapis.l.google.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/287
 @@||my.tealiumiq.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/267
@@ -39994,7 +41237,6 @@
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/190
 @@||awin1.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/185
-@@||app.adjust.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/183
 @@||feed.adrelayer.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/168
@@ -40006,7 +41248,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27196
 @@||a.adwolf.ru^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26607
-@@||imasdk.googleapis.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23929
 @@||cm-beacon.nakanohito.jp^|
 @@||cm-widget.nakanohito.jp^|
