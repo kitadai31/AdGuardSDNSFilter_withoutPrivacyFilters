@@ -1,6 +1,6 @@
 {
-  "name": "AdGuard DNS filter (without privacy filters)",
-  "description": "Filter composed of several other filters WITHOUT PRIVACY FILTERS (AdGuard Base filter, Social media filter, Mobile ads filter, EasyList, etc) and simplified specifically to be better compatible with DNS-level ad blocking.",
+  "name": "AdGuard DNS filter (without privacy filters) ",
+  "description": "Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).",
   "homepage": "https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters",
   "license": "https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE",
   "sources": [
@@ -104,6 +104,13 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
+      "name": "AdGuard Japanese filter ad servers first-party",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers_firstparty.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
       "name": "AdGuard German filter ad servers",
       "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/adservers.txt",
       "type": "adblock",
@@ -132,11 +139,25 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
+      "name": "EasyList Dutch ad servers third-party",
+      "source": "https://raw.githubusercontent.com/easylist/easylistdutch/master/easylistdutch/block_third_party_server.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
       "name": "EasyList Germany ad servers",
       "source": "https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt",
       "type": "adblock",
       "exclusions_sources": ["Filters/exclusions.txt"],
       "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
+      "name": "Frellwits Swedish Filter",
+      "source": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt",
+      "type": "hosts",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate", "Compress"]
     },
     {
       "name": "EasyList Italy ad servers",
@@ -181,6 +202,13 @@
       "transformations": ["RemoveModifiers", "Validate"]
     },
     {
+      "name": "Persian Blocker Hosts",
+      "source": "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt",
+      "type": "adblock",
+      "exclusions_sources": ["Filters/exclusions.txt"],
+      "transformations": ["RemoveModifiers", "Validate"]
+    },
+    {
       "name": "Additional rules",
       "source": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt",
       "transformations": ["Validate"],
@@ -193,5 +221,6 @@
       "type": "adblock"
     }
   ],
-  "transformations": ["Compress"]
+  "transformations": ["Compress", "Deduplicate"],
+  "exclusions_sources": ["Filters/exclusions.txt"]
 }
