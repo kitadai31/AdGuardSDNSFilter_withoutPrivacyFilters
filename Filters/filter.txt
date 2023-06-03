@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-06-01T19:29:58.194Z
+! Last modified: 2023-06-03T19:30:05.707Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -22,10 +22,17 @@
 !
 !
 !
+||scptp1.com^
+||so333o.com^
+||rdsncyndhj.com^
+||cdnquality.com^
+||rmanentsyshru.com^
+||stratebilater.com^
+||tyract.com^
+||tholor.com^
 ||xvpqmcgf.com^
 ||cilsammwcblcv.com^
 ||madeupadoption.com^
-||cmadserver.de^
 ||hottercensorbeaker.com^
 ||misarea.com^
 ||atoplayads.com^
@@ -1293,6 +1300,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d10fhz7gnk5369.cloudfront.net^
 ||notification.tubecup.net^
 ||d3dpet1g0ty5ed.cloudfront.net^
 ||banners.defenceweb.co.za^
@@ -3956,6 +3964,7 @@
 ||anawkward.com^
 ||anbszohtaox.com^
 ||ancdwlavstghmr.com^
+||anchoicstage.com^
 ||anchovymedieval.com^
 ||anchovysuccession.com^
 ||anciengoddize.com^
@@ -4972,6 +4981,7 @@
 ||babysitterdeadlockjuly.com^
 ||bac23cfb5b.com^
 ||baccatepsychon.com^
+||bacishushaby.com^
 ||backetkidlike.com^
 ||backfireaccording.com^
 ||backjawtanoa.com^
@@ -6621,7 +6631,6 @@
 ||cdnondemand.org^
 ||cdnpc.net^
 ||cdnpsh.com^
-||cdnquality.com^
 ||cdnrl.com^
 ||cdnspace.io^
 ||cdnspark.world^
@@ -7223,6 +7232,7 @@
 ||clxtsxwjp.com^
 ||cm-trk3.com^
 ||cm-trk5.com^
+||cmadserver.de^
 ||cmasisrjbgfv.xyz^
 ||cmbestsrv.com^
 ||cmbvrtiikioce.xyz^
@@ -7769,6 +7779,7 @@
 ||crumbledatabasesmeasure.com^
 ||crumbtypewriterhome.com^
 ||crumbumgristly.space^
+||crumplylenient.com^
 ||crunchybears.com^
 ||crushedignoring.com^
 ||crushlaunces.digital^
@@ -10562,6 +10573,7 @@
 ||foldingfileartist.com^
 ||foldupbriningjeanne.com^
 ||folgam.com^
+||foliumumu.com^
 ||followeraggregationtraumatize.com^
 ||followingdonation.com^
 ||followingtrusted.com^
@@ -10820,6 +10832,7 @@
 ||functionspresidespiral.com^
 ||fundamentalenvironmental.com^
 ||fundardsesaz.club^
+||fundsbe.com^
 ||fungianjaggier.digital^
 ||fungus.online^
 ||funkerpep.com^
@@ -10908,6 +10921,7 @@
 ||galanasorra.com^
 ||galaxyvandas.website^
 ||galeaeevovae.com^
+||galegadancy.com^
 ||galeidnursy.com^
 ||galenicnidana.com^
 ||galibicalvous.guru^
@@ -10981,6 +10995,7 @@
 ||gaulshiite.life^
 ||gaumishhipshot.com^
 ||gaupingjaguar.com^
+||gaurecorah.com^
 ||gausic.com^
 ||gauthait.com^
 ||gauthawhum.com^
@@ -12276,6 +12291,7 @@
 ||hpk42r7a.de^
 ||hpmarzhnny.com^
 ||hppvkbfcuq.com^
+||hpychofen.com^
 ||hpyjmp.com^
 ||hpyrdr.com^
 ||hq3x.com^
@@ -19740,6 +19756,7 @@
 ||rosebrandy.com^
 ||rosebudspeaks.com^
 ||rosellarecover.website^
+||rosolicdalapon.com^
 ||rosqb6vb1cqp.com^
 ||rosyruffian.com^
 ||rosytotal.pro^
@@ -20467,6 +20484,7 @@
 ||shartems.com^
 ||shatoawussoo.com^
 ||shattermessseedling.com^
+||shaufoal.com^
 ||shauksug.com^
 ||shaumtol.com^
 ||shauptab.net^
@@ -24498,6 +24516,7 @@
 ||woodmenopsonia.com^
 ||woodmountain.icu^
 ||woodymotherhood.com^
+||woofoafi.xyz^
 ||woogoust.com^
 ||wooledswards.com^
 ||woolenabled.com^
@@ -27387,6 +27406,7 @@
 ||d2vwl2vhlatm2f.cloudfront.net^
 ||d2w92zbcg4cwxr.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^
 ||d2x0u7rtw4p89p.cloudfront.net^
 ||d2x19ia47o8gwm.cloudfront.net^
 ||d2xng9e6gymuzr.cloudfront.net^
@@ -27398,9 +27418,11 @@
 ||d2zcblk8m9mzq5.cloudfront.net^
 ||d2zh7okxrw0ix.cloudfront.net^
 ||d2zi8ra5rb7m89.cloudfront.net^
+||d2zv5rkii46miq.cloudfront.net^
 ||d2zzazjvlpgmgi.cloudfront.net^
 ||d301cxwfymy227.cloudfront.net^
 ||d30sxnvlkawtwa.cloudfront.net^
+||d313lzv9559yp9.cloudfront.net^
 ||d31mxuhvwrofft.cloudfront.net^
 ||d31ph8fftb4r3x.cloudfront.net^
 ||d31vxm9ubutrmw.cloudfront.net^
@@ -28717,6 +28739,7 @@
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||ippcodepink.com^
 ||news.partners.ru.com^
 ||dqwzhseasq.com^
 ||vst.dfn-network.pro^
@@ -34689,6 +34712,7 @@
 ! Source: https://raw.githubusercontent.com/easylist/easylistitaly/master/easylistitaly/easylistitaly_adservers.txt
 !
 ||rtbuzz.net^
+||shoppydoo.com^
 ||yobee.it^
 ||24network.it^
 ||ad4mat.it^
@@ -35104,9 +35128,9 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 30 May 2023 15:46 UTC+7
-! Version: 2305301546
-! Blocked: 834 rules
+! Last modified: 03 Jun 2023 21:29 UTC+7
+! Version: 2306032129
+! Blocked: 835 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -35722,6 +35746,7 @@
 ||logs.thethaovanhoa.vn^
 ||logsbin.dantri.com.vn^
 ||logscafef.channelvn.net^
+||logv3.metric.vn^
 ||lottery.headlines.pw^
 ||m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me^
 ||marketing.hub-js.com^
@@ -35915,12 +35940,14 @@
 ||08u6q.com^
 ||10090dfs.com^
 ||1136999.com^
+||1383a.xyz^
 ||1385a.xyz^
 ||13niao20230422.live^
 ||14fa20230523.live^
 ||1512a.com^
 ||16niao20230125.live^
 ||18so.vip^
+||1cdhf.top^
 ||1qlgi.top^
 ||230579.top^
 ||234mx.club^
@@ -35928,6 +35955,7 @@
 ||27niao20230506.live^
 ||2fa20230511.live^
 ||2medo.top^
+||2tyne.icu^
 ||32fi.com^
 ||331qka.cn^
 ||36060.xyz^
@@ -35956,6 +35984,7 @@
 ||8b4v.cn^
 ||92f2m.top^
 ||92ph.cn^
+||94evd.xyz^
 ||9603gg.cc^
 ||9fa20230518.live^
 ||9h622.top^
@@ -36017,6 +36046,7 @@
 ||baucdngb.xyz^
 ||baytfede.xyz^
 ||bcivqxd.cn^
+||bcvxfgy.xyz^
 ||bdrzxp.xyz^
 ||beiod.xyz^
 ||bekcd.xyz^
@@ -36063,6 +36093,7 @@
 ||cfxkluv.cn^
 ||cge.cc^
 ||chaozhunbb.xyz^
+||chenhaishan.info^
 ||chenyt.club^
 ||chenyuhuan.icu^
 ||chenyuzhou1.cn^
@@ -36124,6 +36155,7 @@
 ||e51d1.icu^
 ||eaica.xyz^
 ||ealdi.xyz^
+||ebqidwm.xyz^
 ||ecav5.com^
 ||eciea.xyz^
 ||efilgvz.cn^
@@ -36140,6 +36172,7 @@
 ||exwxrfz.cn^
 ||exz1t.top^
 ||ezf48.xyz^
+||f1lws.top^
 ||falal.cn^
 ||fangguanjia.xyz^
 ||fangqingkai.icu^
@@ -36157,6 +36190,7 @@
 ||findnam.xyz^
 ||fionamignon.com^
 ||fjnsnt.xyz^
+||fka06.site^
 ||fkading38.xyz^
 ||flpnnqe.xyz^
 ||flyinsky2009.ltd^
@@ -36168,6 +36202,7 @@
 ||fvzljv.xyz^
 ||fweia.xyz^
 ||fzcsd33.com^
+||g0cu3.top^
 ||g77ds2.xyz^
 ||gaokao.asia^
 ||gggppp666.com^
@@ -36181,6 +36216,7 @@
 ||goiagm.xyz^
 ||goikbnjksdf.com^
 ||golden88.co^
+||gongyuxinxi.xyz^
 ||gorpgeu.xyz^
 ||gpqicw.xyz^
 ||gpqid.xyz^
@@ -36256,6 +36292,7 @@
 ||jerrytom.xyz^
 ||jfanhao.com^
 ||jhxcld.xyz^
+||jiangxing.live^
 ||jiangxing.pub^
 ||jiangzimeng1.cn^
 ||jinheart.xyz^
@@ -36294,9 +36331,11 @@
 ||kgcyvd.com^
 ||kianakaslana.club^
 ||kingsunsky.ltd^
+||kjugr.xyz^
 ||kjwysxs.cn^
 ||kkgytur.cn^
 ||kkkqi.cn^
+||kkkqo.cn^
 ||kkylx.xyz^
 ||kmlxlkz.cn^
 ||knxvwxe.cn^
@@ -36337,6 +36376,7 @@
 ||ludpa.xyz^
 ||luuss.cn^
 ||lvy0.cn^
+||lwandll.top^
 ||lwh147.xyz^
 ||lwtqqq.com^
 ||lxbbs.fun^
@@ -36417,6 +36457,7 @@
 ||p4pd.cn^
 ||pacix.xyz^
 ||pansclub.xyz^
+||pazz.xyz^
 ||pbgtpjz.cn^
 ||pedjqkl.xyz^
 ||peishuning1.cn^
@@ -36466,6 +36507,7 @@
 ||qwandly.top^
 ||qwrdj.xyz^
 ||radish-cake.xyz^
+||razrzh.xyz^
 ||rbbbdj.xyz^
 ||rbrv9.cn^
 ||rbxunao.cn^
@@ -36507,6 +36549,7 @@
 ||singmwn51g.com^
 ||sisjwol.xyz^
 ||sjalipa.cn^
+||sjzls.top^
 ||skluff.com^
 ||smailes.pro^
 ||smlmupi.cn^
@@ -36514,6 +36557,7 @@
 ||somddgo.com^
 ||sou58.com^
 ||sozrrkx.xyz^
+||srbzw.cn^
 ||srkl.pw^
 ||stbdepjb.xyz^
 ||svrojrv.cn^
@@ -36523,6 +36567,7 @@
 ||tangxu.xyz^
 ||taoli.name^
 ||tc911.vip^
+||tctltb.com^
 ||tejiachong.co^
 ||tfations.live^
 ||tffulllist.shop^
@@ -36637,6 +36682,7 @@
 ||xiaochen1.cn^
 ||xiaodouding.club^
 ||xiaoliublog.icu^
+||xiaoyunong13.top^
 ||xiiljoy.cn^
 ||xingyang.in^
 ||xiod.xyz^
@@ -36678,6 +36724,7 @@
 ||yisangyhqq.com^
 ||yisangyyds.com^
 ||yjgqpfj.cn^
+||yrszy.com.cn^
 ||yttc.ren^
 ||yuebog.xyz^
 ||yulingaa.xyz^
@@ -36705,12 +36752,15 @@
 ||zhalinylqq.com^
 ||zhalinyyds.com^
 ||zhanghao164.xyz^
+||zhaozongqq.com^
 ||zhemu.xyz^
 ||zhixin.host^
 ||zhoubo01.cn^
 ||zhouduanyyds.com^
+||zhouduayqq.com^
 ||zhuxiao11.cn^
 ||zjqs.shop^
+||zkbsvx.xyz^
 ||zldzbr.xyz^
 ||zmfdjb.xyz^
 ||znnodl.xyz^
@@ -36721,6 +36771,7 @@
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
+||ztaan.top^
 ||zvfaxh.xyz^
 ||zxgko.cn^
 ||001adafg.xyz^
@@ -42575,6 +42626,7 @@
 ||bas.boshi.tv^
 ||bchina-1.xsfaya.com^
 ||bd*-ys.km.com^
+||bd-china-1.appmobile.cn^
 ||bd-js1.2345.com^
 ||bd-s.baixing.net^
 ||bd.ahsrst.cn^
@@ -43469,6 +43521,7 @@ analytics-*.aasaam.com
 ||ipsite.ir^
 
 ||analytics.irancell.ir^
+||apptracking.irancell.ir^
 
 ||websocket.ilna.ir^
 # >> J <<
@@ -43480,6 +43533,8 @@ analytics-*.aasaam.com
 # >> L <<
 
 # >> M <<
+||counter.mahanmusic.net^
+
 ||analytic.magland.ir^
 
 ||affiliate.malltina.com^
