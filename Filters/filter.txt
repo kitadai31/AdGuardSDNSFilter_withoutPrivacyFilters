@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2023-10-05T19:29:51.453Z
+! Last modified: 2023-10-07T19:29:52.477Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -22,6 +22,9 @@
 !
 !
 !
+||rtdqhjiqf.com^
+||ojuhjcmhemvs.com^
+||owqrtaodb.com^
 ||install-check.com^
 ||mismaum.com^
 ||qcvbtrtlmjdhvxe.xyz^
@@ -650,7 +653,6 @@
 ||jotpoolwarren.com^
 ||adsyou.pro^
 ||mopemodelingfrown.com^
-||blogads*.blogspot.com^
 ||adxxx.com^
 ||retdaz.fun^
 ||cryptoadvertising.net^
@@ -5003,6 +5005,7 @@
 ||axungeguying.com^
 ||axungetosher.top^
 ||axwnmenruo.com^
+||axwortbunko.com^
 ||ay.delivery^
 ||ay5u9w4jjc.com^
 ||ayads.co^
@@ -5880,6 +5883,7 @@
 ||biserka.xyz^
 ||bisetsoliped.com^
 ||bisleyserrano.com^
+||bissonbunging.com^
 ||bit-ad.com^
 ||bitbeat7.com^
 ||bitcoin-news.vip^
@@ -12870,6 +12874,7 @@
 ||glogoowo.net^
 ||gloodain.net^
 ||gloodsie.com^
+||gloogeed.xyz^
 ||gloolrey.com^
 ||gloomseb.net^
 ||gloonseetaih.com^
@@ -15736,6 +15741,7 @@
 ||jvrawodh.com^
 ||jvsffrjutsax.com^
 ||jvylyreyazmea.top^
+||jvzoupeh.com^
 ||jwalf.com^
 ||jweqtiikcx.com^
 ||jwjxjuvrnkv.com^
@@ -16146,6 +16152,7 @@
 ||koojaiba.net^
 ||kookarek.com^
 ||koolahwelder.com^
+||koolawet.net^
 ||koopheen.com^
 ||koora2live.com^
 ||koovapou.xyz^
@@ -16739,6 +16746,7 @@
 ||likenewvids.online^
 ||likidn.com^
 ||likspikcunhy.com^
+||liktufmruav.com^
 ||lilacbalak.top^
 ||lilacdefencelessroyal.com^
 ||lilacsloppy.com^
@@ -16913,6 +16921,7 @@
 ||loathederava.uno^
 ||loathepimpery.com^
 ||loatheskeletonethic.com^
+||loathyboyos.com^
 ||loathynay.com^
 ||loazezoo.net^
 ||lobby-x.eu^
@@ -21880,6 +21889,7 @@
 ||previousscambuild.com^
 ||prevuesthurl.com^
 ||prfctmney.com^
+||prftonnes.com^
 ||prhzxq.com^
 ||priceyaspect.pro^
 ||prickjuvenileturnstile.com^
@@ -24225,6 +24235,7 @@
 ||sallyfundamental.com^
 ||sallyoxenstops.com^
 ||salsadistune.digital^
+||salshissed.com^
 ||saltantpipped.live^
 ||saltateblit.com^
 ||saltpairwoo.live^
@@ -26573,6 +26584,7 @@
 ||tartarsharped.com^
 ||tartator.com^
 ||taryarguestio.com^
+||taskariose.com^
 ||taskproceduresseverely.com^
 ||tasmok.com^
 ||tassagohecatic.com^
@@ -27084,6 +27096,7 @@
 ||tibacta.com^
 ||tibbujo.com^
 ||tibcpowpiaqv.com^
+||tibertannoy.com^
 ||tic-tic-bam.com^
 ||tic-tic-toc.com^
 ||ticaframeofm.xyz^
@@ -30272,6 +30285,7 @@
 ||wxejroeeteesr.com^
 ||wxmicgwfzqekj.com^
 ||wxseedslpi.com^
+||wxvfhgdeis.com^
 ||wydtxpctgipa.xyz^
 ||wyglyvaso.com^
 ||wyhifdpatl.com^
@@ -30868,6 +30882,7 @@
 ||zabanit.xyz^
 ||zacleporis.com^
 ||zadauque.net^
+||zaffarnimbed.com^
 ||zaglushkaaa.com^
 ||zagtertda.com^
 ||zagvee.com^
@@ -32472,12 +32487,14 @@
 ||1736253261.rsc.cdn77.org^
 ||1757151194.rsc.cdn77.org^
 ||1786830340.rsc.cdn77.org^
+||1806217162.rsc.cdn77.org^
 ||1809442125.rsc.cdn77.org^
 ||1857169728.rsc.cdn77.org^
 ||1871869301.rsc.cdn77.org^
 ||1917697853.rsc.cdn77.org^
 ||1942213827.rsc.cdn77.org^
 ||1944696125.rsc.cdn77.org^
+||1949800833.rsc.cdn77.org^
 ||360playvid.com^
 ||360playvid.info^
 ||a-delivery.rmbl.ws^
@@ -32576,6 +32593,7 @@
 ||pb.s3wfg.com^
 ||pc-my-protection.xyz^
 ||pics.firstload.de^
+||plchldr.co^
 ||popmog.com^
 ||promos.fling.com^
 ||pubfeed.linkby.com^
@@ -38953,6 +38971,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||lqxbkqdtvtdhw.xyz^
+||noafoaji.xyz^
 ||bilec.xyz^
 ||vkjsnvk.com^
 ||3337126.com^
@@ -39653,8 +39673,8 @@
 # Aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 # ----
 # title:          Frellwit's Swedish Hosts File
-# last updated:   2023-09-26 06:30:58 CEST
-# entries:        1185
+# last updated:   2023-10-06 07:50:11 CEST
+# entries:        1186
 # format:         hosts (hosts -- in hosts file format)
 # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -40414,6 +40434,7 @@
 ||websdk.appsflyer.com^
 ||webstats.100procent.com^
 ||web-analytics.ica.se^
+||web-sdk.smartlook.com^
 ||widget.boende.se^
 ||widget.cdn.citygate.se^
 ||widget.citygate.se^
@@ -41677,25 +41698,49 @@
 ||anhlnnm.cn^
 ||beste3.icu^
 ||bydcxdy.cn^
+||cuvtnzv.cn^
 ||ddvoht.xyz^
 ||dhgfhedxx.xyz^
+||djiuss.cn^
 ||gmx27.top^
+||gmx28.top^
+||gmx29.top^
 ||gmx30.top^
+||huhwllvk.xyz^
 ||hwuogmusthxfpk.xyz^
+||igkgag.xyz^
+||insfengdata.com^
+||jndxsuy.xyz^
 ||jofknbpe.xyz^
 ||kvskknklssv.com^
 ||ldvnehc.xyz^
+||liuyi22.cn^
 ||lnxpdj.xyz^
+||lwwlkj1.cn^
+||lxznbz.xyz^
 ||mads7.icu^
+||mcds9.icu^
+||mmvjuti.cn^
+||mwfyab.icu^
 ||neeujqf.cn^
 ||pexavfro.xyz^
+||pqjeoqa.cn^
 ||psroyx.icu^
+||qauksl.icu^
+||quzmtpxw.xyz^
+||rkds10.icu^
 ||roxewwq.cn^
 ||serda10.icu^
 ||tcgaqh.icu^
+||thboxp.xyz^
 ||ulrvkee.xyz^
 ||vdggsd005.com^
+||vdggsd006.com^
+||vdggsd007.com^
+||vivienjumpe.com^
 ||vttqld.xyz^
+||vxdpmxw.xyz^
+||wjoxqd.com^
 ||xkfigjh.cn^
 ||xmvmir.icu^
 ||xvzfyra.xyz^
@@ -45513,6 +45558,7 @@
 ||6651tp.com^
 ||79181531227.com^
 ||7xi9g1.com1.z0.glb.clouddn.com^
+||94lm.com^
 ||a.youdao.com^
 ||adrs.sdo.com^
 ||ads-6686.top^
