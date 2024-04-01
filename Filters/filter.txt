@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-03-31T19:29:44.330Z
+! Last modified: 2024-04-01T19:29:43.065Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -41754,6 +41754,7 @@
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||luxcdn.com^
 ||vqhrqt.com^
 ||marketer.lv^
 ||programmatica.com^
@@ -44645,6 +44646,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||jubbie.de^
 ||comparison.financeads.net^
 ||lehrer-finden.de^
 ||lokalwerben.t-online.de^
@@ -45223,8 +45225,8 @@
 # A hosts file that aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 # ----
 # title:          Frellwit's Swedish Hosts File
-# last updated:   2024-03-24 07:36:33 CET
-# entries:        1088
+# last updated:   2024-04-01 11:44:27 CEST
+# entries:        1078
 # format:         hosts (hosts -- in hosts file format)
 # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -45260,7 +45262,6 @@
 ||ads.skolvarlden.se^
 ||ads.ungdomar.se^
 ||ads.varldenidag.se^
-||ads.veterinaren.nu^
 ||adserver.ddev.site^
 ||adserver.infotorg.se^
 ||adserver.so-rummet.se^
@@ -45352,7 +45353,6 @@
 ||browser-http-intake.logs.datadoghq.com^
 ||browser-http-intake.logs.datadoghq.eu^
 ||btloader.com^
-||bulletproof-analytics.com^
 ||buzzador.com^
 ||c.eacla.com^
 ||cargodisplayads.com^
@@ -45449,7 +45449,6 @@
 ||d191y0yd6d0jy4.cloudfront.net^
 ||dackpartner-web.s3.amazonaws.com^
 ||dagenstv.112.2o7.net^
-||dakine.com.se^
 ||deals.innocode.no^
 ||delivered-by-madington.com^
 ||di.insplanet.com^
@@ -45475,7 +45474,6 @@
 ||eum.instana.io^
 ||europe-west1-bonnier-big-data.cloudfunctions.net^
 ||events-collector.spot.im^
-||evtr.nordiskemedier.dk^
 ||expo.ads.ramsalt.com^
 ||extern.prisjakt.nu^
 ||external.reseguiden.se^
@@ -45525,6 +45523,7 @@
 ||ipmeta.io^
 ||izooto.com^
 ||js.appboycdn.com^
+||js.evtr.nordiskemedier.dk^
 ||js.getlasso.co^
 ||js.glitnoraffiliates.com^
 ||js.hsleadflows.net^
@@ -45538,7 +45537,6 @@
 ||keenstockholm.com.se^
 ||ksdarprt.reseguiden.se^
 ||kyrkoskatten.se^
-||kyrkskatt.se^
 ||l.sharethis.com^
 ||lanapengar.expressen.se^
 ||lararforbundet.analytics.ozzi.io^
@@ -45559,7 +45557,6 @@
 ||longchampstockholm.com.se^
 ||low1sneakerssverige.com^
 ||lwadm.com^
-||m.burt.io^
 ||m.extellio.com^
 ||m1.analytics.sitevision-cloud.se^
 ||markhor.organicfruitapps.com^
@@ -45657,7 +45654,6 @@
 ||revrelations.com^
 ||richmediastudio.com^
 ||richmetrics.com^
-||rockeringformsweden.com^
 ||rockportskorsverige.com^
 ||rotator.riedta.com^
 ||route.carambo.la^
@@ -45700,9 +45696,7 @@
 ||sibautomation.com^
 ||skattamindre.se^
 ||sleeknote.com^
-||smetrics.aftonbladet.se^
 ||smtvn.112.2o7.net^
-||sneakersisverige.com^
 ||source.advisible.com^
 ||sp.tinymce.com^
 ||spel.expressen.se^
@@ -47357,6 +47351,7 @@
 ||elisium.cn^
 ||ellingsen.cn^
 ||elphhrj.xyz^
+||eluocs.xyz^
 ||endolift.cn^
 ||enifdlaw.top^
 ||eqqwgw.xyz^
@@ -47372,6 +47367,7 @@
 ||fhtfnb.xyz^
 ||fidelius.cn^
 ||fmfnrf.xyz^
+||fmssoj.icu^
 ||fpjjjh.xyz^
 ||fpvdrzx.xyz^
 ||frtnqps358.shop^
@@ -47445,6 +47441,7 @@
 ||jubnpx.xyz^
 ||justapp.top^
 ||jvkqkzu.cn^
+||jyuwkba.top^
 ||jzjpntr.xyz^
 ||kbomku.xyz^
 ||kdeh.cn^
@@ -47487,6 +47484,7 @@
 ||mnifdlax.top^
 ||moberg.cn^
 ||mondigo.cn^
+||mpn56e.cn^
 ||mrtxtrq.xyz^
 ||mtddqjk.cn^
 ||mthhhuq.cn^
@@ -47537,10 +47535,12 @@
 ||pkyjuc.cn^
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
+||polepole.cn^
 ||pressit.cn^
 ||prhfziq.xyz^
 ||przbzr.xyz^
 ||pseudonym.cn^
+||pwhkfd.xyz^
 ||pwhtip.icu^
 ||pxzrlf.xyz^
 ||qbhzghb.xyz^
@@ -47679,6 +47679,7 @@
 ||wsdwbfs.cn^
 ||wtyusie.top^
 ||wwjtdjj.cn^
+||wxfdmri.xyz^
 ||xcypgd.icu^
 ||xdfhidrk.xyz^
 ||xdmnlxtu.xyz^
