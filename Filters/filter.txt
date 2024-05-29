@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-05-27T19:29:51.343Z
+! Last modified: 2024-05-29T19:29:40.977Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -1576,6 +1576,12 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151672
 ||sab.fast.ge^
+! https://github.com/AdguardTeam/AdguardFilters/issues/116912
+||ban.bhol.co.il^
+||ext.bhol.co.il^
+||st1.bhol.co.il^
+! https://github.com/AdguardTeam/AdguardFilters/issues/19323
+||pijama.*.elasticbeanstalk.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114260
 ||head-clickfusion.com^
 ||headerbidding.services^
@@ -1584,12 +1590,6 @@
 ||cdn.234doo.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58569
 ||a.b.napiszar.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/116912
-||ban.bhol.co.il^
-||ext.bhol.co.il^
-||st1.bhol.co.il^
-! https://github.com/AdguardTeam/AdguardFilters/issues/19323
-||pijama.*.elasticbeanstalk.com^
 ||planner.tiscali.it^
 !
 !---------------------------------------------------------------------
@@ -4780,6 +4780,7 @@
 ||arkfreakyinsufficient.com^
 ||arkmedboo.live^
 ||arkunexpectedtrousers.com^
+||arleavannya.com^
 ||arlyreven.top^
 ||armamentsummary.com^
 ||armarilltor.com^
@@ -7338,6 +7339,7 @@
 ||bryond.com^
 ||bryovo.com^
 ||bs50tds.com^
+||bsantycbjnf.com^
 ||bsfofnphcuj.com^
 ||bsgbd77l.de^
 ||bsgeneral.com^
@@ -7358,6 +7360,7 @@
 ||btdnav.com^
 ||btilxdpcco.com^
 ||btjbppltrdpyjsj.com^
+||btkwlsfvc.com^
 ||btnativedirect.com^
 ||btodsjr.com^
 ||btpnative.com^
@@ -9492,6 +9495,7 @@
 ||coochitiphy.com^
 ||cooeyeddarbs.com^
 ||coofumberty.digital^
+||coogauwoupto.com^
 ||coogoocy.com^
 ||coogumak.com^
 ||coojaiku.com^
@@ -16428,6 +16432,7 @@
 ||gripehealth.com^
 ||grippertureen.space^
 ||gripping-bread.com^
+||gripspigyard.com^
 ||grirault.net^
 ||gristleupanaya.com^
 ||gritaware.com^
@@ -17837,6 +17842,7 @@
 ||hudrftcspuf.com^
 ||hue2a.com^
 ||huehinge.com^
+||hufaztjist.com^
 ||hugelyantony.com^
 ||hugelyimmovable.com^
 ||hugenicholas.com^
@@ -20302,6 +20308,7 @@
 ||kentorjose.com^
 ||kepersaonwho.org^
 ||keppendragoon.top^
+||keptoojals.xyz^
 ||keraclya.com^
 ||keramiceoan.com^
 ||kergaukr.com^
@@ -21865,6 +21872,7 @@
 ||looksblazeconfidentiality.com^
 ||looksdashboardcome.com^
 ||looksthrilled.com^
+||looktotheright.com^
 ||lookujie.net^
 ||lookwhippedoppressive.com^
 ||lookypeacing.uno^
@@ -26155,6 +26163,7 @@
 ||orldwhoisquiteh.info^
 ||orlotalers.com^
 ||orlowedonhisdhilt.info^
+||ormolusapiary.com^
 ||ormolustuke.top^
 ||ornismolal.top^
 ||oroodsee.xyz^
@@ -26941,6 +26950,7 @@
 ||paurozel.net^
 ||paushoow.net^
 ||paussidsipage.com^
+||pausteegohoa.net^
 ||pauwhajo.xyz^
 ||pavfazbwiap.com^
 ||paviestrewel.top^
@@ -30191,6 +30201,7 @@
 ||refilednisi.com^
 ||refilmsbones.top^
 ||refineminx.top^
+||refinerfiery.com^
 ||reflectingscoopcourse.com^
 ||reflectionseldomnorth.com^
 ||reflectionsidewalk.com^
@@ -30793,6 +30804,7 @@
 ||rimeseized.com^
 ||rimfranklyscaffold.com^
 ||riminghoggoofy.com^
+||rimoseantdom.com^
 ||rimwigckagz.com^
 ||rinceaskedase.com^
 ||rincipledecli.info^
@@ -32813,6 +32825,7 @@
 ||slobgrandmadryer.com^
 ||sloeri.com^
 ||slopeac.com^
+||slopingunrein.com^
 ||sloppyegotistical.com^
 ||sloto.live^
 ||slotspreadingbrandy.com^
@@ -34764,6 +34777,7 @@
 ||tefaighecmoa.com^
 ||tefuse.com^
 ||tegleebs.com^
+||teiankythes.top^
 ||teicdn.com^
 ||teiidsfortune.com^
 ||teinlbw.com^
@@ -40098,6 +40112,7 @@
 ||yscntxil.com^
 ||ysemblyjusting.info^
 ||ysesials.net^
+||yshhfig.com^
 ||ysnxszyrxdzp.com^
 ||yspecjbjmcub.com^
 ||ysxuehcerecoge.com^
@@ -40393,6 +40408,7 @@
 ||zincdatawipe.com^
 ||zincypalmy.top^
 ||zinipx.xyz^
+||zinovu.com^
 ||zinrora.pw^
 ||zipakrar.com^
 ||zipheeda.xyz^
@@ -40618,6 +40634,7 @@
 ||zxmojgj.com^
 ||zxpqwwt.com^
 ||zxr9gpxf7j.com^
+||zxrfzxb.com^
 ||zxwhkosabux.com^
 ||zxxgoikbqyiu.com^
 ||zy16eoat1w.com^
@@ -42065,15 +42082,18 @@
 ||97b448.xyz^
 ||a49ebd.xyz^
 ||a67d12.xyz^
+||b0eb63.xyz^
 ||b211.xyz^
 ||b59c.xyz^
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^
+||b903c2.xyz^
 ||b9f25b.site^
 ||bc98ad.xyz^
 ||bcbe.site^
 ||ca3d.site^
 ||ca9246.xyz^
 ||caa2c4.xyz^
+||ce357c.xyz^
 ||d84bc26d.site^
 ||d8b0a5.xyz^
 ||d980ed.xyz^
@@ -42085,6 +42105,7 @@
 ||f2f8.xyz^
 ||f6176563.site^
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^
+||fbfec2.xyz^
 ! Samsung/LG/Philips smart-TV ad domains
 ||ad.lgappstv.com^
 ||ad.nettvservices.com^
@@ -43823,7 +43844,6 @@
 ||adtrack.king.com^
 ||adv.mxmcdn.net^
 ||advertising.com^
-||adwods.com^
 ||adz.mobi^
 ||adzmobi.com^
 ||api.fusepowered.com^
@@ -43934,7 +43954,6 @@
 ||mobile333.com^
 ||mobilecore.com^
 ||mobiledl.adboe.com^
-||mobon.com^
 ||mofox.com^
 ||mtburn.jp^
 ||mtrcss.com^
@@ -46474,21 +46493,17 @@
 ||ad*.bilgin.pro^
 ||ad*.tmgrup.com.tr^
 ||ad.donanimhaber.com^
-||ad.eglenced.com^
 ||ad.reyazilim.com^
 ||ad.setrowid.com^
 ||adbreak.cubecdn.net^
 ||adbreak.net^
-||adcater.com^
 ||add.f5haber.com^
 ||adeko.mobi^
 ||adfor.io^
 ||adhouse.cubecdn.net^
-||adimage.media^
 ||adl.mynetreklam.com^
 ||adnamo.net^
 ||adnatro.com^
-||adnexio.com^
 ||adnsafe.net^
 ||adon.io^
 ||adpozitif.com^
@@ -46498,8 +46513,6 @@
 ||adrttt.com^
 ||ads.dogusdigital.com^
 ||ads.web.tr^
-||advancenative.com^
-||advoly.com^
 ||adzbaba.com^
 ||affiliateserver.hangikredi.com^
 ||afyonturkreklam.com^
@@ -46508,15 +46521,11 @@
 ||ariyayin.com^
 ||artemisaffiliates.com^
 ||aspartos.com^
-||bahisciler.co^
 ||basvformu*.xyz^
 ||bcvc.mobi^
-||betburdaaffiliates.com^
 ||betendads.com^
 ||betkanyon100.com^
 ||betwinnerpromo.com^
-||bilink.xyz^
-||binaryad.com^
 ||bo.facesbet.com^
 ||bwcdn.xyz^
 ||bwtsrv.com^
@@ -46527,11 +46536,8 @@
 ||d1d8vn0fpluuz7.cloudfront.net^
 ||dogus-ads-cdn.dygdigital.com^
 ||dolarkurum.com^
-||downads.com^
 ||engageya.com^
 ||files.pbgiris.com^
-||finema-net.cdn.ampproject.org^
-||finema.net^
 ||fvbaffiliate.com^
 ||genelajans.com^
 ||gmgreklam.com^
@@ -46555,7 +46561,6 @@
 ||minireklam.com^
 ||mkazanc.com^
 ||mobilpop.com^
-||mobilup.com^
 ||mp.subservis.com^
 ||n69adserv.com^
 ||nativendo.com^
@@ -46565,7 +46570,6 @@
 ||partner.superbahisaffiliates*.com^
 ||partners.betbooaffiliates.com^
 ||partnerx.bethub.io^
-||performancenative.com^
 ||permato.com^
 ||piaads.com^
 ||pmelon.com^
@@ -46580,9 +46584,7 @@
 ||reklamnative.com^
 ||reklamstore.com^
 ||reklamstore.cubecdn.net^
-||reklamtrk.com^
 ||reviveservers.com^
-||revotas.com^
 ||savoy.storage.cubecdn.net^
 ||segmentify.com^
 ||seldos.com.tr^
@@ -46590,21 +46592,15 @@
 ||smrtbnr.com^
 ||smrtbnr.info^
 ||static-ads.akamaized.net^
-||sw1block.com^
 ||tagon.co^
-||tarpitbar.com^
 ||theadx.com^
 ||trackocean.com^
-||uzmanreklam.com^
 ||vegabet.net^
 ||virgul.com^
 ||vitrinler3.com^
-||whatsappsohbetim.net^
 ||winaffiliates.com^
 ||wonoddgiris.com^
-||xmtrk.com^
 ||yedimedia.net^
-||yfzbn.com^
 ||youtubesave.org^
 ||youtubex.top^
 
@@ -47007,7 +47003,8 @@
 ||adf.shinobi.jp^
 ||adingo.jp.eimg.jp^
 ||adntokyo.gunosy.com^
-||affiliate.rakuten.co.jp^
+||static.affiliate.rakuten.co.jp^
+||xml.affiliate.rakuten.co.jp^
 ||aimg.fc2.com^
 ||bar*.shinobi.jp^
 ||hb.afl.rakuten.co.jp^
@@ -48727,7 +48724,6 @@
 ||phudrour.net^
 ||pvwtkxcpsrcsd.com^
 ||q1xyxm89.com^
-||realwap.net^
 ||replase.gq^
 ||replase.ml^
 ||ridingintractable.com^
@@ -49668,6 +49664,19 @@
 ||nlvwdlnhfnnw.com^
 ||auisaoa.top^
 ||bing001.shop^
+||uskecsx.icu^
+||zhangqifeng12.top^
+||wsyliee.top^
+||abucki.xyz^
+||jinzige.cn^
+||15huhu.cn^
+||nkdgnsfsk.com^
+||sdjbvskjvds.com^
+||aeaw.cn^
+||mqaoweu.icu^
+||mninoq.xyz^
+||hpzktd.xyz^
+||mybgrea97.shop^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
@@ -56064,6 +56073,8 @@ analytics-*.aasaam.com
 ! Source name: Exception rules
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exceptions.txt
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1692
+@@||cloud.roistat.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/1681
 ! Blocked by CNAME fp27ee.wac.systemcdn.net
 @@||secureimage.securedataimages.com^|
