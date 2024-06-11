@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-06-09T19:29:47.051Z
+! Last modified: 2024-06-11T19:29:53.263Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -40278,6 +40278,7 @@
 ||adspeed.com^
 ||adspruce.com^
 ||adsquirrel.ai^
+||adsreference.com^
 ||adsring.com^
 ||adsrv4k.com^
 ||adsrvmedia.com^
@@ -41314,6 +41315,7 @@
 ||295c.site^
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^
 ||3a2e.site^
+||420db600.xyz^
 ||485728.xyz^
 ||48a16802.site^
 ||4a0e.xyz^
@@ -41331,11 +41333,13 @@
 ||634369.xyz^
 ||657475b7-0095-478d-90d4-96ce440604f9.online^
 ||68646f.xyz^
+||691f42ad.xyz^
 ||6a6672.xyz^
 ||7608d5.xyz^
 ||7ca989e1.xyz^
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^
 ||7fc8.site^
+||814272c4.xyz^
 ||8acc5c.site^
 ||8bf6c3e9-3f4f-40db-89b3-58248f943ce3.online^
 ||977878.xyz^
@@ -43458,6 +43462,7 @@
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||1qe.info^
 ||23oct2023.site^
 ||fcepahafyq.com^
 ||6rn05mmbct.ru^
@@ -45979,7 +45984,6 @@
 !
 ||adleap.jp^
 ||ad.unique1static.jp^
-||bance.jp^
 ||appdraft.link^
 ||ad.adpon-affi.net^
 ||lmadps.jp^
@@ -46296,6 +46300,9 @@
 ||ov.yahoo.co.jp^
 ||yads.yahoo.co.jp^
 ||yads.yjtag.yahoo.co.jp^
+!
+!+ NOT_OPTIMIZED
+||bance.jp^
 ||maillovelove.net^
 
 !
@@ -48061,9 +48068,9 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 01 Jun 2024 23:15 UTC+7
-! Version: 2406012315
-! Blocked: 883 rules
+! Last modified: 10 Jun 2024 23:39 UTC+7
+! Version: 2406102339
+! Blocked: 885 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -48547,6 +48554,7 @@
 ||analytics.molistar.com^
 ||analytics.moneycat.vn^
 ||analytics.nhattao.com^
+||analytics.ntlc.com.vn^
 ||analytics.pancake.vn^
 ||analytics.rever.vn^
 ||analytics.sohatv.vn^
@@ -48626,6 +48634,7 @@
 ||file-subiz.com^
 ||financial-agent.headlines.pw^
 ||follow.vnay.vn^
+||formalhood.com^
 ||go.vnecdn.com^
 ||gtm.saostar.vn^
 ||gtmjs.com^
@@ -48917,6 +48926,27 @@
 ||vns86.oss-*.aliyuncs.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||121.204.246.*.gif
+||auislq.top^
+||taproximo.com^
+||twqtf.boats^
+||kjipko.xyz^
+||wfjslie.top^
+||pztezl.xyz^
+||rqnefp.xyz^
+||retrefsf.cn^
+||hsoubnp.icu^
+||binga03.shop^
+||jcfnbhqo.icu^
+||gfdfegg.cn^
+||bing009.shop^
+||rdnplpj.cn^
+||ligfdjnfd.cn^
+||ozykeor.icu^
+||yxkbgg.xyz^
+||davtvd.xyz^
+||efjsliw.top^
+||hkpeghqu.icu^
+||jglgjz.xyz^
 ||fczunn.xyz^
 ||mymqcy.xyz^
 ||roxfrv.xyz^
