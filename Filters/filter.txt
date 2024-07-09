@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-07-07T19:29:48.633Z
+! Last modified: 2024-07-09T19:29:58.378Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -22,6 +22,10 @@
 !
 !
 !
+||jixffuwhon.com^
+||hbwrapper.com^
+||femqrjwnk.xyz^
+||routowoashie.xyz^
 serve.yourporngod.com^
 serve.everydayporn.co^
 ||xlvul.ajscdn.com^
@@ -1128,6 +1132,8 @@ serve.everydayporn.co^
 ! To fix the issue with the CNAME trackers, add problematic domains here:
 ! https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/exclusions.txt
 !
+! Adocean : adocean.pl disguised advertising networks
+!
 ! AdSpyglass : 0i0i0i0.com disguised advertising networks
 ||dappaa.site^
 ||spinna.xyz^
@@ -1145,6 +1151,8 @@ serve.everydayporn.co^
 ||fin.ovh^
 ||tjaard11.xyz^
 ||dappab.site^
+!
+! Aquaplatform : aquaplatform.com disguised advertising networks
 !
 ! ahacdn.me : cdn18685953.ahacdn.me disguised advertising networks
 ||freshalldaynews.com^
@@ -1207,6 +1215,8 @@ serve.everydayporn.co^
 ||optimizesrv.com^
 ||exoclick.com^
 ||bizonads-ssp.com^
+!
+! nonli.com : nonli.com disguised advertising networks
 !
 ! PopCash : popcashjs.b-cdn.net disguised advertising networks
 !
@@ -1382,6 +1392,7 @@ serve.everydayporn.co^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||tapi.apkpure.net^
 ||advertising-cdn.dpgmedia.cloud^
 ||d2lg0swrp15nsj.cloudfront.net^
 ||dpeqm8xv96fuc.cloudfront.net^
@@ -1624,11 +1635,6 @@ serve.everydayporn.co^
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17139
 ||gjc.gjirafa.com^
-!---------------------------------------------------------------------
-!------------------------------ Arabian ------------------------------
-!---------------------------------------------------------------------
-! NOTE: Arabian
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182298
 ||rolpenszimocca.com^
 !
@@ -1730,6 +1736,7 @@ serve.everydayporn.co^
 ||00d84987c0.com^
 ||012024jhvjhkozekl.space^
 ||01220b75a7.com^
+||0127c96640.com^
 ||01c70a2a06.com^
 ||01counter.com^
 ||01d0c91c0d.com^
@@ -4316,6 +4323,7 @@ serve.everydayporn.co^
 ||anastasiasaffiliate.com^
 ||anatomyabdicatenettle.com^
 ||anatomybravely.com^
+||anattospursier.com^
 ||anaxialaphonia.com^
 ||anceenablesas.info^
 ||anceteventur.info^
@@ -4382,6 +4390,7 @@ serve.everydayporn.co^
 ||anmdr.link^
 ||anmgaxrujfru.com^
 ||anmiphglqn.com^
+||anmjqqtevhsqwb.com^
 ||anncmq.com^
 ||anncquyaxns.com^
 ||annesuspense.com^
@@ -4552,6 +4561,7 @@ serve.everydayporn.co^
 ||apnttuttej.com^
 ||apocarpdogdom.com^
 ||apochaeunanime.com^
+||apocopewheeple.com^
 ||apologiesbackyardbayonet.com^
 ||apologiesneedleworkrising.com^
 ||apologizeclosest.com^
@@ -5103,6 +5113,7 @@ serve.everydayporn.co^
 ||atraichuor.com^
 ||atriblethetch.com^
 ||atris.xyz^
+||atrkmankubf.com^
 ||atrociouspsychiatricparliamentary.com^
 ||atrocityfingernail.com^
 ||atropaimitant.top^
@@ -5998,6 +6009,7 @@ serve.everydayporn.co^
 ||beggarlymeatcan.com^
 ||beggingoppida.space^
 ||beginfrightsuit.com^
+||beginnerfurglow.com^
 ||beginnerhooligansnob.com^
 ||beginninggoondirections.com^
 ||beginningirresponsibility.com^
@@ -7203,6 +7215,7 @@ serve.everydayporn.co^
 ||brumarmsful.com^
 ||brunchcreatesenses.com^
 ||brunetteattendanceawful.com^
+||bruntstabulae.com^
 ||brupu.com^
 ||brutalconfer.com^
 ||brutebaalite.top^
@@ -7395,6 +7408,7 @@ serve.everydayporn.co^
 ||buskerreshoes.website^
 ||bussydetune.top^
 ||bustlemiszone.com^
+||bustleravail.com^
 ||bustling-substance.pro^
 ||busychopdenounce.com^
 ||busyexit.com^
@@ -7597,6 +7611,7 @@ serve.everydayporn.co^
 ||calcpol.com^
 ||calculateproducing.com^
 ||calendarpedestal.com^
+||calepinphrasal.com^
 ||calibrelugger.com^
 ||calichevigogne.com^
 ||calicutscrubby.top^
@@ -7987,6 +8002,7 @@ serve.everydayporn.co^
 ||ceemoptu.xyz^
 ||ceeqgwt.com^
 ||ceezepegleze.xyz^
+||cefuthodob.com^
 ||cegadazwdsp.com^
 ||cegrithy.net^
 ||ceilingbruiseslegend.com^
@@ -9774,6 +9790,7 @@ serve.everydayporn.co^
 ||cuferxmtvifnu.com^
 ||cugeeksy.net^
 ||cuhlsl.info^
+||cuifspyvuril.com^
 ||cuisineenvoyadvertise.com^
 ||cuisineomnipresentinfinite.com^
 ||cuissenbisque.com^
@@ -11398,6 +11415,7 @@ serve.everydayporn.co^
 ||dqbukuvuy.com^
 ||dqdrsgankrum.org^
 ||dqeaa.com^
+||dqeiooxvtbiyl.com^
 ||dqfhudpnwdk.com^
 ||dqgmtzo.com^
 ||dqhezw.com^
@@ -11598,6 +11616,7 @@ serve.everydayporn.co^
 ||dtpeqgfaps.com^
 ||dtprofit.com^
 ||dtqbqmzzbeck.com^
+||dtqlltmmyb.com^
 ||dtscdn.com^
 ||dtscout.com^
 ||dtsedge.com^
@@ -13309,6 +13328,7 @@ serve.everydayporn.co^
 ||fairnessels.com^
 ||fairnessmolebedtime.com^
 ||fairytaleundergoneopenly.com^
+||faisaphoofa.net^
 ||faised.com^
 ||faithaiy.com^
 ||faithfullyprotectionundo.com^
@@ -14668,6 +14688,7 @@ serve.everydayporn.co^
 ||fvcwqkkqmuv.com^
 ||fvebixpgtxm.com^
 ||fvgxfupisy.com^
+||fvohyywkbc.com^
 ||fvzhenljkw.com^
 ||fwabhrptdns.com^
 ||fwbntw.com^
@@ -14825,6 +14846,7 @@ serve.everydayporn.co^
 ||gangueturkery.com^
 ||ganismpro.com^
 ||ganizationsuc.info^
+||gannetsmechant.com^
 ||gannett.gcion.com^
 ||ganodusskunks.top^
 ||gapcask.com^
@@ -16725,6 +16747,7 @@ serve.everydayporn.co^
 ||hhoxwxfxgb.com^
 ||hhrsecure.com^
 ||hhtxjoa.com^
+||hhuohqramjit.com^
 ||hhvbdeewfgpnb.xyz^
 ||hhvivsbiip.com^
 ||hhxfjgiyiheil.com^
@@ -17321,6 +17344,7 @@ serve.everydayporn.co^
 ||hunterlead.com^
 ||huntershoemaker.com^
 ||huntingtroll.com^
+||hunyakupgive.com^
 ||hupiru.uno^
 ||huppahshoras.com^
 ||huqbeiy.com^
@@ -19086,6 +19110,7 @@ serve.everydayporn.co^
 ||joachoag.xyz^
 ||joaglouwulin.com^
 ||joannaiodisms.com^
+||joanneehretia.com^
 ||joaphoad.com^
 ||joaqaylueycfqw.xyz^
 ||joasoagly.com^
@@ -19511,6 +19536,7 @@ serve.everydayporn.co^
 ||kaorpyqtjjld.com^
 ||kappalinks.com^
 ||kaqhfijxlkbfa.xyz^
+||kaqppajmofte.com^
 ||karafutem.com^
 ||karayarillock.cam^
 ||karlhalved.com^
@@ -19677,6 +19703,7 @@ serve.everydayporn.co^
 ||kgwlfrdtf.com^
 ||kgxpbxhigq.com^
 ||kgyhxdh.com^
+||khakisminder.com^
 ||khanjeeyapness.website^
 ||khatexcepeded.info^
 ||khayatarai.com^
@@ -22289,6 +22316,7 @@ serve.everydayporn.co^
 ||milljeanne.com^
 ||millsurfaces.com^
 ||millustry.top^
+||milordsupbbore.com^
 ||milteept.xyz^
 ||miltlametta.com^
 ||miluwo.com^
@@ -22701,6 +22729,7 @@ serve.everydayporn.co^
 ||mopefrequent.com^
 ||mopeia.xyz^
 ||mopemodelingfrown.com^
+||mopesrubelle.com^
 ||moplahsoleil.top^
 ||moracy.com^
 ||moradu.com^
@@ -25260,6 +25289,7 @@ serve.everydayporn.co^
 ||ouknowsaidthea.info^
 ||ouldhukelpm.org^
 ||ouleegneeje.com^
+||ouloansu.com^
 ||oulragart.xyz^
 ||oulrarta.net^
 ||oulrukry.xyz^
@@ -26747,6 +26777,7 @@ serve.everydayporn.co^
 ||plex4rtb.com^
 ||plexop.net^
 ||plexureturp.com^
+||plhhisqiem.com^
 ||plianteditdisembark.com^
 ||pliantleft.com^
 ||pliblc.com^
@@ -28637,6 +28668,7 @@ serve.everydayporn.co^
 ||raggledordures.com^
 ||ragita.uno^
 ||raglassofrum.cc^
+||ragnarhorst.com^
 ||ragsbxhchr.xyz^
 ||ragwviw.com^
 ||raheglin.xyz^
@@ -30488,6 +30520,7 @@ serve.everydayporn.co^
 ||saurajembe.top^
 ||sauriaparpen.com^
 ||sausagegirlieheartburn.com^
+||savableee.com^
 ||savagelylizard.com^
 ||savaurdy.net^
 ||savefromad.net^
@@ -30660,6 +30693,7 @@ serve.everydayporn.co^
 ||scrapebust.com^
 ||scrapembarkarms.com^
 ||scratchconsonant.com^
+||scrawmthirds.com^
 ||scrawny-pipe.com^
 ||scrawnyarticle.pro^
 ||scrazeunwaged.com^
@@ -33007,6 +33041,7 @@ serve.everydayporn.co^
 ||supposereduction.com^
 ||supposerevenue.com^
 ||suppressedanalogyrain.com^
+||suppressedbottlesenjoyable.com
 ||supremeden.com^
 ||supremeoutcome.com^
 ||supremepresumptuous.com^
@@ -33028,6 +33063,7 @@ serve.everydayporn.co^
 ||surfacescompassionblemish.com^
 ||surfacesmulti.com^
 ||surfedlattins.com^
+||surfeitdrabble.com^
 ||surfingmister.com^
 ||surfmdia.com^
 ||surge.systems^
@@ -33667,6 +33703,7 @@ serve.everydayporn.co^
 ||testifyconvent.com^
 ||testisurbian.top^
 ||testsite34.com^
+||tethsrump.com^
 ||tetrdracausa.com^
 ||tetrylscullion.com^
 ||tettrro.info^
@@ -35118,6 +35155,7 @@ serve.everydayporn.co^
 ||ubadzufyfjcd.com^
 ||ubbfpm.com^
 ||ubdiysvv.com^
+||ubdjdtraxe.com^
 ||ubeestis.net^
 ||uberouspolitei.com^
 ||ubiirddtnmja.com^
@@ -35438,6 +35476,7 @@ serve.everydayporn.co^
 ||unfortunatelydestroyedfuse.com^
 ||unfortunatelyprayers.com^
 ||unfriendlysalivasummoned.com^
+||ungatedsynch.com^
 ||ungillhenbane.com^
 ||ungirthranee.com^
 ||ungloomnisnas.com^
@@ -35550,6 +35589,7 @@ serve.everydayporn.co^
 ||unstantleran.com^
 ||unsteadybreakfast.pro^
 ||unsternrelease.com^
+||unstilldemeore.com^
 ||unstoutgolfs.com^
 ||unsuccessfultesttubepeerless.com^
 ||unsurlysiouan.com^
@@ -40729,9 +40769,11 @@ serve.everydayporn.co^
 ||ec44.site^
 ||f090.site^
 ||f2f8.xyz^
+||f33d11b5.xyz^
 ||f417a726.xyz^
 ||f4c9a0fb.xyz^
 ||f6176563.site^
+||f6b458fd.xyz^
 ||f816e81d.xyz^
 ||f8a070.xyz^
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^
@@ -42837,6 +42879,8 @@ serve.everydayporn.co^
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
+||miradres.com^
+||ufouxbwn.com^
 ||eehhabacgieacfjeaacg.world^
 ||bidmatic.io^
 ||vidscriptshark.com^
@@ -42868,7 +42912,6 @@ serve.everydayporn.co^
 ||vqhrqt.com^
 ||marketer.lv^
 ||programmatica.com^
-||ufouxbwn.com^
 ||gaveasword.com^
 ||gsimvqfghc.com^
 ||cajbdciiefegiifciabc.world^
@@ -48356,6 +48399,24 @@ serve.everydayporn.co^
 ||xxxx88xxxx.com^
 ||xxxx96xxxx.com^
 ||bdfjw.cn^
+||acqaghx.icu^
+||nyfstb.xyz^
+||lgpjw.cn^
+||eqkvks.xyz^
+||sdipsumb.top^
+||wuisaq.top^
+||jgvkxp.xyz^
+||mrtlisx.top^
+||fbqrt.cn^
+||edipsumw.top^
+||tvgkatu.icu^
+||snux.cn^
+||qpigoa.xyz^
+||vihqpr.xyz^
+||goodvibe1.com^
+||vftvbx.xyz^
+||baijs07.xyz^
+||hfptbb.cn^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
