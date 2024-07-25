@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-07-23T19:30:01.606Z
+! Last modified: 2024-07-25T19:29:43.472Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -11,17 +11,9 @@
 ! Source name: AdGuard Base filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt
 !
-!
-! This section contains the list of third-party advertising networks domains.
-! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
-! The rules with hints are at the end of file.
-!
-! Good: ||doubleclick.net^$third-party
-! Bad: /banner.jpg (should be in general_url.txt)
-! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
-!
-!
-!
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/
+||prwfwayui.com^
+||pteegostie.com^
 ||frutwafiwah.com^
 ||maya15.site^
 ||ljr3.site^
@@ -1734,6 +1726,13 @@ serve.bussyhunter.com^
 !
 ||bsxmuny.wp.pl^
 ||fusion.sydsvenskan.se^
+!---------------------------------------------------------------------
+!------------------------------ Thai ---------------------------------
+!---------------------------------------------------------------------
+! NOTE: Thai
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/184497
+||9king888.cc^
 ||imp.mgronline.com^
 ||odds.vebo.xyz^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162256
@@ -2192,6 +2191,7 @@ serve.bussyhunter.com^
 ||3fwlr7frbb.pro^
 ||3g25ko2.de^
 ||3gbqdci2.de^
+||3haiaz.xyz^
 ||3i1cx7b9nupt.com^
 ||3j8c56p9.de^
 ||3lift.com^
@@ -2221,6 +2221,7 @@ serve.bussyhunter.com^
 ||442fc29954.com^
 ||445d1bd01a.com^
 ||44a9217f10.com^
+||44e29c19ac.com^
 ||44ffd27303.com^
 ||452tapgn.de^
 ||453130fa9e.com^
@@ -2350,6 +2351,7 @@ serve.bussyhunter.com^
 ||6061de8597.com^
 ||6068a17eed25.com^
 ||606943792a.com^
+||60739ebc42.com^
 ||61-nmobads.com^
 ||61598081d6.com^
 ||61739011039d41a.com^
@@ -2682,6 +2684,7 @@ serve.bussyhunter.com^
 ||abadit5rckb.com^
 ||abamatoyer.com^
 ||abange.com^
+||abaolokvmmvlv.top^
 ||abaolokvmmvvm.top^
 ||abarbollidate.com^
 ||abashfireworks.com^
@@ -2908,6 +2911,7 @@ serve.bussyhunter.com^
 ||accuracyswede.com^
 ||accusationcollegeload.com^
 ||accusedstone.com^
+||accusemonacan.com^
 ||accuserannouncementadulthood.com^
 ||accustomedinaccessible.com^
 ||acdcdn.com^
@@ -2947,6 +2951,7 @@ serve.bussyhunter.com^
 ||acidicresist.pro^
 ||ackcdn.net^
 ||ackekryieyvkvby.com^
+||ackeysulfid.top^
 ||acknowledgecalculated.com^
 ||ackxsndsc.com^
 ||aclickads.com^
@@ -3209,6 +3214,7 @@ serve.bussyhunter.com^
 ||admiredexcrete.com^
 ||admissiblecontradictthrone.com^
 ||admission.net^
+||admissiondemeanourusage.com^
 ||admissionreceipt.com^
 ||admitad-connect.com^
 ||admith.com^
@@ -4083,6 +4089,7 @@ serve.bussyhunter.com^
 ||allactualjournal.com^
 ||allactualstories.com^
 ||alladvertisingdomclub.club^
+||allahbumpkin.top^
 ||allbzfnar.com^
 ||allcommonblog.com^
 ||allcommonstories.com^
@@ -4334,6 +4341,8 @@ serve.bussyhunter.com^
 ||amvbwleayvyra.top^
 ||amvbwleayvzbm.top^
 ||amvmzbmzaryya.top^
+||amwaenayzjqle.top^
+||amwaenayzjwav.top^
 ||amwswkqh.com^
 ||amyaxgaqvoh.com^
 ||amyfixesfelicity.com^
@@ -4368,6 +4377,7 @@ serve.bussyhunter.com^
 ||anattospursier.com^
 ||anaxialaphonia.com^
 ||anceenablesas.info^
+||ancestor3452.fun^
 ||anceteventur.info^
 ||anchoicstage.com^
 ||ancientconspicuousuniverse.com^
@@ -4767,6 +4777,7 @@ serve.bussyhunter.com^
 ||ardspalkiator.com^
 ||ardunorwest.life^
 ||arduousyeast.com^
+||arduresyrians.com^
 ||ardykffwpfx.xyz^
 ||areahar.com^
 ||areairo.com^
@@ -4798,6 +4809,7 @@ serve.bussyhunter.com^
 ||arianatainos.com^
 ||ariapawners.space^
 ||aridplaincol.com^
+||ariessifts.click^
 ||arihtrkoxuvlm.xyz^
 ||arilsoaxie.xyz^
 ||arioiandroner.top^
@@ -4901,6 +4913,7 @@ serve.bussyhunter.com^
 ||artreconnect.com^
 ||artsygas.com^
 ||aruyevdqsnd.xyz^
+||arvbjqabanaba.top^
 ||arvbjqavenjba.top^
 ||arvigorothan.com^
 ||arvyxowwcay.com^
@@ -4935,6 +4948,7 @@ serve.bussyhunter.com^
 ||asdqslnqmwwkc.com^
 ||asecv.xyz^
 ||aseegrib.com^
+||aseethegivers.top^
 ||asemolgaa.com^
 ||asemskull.com^
 ||asespeonom.com^
@@ -5022,6 +5036,7 @@ serve.bussyhunter.com^
 ||assetize.com^
 ||assholeamarin.top^
 ||assignedeliminatebonfire.com^
+||assilagfilii.top^
 ||assistancelawnthesis.com^
 ||assistantasks.com^
 ||assistantdroppedseries.com^
@@ -5164,6 +5179,7 @@ serve.bussyhunter.com^
 ||atrociouspsychiatricparliamentary.com^
 ||atrocityfingernail.com^
 ||atropaimitant.top^
+||atroposacclaim.com^
 ||atsabwhkox.com^
 ||atservineor.com^
 ||atshcaogrlhi.com^
@@ -5217,6 +5233,7 @@ serve.bussyhunter.com^
 ||auciuqxoyqobj.xyz^
 ||aucoudsa.net^
 ||aucred.com^
+||aucubatypica.com^
 ||audiblereflectionsenterprising.com^
 ||audiblysecretaryburied.com^
 ||audiencebellowmimic.com^
@@ -5298,6 +5315,7 @@ serve.bussyhunter.com^
 ||austow.com^
 ||autchoog.net^
 ||auteboon.net^
+||autelamina.com^
 ||authaptixoal.com^
 ||authenticseasickexhausted.com^
 ||authognu.com^
@@ -5349,6 +5367,7 @@ serve.bussyhunter.com^
 ||avhcoumvt.com^
 ||avhtaapxml.com^
 ||aviationbe.com^
+||avichigangway.top^
 ||aviculagolder.com^
 ||aviddoated.com^
 ||avidheroismgelatine.com^
@@ -5382,6 +5401,7 @@ serve.bussyhunter.com^
 ||avwhipazsdco.com^
 ||avwwphtnquacgd.com^
 ||avygpim.com^
+||avzwkkmzkabyv.top^
 ||avzwkkmzkayrm.top^
 ||avzwkkmzkayvj.top^
 ||awacspianist.top^
@@ -5524,6 +5544,9 @@ serve.bussyhunter.com^
 ||ayudvbjbvdojt.com^
 ||ayvfzwttm.com^
 ||ayxuadkeh.com^
+||ayyjenjkbnrya.top^
+||ayyjenjqlrbya.top^
+||ayzylwqazoqow.top^
 ||azads.com^
 ||azazyjjzbelwb.top^
 ||azbaclxror.com^
@@ -5539,6 +5562,7 @@ serve.bussyhunter.com^
 ||azjmp.com^
 ||azkcqs.com^
 ||azkwwrerlejqv.top^
+||azkwwrerlmebb.top^
 ||azlmizbvgjfe.com^
 ||azmjosvecyye.com^
 ||azmsmufimw.com^
@@ -5790,6 +5814,7 @@ serve.bussyhunter.com^
 ||bardicjazzed.com^
 ||barecurldiscovering.com^
 ||bareelaborate.com^
+||barefitaiding.com^
 ||barefootedleisurelypizza.com^
 ||barelydresstraitor.com^
 ||barelytwinkledelegate.com^
@@ -5861,6 +5886,7 @@ serve.bussyhunter.com^
 ||bastwmrkgs.com^
 ||baszlo.com^
 ||batangam.digital^
+||batatasendere.top^
 ||batataslavify.guru^
 ||batchhermichermicsecondly.com^
 ||batcrack.icu^
@@ -6564,6 +6590,7 @@ serve.bussyhunter.com^
 ||bkjhqkohal.com^
 ||bkkejrveemlbk.top^
 ||bkkejrveemmzv.top^
+||bkkejrvlnmbbr.top^
 ||bklesfzb.com^
 ||bklhnlv.com^
 ||bkrmyhynjddpl.com^
@@ -6833,6 +6860,7 @@ serve.bussyhunter.com^
 ||boisterousemblem.com^
 ||bokeden.com^
 ||bokomarratel.com^
+||bolagsubsept.top^
 ||boldboycott.com^
 ||boldinsect.pro^
 ||boldscantyfrustrating.com^
@@ -6924,6 +6952,7 @@ serve.bussyhunter.com^
 ||bopexacta.com^
 ||boptegre.com^
 ||bordelhaylage.cfd^
+||bordelsdislink.com^
 ||bordsnewsjule.com^
 ||boredinitial.com^
 ||boredombizarrerepent.com^
@@ -7282,6 +7311,7 @@ serve.bussyhunter.com^
 ||brunetteattendanceawful.com^
 ||bruntstabulae.com^
 ||brupu.com^
+||bruscharogers.top^
 ||brutalconfer.com^
 ||brutebaalite.top^
 ||bruteknack.com^
@@ -7517,6 +7547,7 @@ serve.bussyhunter.com^
 ||bvudraqxpl.com^
 ||bvyblnenz.com^
 ||bwbmyzvjnqlwv.top^
+||bwbmyzvnjqwna.top^
 ||bwceohkom.xyz^
 ||bwgmymp.com^
 ||bwmvzwkbqlmrz.top^
@@ -7568,6 +7599,7 @@ serve.bussyhunter.com^
 ||bytesdictatescoop.com^
 ||bytesreunitedcedar.com^
 ||bytogeticr.com^
+||byvammyzaljzl.top^
 ||byvhtcpfoom.com^
 ||byvmvfllobup.com^
 ||byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com^
@@ -7582,6 +7614,7 @@ serve.bussyhunter.com^
 ||bzsiyxkvehty.com^
 ||bzuyxqrmndod.com^
 ||bzwo2lmwioxa.com^
+||bzzmlqyzjrrw.top^
 ||c-4fambt.com^
 ||c00f653366.com^
 ||c019154d29.com^
@@ -7661,6 +7694,7 @@ serve.bussyhunter.com^
 ||cairalei.com^
 ||caiteesh.net^
 ||caizutoh.xyz^
+||cajanggaun.top^
 ||cajanwammus.top^
 ||cajdldhaci.com^
 ||cajesa.uno^
@@ -7833,6 +7867,7 @@ serve.bussyhunter.com^
 ||cartmansneest.com^
 ||cartrigechances.com^
 ||caruagedlr.com^
+||carvagemidweek.shop^
 ||carvedcoming.top^
 ||carverfashionablegorge.com^
 ||carverfowlsmourning.com^
@@ -8363,6 +8398,7 @@ serve.bussyhunter.com^
 ||chezenteric.top^
 ||chezoams.com^
 ||chfpgcbe.com^
+||chiantiriem.com^
 ||chibaigo.com^
 ||chibchasuffete.com^
 ||chicks4date.com^
@@ -8639,8 +8675,10 @@ serve.bussyhunter.com^
 ||classicbf.com^
 ||classiccarefullycredentials.com^
 ||classicguarantee.pro^
+||classickalunti.com^
 ||classicsactually.com^
 ||classicseight.com^
+||classisclawers.com^
 ||claubercupels.com^
 ||clauseantarcticlibel.com^
 ||clauseemploy.com^
@@ -8763,6 +8801,7 @@ serve.bussyhunter.com^
 ||clinkumfalsen.top^
 ||clipperroutesevere.com^
 ||cliqtag.net^
+||cliquedmuggish.top^
 ||cliquesteria.net^
 ||cliwxuqjbhg.xyz^
 ||clixcrafts.com^
@@ -9139,6 +9178,7 @@ serve.bussyhunter.com^
 ||complementimpassable.com^
 ||complementinstancesvarying.com^
 ||complementparadeforbid.com^
+||complete-afternoon.pro^
 ||completelywrath.com^
 ||complex-relationship.com^
 ||complicatedincite.com^
@@ -9192,6 +9232,7 @@ serve.bussyhunter.com^
 ||concrete-cabinet.pro^
 ||concreteapplauseinefficient.com^
 ||concreteprotectedwiggle.com^
+||condemnrissole.com^
 ||condensedconvenesaxophone.com^
 ||condensedmassagefoul.com^
 ||condensedspoon.com^
@@ -9242,6 +9283,7 @@ serve.bussyhunter.com^
 ||confrontationwanderer.com^
 ||confrontbitterly.com^
 ||confused-camera.com^
+||confusetellee.top^
 ||confvtt.com^
 ||congestionbeautycrystal.com^
 ||congestit.com^
@@ -9411,6 +9453,7 @@ serve.bussyhunter.com^
 ||coolpornvids.com^
 ||coolserving.com^
 ||coolstreamsearch.com^
+||coolthkerner.com^
 ||coolungceil.top^
 ||coombomniana.top^
 ||coonandeg.xyz^
@@ -9459,6 +9502,7 @@ serve.bussyhunter.com^
 ||coronetkittles.com^
 ||corporatethankfulfinding.com^
 ||corpsehappen.com^
+||corpsesrgen.top^
 ||corpulentoverdoselucius.com^
 ||corpulentrubber.com^
 ||correctcitolas.com^
@@ -9748,6 +9792,7 @@ serve.bussyhunter.com^
 ||crnhbkd.com^
 ||crninkvhariuh.com^
 ||croakconfirmedget.com^
+||croceussmitter.click^
 ||crockejection.com^
 ||crockerycrowdedincidentally.com^
 ||crockuncomfortable.com^
@@ -9786,6 +9831,7 @@ serve.bussyhunter.com^
 ||crummerexisted.com^
 ||crummygoddess.com^
 ||crumplylenient.com^
+||crunchslipperyperverse.com^
 ||crunchylashins.com^
 ||crushedignoring.com^
 ||crushingconflict.pro^
@@ -10001,6 +10047,7 @@ serve.bussyhunter.com^
 ||cyclistforgotten.com^
 ||cycndlhot.xyz^
 ||cydippeespy.com^
+||cyeqeewyr.com^
 ||cyesesprerich.com^
 ||cygnus.com^
 ||cyih0e43aty7.com^
@@ -10453,6 +10500,7 @@ serve.bussyhunter.com^
 ||deewansturacin.com^
 ||deezusty.net^
 ||defacebunny.com^
+||defactokudo.top^
 ||defaultspurtlonely.com^
 ||defeatedadmirabledivision.com^
 ||defeatpercharges.com^
@@ -10727,6 +10775,7 @@ serve.bussyhunter.com^
 ||devofei.xyz^
 ||devolutiondiffident.com^
 ||devolutionrove.com^
+||devoteerouge.top^
 ||devoterornis.com^
 ||devotionhesitatemarmalade.com^
 ||devotionhundredth.com^
@@ -10737,6 +10786,7 @@ serve.bussyhunter.com^
 ||dewierhagger.com^
 ||dewincubiatoll.com^
 ||dewreseptivereseptiveought.com^
+||dewycliffs.top^
 ||dexchangeinc.com^
 ||deximedia.com^
 ||dexplatform.com^
@@ -10788,6 +10838,7 @@ serve.bussyhunter.com^
 ||dhkrftpc.xyz^
 ||dhobisbeiges.top^
 ||dhobybailli.com^
+||dhobyovaloid.com^
 ||dhodskwqmwafkn.com^
 ||dhoma.xyz^
 ||dhoteechaute.top^
@@ -10899,6 +10950,7 @@ serve.bussyhunter.com^
 ||dimfarlow.com^
 ||dimlmhowvkrag.xyz^
 ||dimlyconfidential.com^
+||dimmestlasts.top^
 ||dimnatriazin.com^
 ||dimnessinvokecorridor.com^
 ||dimnessslick.com^
@@ -12215,6 +12267,7 @@ serve.bussyhunter.com^
 ||eersutoo.net^
 ||eertogro.net^
 ||eeshemto.com^
+||eesidesukbeingaj.com^
 ||eesihighlyrec.xyz^
 ||eespekw.com^
 ||eessoong.com^
@@ -12225,6 +12278,7 @@ serve.bussyhunter.com^
 ||eevaitou.xyz^
 ||eewhocmi.com^
 ||eeycumpmwy.com^
+||eeywmvwaqqrrl.top^
 ||eeywmvwebqarl.top^
 ||eeywmvwebqblq.top^
 ||eeywmvwebqqrj.top^
@@ -12444,6 +12498,7 @@ serve.bussyhunter.com^
 ||elugnoasargo.com^
 ||eluviabattler.com^
 ||elwcchbwtnohia.com^
+||elyvbqklmamkb.top^
 ||elyvbqkmlqkqw.top^
 ||emailflyfunny.com^
 ||emailon.top^
@@ -12768,8 +12823,10 @@ serve.bussyhunter.com^
 ||eqhegcbxmsgwil.com^
 ||eqkjmvkkmvrvw.top^
 ||eqktmnuojibw.com^
+||eqmyjnymnqbqq.top^
 ||eqngcxaaw.com^
 ||eqpbskmjcfoj.com^
+||eqqnewnqekqzv.top^
 ||eqrjuxvhvclqxw.xyz^
 ||equabilityassortshrubs.com^
 ||equabilityspirepretty.com^
@@ -12954,6 +13011,7 @@ serve.bussyhunter.com^
 ||eucing.com^
 ||eucli-czt.com^
 ||eucosiaepeiric.com^
+||eucriteupmast.com^
 ||eudoxia-myr.com^
 ||eudstudio.com^
 ||eugenearsonmeanwhile.com^
@@ -13730,6 +13788,7 @@ serve.bussyhunter.com^
 ||ferukentaspect.info^
 ||ferventhoaxresearch.com^
 ||ferventvague.com^
+||fervorssketch.top^
 ||feshekubsurvey.space^
 ||feshoassan.com^
 ||fessoovy.com^
@@ -13739,6 +13798,7 @@ serve.bussyhunter.com^
 ||festtube.com^
 ||festusthedrag.com^
 ||fetchedhighlight.com^
+||fetefend.top^
 ||fetidbelow.com^
 ||fetidgossipleaflets.com^
 ||fetinhapinhedt.com^
@@ -13748,6 +13808,7 @@ serve.bussyhunter.com^
 ||feudistchub.uno^
 ||feuilleoutwake.top^
 ||feuingcrche.com^
+||feveretcostly.top^
 ||fewcupboard.com^
 ||fewergkit.com^
 ||fewrfie.com^
@@ -13973,6 +14034,7 @@ serve.bussyhunter.com^
 ||fiwhibse.com^
 ||fiwjupsaeltx.com^
 ||fixbreakthrough.com^
+||fixdynamics.info^
 ||fixedencampment.com^
 ||fixedgodmother.com^
 ||fixedlowraid.com^
@@ -14416,6 +14478,7 @@ serve.bussyhunter.com^
 ||fossilascension.com^
 ||fossilconstantly.com^
 ||fossilreservoirincorrect.com^
+||fossorsoxgate.top^
 ||fostereminent.com^
 ||fotoompi.com^
 ||fotsaulr.net^
@@ -14558,6 +14621,7 @@ serve.bussyhunter.com^
 ||fretsawlekanai.com^
 ||frettedmalta.top^
 ||freyaacronal.com^
+||freyatragic.shop^
 ||frfetchme.com^
 ||frfhhcxeqkubk.xyz^
 ||frhbrkjgerikm2f8mjek09.com^
@@ -14619,6 +14683,7 @@ serve.bussyhunter.com^
 ||frosty-criticism.pro^
 ||frostyonce.com^
 ||frothadditions.com^
+||frothirenews.top^
 ||frothsubmarine.com^
 ||frottonracist.com^
 ||frownfirsthand.com^
@@ -14703,6 +14768,7 @@ serve.bussyhunter.com^
 ||fulbe-whs.com^
 ||fulfilleddetrimentpot.com^
 ||fulgidbirls.life^
+||fulgormetump.top^
 ||fulhamscaboose.website^
 ||fulheaddedfea.com^
 ||fullseleatic.top^
@@ -14998,6 +15064,7 @@ serve.bussyhunter.com^
 ||gastingitea.com^
 ||gatecitizenswindy.com^
 ||gateimmenselyprolific.com^
+||gaterharming.top^
 ||gatetocontent.com^
 ||gatetodisplaycontent.com^
 ||gatetotrustednetwork.com^
@@ -15748,6 +15815,7 @@ serve.bussyhunter.com^
 ||gonews2.com^
 ||gonzalodaemon.top^
 ||gooblesdd.com^
+||good-ads-online.com^
 ||goodadvert.ru^
 ||goodappforyou.com^
 ||goodbusinesspark.com^
@@ -16595,6 +16663,7 @@ serve.bussyhunter.com^
 ||hcitgdljlrfw.com^
 ||hcndrrodt.com^
 ||hcnxeqjc.com^
+||hcpvkcznxj.com^
 ||hcrwvno.com^
 ||hcsiquau.com^
 ||hcwmnryoyf.com^
@@ -17348,6 +17417,7 @@ serve.bussyhunter.com^
 ||hqsimfxiwyb.com^
 ||hqtwyhampwu.xyz^
 ||hqwa.xyz^
+||hqxghzyfvxrdpt.com^
 ||hraawjaaaluqboj.com^
 ||hrahdmon.com^
 ||hrczhdv.com^
@@ -17541,6 +17611,7 @@ serve.bussyhunter.com^
 ||hxtvrydyhi.xyz^
 ||hyaenajitneys.top^
 ||hyalinsbenami.top^
+||hyblub.top^
 ||hycantyoubelik.com^
 ||hydragrouge.com^
 ||hydraulzonure.com^
@@ -17967,6 +18038,7 @@ serve.bussyhunter.com^
 ||imperialbattervideo.com^
 ||imperialtense.com^
 ||imperiicoloppe.top^
+||imperturbableappearance.pro^
 ||imperturbableawesome.com^
 ||imperturbableclothes.com^
 ||imperturbableresponsive.com^
@@ -18475,6 +18547,7 @@ serve.bussyhunter.com^
 ||intuitionguffaw.com^
 ||intuitiontrenchproduces.com^
 ||inuedidgmapla.com^
+||inulaserenegue.top^
 ||inumbreonr.com^
 ||inupnae.com^
 ||inurneddoggish.com^
@@ -18837,6 +18910,7 @@ serve.bussyhunter.com^
 ||jackpotpresents.com^
 ||jacksonduct.com^
 ||jacksonours.com^
+||jacksontyramin.com^
 ||jaclottens.live^
 ||jacmolta.com^
 ||jacqsojijukj.xyz^
@@ -19359,6 +19433,7 @@ serve.bussyhunter.com^
 ||jpzvrsuwdavpjw.com^
 ||jqafetxoermhue.com^
 ||jqcyacoxrvada.com^
+||jqdfehrixzyb.com^
 ||jqgqrsvcaos.xyz^
 ||jqitetsk.com^
 ||jqlqmeveax.com^
@@ -19497,6 +19572,7 @@ serve.bussyhunter.com^
 ||jumperformalityexhausted.com^
 ||jumperfundingjog.com^
 ||jumptap.com^
+||junckafa.top^
 ||jungianoxamide.space^
 ||junglehikingfence.com^
 ||juniorapplesconsonant.com^
@@ -19763,6 +19839,7 @@ serve.bussyhunter.com^
 ||kelephoodmen.com^
 ||kelliontemiak.com^
 ||kelopronto.com^
+||kelownajapers.top^
 ||kelreesh.xyz^
 ||kelticsully.guru^
 ||keltomental.cfd^
@@ -20004,6 +20081,7 @@ serve.bussyhunter.com^
 ||kmeqdnmgdkpn.com^
 ||kmgzyug.com^
 ||kmhfsrwqdu.com^
+||kmhujzustl.com^
 ||kmkixuha.com^
 ||kmkthnyd.com^
 ||kmlvdhequlpli.com^
@@ -20272,6 +20350,7 @@ serve.bussyhunter.com^
 ||kvjjhwkqhehkv.com^
 ||kvjkkwyomjrx.com^
 ||kvovs.xyz^
+||kvstithy.top^
 ||kvtllnttauq.com^
 ||kvumadoxpipqq.com^
 ||kvxxkbmby.com^
@@ -21242,6 +21321,7 @@ serve.bussyhunter.com^
 ||longmansuchcesu.info^
 ||loniil.com^
 ||lonreddone.com^
+||loobilycorvet.com^
 ||looceemu.net^
 ||loodauni.com^
 ||loogreem.xyz^
@@ -21315,6 +21395,7 @@ serve.bussyhunter.com^
 ||lotteryaffiliates.com^
 ||lottingjacks.top^
 ||lotusesheaper.com^
+||lotusinmillier.com^
 ||lotymtcwuf.com^
 ||loucegle.net^
 ||louchaug.com^
@@ -21440,6 +21521,7 @@ serve.bussyhunter.com^
 ||ltedinncreasuke.org^
 ||ltengronsa.com^
 ||lteyrcwpoh.xyz^
+||ltixtcopfdye.com^
 ||ltmlsehfqikh.xyz^
 ||ltmuzcp.com^
 ||ltmywtp.com^
@@ -21456,6 +21538,7 @@ serve.bussyhunter.com^
 ||lucidityhormone.com^
 ||lucidlymutualnauseous.com^
 ||lucidmedia.com^
+||lucificsaucery.click^
 ||luckiersandia.top^
 ||luckilyewe.com^
 ||lucklayed.info^
@@ -21651,6 +21734,7 @@ serve.bussyhunter.com^
 ||machineryvegetable.com^
 ||machodongon.com^
 ||machogodynamis.com^
+||macomaenteria.top^
 ||madadsmedia.com^
 ||madampassenger.com^
 ||madbridalmomentum.com^
@@ -21955,6 +22039,7 @@ serve.bussyhunter.com^
 ||massariuscdn.com^
 ||massbrag.care^
 ||massecephid.uno^
+||masserfusty.top^
 ||massesnieces.com^
 ||massivetreadsuperior.com^
 ||massiveunnecessarygram.com^
@@ -22176,6 +22261,7 @@ serve.bussyhunter.com^
 ||mediumtunapatter.com^
 ||medleyads.com^
 ||medoofty.com^
+||medullapreppy.top^
 ||medusasglance.com^
 ||medyanetads.com^
 ||meedaihaiy.com^
@@ -22202,6 +22288,7 @@ serve.bussyhunter.com^
 ||mefestivalbout.com^
 ||megaad.nz^
 ||megabookline.com^
+||megacot.com^
 ||megadeliveryn.com^
 ||megae-aqn.com^
 ||megapodacutest.digital^
@@ -22606,6 +22693,7 @@ serve.bussyhunter.com^
 ||mkcurches.com^
 ||mkeliihb.com^
 ||mkenativji.com^
+||mkepacotck.com^
 ||mkgiiijigxwwn.com^
 ||mkhoj.com^
 ||mkihakfuzv.com^
@@ -22763,6 +22851,7 @@ serve.bussyhunter.com^
 ||modificationdispatch.com^
 ||modifymaintenance.com^
 ||modifywilliamgravy.com^
+||modiolitorah.top^
 ||modoro360.com^
 ||modulecooper.com^
 ||moduledescendantlos.com^
@@ -22772,6 +22861,7 @@ serve.bussyhunter.com^
 ||mofettecalmed.com^
 ||moggedexterne.com^
 ||mogointeractive.com^
+||mogulcrambos.top^
 ||mohiwhaileed.com^
 ||moilizoi.com^
 ||moistblank.com^
@@ -22941,6 +23031,7 @@ serve.bussyhunter.com^
 ||motsardi.net^
 ||mouldedgypsite.com^
 ||moultedpiroot.space^
+||moulterrouses.top^
 ||moumstetjk.com^
 ||mounaiwu.net^
 ||mountainbender.xyz^
@@ -23490,6 +23581,7 @@ serve.bussyhunter.com^
 ||navigateiriswilliam.com^
 ||navigationconcept.com^
 ||navywilyoccur.com^
+||nawabsalkenes.top^
 ||nawbusdf.com^
 ||nawcgetfwpbff.com^
 ||nawpush.com^
@@ -23528,6 +23620,7 @@ serve.bussyhunter.com^
 ||ncwabgl.com^
 ||nczxuga.com^
 ||ndandinter.hair^
+||ndaspiratiotyukn.com^
 ||ndccouuyotn.com^
 ||ndcomemuni.com^
 ||nddnvliv.com^
@@ -23634,6 +23727,7 @@ serve.bussyhunter.com^
 ||nergyflexibilit.pics^
 ||nerolsdraymen.com^
 ||nervegus.com^
+||nervingbensh.com^
 ||nervous-touch.pro^
 ||nervousclangprobable.com^
 ||nervoustolsel.com^
@@ -23681,6 +23775,7 @@ serve.bussyhunter.com^
 ||newbornleasetypes.com^
 ||newbornprayerseagle.com^
 ||newcomerbenchlilac.com^
+||newdhopr.com^
 ||newdisplayformats.com^
 ||newdomain.center^
 ||newestchalk.com^
@@ -23832,6 +23927,7 @@ serve.bussyhunter.com^
 ||niecesexhaustsilas.com^
 ||niecesregisteredhorrid.com^
 ||nielledhaling.digital^
+||niepaunmaned.top^
 ||nieveni.com^
 ||nievetacunjer.top^
 ||nifty-drive.pro^
@@ -24035,6 +24131,7 @@ serve.bussyhunter.com^
 ||nonspewpa.com^
 ||nonstoppartner.de^
 ||noobilubi.com^
+||noodledbulky.top^
 ||noodledesperately.com^
 ||noodokod.xyz^
 ||noojoomo.com^
@@ -24173,6 +24270,7 @@ serve.bussyhunter.com^
 ||noxdgqcm.com^
 ||noxiousinvestor.com^
 ||noxiousrecklesssuspected.com^
+||nozirelower.top^
 ||nozzorli.com^
 ||npaqfubekak.com^
 ||npbkhsarqzp.com^
@@ -24419,6 +24517,7 @@ serve.bussyhunter.com^
 ||o18.link^
 ||o2c7dks4.de^
 ||o313o.com^
+||o3sxhw5ad.com^
 ||o4nofsh6.de^
 ||o4uxrk33.com^
 ||o626b32etkg6.com^
@@ -25311,6 +25410,7 @@ serve.bussyhunter.com^
 ||orfa1st5.de^
 ||orgagetnization.org^
 ||organiccopiedtranquilizer.com^
+||organize3452.fun^
 ||organizecoldness.com^
 ||organrydipody.com^
 ||organsthud.com^
@@ -25524,6 +25624,7 @@ serve.bussyhunter.com^
 ||outbursttones.com^
 ||outchops.xyz^
 ||outclaydola.com^
+||outcrycaseate.com^
 ||outdilateinterrupt.com^
 ||outdoeslegacy.uno^
 ||outelectrodean.com^
@@ -25677,7 +25778,6 @@ serve.bussyhunter.com^
 ||ow5a.net^
 ||owbroinothiermol.xyz^
 ||owcdilxy.xyz^
-||owebsearch.com^
 ||owenexposure.com^
 ||oweoumoughtcal.com^
 ||owevel.com^
@@ -25936,6 +26036,7 @@ serve.bussyhunter.com^
 ||paoukgnssmkeys.com^
 ||papaneecorche.com^
 ||papawrefits.com^
+||papayacallose.top^
 ||papererweerish.top^
 ||paphoolred.com^
 ||papilio3glauecus.com^
@@ -25962,6 +26063,7 @@ serve.bussyhunter.com^
 ||paralyzedresourcesweapons.com^
 ||paranoiaantiquarianstraightened.com^
 ||paranoiaourselves.com^
+||paraphdeafer.top^
 ||parasitegoddess.com^
 ||parasitevolatile.com^
 ||parasolsever.com^
@@ -26100,6 +26202,7 @@ serve.bussyhunter.com^
 ||patroposalun.pro^
 ||patsincerelyswing.com^
 ||patsyendless.com^
+||pattenplouter.com^
 ||patternimaginationbull.com^
 ||pattyheadlong.com^
 ||paubaulo.com^
@@ -26166,6 +26269,7 @@ serve.bussyhunter.com^
 ||pbquhwsx.xyz^
 ||pbsawkue.com^
 ||pbterra.com^
+||pbwlanlzmzeip.com^
 ||pbxai.com^
 ||pbxopblttvorhd.com^
 ||pbyvehcz.com^
@@ -26230,6 +26334,7 @@ serve.bussyhunter.com^
 ||peacinggreyed.com^
 ||peacockshudder.com^
 ||peacto.com^
+||peaiholism.click^
 ||peakchewing.com^
 ||peakclick.com^
 ||peakluckily.com^
@@ -26631,6 +26736,7 @@ serve.bussyhunter.com^
 ||phpkxtwuibv.com^
 ||phraa-lby.com^
 ||phrasespokesmansurmise.com^
+||phraseybeulah.com^
 ||phrygiakodak.top^
 ||phsism.com^
 ||phts.io^
@@ -26793,6 +26899,7 @@ serve.bussyhunter.com^
 ||pithgregor.com^
 ||pitomievectors.com^
 ||pitonlocmna.com^
+||pitshopsat.com^
 ||pitteddilemma.top^
 ||pittinekunai.com^
 ||pitycultural.com^
@@ -26968,6 +27075,7 @@ serve.bussyhunter.com^
 ||plocap.com^
 ||plodpicture.com^
 ||plodrat.com^
+||ploimajoined.top^
 ||plorexdry.com^
 ||plosaztduojwbe.com^
 ||plotafb.com^
@@ -27252,8 +27360,10 @@ serve.bussyhunter.com^
 ||pornomixfree.com^
 ||pornvideos.casa^
 ||porojo.net^
+||porrimaquintes.shop^
 ||portalisimmo.com^
 ||portalregionstip.com^
+||portasslutrine.click^
 ||portcigarettesstudent.com^
 ||portfoliocradle.com^
 ||portfoliojumpy.com^
@@ -27981,6 +28091,7 @@ serve.bussyhunter.com^
 ||ptamselrou.com^
 ||ptanguth.com^
 ||ptapjmp.com^
+||ptatexiwhe.com^
 ||ptaughar.com^
 ||ptaujoot.net^
 ||ptaulratch.com^
@@ -28170,6 +28281,7 @@ serve.bussyhunter.com^
 ||pupur.net^
 ||pupur.pro^
 ||puqobfkghmyb.com^
+||puranasebriose.top^
 ||puraquealtered.shop^
 ||purchaserdisgustingwrestle.com^
 ||purchaserteddy.com^
@@ -28401,6 +28513,7 @@ serve.bussyhunter.com^
 ||qajgarohwobh.com^
 ||qajwizsifaj.com^
 ||qakmlfdseuzfkz.com^
+||qakzfubfozaj.com^
 ||qalscihrolwu.com^
 ||qaltulohrol.com^
 ||qarewien.com^
@@ -28739,6 +28852,7 @@ serve.bussyhunter.com^
 ||quxwpwcwmmx.xyz^
 ||qvikar.com^
 ||qvjpjsglmvhcbv.xyz^
+||qvjqbtbt.com^
 ||qvlczhitbsqpl.com^
 ||qvol.tv^
 ||qvtcigr.com^
@@ -28811,6 +28925,7 @@ serve.bussyhunter.com^
 ||r66net.net^
 ||r932o.com^
 ||raadth.com^
+||rabbinsfoldage.top^
 ||rabbitsfreedom.com^
 ||rabbitsshortwaggoner.com^
 ||rabbitsverification.com^
@@ -29182,6 +29297,7 @@ serve.bussyhunter.com^
 ||recompensecombinedlooks.com^
 ||reconcilewaste.com^
 ||reconciliationmallwed.com^
+||reconhodder.top^
 ||reconnectconsistbegins.com^
 ||reconnectjealousyunited.com^
 ||reconsiderenmity.com^
@@ -29281,6 +29397,7 @@ serve.bussyhunter.com^
 ||refbanners.website^
 ||refdomain3.xyz^
 ||refdzhz.com^
+||refeelparolee.top^
 ||refereenutty.com^
 ||referencepronounce.com^
 ||referredencouragedlearned.com^
@@ -30044,6 +30161,7 @@ serve.bussyhunter.com^
 ||rocketyield.com^
 ||rockfellertest.com^
 ||rockierfought.top^
+||rockingfolders.com^
 ||rockmostbet.com^
 ||rockpicky.com^
 ||rockyou.net^
@@ -30121,6 +30239,7 @@ serve.bussyhunter.com^
 ||rootcaptawed.com^
 ||rootzaffiliates.com^
 ||roovs.xyz^
+||ropablegaliot.top^
 ||ropeanresu.com^
 ||ropebrains.com^
 ||ropedm.com^
@@ -30790,6 +30909,7 @@ serve.bussyhunter.com^
 ||scamblefeedman.com^
 ||scammereating.com^
 ||scammersupreme.com^
+||scamperprepn.com^
 ||scancemontes.com^
 ||scandiaogamic.com^
 ||scannersouth.com^
@@ -31306,6 +31426,7 @@ serve.bussyhunter.com^
 ||shallowtwist.pro^
 ||shalomitll.top^
 ||shalse.com^
+||shameful-leader.com^
 ||shameless-sentence.pro^
 ||shamelesscry.pro^
 ||shamelessgoodwill.com^
@@ -31707,6 +31828,7 @@ serve.bussyhunter.com^
 ||siteoid.com^
 ||sitesdesbloqueados.com^
 ||sitewithg.com^
+||sitiopteryla.top^
 ||sittingtransformation.com^
 ||situatedconventionalveto.com^
 ||situationfondlehindsight.com^
@@ -31762,6 +31884,7 @@ serve.bussyhunter.com^
 ||skiguggn.com^
 ||skiingclefts.life^
 ||skiingsettling.com^
+||skiingwights.com^
 ||skilfuljealousygeoffrey.com^
 ||skilfulrussian.com^
 ||skilleadservices.com^
@@ -31965,6 +32088,7 @@ serve.bussyhunter.com^
 ||smitealter.com^
 ||smithamenamel.com^
 ||smithumbewreck.com^
+||smitingpredusk.top^
 ||smitry.com^
 ||smittenkick.top^
 ||smjulynews.com^
@@ -32438,7 +32562,9 @@ serve.bussyhunter.com^
 ||spo-play.live^
 ||spoiledpresence.com^
 ||spoilmagicstandard.com^
+||spokesperson254.fun^
 ||spondeetougher.guru^
+||spondylfide.com^
 ||spongecell.com^
 ||spongemilitarydesigner.com^
 ||spongymitsvah.top^
@@ -32471,6 +32597,7 @@ serve.bussyhunter.com^
 ||spotofspawn.com^
 ||spotrails.com^
 ||spotscenered.info^
+||spotsfusula.com^
 ||spotssurprise.com^
 ||spotted-estate.pro^
 ||spottedgrandfather.com^
@@ -32527,6 +32654,7 @@ serve.bussyhunter.com^
 ||squeaknicheentangled.com^
 ||squeakyheart.pro^
 ||squealaviationrepeatedly.com^
+||squealschagga.click^
 ||squeezemicrowave.com^
 ||squeezesharedman.com^
 ||squeteeindazin.top^
@@ -32780,6 +32908,7 @@ serve.bussyhunter.com^
 ||sthoutte.com^
 ||stialt.com^
 ||sticalsdebaticalfe.info^
+||stichoseroded.com^
 ||stickboiled.com^
 ||stickerchapelsailing.com^
 ||stickertable.com^
@@ -32839,6 +32968,7 @@ serve.bussyhunter.com^
 ||stoaphalti.com^
 ||stoapoothu.com^
 ||stoashou.net^
+||stoawugluce.net^
 ||stockingsight.com^
 ||stocksinvulnerablemonday.com^
 ||stoddowqxeplt.com^
@@ -32854,6 +32984,7 @@ serve.bussyhunter.com^
 ||stoolree.com^
 ||stoomawy.net^
 ||stoomoogn.com^
+||stoondresides.shop^
 ||stoopedcompatibility.com^
 ||stoopeddemandsquint.com^
 ||stoopedsignbookkeeper.com^
@@ -33448,6 +33579,7 @@ serve.bussyhunter.com^
 ||sybostuff.com^
 ||syctwaerbln.com^
 ||sydneygfpink.com^
+||syenergyflexibil.com^
 ||syeniteexodoi.com^
 ||syetmpdktjeor.com^
 ||syinga.com^
@@ -34172,6 +34304,7 @@ serve.bussyhunter.com^
 ||thoorgins.com^
 ||thoorteeboo.xyz^
 ||thootsoumsoa.com^
+||thoralephebea.top^
 ||thornfloatingbazaar.com^
 ||thornrancorouspeerless.com^
 ||thornyinitial.pro^
@@ -34527,6 +34660,7 @@ serve.bussyhunter.com^
 ||tomornpinjane.com^
 ||tomorroweducated.com^
 ||tomorrowtardythe.com^
+||tomponzag.top^
 ||tonapplaudfreak.com^
 ||toncooperateapologise.com^
 ||tondikeglasses.com^
@@ -34563,6 +34697,7 @@ serve.bussyhunter.com^
 ||toothpasteginnysorrow.com^
 ||toothstrike.com^
 ||toothtranquilizerdeliverance.com^
+||toothyexpirer.com^
 ||toovoala.net^
 ||top-offers1.com^
 ||top-performance.best^
@@ -35484,6 +35619,7 @@ serve.bussyhunter.com^
 ||uimserv.net^
 ||uingroundhe.com^
 ||uioubveq.com^
+||uirinareceded.com^
 ||ujautifuleed.xyz^
 ||ujidhusjvmbfv.com^
 ||ujooshog.com^
@@ -35723,6 +35859,7 @@ serve.bussyhunter.com^
 ||uninkedsamucu.guru^
 ||uninvitednobody.com^
 ||unionscircumstances.com^
+||unitersgrazie.com^
 ||unitethecows.com^
 ||unitsympathetic.com^
 ||universalappend.com^
@@ -35743,8 +35880,11 @@ serve.bussyhunter.com^
 ||unlika.com^
 ||unlikelymoscow.com^
 ||unlinedcap.pro^
+||unloathscalena.com^
 ||unlockecstasyapparatus.com^
 ||unlockmaddenhooray.com^
+||unlocky.org^
+||unlocky.xyz^
 ||unloetiosal.com^
 ||unluciddesmids.top^
 ||unluckydead.pro^
@@ -36132,12 +36272,14 @@ serve.bussyhunter.com^
 ||uwfcqtdb.xyz^
 ||uwgmguwpzkeudh.com^
 ||uwjhzeb.com^
+||uwkidcbbp.com^
 ||uwlzsfo.com^
 ||uwmlmhcjmjvuqy.xyz^
 ||uwoaptee.com^
 ||uwrzjgtnur.com^
 ||uwzxukualwdkx.com^
 ||uxicgxqq.com^
+||uxjpyfzorpkcg.com^
 ||uxpascal.com^
 ||uxwnqppdma.com^
 ||uxxsiyokw.com^
@@ -36415,6 +36557,7 @@ serve.bussyhunter.com^
 ||venomoussolidhow.com^
 ||venomousteenage.com^
 ||venomouswhimarid.com^
+||ventagecauking.top^
 ||ventilatorcorrupt.com^
 ||ventrequmus.com^
 ||ventualkentineda.info^
@@ -36794,6 +36937,7 @@ serve.bussyhunter.com^
 ||vlry5l4j5gbn.com^
 ||vltjnmkps.xyz^
 ||vlvbyqgjqj.com^
+||vmbcdprc.com^
 ||vmbgoblxpl.com^
 ||vmbuxmdscncv.com^
 ||vmkoqak.com^
@@ -36934,6 +37078,7 @@ serve.bussyhunter.com^
 ||vs3.com^
 ||vscfbcovhctu.com^
 ||vsgfjfsmcewnuhx.com^
+||vsgyfixkbow.com^
 ||vshzouj.com^
 ||vskfeduxg.xyz^
 ||vsnpfmoxb.xyz^
@@ -37514,6 +37659,7 @@ serve.bussyhunter.com^
 ||whaunsockou.xyz^
 ||whaurgoopou.com^
 ||whautsis.com^
+||whauvebul.com^
 ||whazugho.com^
 ||wheceelt.net^
 ||whechypheshu.com^
@@ -37680,6 +37826,7 @@ serve.bussyhunter.com^
 ||wickedunpen.top^
 ||wicketfumage.com^
 ||widaimty.com^
+||wideaplentyinsurance.com^
 ||wideeyed-painting.com^
 ||wideeyedlady.pro^
 ||widelt.com^
@@ -37830,6 +37977,7 @@ serve.bussyhunter.com^
 ||wivtuhoftat.com^
 ||wizardscharityvisa.com^
 ||wizardunstablecommissioner.com^
+||wizenejector.top^
 ||wizkrdxivl.com^
 ||wizssgf.com^
 ||wjgcygwgrvooio.com^
@@ -39127,6 +39275,7 @@ serve.bussyhunter.com^
 ||zaltaumi.net^
 ||zambianmarlena.com^
 ||zamioculcas2.org^
+||zanellapolyp.com^
 ||zangocash.com^
 ||zanoogha.com^
 ||zantpvrsmninvx.com^
@@ -40984,11 +41133,13 @@ serve.bussyhunter.com^
 ||58e0.site^
 ||5ab2f817.xyz^
 ||5afc476a.xyz^
+||5cc3ac02.xyz^
 ||5ceea3.xyz^
 ||5fd6bc.xyz^
 ||605efe.xyz^
 ||634369.xyz^
 ||6471e7f7.xyz^
+||656f1ba3.xyz^
 ||657475b7-0095-478d-90d4-96ce440604f9.online^
 ||68646f.xyz^
 ||691f42ad.xyz^
@@ -41225,6 +41376,7 @@ serve.bussyhunter.com^
 ||bs-adserver.b-cdn.net^
 ||btr.domywife.com^
 ||c.bannerflow.net^
+||c.bigcomics.win^
 ||c2shb.pubgw.yahoo.com^
 ||campaigns.williamhill.com^
 ||cdn.ad.page^
@@ -41288,6 +41440,7 @@ serve.bussyhunter.com^
 ||monetize-static.viralize.tv^
 ||neural.myth.dev^
 ||onlinepromogift.com^
+||owebsearch.com^
 ||p.smartertravel.com^
 ||pacontainer.s3.amazonaws.com^
 ||pagead2.googlesyndication.com^
@@ -48715,6 +48868,31 @@ serve.bussyhunter.com^
 ||121.204.246.*.gif
 ||38.33.15.*.gif
 ||67.21.92.*.gif
+||kwgqaqf.icu^
+||uicdns.xyz^
+||qzsvwo.xyz^
+||pznlpp.xyz^
+||vpdnjl.xyz^
+||8q88n.icu^
+||shbzegs.cn^
+||myretux.top^
+||shbzqgs.cn^
+||jetlwsa.top^
+||er1h4.icu^
+||enuksg.xyz^
+||pplkrh.xyz^
+||ryqgdrh.icu^
+||ietlwso.top^
+||jdfzfd.xyz^
+||doujs01.shop^
+||bewr1.com^
+||heatherssb.com^
+||drjs123.com^
+||xs6po.icu^
+||yje912.cn^
+||byretuv.top^
+||68287zubo85737.com^
+||96382zubo66756.com^
 ||yfasjfk.icu^
 ||hetlwsu.top^
 ||1p3yg.icu^
