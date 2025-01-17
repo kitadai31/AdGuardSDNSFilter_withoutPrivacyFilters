@@ -3,7 +3,7 @@
 ! Description: Unofficial AdGuard DNS filter that excludes privacy filters (AdGuard Tracking Protection filter and EasyPrivacy).
 ! Homepage: https://github.com/kitadai31/AdGuardSDNSFilter_withoutPrivacyFilters
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2025-01-15T19:29:47.049Z
+! Last modified: 2025-01-17T19:29:43.116Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.15
 !
@@ -11,6 +11,20 @@
 ! Source name: AdGuard Base filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt
 !
+!
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+! The rules with hints are at the end of file.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
+!
+!
+||unactkiosk.com^
+||pinco225.win^
+||reachableads-av.*.amazonaws.com^
 ||news.jennydanny.com^
 ||u57.muzikguide.com^
 ||9pub.io^
@@ -880,6 +894,9 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||vtrk.dv.tech^
+||cdn-media.brightline.tv^
+||mt.ssai.peacocktv.com^
 ||sponsors.salesforceben.com^
 ||ads.cloudsight.ai^
 ||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
@@ -3265,6 +3282,7 @@
 ||alingrethertantin.info^
 ||aliposite.site^
 ||aliquidalgesic.top^
+||aliteartful.com^
 ||alitems.co^
 ||alitems.site^
 ||alivebald.com^
@@ -4980,6 +4998,7 @@
 ||betrayedrecorderresidence.com^
 ||betrendatimon.top^
 ||betriolua.com^
+||betrustdoms.com^
 ||betshucklean.com^
 ||bett2you.net^
 ||bett2you.org^
@@ -5151,6 +5170,7 @@
 ||bitx.tv^
 ||biunialpawnie.top^
 ||biuskye.com^
+||biuyuximbrutr.com^
 ||bivos.xyz^
 ||biwipuque.com^
 ||bizographics.com^
@@ -7607,6 +7627,7 @@
 ||crudelouisa.com^
 ||crudemonarchychill.com^
 ||crudequeenrome.com^
+||crudyfilters.com^
 ||crueltysugar.shop^
 ||cruiserx.net^
 ||crumblerefunddiana.com^
@@ -7656,6 +7677,7 @@
 ||ctsdwm.com^
 ||ctubhxbaew.com^
 ||ctvnmxl.com^
+||ctwmcd.com^
 ||cubchillysail.com^
 ||cubeuptownpert.com^
 ||cubiclerunner.com^
@@ -9332,6 +9354,7 @@
 ||edtheparllase.com^
 ||edtotigainare.info^
 ||edttmar.com^
+||edttwm.com^
 ||edu-lib.com^
 ||edua29146y.com^
 ||educatedcoercive.com^
@@ -9342,6 +9365,7 @@
 ||edutechlearners.com^
 ||edvfwlacluo.com^
 ||edvxygh.com^
+||edwmpt.com^
 ||ee625e4b1d.com^
 ||eebuksaicmirte.net^
 ||eecd.xyz^
@@ -9786,6 +9810,7 @@
 ||erniphiq.com^
 ||ero-advertising.com^
 ||ero-cupid.com^
+||ero-vtuber.com^
 ||erofherlittleboy.com^
 ||erosionyonderviolate.com^
 ||erosyndc.com^
@@ -10923,6 +10948,7 @@
 ||foulfurnished.com^
 ||foundationhemispherebossy.com^
 ||foundationhorny.com^
+||foupeestokiy.net^
 ||foupeethaija.com^
 ||fourteenthcongratulate.com^
 ||fouwheepoh.com^
@@ -11598,6 +11624,7 @@
 ||gladsince.com^
 ||glaghoowingauck.net^
 ||glaickoxaksy.com^
+||glaicmauxoah.net^
 ||glaidalr.net^
 ||glaidekeemp.net^
 ||glaidipt.net^
@@ -11690,6 +11717,7 @@
 ||glochisprp.com^
 ||glodsaccate.com^
 ||glofodazoass.com^
+||gloghauzolso.xyz^
 ||glogoowo.net^
 ||glogopse.net^
 ||glokta.info^
@@ -12126,6 +12154,7 @@
 ||groampez.xyz^
 ||groamsal.net^
 ||groaxonsoow.net^
+||groazaimsadroa.xyz^
 ||grobido.info^
 ||grobungairdoul.net^
 ||grobuveexeb.net^
@@ -12250,6 +12279,7 @@
 ||gumlahdeprint.com^
 ||gummierhedera.life^
 ||gumon.site^
+||gunlockpepped.shop^
 ||gunwaleneedsly.com^
 ||gunzblazingpromo.com^
 ||guptetoowheerta.net^
@@ -12592,6 +12622,7 @@
 ||heiressscore.com^
 ||heiresstolerance.com^
 ||heirloomreasoning.com^
+||heirsacost.com^
 ||heixidor.com^
 ||hejqtbnmwze.com^
 ||hekowutus.com^
@@ -13841,6 +13872,7 @@
 ||inventionwere.com^
 ||inventionyolk.com^
 ||inventoryproducedjustice.com^
+||inventsloosely.com^
 ||investcoma.com^
 ||investigationsuperbprone.com^
 ||invibravaa.com^
@@ -13862,6 +13894,7 @@
 ||ioniserpinones.com^
 ||ioniseryeaoman.shop^
 ||ionistkhaya.website^
+||ionogenbakutu.shop^
 ||iononetravoy.com^
 ||ionscormationwind.info^
 ||ionwindonpetropic.info^
@@ -14862,6 +14895,7 @@
 ||kolerevprivatedqu.com^
 ||koleyo.xyz^
 ||kolkwi4tzicraamabilis.com^
+||kolleqasforsale.com^
 ||kologyrtyndwean.info^
 ||koluraishimtouw.net^
 ||komarchlupoid.com^
@@ -16359,6 +16393,7 @@
 ||measuredshared.com^
 ||measuringcabinetclerk.com^
 ||measuringrules.com^
+||meatabdicatedelicatessen.com^
 ||meatjav11.fun^
 ||meawo.cloud^
 ||mechaelpaceway.com^
@@ -18056,6 +18091,7 @@
 ||oaraiwephoursou.net^
 ||oardilin.com^
 ||oarouwousti.com^
+||oarsoathaihoamt.net^
 ||oarsparttimeparent.com^
 ||oarssamgrandparents.com^
 ||oarswithdraw.com^
@@ -19364,6 +19400,7 @@
 ||peasbishopgive.com^
 ||pebadu.com^
 ||pebbleoutgoing.com^
+||pecantinglytripod.com^
 ||pecialukizeias.info^
 ||pecifyspacing.com^
 ||peckrespectfully.com^
@@ -19797,6 +19834,7 @@
 ||pjsos.xyz^
 ||pjtoaewbccpchu.com^
 ||pjvartonsbewand.info^
+||pjwfihbmwq.com^
 ||pk0grqf29.com^
 ||pk910324e.com^
 ||pkazd.xyz^
@@ -20341,6 +20379,7 @@
 ||prfctmney.com^
 ||prfwhite.com^
 ||prhdvhx.com^
+||priceyawol.com^
 ||pricklyachetongs.com^
 ||pridenovicescammer.com^
 ||priestboundsay.com^
@@ -20380,6 +20419,7 @@
 ||privacycounter.com^
 ||privacynicerresumed.com^
 ||privacysearching.com^
+||private-stage.com^
 ||privateappealingsymphony.com^
 ||privatelydevotionrewind.com^
 ||privilegedmansfieldvaguely.com^
@@ -20569,6 +20609,7 @@
 ||prplads.com^
 ||prpops.com^
 ||prre.ru^
+||prtawe.com^
 ||prtord.com^
 ||prtrackings.com^
 ||prtydqs.com^
@@ -20606,6 +20647,7 @@
 ||pschentinfile.com^
 ||psclicks.com^
 ||psdn.xyz^
+||psedwm.com^
 ||pseeckotees.com^
 ||pseegroah.com^
 ||pseempep.com^
@@ -20875,6 +20917,7 @@
 ||purgescholars.com^
 ||purgoaho.xyz^
 ||purifybaptism.guru^
+||purlingresews.com^
 ||purpleads.io^
 ||purpleflag.net^
 ||purplepatch.online^
@@ -21244,6 +21287,7 @@
 ||querysteer.com^
 ||quesid.com^
 ||questeelskin.com^
+||questioningcomplimentarypotato.com^
 ||questioningexperimental.com^
 ||questioningsanctifypuberty.com^
 ||questioningtosscontradiction.com^
@@ -22887,6 +22931,7 @@
 ||scoopmaria.com^
 ||scootcomely.com^
 ||scopefile.com^
+||scopingrile.com^
 ||scorchstrung.com^
 ||score-feed.com^
 ||scoreasleepbother.com^
@@ -22943,6 +22988,7 @@
 ||seaboblit.com^
 ||seafoodclickwaited.com^
 ||seafooddiscouragelavishness.com^
+||seafoodmesarch.top^
 ||sealeryshilpit.com^
 ||sealthatleak.com^
 ||seamanphaseoverhear.com^
@@ -23299,6 +23345,7 @@
 ||sherryfaithfulhiring.com^
 ||shertuwipsumt.net^
 ||sheschemetraitor.com^
+||shetchoultoocha.net^
 ||shexawhy.net^
 ||shfewojrmxpy.xyz^
 ||shfsdvc.com^
@@ -23539,6 +23586,7 @@
 ||siruperunlinks.com^
 ||sirwcniydewu.com^
 ||sisewepod.com^
+||sisfulylydevelope.com^
 ||sismoycheii.cc^
 ||sisteraboveaddition.com^
 ||sisterexpendabsolve.com^
@@ -24394,6 +24442,7 @@
 ||stixeepou.com^
 ||stjpezyt.com^
 ||stoachaigog.com^
+||stoachdarts.com^
 ||stoadivap.com^
 ||stoaglauksargoo.xyz^
 ||stoagnejums.net^
@@ -26496,6 +26545,7 @@
 ||uncoverarching.com^
 ||uncrobator.com^
 ||uncrownarmenic.com^
+||undatedifreal.com^
 ||under2given.com^
 ||underaccredited.com^
 ||underagebeneath.com^
@@ -26958,6 +27008,7 @@
 ||variouscreativeformats.com^
 ||variousformatscontent.com^
 ||variouspheasantjerk.com^
+||varletsngaio.com^
 ||varnishmosquitolocust.com^
 ||varshacundy.com^
 ||vartoken.com^
@@ -26976,6 +27027,7 @@
 ||vastsneezevirtually.com^
 ||vatanclick.ir^
 ||vatcertaininject.com^
+||vaufekonaub.net^
 ||vaugroar.com^
 ||vaukoloon.net^
 ||vauloops.net^
@@ -27547,6 +27599,7 @@
 ||wallowwholikedto.info^
 ||wallpapersfacts.com^
 ||wallstrads.com^
+||waltzersurvise.com^
 ||waltzprescriptionplate.com^
 ||wanalnatnwto.com^
 ||wanderingchimneypainting.com^
@@ -27847,6 +27900,7 @@
 ||whampamp.com^
 ||whandpolista.com^
 ||wharployn.com^
+||wharrownecia.com^
 ||wharvemotet.com^
 ||whateyesight.com^
 ||whatisnewappforyou.top^
@@ -28136,6 +28190,7 @@
 ||wmaoxrk.com^
 ||wmbbsat.com^
 ||wmccd.com^
+||wmcdct.com^
 ||wmcdpt.com^
 ||wmdzefk.com^
 ||wmeqobozarbjm.top^
@@ -28150,6 +28205,7 @@
 ||wmptctl.com^
 ||wmpted.com^
 ||wmptengate.com^
+||wmptpr.com^
 ||wmpuem.com^
 ||wmtten.com^
 ||wmudsraxwj.xyz^
@@ -28925,6 +28981,7 @@
 ||z54a.xyz^
 ||z5x.net^
 ||zaamgqlgdhac.love^
+||zabaismtempi.top^
 ||zabanit.xyz^
 ||zachunsears.com^
 ||zacleporis.com^
@@ -29639,6 +29696,7 @@
 ||affiliategroove.com^
 ||affilimatejs.com^
 ||affilist.com^
+||affilizz.com^
 ||afishamedia.net^
 ||afp.ai^
 ||afrikad.com^
@@ -30646,6 +30704,7 @@
 ||34475780.xyz^
 ||36833185.xyz^
 ||37066957.xyz^
+||38167473.xyz^
 ||38835571.xyz^
 ||38941752.xyz^
 ||3a55f02d.xyz^
@@ -30658,6 +30717,7 @@
 ||4602306b.xyz^
 ||46276192.xyz^
 ||466c4d0f.xyz^
+||47235645.xyz^
 ||47296536.xyz^
 ||47415889.xyz^
 ||48304789.xyz^
@@ -32126,7 +32186,6 @@
 ||tapulsads.ru^
 ||httpdns.bilivideo.com^
 ||dataflow.biliapi.com^
-||grpc.biliapi.net^
 ||ads.adinmotech.com^
 ||kvaedit.site^
 ||ads-ap-venues.yinzcam.com^
@@ -32164,7 +32223,6 @@
 ||vs-api.voodoo-tech.io^
 ||psvpromo.psvgamestudio.com^
 -adx-*.rayjump.com^
-||reachableads-av.*.amazonaws.com^
 ||static.timetreeads.com^
 ||kfvjdvjzhddhc.com^
 ||zgzxs.weathercn.com^
@@ -32811,6 +32869,19 @@
 ! Source name: AdGuard Spanish/Portuguese filter ad servers
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpanishFilter/sections/adservers.txt
 !
+!
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
+!
+! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
+! ||addevweb.com^$third-party
+!
+||butlercdn.com^
 ||classic-bonus.com^
 ||assets.etus.digital^
 ||lyappreciat.info^
@@ -37652,8 +37723,8 @@
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 12 Jan 2025 23:52 UTC+7
-! Version: 2501122352
+! Last modified: 16 Jan 2025 22:55 UTC+7
+! Version: 2501162255
 ! Blocked: 929 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -38559,6 +38630,20 @@
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||lagzoids.com^
+||njnhzh.icu^
+||8u0.fun^
+||pheetuth.com^
+||4ve.fun^
+||ztgha.xyz^
+||djsxm.xyz^
+||0vc.fun^
+||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
+||4gu.fun^
+||krikului.com^
+||ed2.fun^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
