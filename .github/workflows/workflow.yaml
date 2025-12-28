@@ -10,6 +10,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      id-token: write
+
     steps:
       - uses: actions/checkout@v6
       - name: Use Node.js
@@ -18,18 +21,21 @@ jobs:
       - name: Get exclusions.txt
         run: wget https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt -O Filters/exclusions.txt
 
-      - name: yarn
+      - name: Build filter
         run: |
           yarn install
           yarn run build
           
-      - name: Upload new filter
+      - name: Commit new filter
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Filters/filter.txt
           git commit -m "Build filter"
           git push origin master
+
+      - name: Remove unnecessaery files before uploading
+        run: rm Filters/rules.txt Filters/exclusions.txt
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v3
