@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
+      contents: write
       id-token: write
 
     steps:
@@ -37,10 +38,22 @@ jobs:
       - name: Remove unnecessaery files before uploading
         run: rm Filters/rules.txt Filters/exclusions.txt
 
-      - name: Upload static files as artifact
+      - name: Upload filters dir as artifact
+        id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
           path: Filters/
 
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
